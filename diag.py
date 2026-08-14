@@ -4,20 +4,19 @@ import asyncio
 import json
 import re
 from pathlib import Path
-from urllib.parse import urljoin
 
 from playwright.async_api import async_playwright
 
 SITES = {
     "AM": "https://diario.imprensaoficial.am.gov.br/",
-    "BA": "https://dool.egba.ba.gov.br/",
+    "BA": "https://www.doe.ba.gov.br/",
 }
 
 OUT = Path("diagnostic")
 OUT.mkdir(exist_ok=True)
 
 ENDPOINT_RE = re.compile(r"(?:https?://[^\"'\\\s]+)?/?(?:api(?:front)?|portal)/[^\"'\\\s<>]+", re.I)
-KEYWORD_RE = re.compile(r"(?:edicoes_from_data|publicacoes_ver_conteudo|visualizacoes/html|download|consulta|buscar|pesquisa)", re.I)
+KEYWORD_RE = re.compile(r"(?:edicoes_from_data|publicacoes_ver_conteudo|visualizacoes/html|ver-html|download|consulta|buscar|pesquisa|publicacoes)", re.I)
 
 
 async def inspect_site(browser, state: str, base_url: str) -> dict:
@@ -40,8 +39,8 @@ async def inspect_site(browser, state: str, base_url: str) -> dict:
 
     result = {"state": state, "base_url": base_url, "errors": []}
     try:
-        await page.goto(base_url, wait_until="domcontentloaded", timeout=120_000)
-        await page.wait_for_timeout(8_000)
+        await page.goto(base_url, wait_until="domcontentloaded", timeout=60_000)
+        await page.wait_for_timeout(6_000)
     except Exception as exc:
         result["errors"].append(f"goto: {type(exc).__name__}: {exc}")
 
@@ -79,7 +78,7 @@ async def inspect_site(browser, state: str, base_url: str) -> dict:
         for idx, src in enumerate(dict.fromkeys(script_urls)):
             item = {"url": src}
             try:
-                response = await context.request.get(src, timeout=120_000)
+                response = await context.request.get(src, timeout=60_000)
                 item["status"] = response.status
                 text = await response.text()
                 item["length"] = len(text)
@@ -88,12 +87,12 @@ async def inspect_site(browser, state: str, base_url: str) -> dict:
                 endpoints = sorted(set(ENDPOINT_RE.findall(text)))
                 keyword_hits = []
                 for match in KEYWORD_RE.finditer(text):
-                    left = max(0, match.start() - 300)
-                    right = min(len(text), match.end() + 500)
+                    left = max(0, match.start() - 350)
+                    right = min(len(text), match.end() + 700)
                     keyword_hits.append(text[left:right])
-                    if len(keyword_hits) >= 30:
+                    if len(keyword_hits) >= 40:
                         break
-                item["endpoints"] = endpoints[:500]
+                item["endpoints"] = endpoints[:700]
                 item["keyword_hits"] = keyword_hits
             except Exception as exc:
                 item["error"] = f"{type(exc).__name__}: {exc}"
