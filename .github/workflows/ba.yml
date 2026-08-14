@@ -1,0 +1,28 @@
+name: Bahia 100 HTML samples
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+jobs:
+  sample:
+    if: contains(github.event.issue.title || '', 'Bahia 100 samples') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 pymupdf
+      - name: Run Bahia sampler
+        run: python sample_ba.py
+      - name: Upload Bahia samples
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bahia-100-html-txt
+          path: ba_samples/
+          if-no-files-found: warn
