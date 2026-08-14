@@ -1,9 +1,11 @@
 name: Diagnose Diário Portals
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   diagnose:
