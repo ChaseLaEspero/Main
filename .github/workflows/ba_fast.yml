@@ -1,0 +1,28 @@
+name: Bahia fast TXT sample
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+jobs:
+  sample:
+    if: contains(github.event.issue.title || '', 'Bahia fast TXT') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 pymupdf
+      - name: Run Bahia sampler
+        run: python sample_ba_nopdf.py
+      - name: Upload Bahia samples
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bahia-fast-html-txt
+          path: ba_txt_samples/
+          if-no-files-found: warn
