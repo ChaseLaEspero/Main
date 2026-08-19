@@ -1,12 +1,12 @@
-# Trigger endpoint context extraction: 2026-08-19
+# Trigger endpoint context extraction: 2026-08-19 v2
 from pathlib import Path
 import json
 
 ROOT=Path('custom_portal_probe')
 TERMS={
- 'PE':['consultarMateriaBuscaAvancada','consultarPublicacaoElastic','consultarAnosMateriasPublicacoes','diarios-public','consultarDiarioOficialConsultaDTO','buscarJornalPorEdicao','serverUrl'],
- 'AL':['editions/published','apinova/api','search','publication_date'],
- 'PI':['listardiarios.json','Api/listardiarios','dataInicio','dataFim'],
+ 'PE':['consultarMateriaBuscaAvancada','consultarPublicacaoElastic','consultarAnosMateriasPublicacoes','diarios-public','consultarDiarioOficialConsultaDTO','buscarJornalPorEdicao','serverUrl','vm.filtro=','intervaloAno','/public/search','consultarDatasDisponiveis'],
+ 'AL':['editions/published','apinova/api','search','publication_date','published?page','inputPeriodoInicial'],
+ 'PI':['listardiarios.json','Api/listardiarios','dataInicio','dataFim','listarDiarios'],
  'TO':['pesquisar','buscar','diario','api'],
  'RO':['api','diario','jornal','pesquisa'],
  'RR':['api','diario','pesquisa'],
@@ -21,9 +21,9 @@ for st,terms in TERMS.items():
    while True:
     i=text.find(term,start)
     if i<0:break
-    rows.append({'file':p.name,'term':term,'offset':i,'context':text[max(0,i-1000):min(len(text),i+1800)]})
+    rows.append({'file':p.name,'term':term,'offset':i,'context':text[max(0,i-1200):min(len(text),i+2200)]})
     n+=1
-    if n>=20:break
+    if n>=30:break
     start=i+len(term)
  out[st]=rows
 Path('custom_portal_probe/endpoint_contexts.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
