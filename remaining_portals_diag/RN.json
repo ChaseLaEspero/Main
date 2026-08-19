@@ -1,0 +1,587 @@
+{
+  "state": "RN",
+  "start_url": "https://www.diariooficial.rn.gov.br/dei/dorn3/",
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/",
+      "content_type": "text/html; charset=utf-8",
+      "body_preview": "\r\n<!DOCTYPE HTML>\r\n<html lang=\"pt-BR\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/dorn/stylesheets/styles.css\" />\r\n    <link rel=\"Stylesheet\" type=\"text/css\" href=\"assets/dorn/stylesheets/jquery-ui/jquery-ui.min.css\" />\r\n    <link rel=\"Stylesheet\" type=\"text/css\" href=\"assets/dorn/stylesheets/jquery-ui/jquery-ui.theme.min.css\" />\r\n    <link rel=\"Stylesheet\" type=\"text/css\" href=\"assets/dorn/javascripts/select2/select2.css\" />\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/dorn/stylesheets/colorbox/colorbox.css\" />\r\n\t<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"~/favicon.ico\" />\r\n    <title>Diário Oficial do Estado do Rio Grande do Norte</title>\r\n</head>\r\n\r\n\r\n<body>\r\n\r\n <script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\r\n\r\n \r\n  ga('create', 'UA-103233428-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n  </script>\r\n\r\n\r\n    <section class=\"branding\">\r\n        <ul>\r\n            <li class=\"logo\">\r\n                <a href=\"http://www.rn.gov.br\" target=\"_blank\">\r\n                    <img src=\"assets/dorn/images/cp_logo_governo.png\" alt=\"Governo do Estado do Rio Grande do Norte\" width=\"46\" height=\"39\" />\r\n                </a>\r\n            </li>\r\n            <li class=\"site-name\">Governo do Estado do Rio Grande do Norte</li>\r\n\t\t\t<li class=\"date\"><time datetime=\"2026/08/19\">quarta-feira, 19 de agosto de 2026</time></li>\r\n\t\t\t\r\n        </ul>\r\n    </section>\r\n    <form name=\"Form1\" method=\"post\" action=\"Default.aspx\" id=\"Form1\" class=\"wrapper\">\r\n<div>\r\n<input type=\"hidden\" name=\"__EVENTTARGET\" id=\"__EVENTTARGET\" value=\"\" />\r\n<input type=\"hidden\" name=\"__EVENTARGUMENT\" id=\"__EVENTARGUMENT\" value=\"\" />\r\n<input type=\"hidden\" name=\"__LASTFOCUS\" id=\"__LASTFOCUS\" value=\"\" />\r\n<input type=\"hidden\" name=\"__VSTATE\" id=\"__VSTATE\" value=\"eJztk8GO0kAYx2mBXRZMyurSxLiW8eayye5MWwpsvBRazSjSpi3Gm2mYljRxIYGS6CP4Ct48GZ+DB9MpED7QxpNHOTS/Yb7fP99M5vspSEwqVwnWsUE0o00kJosx/1TFU/49iaW6JItK7cMzK0zD/nw1Y1NWbyhV0rvF3VsVq0aVdAHbgDqgBqgCkj1iSMAdQAMQcjHkYkjQOHZ2iPeo9gC7gG1AHVADVAEhl0AC6QAagJBLIJccJEBneN/Z/7v8d3d5cV1Upn/9yULMREHK3nQpiD6l5XPrBjlxMknCj3eIGCrpMiaKWUFTKNf55uvVMk3W38M71Gq1+N7ZdkJeXBdqQkGSK0olm4w30eelXMjmhKbR/YDPSSpWlDM3nEbbhaA0tjPkz1eLSXRQtRu4Om+LyaUMxQ3yfxuC5DqW7SH7vT0YB/Sds2ue9yZqvU2nfzrnW2dov6L+0PzN0jG3ijnWxVs6on6w/uJRB7nrr/0hHRyJhIulHPFh4NH+eGQOkWWjgTMKTP9QU7lWztFqrme/tGkw9o7rNV5/klP/wDW9gA7GQ9OzjwSdC6c5wqXF80e+41ETuePsOCayHGT7gWkdHKzY1rOLrOQkPLKS9bdFMkcs3D8DEIXsZI93i0uM7sN0/WORhM+XVyiaTeazdBGybHXD657Ag2mKcqFZjJslUWiWY773dLNXYL8ArKcWPw==\" />\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"\r\n__VIEWSTATE\" value=\"\" />\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nvar theForm = document.forms['Form1'];\r\nif (!theForm) {\r\n    theForm = document.Form1;\r\n}\r\nfunction __doPostBack(eventTarget, eventArgument) {\r\n    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {\r\n        theForm.__EVENTTARGET.value = eventTarget;\r\n        theForm.__EVENTARGUMENT.value = eventArgument;\r\n        theForm.submit();\r\n    }\r\n}\r\n//]]>\r\n</script>\r\n\r\n\r\n    <!--<div class=\"wrapper\">-->\r\n        <section class=\"header\">\r\n            <div class=\"title\">\r\n                <a class=\"site-name\" href=\"default.aspx\">\r\n                    <h1>Diário Oficial do Estado do Rio Grande do Norte</h1>\r\n                </a>\r\n            </div>\r\n            <nav class=\"navigation\" style=\"z-index:10000;position:relative;\">\r\n                <div id=\"navbar-button-mobile\">\r\n                    <button type=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\r\n                        <span class=\"sr-only\">Exibir navegao<",
+      "body_length": 37481
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/cp_logo_governo.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/colorbox/colorbox.css",
+      "content_type": "text/css",
+      "body_preview": "/*\n    Colorbox Core Style:\n    The following CSS is consistent between example themes and should not be altered.\n*/\n#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}\n#cboxWrapper {max-width:none;}\n#cboxOverlay{position:fixed; width:100%; height:100%;}\n#cboxMiddleLeft, #cboxBottomLeft{clear:left;}\n#cboxContent{position:relative;}\n#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}\n#cboxTitle{margin:0;}\n#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}\n#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}\n.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}\n.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}\n#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}\n\n/* \n    User Style:\n    Change the following styles to modify the appearance of Colorbox.  They are\n    ordered & tabbed in a way that represents the nesting of the generated HTML.\n*/\n#cboxOverlay{background:url(images/overlay.png) repeat 0 0; opacity: 0.9; filter: alpha(opacity = 90);}\n#colorbox{outline:0;}\n    #cboxTopLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px 0;}\n    #cboxTopRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px 0;}\n    #cboxBottomLeft{width:21px; height:21px; background:url(images/controls.png) no-repeat -101px -29px;}\n    #cboxBottomRight{width:21px; height:21px; background:url(images/controls.png) no-repeat -130px -29px;}\n    #cboxMiddleLeft{width:21px; background:url(images/controls.png) left top repeat-y;}\n    #cboxMiddleRight{width:21px; background:url(images/controls.png) right top repeat-y;}\n    #cboxTopCenter{height:21px; background:url(images/border.png) 0 0 repeat-x;}\n    #cboxBottomCenter{height:21px; background:url(images/border.png) 0 -29px repeat-x;}\n    #cboxContent{background:#fff; overflow:hidden;}\n        .cboxIframe{background:#fff;}\n        #cboxError{padding:50px; border:1px solid #ccc;}\n        #cboxLoadedContent{margin-bottom:28px;}\n        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}\n        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}\n        #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}\n        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}\n\n        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */\n        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }\n        \n        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */\n        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}\n\n        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}\n        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(images/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}\n        #cboxPrevious:hover{background-position:-75px -25px;}\n        #cboxNext{position:absolute; bottom:0; left:27px; background:url(images/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}\n        #cboxNext:hover{background-position:-50px -25px;}\n        #cboxClose{position:absolute; bottom:0; right:0; background:url(images/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}\n        #cboxClose:hover{background-position:-25px -25px;}\n\n/*\n  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill\n  when an alpha filter (opacity change) is set on the element o",
+      "body_length": 4435
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/jquery-ui/jquery-ui.min.css",
+      "content_type": "text/css",
+      "body_preview": "/*! jQuery UI - v1.11.3 - 2015-02-26\n* http://jqueryui.com\n* Includes: core.css, datepicker.css, theme.css\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande%2CLucida%20Sans%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=5c9ccc&bgTextureHeader=gloss_wave&bgImgOpacityHeader=55&borderColorHeader=4297d7&fcHeader=ffffff&iconColorHeader=d8e7f3&bgColorContent=fcfdfd&bgTextureContent=inset_hard&bgImgOpacityContent=100&borderColorContent=a6c9e2&fcContent=222222&iconColorContent=469bdd&bgColorDefault=dfeffc&bgTextureDefault=glass&bgImgOpacityDefault=85&borderColorDefault=c5dbec&fcDefault=2e6e9e&iconColorDefault=6da8d5&bgColorHover=d0e5f5&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=79b7e7&fcHover=1d5987&iconColorHover=217bc0&bgColorActive=f5f8f9&bgTextureActive=inset_hard&bgImgOpacityActive=100&borderColorActive=79b7e7&fcActive=e17009&iconColorActive=f9bd01&bgColorHighlight=fbec88&bgTextureHighlight=flat&bgImgOpacityHighlight=55&borderColorHighlight=fad42e&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px\n* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */\n\n.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:\"\";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:45%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepick",
+      "body_length": 19023
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2.css",
+      "content_type": "text/css",
+      "body_preview": "/*\nVersion: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014\n*/\n.select2-container {\n    margin: 0;\n    position: relative;\n    display: inline-block;\n    /* inline-block for ie7 */\n    zoom: 1;\n    *display: inline;\n    vertical-align: middle;\n}\n\n.select2-container,\n.select2-drop,\n.select2-search,\n.select2-search input {\n  /*\n    Force border-box so that % widths fit the parent\n    container without overlap because of margin/padding.\n    More Info : http://www.quirksmode.org/css/box.html\n  */\n  -webkit-box-sizing: border-box; /* webkit */\n     -moz-box-sizing: border-box; /* firefox */\n          box-sizing: border-box; /* css3 */\n}\n\n.select2-container .select2-choice {\n    display: block;\n    height: 26px;\n    padding: 0 0 0 8px;\n    overflow: hidden;\n    position: relative;\n\n    border: 1px solid #aaa;\n    white-space: nowrap;\n    line-height: 26px;\n    color: #444;\n    text-decoration: none;\n\n    border-radius: 4px;\n\n    background-clip: padding-box;\n\n    -webkit-touch-callout: none;\n      -webkit-user-select: none;\n         -moz-user-select: none;\n          -ms-user-select: none;\n              user-select: none;\n\n    background-color: #fff;\n    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));\n    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);\n    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);\n    background-image: linear-gradient(to top, #eee 0%, #fff 50%);\n}\n\nhtml[dir=\"rtl\"] .select2-container .select2-choice {\n    padding: 0 8px 0 0;\n}\n\n.select2-container.select2-drop-above .select2-choice {\n    border-bottom-color: #aaa;\n\n    border-radius: 0 0 4px 4px;\n\n    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.9, #fff));\n    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 90%);\n    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 90%);\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);\n    background-image: linear-gradient(to bottom, #eee 0%, #fff 90%);\n}\n\n.select2-container.select2-allowclear .select2-choice .select2-chosen {\n    margin-right: 42px;\n}\n\n.select2-container .select2-choice > .select2-chosen {\n    margin-right: 26px;\n    display: block;\n    overflow: hidden;\n\n    white-space: nowrap;\n\n    text-overflow: ellipsis;\n    float: none;\n    width: auto;\n}\n\nhtml[dir=\"rtl\"] .select2-container .select2-choice > .select2-chosen {\n    margin-left: 26px;\n    margin-right: 0;\n}\n\n.select2-container .select2-choice abbr {\n    display: none;\n    width: 12px;\n    height: 12px;\n    position: absolute;\n    right: 24px;\n    top: 8px;\n\n    font-size: 1px;\n    text-decoration: none;\n\n    border: 0;\n    background: url('select2.png') right top no-repeat;\n    cursor: pointer;\n    outline: 0;\n}\n\n.select2-container.select2-allowclear .select2-choice abbr {\n    display: inline-block;\n}\n\n.select2-container .select2-choice abbr:hover {\n    background-position: right -11px;\n    cursor: pointer;\n}\n\n.select2-drop-mask {\n    border: 0;\n    margin: 0;\n    padding: 0;\n    position: fixed;\n    left: 0;\n    top: 0;\n    min-height: 100%;\n    min-width: 100%;\n    height: auto;\n    width: auto;\n    opacity: 0;\n    z-index: 9998;\n    /* styles required for IE to work */\n    background-color: #fff;\n    filter: alpha(opacity=0);\n}\n\n.select2-drop {\n    width: 100%;\n    margin-top: -1px;\n    position: absolute;\n    z-index: 9999;\n    top: 100%;\n\n    background: #fff;\n    color: #000;\n    border: 1px solid #aaa;\n    border-top: 0;\n\n    border-radius: 0 0 4px 4px;\n\n    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);\n            box-shadow: 0 4px 5px rgba(0, 0, 0, .15);\n}\n\n.select2-drop.select2-drop-above {\n    margin-top: 1px;\n    border-top: 1px solid #aaa;\n",
+      "body_length": 19457
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/jquery-ui/jquery-ui.theme.min.css",
+      "content_type": "text/css",
+      "body_preview": "/*! jQuery UI - v1.11.3 - 2015-02-26\n* http://jqueryui.com\n* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */\n\n.ui-widget{font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;font-size:1.1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #a6c9e2;background:#fcfdfd url(\"images/ui-bg_inset-hard_100_fcfdfd_1x100.png\") 50% bottom repeat-x;color:#222}.ui-widget-content a{color:#222}.ui-widget-header{border:1px solid #4297d7;background:#5c9ccc url(\"images/ui-bg_gloss-wave_55_5c9ccc_500x100.png\") 50% 50% repeat-x;color:#fff;font-weight:bold}.ui-widget-header a{color:#fff}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #c5dbec;background:#dfeffc url(\"images/ui-bg_glass_85_dfeffc_1x400.png\") 50% 50% repeat-x;font-weight:bold;color:#2e6e9e}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#2e6e9e;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #79b7e7;background:#d0e5f5 url(\"images/ui-bg_glass_75_d0e5f5_1x400.png\") 50% 50% repeat-x;font-weight:bold;color:#1d5987}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{color:#1d5987;text-decoration:none}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #79b7e7;background:#f5f8f9 url(\"images/ui-bg_inset-hard_100_f5f8f9_1x100.png\") 50% 50% repeat-x;font-weight:bold;color:#e17009}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#e17009;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #fad42e;background:#fbec88 url(\"images/ui-bg_flat_55_fbec88_40x100.png\") 50% 50% repeat-x;color:#363636}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#fef1ec url(\"images/ui-bg_glass_95_fef1ec_1x400.png\") 50% 50% repeat-x;color:#cd0a0a}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#cd0a0a}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#cd0a0a}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:url(\"images/ui-icons_469bdd_256x240.png\")}.ui-widget-header .ui-icon{background-image:url(\"images/ui-icons_d8e7f3_256x240.png\")}.ui-state-default .ui-icon{background-image:url(\"images/ui-icons_6da8d5_256x240.png\")}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url(\"images/ui-icons_217bc0_256x240.png\")}.ui-state-active .ui-icon{background-image:url(\"images/ui-icons_f9bd01_256x240.png\")}.ui-state-highlight .ui-icon{background-image:url(\"images/ui-icons_2e83ff_256x240.png\")}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url(\"images/ui-icons_cd0a0a_256x240.png\")}.ui-icon-blank{background-position:16px 16px}.ui-icon-carat-1-n{background-position:0 0}.ui-icon-",
+      "body_length": 13861
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/JavaScript.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/styles.css",
+      "content_type": "text/css",
+      "body_preview": "@charset \"UTF-8\";\r\n/*! normalize.css v3.0.2 | MIT License | git.io/normalize */\r\n/* line 9, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nhtml {\r\n  font-family: sans-serif;\r\n  -ms-text-size-adjust: 100%;\r\n  -webkit-text-size-adjust: 100%;\r\n}\r\n\r\n/* line 19, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nbody {\r\n  margin: 0;\r\n}\r\n\r\n/* line 33, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\narticle,\r\naside,\r\ndetails,\r\nfigcaption,\r\nfigure,\r\nfooter,\r\nheader,\r\nhgroup,\r\nmain,\r\nmenu,\r\nnav,\r\nsection,\r\nsummary {\r\n  display: block;\r\n}\r\n\r\n/* line 54, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\naudio,\r\ncanvas,\r\nprogress,\r\nvideo {\r\n  display: inline-block;\r\n  vertical-align: baseline;\r\n}\r\n\r\n/* line 67, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\naudio:not([controls]) {\r\n  display: none;\r\n  height: 0;\r\n}\r\n\r\n/* line 77, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\n[hidden],\r\ntemplate {\r\n  display: none;\r\n}\r\n\r\n/* line 89, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\na {\r\n  background-color: transparent;\r\n}\r\n\r\n/* line 97, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\na:active,\r\na:hover {\r\n  outline: 0;\r\n}\r\n\r\n/* line 109, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nabbr[title] {\r\n  border-bottom: 1px dotted;\r\n}\r\n\r\n/* line 117, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nb,\r\nstrong {\r\n  font-weight: bold;\r\n}\r\n\r\n/* line 126, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\ndfn {\r\n  font-style: italic;\r\n}\r\n\r\n/* line 135, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nh1 {\r\n  font-size: 2em;\r\n  margin: 0.67em 0;\r\n}\r\n\r\n/* line 144, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nmark {\r\n  background: #ff0;\r\n  color: #000;\r\n}\r\n\r\n/* line 153, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nsmall {\r\n  font-size: 80%;\r\n}\r\n\r\n/* line 161, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nsub,\r\nsup {\r\n  font-size: 75%;\r\n  line-height: 0;\r\n  position: relative;\r\n  vertical-align: baseline;\r\n}\r\n\r\n/* line 169, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nsup {\r\n  top: -0.5em;\r\n}\r\n\r\n/* line 173, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nsub {\r\n  bottom: -0.25em;\r\n}\r\n\r\n/* line 184, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nimg {\r\n  border: 0;\r\n}\r\n\r\n/* line 192, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nsvg:not(:root) {\r\n  overflow: hidden;\r\n}\r\n\r\n/* line 203, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nfigure {\r\n  margin: 1em 40px;\r\n}\r\n\r\n/* line 211, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3",
+      "body_length": 363057
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/bootstrap/bootstrap.min.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery/jquery-1.11.2.min.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery-ui/jquery-ui.min.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2_locale_pt-BR.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=579323710&t=pageview&_s=1&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&ul=pt-br&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=1085193746&gjid=2132323313&cid=1219094368.1787148264&tid=UA-103233428-1&_gid=1634161514.1787148264&_r=1&_slc=1&z=256306620",
+      "content_type": "text/plain",
+      "body_preview": "2,cG-3K57H2HNFV",
+      "body_length": 15
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2.min.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/colorbox/jquery.colorbox-min.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_body.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_cabecalho.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_rodape.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/BuscaAvancada.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3K57H2HNFV&gtm=45je68h1v9135335248za20g&_p=1787148263710&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&_ng=1&are=1&cid=1219094368.1787148264&frm=0&ir=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120032689~120213116~120385423&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sid=1787148263&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1986",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://www.diariooficial.rn.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 404,
+      "content_type": "text/html",
+      "length": 1635,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>The page cannot be found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=Windows-1252\">\r\n<STYLE type=\"text/css\">\r\n  BODY { font: 8pt/12pt verdana }\r\n  H1 { font: 13pt/15pt verdana }\r\n  H2 { font: 8pt/12pt verdana }\r\n  A:link { color: red }\r\n  A:visited { color: maroon }\r\n</STYLE>\r\n</HEAD><BODY><TABLE width=500 border=0 cellspacing=10><TR><TD>\r\n\r\n<h1>The page cannot be found</h1>\r\nThe page you are looking for might have been removed, had its name changed, or is temporarily unavailable.\r\n<hr>\r\n<p>Please try the following:</p>\r\n<ul>\r\n<li>Make sure that the Web site address displayed in the address bar of your browser is spelled and formatted correctly.</li>\r\n<li>If you reached this page by clicking a link, contact\r\n the Web site administrator to alert them that the link is incorrectly formatted.\r\n</li>\r\n<li>Click the <a href=\"javascript:history.back(1)\">Back</a> button to try another link.</li>\r\n</ul>\r\n<h2>HTTP Error 404 - File or directory not found.<br>Internet Information Services (IIS)</h2>\r\n<hr>\r\n<p>Technical Information (for support personnel)</p>\r\n"
+    },
+    {
+      "url": "https://www.diariooficial.rn.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 404,
+      "content_type": "text/html",
+      "length": 1635,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>The page cannot be found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=Windows-1252\">\r\n<STYLE type=\"text/css\">\r\n  BODY { font: 8pt/12pt verdana }\r\n  H1 { font: 13pt/15pt verdana }\r\n  H2 { font: 8pt/12pt verdana }\r\n  A:link { color: red }\r\n  A:visited { color: maroon }\r\n</STYLE>\r\n</HEAD><BODY><TABLE width=500 border=0 cellspacing=10><TR><TD>\r\n\r\n<h1>The page cannot be found</h1>\r\nThe page you are looking for might have been removed, had its name changed, or is temporarily unavailable.\r\n<hr>\r\n<p>Please try the following:</p>\r\n<ul>\r\n<li>Make sure that the Web site address displayed in the address bar of your browser is spelled and formatted correctly.</li>\r\n<li>If you reached this page by clicking a link, contact\r\n the Web site administrator to alert them that the link is incorrectly formatted.\r\n</li>\r\n<li>Click the <a href=\"javascript:history.back(1)\">Back</a> button to try another link.</li>\r\n</ul>\r\n<h2>HTTP Error 404 - File or directory not found.<br>Internet Information Services (IIS)</h2>\r\n<hr>\r\n<p>Technical Information (for support personnel)</p>\r\n"
+    },
+    {
+      "url": "https://www.diariooficial.rn.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 404,
+      "content_type": "text/html",
+      "length": 1635,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>The page cannot be found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=Windows-1252\">\r\n<STYLE type=\"text/css\">\r\n  BODY { font: 8pt/12pt verdana }\r\n  H1 { font: 13pt/15pt verdana }\r\n  H2 { font: 8pt/12pt verdana }\r\n  A:link { color: red }\r\n  A:visited { color: maroon }\r\n</STYLE>\r\n</HEAD><BODY><TABLE width=500 border=0 cellspacing=10><TR><TD>\r\n\r\n<h1>The page cannot be found</h1>\r\nThe page you are looking for might have been removed, had its name changed, or is temporarily unavailable.\r\n<hr>\r\n<p>Please try the following:</p>\r\n<ul>\r\n<li>Make sure that the Web site address displayed in the address bar of your browser is spelled and formatted correctly.</li>\r\n<li>If you reached this page by clicking a link, contact\r\n the Web site administrator to alert them that the link is incorrectly formatted.\r\n</li>\r\n<li>Click the <a href=\"javascript:history.back(1)\">Back</a> button to try another link.</li>\r\n</ul>\r\n<h2>HTTP Error 404 - File or directory not found.<br>Internet Information Services (IIS)</h2>\r\n<hr>\r\n<p>Technical Information (for support personnel)</p>\r\n"
+    }
+  ],
+  "navigation_status": 200,
+  "final_url": "https://www.diariooficial.rn.gov.br/dei/dorn3/",
+  "title": "Diário Oficial do Estado do Rio Grande do Norte",
+  "html_length": 44663,
+  "links": [
+    {
+      "text": "",
+      "href": "http://www.rn.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Diário Oficial do Estado do Rio Grande do Norte",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/default.aspx",
+      "id": "",
+      "cls": "site-name"
+    },
+    {
+      "text": "Inicio",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/default.aspx",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A República",
+      "href": "http://arepublica.rn.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Publicador",
+      "href": "https://deirn.sdoe.com.br/diariooficialweb/#/diarios",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Busca até 17-11-2022",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/Search.aspx",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Busca Avançada",
+      "href": "https://deirn.sdoe.com.br/diariooficialweb/#/home?diario=MTIx",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Carta de Serviços ao Cidadão",
+      "href": "https://cloud.diariooficial.rn.gov.br/s/DXwdAqSjLMBpLHP",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Concursos e Processos Seletivos",
+      "href": "https://cloud.diariooficial.rn.gov.br/s/3ZM7wp9Cd2dBQRR?path=%2F",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Fale Conosco",
+      "href": "http://www.dei.rn.gov.br/Conteudo.asp?TRAN=ITEM&TARG=38721&ACT=&PAGE=0&PARM=&LBL=Institui%E7%E3o",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "POLI",
+      "href": "https://poli.control.rn.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PODER EXECUTIVO",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl02$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl02_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "PODER LEGISLATIVO",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl03$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl03_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "MINISTÉRIO PÚBLICO",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl04$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl04_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "TRIBUNAL DE CONTAS",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl05$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl05_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "PREFEITURAS",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl06$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl06_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "PARTICULARES",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl07$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl07_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "DEFENSORIA PUBLICA DO ESTADO",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl08$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl08_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "DIÁRIO DA JUSTIÇA",
+      "href": "javascript:__doPostBack('Menu1$dgMenu$ctl09$LinkButton1','')",
+      "id": "Menu1_dgMenu_ctl09_LinkButton1",
+      "cls": ""
+    },
+    {
+      "text": "Acesso Publicador",
+      "href": "https://deirn.sdoe.com.br/diariooficialweb/#/diarios",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Passo a Passo ( Publicador)",
+      "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/sdoe.pdf",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Diário Oficial Edição do Dia",
+      "href": "https://deirn.sdoe.com.br/diariooficialweb/#/home?diario=MTIx",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Diário Oficial Edição Extra do Dia 02.07.2026",
+      "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/12026-07-02E.pdf",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Diário Oficial Edição Extra do Dia 03.07.2026",
+      "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/12026-07-03E.pdf",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Diário Oficial Edição Extra do Dia 20.07.2026",
+      "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/12026-07-20E.pdf",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "comercial@dei.rn.gov.br",
+      "href": "mailto: comercial@dei.rn.gov.br",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "WhatsApp",
+      "href": "https://api.whatsapp.com/send?phone=5584987300836",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "arquivo@dei.rn.gov.br",
+      "href": "mailto: arquivo@dei.rn.gov.br",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "WhatsApp",
+      "href": "https://api.whatsapp.com/send?phone=5584987299756",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "protocolo@dei.rn.gov.br",
+      "href": "mailto: protocolo@dei.rn.gov.br",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "WhatsApp",
+      "href": "https://api.whatsapp.com/send?phone=5584987299778",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "http://www.rn.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Av. Câmara Cascudo, 355 - Natal, RN",
+      "href": "https://goo.gl/maps/BZDkJ",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "WhatsApp",
+      "href": "https://api.whatsapp.com/send?phone=5584987299778",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "do@dei.rn.gov.br",
+      "href": "mailto: do@dei.rn.gov.br",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "protocolo@dei.rn.gov.br",
+      "href": "mailto: protocolo@dei.rn.gov.br",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "<Anterior",
+      "href": "",
+      "id": "",
+      "cls": "ui-datepicker-prev ui-corner-all"
+    },
+    {
+      "text": "Próximo>",
+      "href": "",
+      "id": "",
+      "cls": "ui-datepicker-next ui-corner-all ui-state-disabled"
+    },
+    {
+      "text": "1",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "4",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "5",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "6",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "7",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "8",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "11",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "12",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "13",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "14",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "15",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "18",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "19",
+      "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#",
+      "id": "",
+      "cls": "ui-state-default ui-state-highlight ui-state-active ui-state-hover"
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://www.diariooficial.rn.gov.br/dei/dorn3/Default.aspx",
+      "method": "post",
+      "id": "Form1",
+      "cls": "wrapper",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__EVENTTARGET",
+          "id": "__EVENTTARGET",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__EVENTARGUMENT",
+          "id": "__EVENTARGUMENT",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__LASTFOCUS",
+          "id": "__LASTFOCUS",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__VSTATE",
+          "id": "__VSTATE",
+          "value": "eJztk8GO0kAYx2mBXRZMyurSxLiW8eayye5MWwpsvBRazSjSpi3Gm2mYljRxIYGS6CP4Ct48GZ+DB9MpED7QxpNHOTS/Yb7fP99M5vspSEwqVwnWsUE0o00kJosx/1TFU/49iaW6JItK7cMzK0zD/nw1Y1NWbyhV0rvF3VsVq0aVdAHbgDqgBqgCkj1iSMAdQAMQcjHkYkjQOHZ2iPeo9gC7gG1AHVADVAEhl0AC6QAagJBLIJccJEBneN/Z/7v8d3d5cV1Upn/9yULMREHK3nQpiD6l5XPrBjlxMknCj3eI",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__VIEWSTATE",
+          "id": "\n__VIEWSTATE",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "Exibir navegao",
+          "placeholder": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "SelDataEd$cboData",
+          "id": "SelDataEd_cboData",
+          "value": "19/08/2026",
+          "text": "19/08/2026\n\t18/08/2026\n\t15/08/2026\n\t14/08/2026\n\t13/08/2026\n\t12/08/2026\n\t11/08/2026\n\t08/08/2026\n\t07/08/2026\n\t06/08/2026\n\t05/08/2026\n\t04/08/2026\n\t01/08/2026\n\t31/07/2026\n\t30/07/2026\n\t29/07/2026\n\t28/07/2026\n\t25/07/2026\n\t24/07/2026\n\t23/07/2026\n\t22/07/2026\n\t21/07/2026\n\t18/07/2026\n\t17/07/2026\n\t16/07/2026\n\t",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "trueCboData",
+          "id": "trueCboData",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "data",
+          "id": "cboDataClient",
+          "value": "19/08/2026",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "",
+          "id": "dataDO",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "Consultar",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "Abrir Edição Extra",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-3K57H2HNFV&cx=c&_slc=1",
+    "https://www.google-analytics.com/analytics.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery/jquery-1.11.2.min.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/bootstrap/bootstrap.min.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery-ui/jquery-ui.min.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/JavaScript.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2.min.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2_locale_pt-BR.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/colorbox/jquery.colorbox-min.js",
+    "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/BuscaAvancada.js"
+  ]
+}

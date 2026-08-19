@@ -1,0 +1,488 @@
+{
+  "state": "RO",
+  "start_url": "https://diof.ro.gov.br/",
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
+      "content_type": "text/css; charset=utf-8",
+      "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2) format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* math */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2) format('woff2');\n  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;\n}\n/* symbols */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2) format('woff2');\n  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F8",
+      "body_length": 22340
+    },
+    {
+      "status": 200,
+      "url": "https://portaldocidadao.ro.gov.br/css/home/buscar-servico_v1.0.css",
+      "content_type": "text/css; charset=utf-8",
+      "body_preview": ".container-buscar {\n    font-size: 9px;\n    height: 450px;\n    background: transparent url(../../images/logo/Hasteamento-da-Bandeira-de-Rondonia-no-Trevo-do-Roque.png) 0% 0% no-repeat padding-box;\n    opacity: 1;\n    background-position: center center;\n    background-size: cover;\n    padding-top: 180px !important;\n}\n\n@media only screen and (max-width: 990px) {\n    .container-buscar {\n        font-size: 7px;\n    }\n}\n\n@media only screen and (max-width: 600px) {\n    .container-buscar {\n        padding-top: 170px !important;\n        font-size: 7px;\n        height: 400px;\n    }\n}\n\n/* busca home */\n#busca .label-busca {\n    font-weight: normal;\n    font-size: 3.517em;\n    color: #FFF;\n    margin: 0;\n    line-height: 1.2;\n}\n\n#home.usuario-anonimo #busca .label-busca {\n    font-size: 4.333em\n}\n\n#busca .input-busca {\n    display: block;\n    background: none;\n    border-radius: 29px;\n    height: 57px;\n    position: relative;\n    margin-top: 25px;\n    border: 2px solid #FFF;\n}\n\n#busca .input-busca #input-procura {\n    font-size: 2.1em;\n    border: none;\n    height: 57px;\n    line-height: 50%;\n    color: #FFF;\n    padding: 0 30px;\n    background: none;\n    border-radius: 29px;\n}\n\n#pag-servico #busca .input-busca #input-procura, .pag-interna #busca .input-busca #input-procura {\n    padding: 0 20px;\n    padding-bottom: 2px;\n}\n\n#home.usuario-anonimo #busca .input-busca, #home.usuario-anonimo #busca .input-busca #input-procura {\n    height: 70px;\n    border-radius: 35px;\n}\n\n#home.usuario-anonimo #busca .input-busca #input-procura {\n    font-size: 2.5em;\n}\n\n#busca .input-busca #input-procura::placeholder {\n    color: #FFF;\n}\n\n#busca #btnProcura {\n    position: absolute;\n    background: none;\n    border: none;\n    font-size: 2.7em;\n    color: #FFF;\n    padding: 0;\n    top: 15px;\n    right: 19px;\n}\n\n#home.usuario-anonimo #busca #btnProcura {\n    top: 15px;\n    right: 25px;\n    font-size: 3.3em;\n}\n\n#home.usuario-identificado #busca #btnProcura, #home.usuario-registrado #busca #btnProcura {\n    color: #FFF;\n}\n\n#busca .list-mais-buscados {\n    color: #00B958;\n    font-size: 1.4em;\n    margin-top: 10px;\n    white-space: nowrap;\n}\n\n.usuario-identificado #busca .list-mais-buscados {\n    color: #FFF;\n}\n\n#busca .list-mais-buscados a {\n    color: #FFF;\n    text-decoration: underline;\n    opacity: .7;\n}\n\n    #busca .list-mais-buscados a:hover {\n        opacity: 1;\n    }\n\n#busca #limparProcura {\n    height: 35px;\n    width: auto;\n    border: 0;\n    float: left;\n    color: #00B858;\n    position: absolute;\n    top: 5px;\n    right: 32px;\n    background: none;\n}\n\n    #busca #limparProcura i.glyphicon {\n        font-size: 1.5em;\n    }\n\n.busca-exemplo {\n    color: #FFF;\n    display: block;\n    text-align: left;\n    margin-top: 7px;\n    font-size: 1.8em;\n    margin-left: 63px;\n}\n\n#pag-servico .busca-exemplo, .pag-interna .busca-exemplo {\n    font-size: 1.2em;\n    margin-left: 23px;\n}\n\nbody#home.usuario-anonimo #busca, body.usuario-identificado #busca, body.usuario-registrado #busca {\n    padding: 24px 0;\n}\n\nbody#home.usuario-anonimo #busca {\n    text-align: center;\n}\n\n.ui-widget.ui-widget-content.ui-autocomplete {\n    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);\n    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);\n    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);\n    background: #f8f8f8;\n}\n\n.ui-menu .ui-menu-item .ui-menu-item-wrapper {\n    border: 1px solid transparent;\n    padding: 10px 15px !important;\n    border-bottom: 1px solid #EEE !important;\n    transition: all 0.2s ease 0s;\n}\n\n    .ui-menu .ui-menu-item .ui-menu-item-wrapper:hover {\n        padding: 10px 15px !important;\n    }\n\n.ui-menu .ui-menu-item:last-child .ui-menu-item-wrapper {\n    border-bottom-color: transparent !important;\n}\n\n.ui-menu .ui-menu-item .ui-menu-item-wrapper:before {\n    content: \"\\f105\";\n    margin-right: 5px;\n    color: #00B958;\n    font-weight: 900;\n}\n\n@media (max-width:1199px) {\n    #home #busca .list-mais-buscados {\n        white-space: normal\n    }\n\n    #home #busc",
+      "body_length": 7361
+    },
+    {
+      "status": 200,
+      "url": "https://cdn.sistemas.ro.gov.br/vendors/materialdesignicons/css/materialdesignicons.min.css",
+      "content_type": "text/css",
+      "body_preview": "@font-face{font-family:\"Material Design Icons\";src:url(\"../fonts/materialdesignicons-webfont.eot?v=5.0.45\");src:url(\"../fonts/materialdesignicons-webfont.eot?#iefix&v=5.0.45\") format(\"embedded-opentype\"),url(\"../fonts/materialdesignicons-webfont.woff2?v=5.0.45\") format(\"woff2\"),url(\"../fonts/materialdesignicons-webfont.woff?v=5.0.45\") format(\"woff\"),url(\"../fonts/materialdesignicons-webfont.ttf?v=5.0.45\") format(\"truetype\");font-weight:normal;font-style:normal}.mdi:before,.mdi-set{display:inline-block;font:normal normal normal 24px/1 \"Material Design Icons\";font-size:inherit;text-rendering:auto;line-height:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.mdi-ab-testing::before{content:\"\\F01C9\"}.mdi-abjad-arabic::before{content:\"\\F1328\"}.mdi-abjad-hebrew::before{content:\"\\F1329\"}.mdi-abugida-devanagari::before{content:\"\\F132A\"}.mdi-abugida-thai::before{content:\"\\F132B\"}.mdi-access-point::before{content:\"\\F0003\"}.mdi-access-point-network::before{content:\"\\F0002\"}.mdi-access-point-network-off::before{content:\"\\F0BE1\"}.mdi-account::before{content:\"\\F0004\"}.mdi-account-alert::before{content:\"\\F0005\"}.mdi-account-alert-outline::before{content:\"\\F0B50\"}.mdi-account-arrow-left::before{content:\"\\F0B51\"}.mdi-account-arrow-left-outline::before{content:\"\\F0B52\"}.mdi-account-arrow-right::before{content:\"\\F0B53\"}.mdi-account-arrow-right-outline::before{content:\"\\F0B54\"}.mdi-account-box::before{content:\"\\F0006\"}.mdi-account-box-multiple::before{content:\"\\F0934\"}.mdi-account-box-multiple-outline::before{content:\"\\F100A\"}.mdi-account-box-outline::before{content:\"\\F0007\"}.mdi-account-cancel::before{content:\"\\F12DF\"}.mdi-account-cancel-outline::before{content:\"\\F12E0\"}.mdi-account-cash::before{content:\"\\F1097\"}.mdi-account-cash-outline::before{content:\"\\F1098\"}.mdi-account-check::before{content:\"\\F0008\"}.mdi-account-check-outline::before{content:\"\\F0BE2\"}.mdi-account-child::before{content:\"\\F0A89\"}.mdi-account-child-circle::before{content:\"\\F0A8A\"}.mdi-account-child-outline::before{content:\"\\F10C8\"}.mdi-account-circle::before{content:\"\\F0009\"}.mdi-account-circle-outline::before{content:\"\\F0B55\"}.mdi-account-clock::before{content:\"\\F0B56\"}.mdi-account-clock-outline::before{content:\"\\F0B57\"}.mdi-account-cog::before{content:\"\\F1370\"}.mdi-account-cog-outline::before{content:\"\\F1371\"}.mdi-account-convert::before{content:\"\\F000A\"}.mdi-account-convert-outline::before{content:\"\\F1301\"}.mdi-account-cowboy-hat::before{content:\"\\F0E9B\"}.mdi-account-details::before{content:\"\\F0631\"}.mdi-account-details-outline::before{content:\"\\F1372\"}.mdi-account-edit::before{content:\"\\F06BC\"}.mdi-account-edit-outline::before{content:\"\\F0FFB\"}.mdi-account-group::before{content:\"\\F0849\"}.mdi-account-group-outline::before{content:\"\\F0B58\"}.mdi-account-hard-hat::before{content:\"\\F05B5\"}.mdi-account-heart::before{content:\"\\F0899\"}.mdi-account-heart-outline::before{content:\"\\F0BE3\"}.mdi-account-key::before{content:\"\\F000B\"}.mdi-account-key-outline::before{content:\"\\F0BE4\"}.mdi-account-lock::before{content:\"\\F115E\"}.mdi-account-lock-outline::before{content:\"\\F115F\"}.mdi-account-minus::before{content:\"\\F000D\"}.mdi-account-minus-outline::before{content:\"\\F0AEC\"}.mdi-account-multiple::before{content:\"\\F000E\"}.mdi-account-multiple-check::before{content:\"\\F08C5\"}.mdi-account-multiple-check-outline::before{content:\"\\F11FE\"}.mdi-account-multiple-minus::before{content:\"\\F05D3\"}.mdi-account-multiple-minus-outline::before{content:\"\\F0BE5\"}.mdi-account-multiple-outline::before{content:\"\\F000F\"}.mdi-account-multiple-plus::before{content:\"\\F0010\"}.mdi-account-multiple-plus-outline::before{content:\"\\F0800\"}.mdi-account-multiple-remove::before{content:\"\\F120A\"}.mdi-account-multiple-remove-outline::before{content:\"\\F120B\"}.mdi-account-music::before{content:\"\\F0803\"}.mdi-account-music-outline::before{content:\"\\F0CE9\"}.mdi-account-network::before{content:\"\\F0011\"}.mdi-account-network-outline::before{content:\"\\F0BE6\"}.mdi-account-off::before{content:\"\\F0012\"}.mdi-accou",
+      "body_length": 230878
+    },
+    {
+      "status": 200,
+      "url": "https://cdn.sistemas.ro.gov.br/icones/pdf.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diof.ro.gov.br/data/uploads/2019/08/PDF-FULLBANNER-FALE-BEM-DE-RONDONIA.pdf-940x250.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://cdn.sistemas.ro.gov.br/vendors/materialdesignicons/fonts/materialdesignicons-webfont.woff2?v=5.0.45",
+      "content_type": "font/woff2"
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://diof.ro.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "length": 91049,
+      "preview": " <!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head>\n                \n        <meta property=\"fb:admins\" content=\"100000117118815\"> \n       \n                <meta property=\"og:url\" content=\"https://diof.ro.gov.br/\">\n        <meta property=\"og:title\" content=\"Imprensa Oficial do Governo do Estado de Rondônia\">\n        <meta property=\"og:site_name\" content=\"Imprensa Oficial do Governo do Estado de Rondônia\">\n        <meta property=\"og:description\" content=\"Diário Oficial\">\n        <meta property=\"og:type\" content=\"website\">\n        <meta property=\"og:image\" content=\"https://cdn.sistemas.ro.gov.br/imgs/logo-governo-fb.png\">        <meta charset=\"utf-8\">\n        <title>Página não encontrada - Imprensa Oficial do Governo do Estado de Rondônia        </title>\n        <meta name=\"description\" content=\"Imprensa Oficial do Governo do Estado de Rondônia - Diário Oficial\"> <meta name=\"keywords\" content=\"Diretoria, Executiva, TI, Tecnologia, Informa"
+    },
+    {
+      "url": "https://diof.ro.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "length": 91049,
+      "preview": " <!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head>\n                \n        <meta property=\"fb:admins\" content=\"100000117118815\"> \n       \n                <meta property=\"og:url\" content=\"https://diof.ro.gov.br/\">\n        <meta property=\"og:title\" content=\"Imprensa Oficial do Governo do Estado de Rondônia\">\n        <meta property=\"og:site_name\" content=\"Imprensa Oficial do Governo do Estado de Rondônia\">\n        <meta property=\"og:description\" content=\"Diário Oficial\">\n        <meta property=\"og:type\" content=\"website\">\n        <meta property=\"og:image\" content=\"https://cdn.sistemas.ro.gov.br/imgs/logo-governo-fb.png\">        <meta charset=\"utf-8\">\n        <title>Página não encontrada - Imprensa Oficial do Governo do Estado de Rondônia        </title>\n        <meta name=\"description\" content=\"Imprensa Oficial do Governo do Estado de Rondônia - Diário Oficial\"> <meta name=\"keywords\" content=\"Diretoria, Executiva, TI, Tecnologia, Informa"
+    },
+    {
+      "url": "https://diof.ro.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8",
+      "length": 91049,
+      "preview": " <!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head>\n                \n        <meta property=\"fb:admins\" content=\"100000117118815\"> \n       \n                <meta property=\"og:url\" content=\"https://diof.ro.gov.br/\">\n        <meta property=\"og:title\" content=\"Imprensa Oficial do Governo do Estado de Rondônia\">\n        <meta property=\"og:site_name\" content=\"Imprensa Oficial do Governo do Estado de Rondônia\">\n        <meta property=\"og:description\" content=\"Diário Oficial\">\n        <meta property=\"og:type\" content=\"website\">\n        <meta property=\"og:image\" content=\"https://cdn.sistemas.ro.gov.br/imgs/logo-governo-fb.png\">        <meta charset=\"utf-8\">\n        <title>Página não encontrada - Imprensa Oficial do Governo do Estado de Rondônia        </title>\n        <meta name=\"description\" content=\"Imprensa Oficial do Governo do Estado de Rondônia - Diário Oficial\"> <meta name=\"keywords\" content=\"Diretoria, Executiva, TI, Tecnologia, Informa"
+    }
+  ],
+  "navigation_status": 200,
+  "final_url": "https://diof.ro.gov.br/",
+  "title": "Imprensa Oficial do Governo do Estado de Rondônia - Diário Oficial",
+  "html_length": 132876,
+  "links": [
+    {
+      "text": "",
+      "href": "https://diof.ro.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Início",
+      "href": "https://diof.ro.gov.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px "
+    },
+    {
+      "text": "História",
+      "href": "https://diof.ro.gov.br/diarios/historia",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Equipe",
+      "href": "https://diof.ro.gov.br/diarios/equipe",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Missão",
+      "href": "https://diof.ro.gov.br/diarios/missao",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Quanto custa publicar?",
+      "href": "https://diof.ro.gov.br/diarios/quanto-custa-publicar",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Normas",
+      "href": "https://diof.ro.gov.br/normas/legislacao",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Como publicar",
+      "href": "https://ppe.sistemas.ro.gov.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Organograma",
+      "href": "https://organograma.ro.gov.br/departamento/110000198",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Contato",
+      "href": "https://diof.ro.gov.br/contato",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Governo de Rondônia",
+      "href": "https://rondonia.ro.gov.br/portal",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "Portal de Rondônia",
+      "href": "https://www.ro.gov.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "Diário Oficial da União",
+      "href": "https://www.gov.br/imprensanacional/pt-br",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "ABIO",
+      "href": "http://www.abio.com.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "ALE-RO",
+      "href": "https://www.al.ro.leg.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "TCE-RO",
+      "href": "https://tcero.tc.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "MP-RO",
+      "href": "https://www.mpro.mp.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "DPE-RO",
+      "href": "https://www.defensoria.ro.def.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "TJ-RO",
+      "href": "https://www.tjro.jus.br/",
+      "id": "",
+      "cls": "list-group-item list-group-item-action h-16px"
+    },
+    {
+      "text": "Aviso de Privacidade",
+      "href": "",
+      "id": "",
+      "cls": "list-group-item list-group-item-action togle-modal-aviso-privacidade"
+    },
+    {
+      "text": "Política de Privacidade",
+      "href": "https://wiki.setic.ro.gov.br/home/compliance/politica_privacidade",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "Ajuda",
+      "href": "https://www.ro.gov.br/Ajuda",
+      "id": "",
+      "cls": "list-group-item list-group-item-action"
+    },
+    {
+      "text": "",
+      "href": "javascript:void(0)",
+      "id": "",
+      "cls": "closesidemenu m-4"
+    },
+    {
+      "text": "MENU",
+      "href": "",
+      "id": "",
+      "cls": "btn btn-link menu-btn align-text-top link-dark text-decoration-none"
+    },
+    {
+      "text": "",
+      "href": "https://diof.ro.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "ACESSO À INFORMAÇÃO",
+      "href": "https://diof.ro.gov.br/#",
+      "id": "",
+      "cls": "btn btn-link link-dark text-decoration-none dropdown-toggle"
+    },
+    {
+      "text": "Acesso à Informação",
+      "href": "https://diof.ro.gov.br/",
+      "id": "",
+      "cls": "dropdown-item"
+    },
+    {
+      "text": "Lei de Acesso a Informação",
+      "href": "https://esic.cge.ro.gov.br/",
+      "id": "",
+      "cls": "dropdown-item"
+    },
+    {
+      "text": "Portal da Transparência",
+      "href": "https://transparencia.ro.gov.br/",
+      "id": "",
+      "cls": "dropdown-item"
+    },
+    {
+      "text": "ACESSE AQUI",
+      "href": "https://chat.whatsapp.com/HaBQbo6UjO0C9qxXT562qe",
+      "id": "",
+      "cls": "btn btn-lg btn-primary btn-block"
+    },
+    {
+      "text": "CLIQUE AQUI",
+      "href": "http://ditel.casacivil.ro.gov.br/cotel/Livros/Files/D31210.pdf",
+      "id": "",
+      "cls": "btn btn-lg btn-primary btn-block"
+    },
+    {
+      "text": "Acesse aqui",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSd8XXu-hkNnMofciRkOwVJIySExSVzuwUm_8RV4fWQwysMqxg/viewform?usp=publish-editor",
+      "id": "",
+      "cls": "btn btn-lg btn-primary btn-block"
+    },
+    {
+      "text": "Previous",
+      "href": "https://diof.ro.gov.br/#carouselExampleControls",
+      "id": "",
+      "cls": "carousel-control-prev"
+    },
+    {
+      "text": "Next",
+      "href": "https://diof.ro.gov.br/#carouselExampleControls",
+      "id": "",
+      "cls": "carousel-control-next"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026-SUPLEMENTAR.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-17-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-14-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-13-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-12-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-11-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-SUPLEMENTAR-11-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-10-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-07-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026-SUPLEMENTAR.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-05-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "BAIXAR",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026.pdf",
+      "id": "",
+      "cls": "btn btn-sm btn-block"
+    },
+    {
+      "text": "",
+      "href": "https://chat.whatsapp.com/HaBQbo6UjO0C9qxXT562qe",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSe45IAbOZsIq6kV2YWyt5koawB2lElAIYebEz--FyvbCzBrvw/viewform?usp=sf_link",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://rondonia.ro.gov.br/lgpd/#introducao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Av. Farquar, 2986 - Palácio Rio Madeira - Ed. Rio Pacaás Novos, Térreo / 1ª Ala. CEP: 76.801-243 - Bairro Bairro Pedrinhas - Porto Velho, RO",
+      "href": "https://maps.google.com.br/maps?f=q&source=s_q&hl=pt-BR&geocode=&q=Av.+Farquar,+2986+-+Bairro+Pedrinhas,+Porto+Velho+-+RO&ie=UTF8&hnear=Av.+Farquar,+2986+-+Bairro+Pedrinhas,+Porto+Velho+-+RO&t=m&z=16&iwloc=A&output=embed&iwloc=near",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Aviso de Privacidade",
+      "href": "",
+      "id": "",
+      "cls": "togle-modal-aviso-privacidade footer-fonte fs-6"
+    },
+    {
+      "text": "Política de Privacidade",
+      "href": "https://wiki.setic.ro.gov.br/home/compliance/politica_privacidade",
+      "id": "",
+      "cls": "footer-fonte fs-6"
+    },
+    {
+      "text": "Portal da Transparência",
+      "href": "https://transparencia.ro.gov.br/",
+      "id": "",
+      "cls": "footer-fonte fs-6"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/governoderondonia",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/governoro/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/GovernoRO",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://www.linkedin.com/company/governorondonia/",
+      "id": "",
+      "cls": "footer-icone"
+    },
+    {
+      "text": "Aviso de Privacidade",
+      "href": "https://diof.ro.gov.br/#",
+      "id": "cookie-consent-button-modal",
+      "cls": ""
+    },
+    {
+      "text": "Política de Privacidade",
+      "href": "https://wiki.setic.ro.gov.br/home/compliance/politica_privacidade",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Política de Privacidade",
+      "href": "https://wiki.setic.ro.gov.br/home/compliance/politica_privacidade",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Chrome",
+      "href": "https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=pt-BR",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Firefox",
+      "href": "https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Microsoft Edge",
+      "href": "https://support.microsoft.com/pt-br/microsoft-edge/excluir-cookies-no-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Internet Explorer",
+      "href": "https://support.microsoft.com/pt-br/windows/excluir-e-gerenciar-cookies-168dab11-0753-043d-7c16-ede5947fc64d",
+      "id": "",
+      "cls": ""
+    }
+  ],
+  "forms": [],
+  "scripts": [
+    "https://connect.facebook.net/pt_BR/all.js?hash=a0d88f07459a89c2988a93042c551427",
+    "https://www.google-analytics.com/analytics.js",
+    "https://connect.facebook.net/pt_BR/all.js#xfbml=1",
+    "https://analytics.sistemas.ro.gov.br/matomo.js",
+    "https://cdn.sistemas.ro.gov.br/modernizr/modernizr.min.js",
+    "https://cdn.setic.ro.gov.br/libs/artim/2.0.0/cookieconsent.min.js",
+    "https://cdn.sistemas.ro.gov.br/vendors/bootstrap/v5/js/bootstrap.bundle.min.js",
+    "https://cdn.sistemas.ro.gov.br/vendors/jquery/jquery-3.5.1.min.js",
+    "https://cdn.sistemas.ro.gov.br/jquery/original/jquery-1.8.0.min.js",
+    "https://cdn.sistemas.ro.gov.br/jquery/ui/js/jquery-ui.min.js",
+    "https://cdn.sistemas.ro.gov.br/jquery/easing/jquery-easing.min.js",
+    "https://cdn.sistemas.ro.gov.br/jquery/mousewheel/jquery-mousewheel.min.js",
+    "https://cdn.sistemas.ro.gov.br/bootstrap/original/js/bootstrap.min.js",
+    "https://cdn.sistemas.ro.gov.br/fancybox/js/fancybox.js",
+    "https://cdn.sistemas.ro.gov.br/fancybox/js/fancybox-buttons.js",
+    "https://cdn.sistemas.ro.gov.br/fancybox/js/fancybox-thumbs.js",
+    "https://diof.ro.gov.br/data/themes/governo-ro/js/main.js"
+  ]
+}

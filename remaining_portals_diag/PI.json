@@ -1,0 +1,801 @@
+{
+  "state": "PI",
+  "start_url": "https://www.diario.pi.gov.br/doe/",
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css?family=Montserrat",
+      "content_type": "text/css; charset=utf-8",
+      "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n",
+      "body_length": 1866
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/",
+      "content_type": "text/html; charset=UTF-8",
+      "body_preview": "<html lang=\"en\" data-theme=\"default\" class=\"no-touch\" style=\"\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Montserrat\">\n\n<head>\n    <style type=\"text/css\">\n        :root,\n        :host {\n            --font-montserrat: 'Montserrat';\n            --fa-font-solid: normal 900 1em/1 \"Font Awesome 6 Solid\";\n            --fa-font-regular: normal 400 1em/1 \"Font Awesome 6 Regular\";\n            --fa-font-light: normal 300 1em/1 \"Font Awesome 6 Light\";\n            --fa-font-thin: normal 100 1em/1 \"Font Awesome 6 Thin\";\n            --fa-font-duotone: normal 900 1em/1 \"Font Awesome 6 Duotone\";\n            --fa-font-sharp-solid: normal 900 1em/1 \"Font Awesome 6 Sharp\";\n            --fa-font-sharp-regular: normal 400 1em/1 \"Font Awesome 6 Sharp\";\n            --fa-font-sharp-light: normal 300 1em/1 \"Font Awesome 6 Sharp\";\n            --fa-font-brands: normal 400 1em/1 \"Font Awesome 6 Brands\";\n        }\n\n        svg:not(:root).svg-inline--fa,\n        svg:not(:host).svg-inline--fa {\n            overflow: visible;\n            box-sizing: content-box;\n        }\n\n        .svg-inline--fa {\n            display: var(--fa-display, inline-block);\n            height: 1em;\n            overflow: visible;\n            vertical-align: -0.125em;\n        }\n\n        .svg-inline--fa.fa-2xs {\n            vertical-align: 0.1em;\n        }\n\n        .svg-inline--fa.fa-xs {\n            vertical-align: 0em;\n        }\n\n        .svg-inline--fa.fa-sm {\n            vertical-align: -0.0714285705em;\n        }\n\n        .svg-inline--fa.fa-lg {\n            vertical-align: -0.2em;\n        }\n\n        .svg-inline--fa.fa-xl {\n            vertical-align: -0.25em;\n        }\n\n        .svg-inline--fa.fa-2xl {\n            vertical-align: -0.3125em;\n        }\n\n        .svg-inline--fa.fa-pull-left {\n            margin-right: var(--fa-pull-margin, 0.3em);\n            width: auto;\n        }\n\n        .svg-inline--fa.fa-pull-right {\n            margin-left: var(--fa-pull-margin, 0.3em);\n            width: auto;\n        }\n\n        .svg-inline--fa.fa-li {\n            width: var(--fa-li-width, 2em);\n            top: 0.25em;\n        }\n\n        .svg-inline--fa.fa-fw {\n            width: var(--fa-fw-width, 1.25em);\n        }\n\n        .fa-layers svg.svg-inline--fa {\n            bottom: 0;\n            left: 0;\n            margin: auto;\n            position: absolute;\n            right: 0;\n            top: 0;\n        }\n\n        .fa-layers-counter,\n        .fa-layers-text {\n            display: inline-block;\n            position: absolute;\n            text-align: center;\n        }\n\n        .fa-layers {\n            display: inline-block;\n            height: 1em;\n            position: relative;\n            text-align: center;\n            vertical-align: -0.125em;\n            width: 1em;\n        }\n\n        .fa-layers svg.svg-inline--fa {\n            -webkit-transform-origin: center center;\n            transform-origin: center center;\n        }\n\n        .fa-layers-text {\n            left: 50%;\n            top: 50%;\n            -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n            -webkit-transform-origin: center center;\n            transform-origin: center center;\n        }\n\n        .fa-layers-counter {\n            background-color: var(--fa-counter-background-color, #ff253a);\n            border-radius: var(--fa-counter-border-radius, 1em);\n            box-sizing: border-box;\n            color: var(--fa-inverse, #fff);\n            line-height: var(--fa-counter-line-height, 1);\n            max-width: var(--fa-counter-max-width, 5em);\n            min-width: var(--fa-counter-min-width, 1.5em);\n            overflow: hidden;\n            padding: var(--fa-counter-padding, 0.25em 0.5em);\n            right: var(--fa-right, 0);\n            text-overflow: ellipsis;\n            top: var(--fa-top, 0);\n            -webkit-transform: scale(var(--fa-counter-scale, 0.25));\n            transform: scale(var(--fa-counter-scale, 0.25));\n            -webki",
+      "body_length": 336456
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.css",
+      "content_type": "text/css",
+      "body_preview": ".daterangepicker {\n  position: absolute;\n  color: inherit;\n  background-color: #fff;\n  border-radius: 4px;\n  border: 1px solid #ddd;\n  width: 278px;\n  max-width: none;\n  padding: 0;\n  margin-top: 7px;\n  top: 100px;\n  left: 20px;\n  z-index: 3001;\n  display: none;\n  font-family: arial;\n  font-size: 15px;\n  line-height: 1em;\n}\n\n.daterangepicker:before, .daterangepicker:after {\n  position: absolute;\n  display: inline-block;\n  border-bottom-color: rgba(0, 0, 0, 0.2);\n  content: '';\n}\n\n.daterangepicker:before {\n  top: -7px;\n  border-right: 7px solid transparent;\n  border-left: 7px solid transparent;\n  border-bottom: 7px solid #ccc;\n}\n\n.daterangepicker:after {\n  top: -6px;\n  border-right: 6px solid transparent;\n  border-bottom: 6px solid #fff;\n  border-left: 6px solid transparent;\n}\n\n.daterangepicker.opensleft:before {\n  right: 9px;\n}\n\n.daterangepicker.opensleft:after {\n  right: 10px;\n}\n\n.daterangepicker.openscenter:before {\n  left: 0;\n  right: 0;\n  width: 0;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.daterangepicker.openscenter:after {\n  left: 0;\n  right: 0;\n  width: 0;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.daterangepicker.opensright:before {\n  left: 9px;\n}\n\n.daterangepicker.opensright:after {\n  left: 10px;\n}\n\n.daterangepicker.drop-up {\n  margin-top: -7px;\n}\n\n.daterangepicker.drop-up:before {\n  top: initial;\n  bottom: -7px;\n  border-bottom: initial;\n  border-top: 7px solid #ccc;\n}\n\n.daterangepicker.drop-up:after {\n  top: initial;\n  bottom: -6px;\n  border-bottom: initial;\n  border-top: 6px solid #fff;\n}\n\n.daterangepicker.single .daterangepicker .ranges, .daterangepicker.single .drp-calendar {\n  float: none;\n}\n\n.daterangepicker.single .drp-selected {\n  display: none;\n}\n\n.daterangepicker.show-calendar .drp-calendar {\n  display: block;\n}\n\n.daterangepicker.show-calendar .drp-buttons {\n  display: block;\n}\n\n.daterangepicker.auto-apply .drp-buttons {\n  display: none;\n}\n\n.daterangepicker .drp-calendar {\n  display: none;\n  max-width: 270px;\n}\n\n.daterangepicker .drp-calendar.left {\n  padding: 8px 0 8px 8px;\n}\n\n.daterangepicker .drp-calendar.right {\n  padding: 8px;\n}\n\n.daterangepicker .drp-calendar.single .calendar-table {\n  border: none;\n}\n\n.daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {\n  color: #fff;\n  border: solid black;\n  border-width: 0 2px 2px 0;\n  border-radius: 0;\n  display: inline-block;\n  padding: 3px;\n}\n\n.daterangepicker .calendar-table .next span {\n  transform: rotate(-45deg);\n  -webkit-transform: rotate(-45deg);\n}\n\n.daterangepicker .calendar-table .prev span {\n  transform: rotate(135deg);\n  -webkit-transform: rotate(135deg);\n}\n\n.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {\n  white-space: nowrap;\n  text-align: center;\n  vertical-align: middle;\n  min-width: 32px;\n  width: 32px;\n  height: 24px;\n  line-height: 24px;\n  font-size: 12px;\n  border-radius: 4px;\n  border: 1px solid transparent;\n  white-space: nowrap;\n  cursor: pointer;\n}\n\n.daterangepicker .calendar-table {\n  border: 1px solid #fff;\n  border-radius: 4px;\n  background-color: #fff;\n}\n\n.daterangepicker .calendar-table table {\n  width: 100%;\n  margin: 0;\n  border-spacing: 0;\n  border-collapse: collapse;\n}\n\n.daterangepicker td.available:hover, .daterangepicker th.available:hover {\n  background-color: #eee;\n  border-color: transparent;\n  color: inherit;\n}\n\n.daterangepicker td.week, .daterangepicker th.week {\n  font-size: 80%;\n  color: #ccc;\n}\n\n.daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date {\n  background-color: #fff;\n  border-color: transparent;\n  color: #999;\n}\n\n.daterangepicker td.in-range {\n  background-color: #ebf4f8;\n  border-color: transparent;\n  color: #000;\n  border-radius: 0;\n}\n\n.daterangepicker td.start-date {\n  border-radius: 4px 0 0 4px;\n}\n\n.daterangepicker td.end-date {\n  border-radius: 0 4px 4px 0;\n}\n\n.daterangepicker td.start-date.end-date {\n  border-radius: 4px;\n}\n\n.daterangepicker td.active, .dateran",
+      "body_length": 8402
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/img/governo_logo.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/vendors/jquery/dist/jquery.js",
+      "content_type": "application/javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/img/logo-eleicoes-white.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 204,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68i0h2v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787148254319&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=522583234.1787148254&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148254&sct=1&seg=0&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&en=pi&_fv=1&_nsi=1&_ss=1&tfd=1929",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/vendors/moment/min/moment.min.js",
+      "content_type": "application/javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/vendors/DateJS/build/date.js",
+      "content_type": "application/javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.js",
+      "content_type": "application/javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/vendors/datatables.net/js/jquery.dataTables.min.js",
+      "content_type": "application/javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/img/loading.gif",
+      "content_type": "image/gif"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/Api/listardiarios.json",
+      "content_type": "text/html; charset=UTF-8",
+      "body_preview": "{\"draw\":1,\"recordsTotal\":1189,\"recordsFiltered\":1189,\"data\":[[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/5e111773-ff42-4622-9e74-8cbbcacc2e8f\\/DOEPI_158_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"158\\/2026  \",\"18\\/08\\/2026\",\"18\\/08\\/2026 18:01:00\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/c03e4447-279b-4d5a-b041-d089f88d51eb\\/DOEPI_157_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"157\\/2026  \",\"17\\/08\\/2026\",\"17\\/08\\/2026 18:10:32\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/b0fe2c5c-1f47-4ad9-adfd-a47c5a59141f\\/DOEPI_156_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"156\\/2026  \",\"14\\/08\\/2026\",\"14\\/08\\/2026 18:10:32\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/afbdf2a1-2989-4a51-be3a-5ca9141ea8ca\\/DOEPI_155_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"155\\/2026  \",\"13\\/08\\/2026\",\"13\\/08\\/2026 18:23:12\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/f897f087-db84-4b89-89e4-5de684ca0478\\/DOEPI_154_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"154\\/2026  SUPLEMENTAR\",\"12\\/08\\/2026\",\"12\\/08\\/2026 22:15:57\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/0125c723-3926-456f-9a9d-2a2dcb0189e4\\/DOEPI_154_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"154\\/2026  \",\"12\\/08\\/2026\",\"12\\/08\\/2026 18:05:50\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/bdf8c8fd-75cd-4687-b2e2-0d10421bed9f\\/DOEPI_153_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"153\\/2026  \",\"11\\/08\\/2026\",\"11\\/08\\/2026 18:01:59\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/0a5fb209-487a-431b-85e7-58f15a35f482\\/DOEPI_152_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"152\\/2026  \",\"10\\/08\\/2026\",\"10\\/08\\/2026 18:01:25\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/2f9c5c93-b018-41d4-a7ef-c1e98b21ff8e\\/DOEPI_151_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"151\\/2026  SUPLEMENTAR\",\"07\\/08\\/2026\",\"07\\/08\\/2026 21:57:08\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/89f04f03-c2ea-4150-bf1f-eda6357426b2\\/DOEPI_151_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"151\\/2026  \",\"07\\/08\\/2026\",\"07\\/08\\/2026 18:00:11\"]]}",
+      "body_length": 3034
+    },
+    {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/img/icone-diario.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 204,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68i0h2v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787148254319&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=522583234.1787148254&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148254&sct=1&seg=1&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&_s=2&tfd=6938",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://www.diario.pi.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 196,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+    },
+    {
+      "url": "https://www.diario.pi.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 196,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+    },
+    {
+      "url": "https://www.diario.pi.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 196,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n"
+    }
+  ],
+  "navigation_status": 200,
+  "final_url": "https://www.diario.pi.gov.br/doe/",
+  "title": "Governo do Piauí - Site Oficial do Governo do Estado do Piauí",
+  "html_length": 343441,
+  "links": [
+    {
+      "text": "Acessibilidade",
+      "href": "https://www.diario.pi.gov.br/doe/#",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1iujdor"
+    },
+    {
+      "text": "Mapa do Site",
+      "href": "https://www.diario.pi.gov.br/doe/#",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1iujdor"
+    },
+    {
+      "text": "Portal da Transparência",
+      "href": "https://transparencia.pi.gov.br/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1iujdor"
+    },
+    {
+      "text": "Governo",
+      "href": "https://www.diario.pi.gov.br/doe/#",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1iujdor"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-167jdg"
+    },
+    {
+      "text": "Faça o Login",
+      "href": "https://login.pi.gov.br/auth/realms/pi/protocol/openid-connect/auth?client_id=portal-web&redirect_uri=https%3A%2F%2Fpidigital.pi.gov.br%2Fapp%2Fdashboard&state=ebe27033-34d9-4327-8ab8-d3e27256c4ca&response_mode=fragment&response_type=code&scope=openid&nonce=c883077e-b43c-4789-8f19-534df516027f",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-wdo2m3"
+    },
+    {
+      "text": "Crie sua conta",
+      "href": "https://login.pi.gov.br/auth/realms/pi/protocol/openid-connect/auth?client_id=portal-web&redirect_uri=https%3A%2F%2Fpidigital.pi.gov.br%2Fapp%2Fdashboard&state=ebe27033-34d9-4327-8ab8-d3e27256c4ca&response_mode=fragment&response_type=code&scope=openid&nonce=c883077e-b43c-4789-8f19-534df516027f",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-wdo2m3"
+    },
+    {
+      "text": "Buscar por palavras",
+      "href": "https://www.diario.pi.gov.br/doe/busca",
+      "id": "",
+      "cls": "button w-button"
+    },
+    {
+      "text": "Vídeo Demonstrativo",
+      "href": "https://www.diario.pi.gov.br/doe/tutorial",
+      "id": "",
+      "cls": "button w-button"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/5e111773-ff42-4622-9e74-8cbbcacc2e8f/DOEPI_158_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/c03e4447-279b-4d5a-b041-d089f88d51eb/DOEPI_157_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/b0fe2c5c-1f47-4ad9-adfd-a47c5a59141f/DOEPI_156_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/afbdf2a1-2989-4a51-be3a-5ca9141ea8ca/DOEPI_155_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/f897f087-db84-4b89-89e4-5de684ca0478/DOEPI_154_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/0125c723-3926-456f-9a9d-2a2dcb0189e4/DOEPI_154_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/bdf8c8fd-75cd-4687-b2e2-0d10421bed9f/DOEPI_153_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/0a5fb209-487a-431b-85e7-58f15a35f482/DOEPI_152_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/2f9c5c93-b018-41d4-a7ef-c1e98b21ff8e/DOEPI_151_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/89f04f03-c2ea-4150-bf1f-eda6357426b2/DOEPI_151_2026.pdf",
+      "id": "",
+      "cls": "controles-btn"
+    },
+    {
+      "text": "Anterior",
+      "href": "",
+      "id": "tbl-diario_previous",
+      "cls": "paginate_button previous disabled"
+    },
+    {
+      "text": "1",
+      "href": "",
+      "id": "",
+      "cls": "paginate_button current"
+    },
+    {
+      "text": "2",
+      "href": "",
+      "id": "",
+      "cls": "paginate_button "
+    },
+    {
+      "text": "3",
+      "href": "",
+      "id": "",
+      "cls": "paginate_button "
+    },
+    {
+      "text": "4",
+      "href": "",
+      "id": "",
+      "cls": "paginate_button "
+    },
+    {
+      "text": "5",
+      "href": "",
+      "id": "",
+      "cls": "paginate_button "
+    },
+    {
+      "text": "119",
+      "href": "",
+      "id": "",
+      "cls": "paginate_button "
+    },
+    {
+      "text": "Próximo",
+      "href": "",
+      "id": "tbl-diario_next",
+      "cls": "paginate_button next"
+    },
+    {
+      "text": "",
+      "href": "https://www.diario.pi.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Governador",
+      "href": "https://www.diario.pi.gov.br/doe/governador",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Vice-Governador",
+      "href": "https://www.diario.pi.gov.br/doe/vice-governador",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Agenda do governador",
+      "href": "https://www.diario.pi.gov.br/doe/agenda",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Órgãos",
+      "href": "https://www.diario.pi.gov.br/doe/orgaos",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Símbolos do governo",
+      "href": "https://www.diario.pi.gov.br/doe/simbolos-do-governo",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Notícias",
+      "href": "https://www.diario.pi.gov.br/doe/noticias",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Fotos",
+      "href": "https://www.diario.pi.gov.br/doe/area-da-imprensa",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Vídeos",
+      "href": "https://www.diario.pi.gov.br/doe/area-da-imprensa",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Áudios",
+      "href": "https://www.diario.pi.gov.br/doe/#",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Identidade visual",
+      "href": "https://www.diario.pi.gov.br/doe/identidade-visual",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Área da Transparência",
+      "href": "https://www.diario.pi.gov.br/area-da-transparencia",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Pedido de Acesso à informação",
+      "href": "https://falabr.cgu.gov.br/login/PI/identificacao?idFormulario=3&tipo=8&ReturnUrl=%2fpublico%2fPI%2fmanifestacao%2fRegistrarDadosManifestacao%3fidFormulario%3d3%26tipo%3d8%26origem%3didp%26modo%3d",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Radar da Transparência",
+      "href": "https://radar.tce.mt.gov.br/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Fale Conosco",
+      "href": "https://portal.pi.gov.br/segov/ouvidoria/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Perguntas frequentes",
+      "href": "https://www.diario.pi.gov.br/perguntas-frequentes",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Lei de acesso à informação",
+      "href": "https://portal.pi.gov.br/cge/lei-de-acesso-a-informacao-lai/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Contracheque Online",
+      "href": "https://pidigital.pi.gov.br/app/catalog/vida-funcional-do-servidor-publico/consultar-contracheque",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Diário Oficial",
+      "href": "https://www.diario.pi.gov.br/doe/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Turismo",
+      "href": "https://turismo.pi.gov.br/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "Crie sua Conta Gov.Pi Cidadão",
+      "href": "https://pidigital.pi.gov.br/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-2fyxt2"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/governodopiaui",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1k0xfab"
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/GovernodoPi",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1k0xfab"
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/governodopiaui/",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1k0xfab"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/@governodopi",
+      "id": "",
+      "cls": "MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways gov-1k0xfab"
+    },
+    {
+      "text": "Arabic",
+      "href": "https://www.diario.pi.gov.br/doe/#ar",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Hebrew",
+      "href": "https://www.diario.pi.gov.br/doe/#he",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Polish",
+      "href": "https://www.diario.pi.gov.br/doe/#pl",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Bulgarian",
+      "href": "https://www.diario.pi.gov.br/doe/#bg",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Hindi",
+      "href": "https://www.diario.pi.gov.br/doe/#hi",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Portuguese",
+      "href": "https://www.diario.pi.gov.br/doe/#pt",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Catalan",
+      "href": "https://www.diario.pi.gov.br/doe/#ca",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Hmong Daw",
+      "href": "https://www.diario.pi.gov.br/doe/#mww",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Romanian",
+      "href": "https://www.diario.pi.gov.br/doe/#ro",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Chinese Simplified",
+      "href": "https://www.diario.pi.gov.br/doe/#zh-CHS",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Hungarian",
+      "href": "https://www.diario.pi.gov.br/doe/#hu",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Russian",
+      "href": "https://www.diario.pi.gov.br/doe/#ru",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Chinese Traditional",
+      "href": "https://www.diario.pi.gov.br/doe/#zh-CHT",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Indonesian",
+      "href": "https://www.diario.pi.gov.br/doe/#id",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Slovak",
+      "href": "https://www.diario.pi.gov.br/doe/#sk",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Czech",
+      "href": "https://www.diario.pi.gov.br/doe/#cs",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Italian",
+      "href": "https://www.diario.pi.gov.br/doe/#it",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Slovenian",
+      "href": "https://www.diario.pi.gov.br/doe/#sl",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Danish",
+      "href": "https://www.diario.pi.gov.br/doe/#da",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Japanese",
+      "href": "https://www.diario.pi.gov.br/doe/#ja",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Spanish",
+      "href": "https://www.diario.pi.gov.br/doe/#es",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Dutch",
+      "href": "https://www.diario.pi.gov.br/doe/#nl",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Klingon",
+      "href": "https://www.diario.pi.gov.br/doe/#tlh",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Swedish",
+      "href": "https://www.diario.pi.gov.br/doe/#sv",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "English",
+      "href": "https://www.diario.pi.gov.br/doe/#en",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Korean",
+      "href": "https://www.diario.pi.gov.br/doe/#ko",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Thai",
+      "href": "https://www.diario.pi.gov.br/doe/#th",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Estonian",
+      "href": "https://www.diario.pi.gov.br/doe/#et",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Latvian",
+      "href": "https://www.diario.pi.gov.br/doe/#lv",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Turkish",
+      "href": "https://www.diario.pi.gov.br/doe/#tr",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Finnish",
+      "href": "https://www.diario.pi.gov.br/doe/#fi",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Lithuanian",
+      "href": "https://www.diario.pi.gov.br/doe/#lt",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ukrainian",
+      "href": "https://www.diario.pi.gov.br/doe/#uk",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "French",
+      "href": "https://www.diario.pi.gov.br/doe/#fr",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Malay",
+      "href": "https://www.diario.pi.gov.br/doe/#ms",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Urdu",
+      "href": "https://www.diario.pi.gov.br/doe/#ur",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "German",
+      "href": "https://www.diario.pi.gov.br/doe/#de",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Maltese",
+      "href": "https://www.diario.pi.gov.br/doe/#mt",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Vietnamese",
+      "href": "https://www.diario.pi.gov.br/doe/#vi",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Greek",
+      "href": "https://www.diario.pi.gov.br/doe/#el",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Norwegian",
+      "href": "https://www.diario.pi.gov.br/doe/#no",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Welsh",
+      "href": "https://www.diario.pi.gov.br/doe/#cy",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Haitian Creole",
+      "href": "https://www.diario.pi.gov.br/doe/#ht",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Persian",
+      "href": "https://www.diario.pi.gov.br/doe/#fa",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://go.microsoft.com/?linkid=9722454",
+      "id": "HelpLink",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "javascript:Microsoft.Translator.FloaterShowEmbed()",
+      "id": "EmbedLink",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "javascript:Microsoft.Translator.FloaterShowSharePanel()",
+      "id": "ShareLink",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "",
+      "id": "EmailLink",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "",
+      "id": "ShareHelpLink",
+      "cls": ""
+    },
+    {
+      "text": "Back",
+      "href": "javascript:Microsoft.Translator.FloaterOnShareBackClick()",
+      "id": "ShareBack",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "",
+      "id": "EmbedHelpLink",
+      "cls": ""
+    },
+    {
+      "text": "Bing Webmaster Portal",
+      "href": "http://www.bing.com/widget/translator",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Back",
+      "href": "javascript:Microsoft.Translator.FloaterOnEmbedBackClick()",
+      "id": "",
+      "cls": ""
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://www.diario.pi.gov.br/doe/",
+      "method": "get",
+      "id": "",
+      "cls": "MuiStack-root gov-1wivmd8",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "searchValue",
+          "id": "",
+          "value": "",
+          "text": "",
+          "placeholder": "O que você procura?"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "Buscar",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1h1",
+    "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1h1",
+    "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
+    "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
+    "https://www.pi.gov.br/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+    "https://vlibras.gov.br/app/vlibras-plugin.js",
+    "https://www.diario.pi.gov.br/doe/vendors/jquery/dist/jquery.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js",
+    "https://www.googletagmanager.com/gtag/js?id=GTM-MNBRHWNB",
+    "https://www.diario.pi.gov.br/doe/vendors/DateJS/build/date.js",
+    "https://www.diario.pi.gov.br/doe/vendors/moment/min/moment.min.js",
+    "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.js",
+    "https://markcell.github.io/jquery-tabledit/assets/js/tabledit.min.js",
+    "https://www.diario.pi.gov.br/doe/vendors/datatables.net/js/jquery.dataTables.min.js"
+  ]
+}

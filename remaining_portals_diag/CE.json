@@ -1,0 +1,51 @@
+{
+  "state": "CE",
+  "start_url": "https://www.ce.gov.br/diario-oficial/",
+  "errors": [],
+  "network": [
+    {
+      "status": 403,
+      "url": "https://www.ce.gov.br/diario-oficial/",
+      "content_type": "text/html; charset=UTF-8",
+      "body_preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 6b229bca-a07e-475c-8c63-74e18806c4c0<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></body></html>\n",
+      "body_length": 310
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://www.ce.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "length": 310,
+      "preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 619d0699-e045-4b0d-9c69-bbeb83242586<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></body></html>\n"
+    },
+    {
+      "url": "https://www.ce.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "length": 310,
+      "preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 3da8338c-e5d5-444a-a530-72d34b99bd8f<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></body></html>\n"
+    },
+    {
+      "url": "https://www.ce.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "length": 310,
+      "preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 1000dd95-a5af-4ea2-8b6e-12966c8f541f<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></body></html>\n"
+    }
+  ],
+  "navigation_status": 403,
+  "final_url": "https://www.ce.gov.br/diario-oficial/",
+  "title": "Error Page",
+  "html_length": 306,
+  "links": [
+    {
+      "text": "[Go Back]",
+      "href": "javascript:history.back();",
+      "id": "",
+      "cls": ""
+    }
+  ],
+  "forms": [],
+  "scripts": []
+}

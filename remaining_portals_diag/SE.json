@@ -1,0 +1,44 @@
+{
+  "state": "SE",
+  "start_url": "https://iose.se.gov.br/diario-oficial",
+  "errors": [],
+  "network": [
+    {
+      "status": 403,
+      "url": "https://iose.se.gov.br/diario-oficial",
+      "content_type": "text/html; charset=iso-8859-1",
+      "body_preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n",
+      "body_length": 199
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://iose.se.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 403,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 199,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n"
+    },
+    {
+      "url": "https://iose.se.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 403,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 199,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n"
+    },
+    {
+      "url": "https://iose.se.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 403,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 199,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n"
+    }
+  ],
+  "navigation_status": 403,
+  "final_url": "https://iose.se.gov.br/diario-oficial",
+  "title": "403 Forbidden",
+  "html_length": 198,
+  "links": [],
+  "forms": [],
+  "scripts": []
+}

@@ -1,0 +1,1852 @@
+{
+  "state": "PB",
+  "start_url": "https://auniao.pb.gov.br/servicos/doe/",
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://www.youtube.com/iframe_api",
+      "content_type": "text/javascript; charset=utf-8",
+      "body_preview": "var scriptUrl = 'https:\\/\\/www.youtube.com\\/s\\/player\\/3891b194\\/www-widgetapi.vflset\\/www-widgetapi.js';try{var ttPolicy=window.trustedTypes.createPolicy(\"youtube-widget-api\",{createScriptURL:function(x){return x}});scriptUrl=ttPolicy.createScriptURL(scriptUrl)}catch(e){}var YT;if(!window[\"YT\"])YT={loading:0,loaded:0};var YTConfig;if(!window[\"YTConfig\"])YTConfig={\"host\":\"https://www.youtube.com\"};\nif(!YT.loading){YT.loading=1;(function(){var l=[];YT.ready=function(f){if(YT.loaded)f();else l.push(f)};window.onYTReady=function(){YT.loaded=1;var i=0;for(;i<l.length;i++)try{l[i]()}catch(e){}};YT.setConfig=function(c){var k;for(k in c)if(c.hasOwnProperty(k))YTConfig[k]=c[k]};var a=document.createElement(\"script\");a.type=\"text/javascript\";a.id=\"www-widgetapi-script\";a.src=scriptUrl;a.async=true;var c=document.currentScript;if(c){var n=c.nonce||c.getAttribute(\"nonce\");if(n)a.setAttribute(\"nonce\",\nn)}var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})()};\n",
+      "body_length": 993
+    },
+    {
+      "status": 200,
+      "url": "https://www.youtube.com/s/player/3891b194/www-widgetapi.vflset/www-widgetapi.js",
+      "content_type": "text/javascript",
+      "body_preview": "(function(){'use strict';var n,aa=typeof Object.create==\"function\"?Object.create:function(a){function b(){}\nb.prototype=a;return new b},p=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;\na[b]=c.value;return a};\nfunction ba(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error(\"Cannot find global object\");}\nvar q=ba(this);function r(a,b){if(b)a:{var c=q;a=a.split(\".\");for(var d=0;d<a.length-1;d++){var h=a[d];if(!(h in c))break a;c=c[h]}a=a[a.length-1];d=c[a];b=b(d);b!=d&&b!=null&&p(c,a,{configurable:!0,writable:!0,value:b})}}\nvar t;if(typeof Object.setPrototypeOf==\"function\")t=Object.setPrototypeOf;else{var v;a:{var ca={a:!0},da={};try{da.__proto__=ca;v=da.a;break a}catch(a){}v=!1}t=v?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+\" is not extensible\");return a}:null}var ea=t;\nfunction fa(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}\nfunction x(a){var b=typeof Symbol!=\"undefined\"&&Symbol.iterator&&a[Symbol.iterator];if(b)return b.call(a);if(typeof a.length==\"number\")return{next:fa(a)};throw Error(String(a)+\" is not an iterable or ArrayLike\");}\nr(\"Symbol\",function(a){function b(k){if(this instanceof b)throw new TypeError(\"Symbol is not a constructor\");return new c(d+(k||\"\")+\"_\"+h++,k)}\nfunction c(k,f){this.h=k;p(this,\"description\",{configurable:!0,writable:!0,value:f})}\nif(a)return a;c.prototype.toString=function(){return this.h};\nvar d=\"jscomp_symbol_\"+(Math.random()*1E9>>>0)+\"_\",h=0;return b});\nr(\"Symbol.iterator\",function(a){if(a)return a;a=Symbol(\"Symbol.iterator\");p(Array.prototype,a,{configurable:!0,writable:!0,value:function(){return ha(fa(this))}});\nreturn a});\nfunction ha(a){a={next:a};a[Symbol.iterator]=function(){return this};\nreturn a}\nr(\"Promise\",function(a){function b(f){this.i=0;this.j=void 0;this.h=[];this.A=!1;var e=this.l();try{f(e.resolve,e.reject)}catch(g){e.reject(g)}}\nfunction c(){this.h=null}\nfunction d(f){return f instanceof b?f:new b(function(e){e(f)})}\nif(a)return a;c.prototype.i=function(f){if(this.h==null){this.h=[];var e=this;this.j(function(){e.m()})}this.h.push(f)};\nvar h=q.setTimeout;c.prototype.j=function(f){h(f,0)};\nc.prototype.m=function(){for(;this.h&&this.h.length;){var f=this.h;this.h=[];for(var e=0;e<f.length;++e){var g=f[e];f[e]=null;try{g()}catch(l){this.l(l)}}}this.h=null};\nc.prototype.l=function(f){this.j(function(){throw f;})};\nb.prototype.l=function(){function f(l){return function(m){g||(g=!0,l.call(e,m))}}\nvar e=this,g=!1;return{resolve:f(this.L),reject:f(this.m)}};\nb.prototype.L=function(f){if(f===this)this.m(new TypeError(\"A Promise cannot resolve to itself\"));else if(f instanceof b)this.N(f);else{a:switch(typeof f){case \"object\":var e=f!=null;break a;case \"function\":e=!0;break a;default:e=!1}e?this.K(f):this.u(f)}};\nb.prototype.K=function(f){var e=void 0;try{e=f.then}catch(g){this.m(g);return}typeof e==\"function\"?this.O(e,f):this.u(f)};\nb.prototype.m=function(f){this.B(2,f)};\nb.prototype.u=function(f){this.B(1,f)};\nb.prototype.B=function(f,e){if(this.i!=0)throw Error(\"Cannot settle(\"+f+\", \"+e+\"): Promise already settled in state\"+this.i);this.i=f;this.j=e;this.i===2&&this.M();this.C()};\nb.prototype.M=function(){var f=this;h(function(){if(f.J()){var e=q.console;typeof e!==\"undefined\"&&e.error(f.j)}},1)};\nb.prototype.J=function(){if(this.A)return!1;var f=q.CustomEvent,e=q.Event,g=q.dispatchEvent;if(typeof g===\"undefined\")return!0;typeof f===\"function\"?f=new f(\"unhandledrejection\",{cancelable:!0}):typeof e===\"function\"?f=new e(\"unhandledrejection\",{cancelable:!0}):(f=q.document.createEvent(\"CustomEvent\"),f.initCustomEvent(\"unhandledrejection\",!1,!0,f));f.promise=this;f.reason=this.j;return g(f)};\nb.prototype.C=function(){if(this.h!=null){for(var f=0;f<this.h.length;++f)k.i(this.h[",
+      "body_length": 26769
+    },
+    {
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-R2NWMZKKEQ&gtm=45je68h1v894996816za200zd894996816&_p=1787148237537&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=641819068.1787148238&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938468~118012008~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148237&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2573",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-4F6BZ0HW12&gtm=45je68h1v9122483608za20gzd894996816&_p=1787148237537&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIAGA&are=1&cid=641819068.1787148238&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148237&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_ss=1&tfd=2874",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "status": 200,
+      "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+      "content_type": "text/html",
+      "body_preview": "<!DOCTYPE html>\n<meta charset=utf-8><script>\n(function(){'use strict';var aa=typeof Object.create==\"function\"?Object.create:function(a){function b(){}b.prototype=a;return new b},h=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};\nfunction ba(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math==Math)return c}throw Error(\"Cannot find global object\");}var n=ba(this),q=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",u={},v={};function w(a,b,c){if(!c||a!=null){c=v[b];if(c==null)return a[b];c=a[c];return c!==void 0?c:a[b]}}\nfunction x(a,b,c){if(b)a:{var e=a.split(\".\");a=e.length===1;var f=e[0],k;!a&&f in u?k=u:k=n;for(f=0;f<e.length-1;f++){var d=e[f];if(!(d in k))break a;k=k[d]}e=e[e.length-1];c=q&&c===\"es6\"?k[e]:null;b=b(c);b!=null&&(a?h(u,e,{configurable:!0,writable:!0,value:b}):b!==c&&(v[e]===void 0&&(a=Math.random()*1E9>>>0,v[e]=q?n.Symbol(e):\"$jscp$\"+a+\"$\"+e),h(k,v[e],{configurable:!0,writable:!0,value:b})))}}var y;\nif(q&&typeof Object.setPrototypeOf==\"function\")y=Object.setPrototypeOf;else{var z;a:{var ca={a:!0},A={};try{A.__proto__=ca;z=A.a;break a}catch(a){}z=!1}y=z?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+\" is not extensible\");return a}:null}var B=y;function C(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}\nfunction D(a){var b=typeof u.Symbol!=\"undefined\"&&w(u.Symbol,\"iterator\")&&a[w(u.Symbol,\"iterator\")];if(b)return b.call(a);if(typeof a.length==\"number\")return{next:C(a)};throw Error(String(a)+\" is not an iterable or ArrayLike\");}function E(a){return da(a,a)}function da(a,b){a.raw=b;Object.freeze&&(Object.freeze(a),Object.freeze(b));return a}function F(a){if(!(a instanceof Object))throw new TypeError(\"Iterator result \"+a+\" is not an object\");}\nfunction G(){this.A=!1;this.l=null;this.u=void 0;this.g=1;this.j=this.o=0;this.C=this.h=null}function H(a){if(a.A)throw new TypeError(\"Generator is already running\");a.A=!0}G.prototype.F=function(a){this.u=a};function I(a,b){a.h={N:b,O:!0};a.g=a.o||a.j}G.prototype.getNextAddressJsc=function(){return this.g};G.prototype.getYieldResultJsc=function(){return this.u};G.prototype.return=function(a){this.h={return:a};this.g=this.j};G.prototype[\"return\"]=G.prototype.return;\nG.prototype.P=function(a){this.h={m:a};this.g=this.j};G.prototype.jumpThroughFinallyBlocks=G.prototype.P;G.prototype.i=function(a,b){this.g=b;return{value:a}};G.prototype.yield=G.prototype.i;G.prototype.U=function(a,b){a=D(a);var c=a.next();F(c);if(c.done)this.u=c.value,this.g=b;else return this.l=a,this.i(c.value,b)};G.prototype.yieldAll=G.prototype.U;G.prototype.m=function(a){this.g=a};G.prototype.jumpTo=G.prototype.m;G.prototype.H=function(){this.g=0};G.prototype.jumpToEnd=G.prototype.H;\nG.prototype.I=function(a,b){this.o=a;b!=void 0&&(this.j=b)};G.prototype.setCatchFinallyBlocks=G.prototype.I;G.prototype.T=function(a){this.o=0;this.j=a||0};G.prototype.setFinallyBlock=G.prototype.T;G.prototype.S=function(a,b){this.g=a;this.o=b||0};G.prototype.leaveTryBlock=G.prototype.S;G.prototype.G=function(a){this.o=a||0;a=this.h.N;this.h=null;return a};G.prototype.enterCatchBlock=G.prototype.G;G.prototype.K=function(a,b,c){c?this.C[c]=this.h:this.C=[this.h];this.o=a||0;this.j=b||0};\nG.prototype.enterFinallyBlock=G.prototype.K;G.prototype.R=function(a,b){b=this.C.splice(b||0)[0];(b=this.h=this.h||b)?b.O?this.g=this.o||this.j:b.m!=void 0&&this.j<b.m?(this.g=b.m,this.h=null):this.g=this.j:this.g=a};G.prototype.leaveFinallyBlock=G.prototype.R;G.prototype.L=function(a){return new J(a)};G.prototype.forIn=G.prototype.L;function J(a){this.i=a;this.g=[];for(var b in a)this.g.push(b);this.g.reverse()}J.prototype.h=function(){for(;this.g.length>0;){var a=this.g.pop();if(a in this.i)return a}return null};\nJ.prototype.getNext=J.pr",
+      "body_length": 14627
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://auniao.pb.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 404,
+      "content_type": "text/html;charset=utf-8",
+      "length": 99625,
+      "preview": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-br\" xml:lang=\"pt-br\">\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\n    \n        <base href=\"https://auniao.pb.gov.br/\" /><!--[if lt IE 7]></base><![endif]-->\n    \n\n    \n        \n\n<meta property=\"creator.productor\" content=\" \" />\n\n\n\n  \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/reset-cachekey-9a237bd00cbc8ebdab20cfc8d1556492.css\" media=\"screen\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/base-cachekey-7dcf4cee10e585591153bfa9217af08b.css\" />\n    <style type=\"text/css\" media=\"screen\">@import url(https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-c5eae4080f45520d013a5288e70d0bd8.css);</style>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.datetimestyles-cachekey-3e4b70453f0c086ea324f805f8895b2b.css\" />\n    <style type=\"text/css\" media=\"screen\">@import url(https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/jquery.autocomplete-cacheke"
+    },
+    {
+      "url": "https://auniao.pb.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 404,
+      "content_type": "text/html;charset=utf-8",
+      "length": 99625,
+      "preview": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-br\" xml:lang=\"pt-br\">\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\n    \n        <base href=\"https://auniao.pb.gov.br/\" /><!--[if lt IE 7]></base><![endif]-->\n    \n\n    \n        \n\n<meta property=\"creator.productor\" content=\" \" />\n\n\n\n  \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/reset-cachekey-9a237bd00cbc8ebdab20cfc8d1556492.css\" media=\"screen\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/base-cachekey-7dcf4cee10e585591153bfa9217af08b.css\" />\n    <style type=\"text/css\" media=\"screen\">@import url(https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-c5eae4080f45520d013a5288e70d0bd8.css);</style>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.datetimestyles-cachekey-3e4b70453f0c086ea324f805f8895b2b.css\" />\n    <style type=\"text/css\" media=\"screen\">@import url(https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/jquery.autocomplete-cacheke"
+    },
+    {
+      "url": "https://auniao.pb.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 404,
+      "content_type": "text/html;charset=utf-8",
+      "length": 99625,
+      "preview": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-br\" xml:lang=\"pt-br\">\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\n    \n        <base href=\"https://auniao.pb.gov.br/\" /><!--[if lt IE 7]></base><![endif]-->\n    \n\n    \n        \n\n<meta property=\"creator.productor\" content=\" \" />\n\n\n\n  \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/reset-cachekey-9a237bd00cbc8ebdab20cfc8d1556492.css\" media=\"screen\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/base-cachekey-7dcf4cee10e585591153bfa9217af08b.css\" />\n    <style type=\"text/css\" media=\"screen\">@import url(https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-c5eae4080f45520d013a5288e70d0bd8.css);</style>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.datetimestyles-cachekey-3e4b70453f0c086ea324f805f8895b2b.css\" />\n    <style type=\"text/css\" media=\"screen\">@import url(https://auniao.pb.gov.br/portal_css/Sunburst%20Theme/jquery.autocomplete-cacheke"
+    }
+  ],
+  "navigation_status": 200,
+  "final_url": "https://auniao.pb.gov.br/servicos/doe/",
+  "title": "Diário Oficial do Estado — A União - Jornal, Editora e Gráfica",
+  "html_length": 155467,
+  "links": [
+    {
+      "text": "IR PARA O CONTEÚDO",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#conteudo",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Navegar para Esquerda",
+      "href": "javascript:window.barraIdentidade.scrollBarraEsquerda();",
+      "id": "botao-seta-esquerda",
+      "cls": "botao-seta-esquerda"
+    },
+    {
+      "text": "SECRETARIAS",
+      "href": "javascript:window.barraIdentidade.toggleServicosGoverno();",
+      "id": "link-servicos",
+      "cls": "link-barra link-interno-barra link-baixo-barra"
+    },
+    {
+      "text": "INDIRETAS",
+      "href": "javascript:window.barraIdentidade.toggleIndiretasGoverno();",
+      "id": "link-indiretas",
+      "cls": "link-barra link-interno-barra link-baixo-barra"
+    },
+    {
+      "text": "ACESSO À INFORMAÇÃO",
+      "href": "https://sic.pb.gov.br/",
+      "id": "",
+      "cls": "link-barra link-externo-barra"
+    },
+    {
+      "text": "OUVIDORIA",
+      "href": "https://ouvidoria.pb.gov.br/",
+      "id": "",
+      "cls": "link-barra link-externo-barra"
+    },
+    {
+      "text": "PORTAL DA TRANSPARÊNCIA",
+      "href": "https://transparencia.pb.gov.br/",
+      "id": "",
+      "cls": "link-barra link-externo-barra"
+    },
+    {
+      "text": "CARTA DE SERVIÇOS",
+      "href": "https://paraiba.pb.gov.br/carta-de-servicos",
+      "id": "",
+      "cls": "link-barra link-externo-barra"
+    },
+    {
+      "text": "DIÁRIO OFICIAL",
+      "href": "https://auniao.pb.gov.br/doe",
+      "id": "",
+      "cls": "link-barra link-externo-barra"
+    },
+    {
+      "text": "CONTATOS",
+      "href": "https://paraiba.pb.gov.br/contatos/",
+      "id": "",
+      "cls": "link-barra link-externo-barra"
+    },
+    {
+      "text": "GUIA DA REDE DE ENFRENTAMENTO À VIOLÊNCIA",
+      "href": "https://paraiba.pb.gov.br/guia-da-rede-de-enfrentamento-violencia-sexual",
+      "id": "",
+      "cls": "link-barra link-externo-barra"
+    },
+    {
+      "text": "NAVEGAR PARA DIREITA",
+      "href": "javascript:window.barraIdentidade.scrollBarra();",
+      "id": "botao-seta-direita",
+      "cls": "botao-seta-direita"
+    },
+    {
+      "text": "Administração",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-administracao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Administração Penitenciária",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-administracao-penitenciaria",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Agricultura Familiar e Desenvolvimento do Semiárido",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-agricultura-familiar-e-desenvolvimento-do-semiarido/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Casa Civil do Governador",
+      "href": "https://paraiba.pb.gov.br/diretas/casa-civil-do-governador/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Casa Militar do Governador",
+      "href": "https://paraiba.pb.gov.br/diretas/casa-militar-do-governador/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ciência, Tecnologia, Inovação e Ensino Superior",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-ciencia-tecnologia-inovacao-e-ensino-superior/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Comunicação Institucional",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-comunicacao-institucional/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Controladoria Geral do Estado",
+      "href": "https://paraiba.pb.gov.br/diretas/controladoria-geral-do-estado/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Cultura",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-cultura/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Desenvolvimento da Agropecuária e Pesca",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-desenvolvimento-da-agropecuaria-e-pesca/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Desenvolvimento e da Articulação Municipal",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-desenvolvimento-e-da-articulacao-municipal/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Desenvolvimento Humano",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-desenvolvimento-humano/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Educação",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-educacao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Empreender",
+      "href": "https://www.empreenderpb.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Secretaria de Fazenda",
+      "href": "https://www.sefaz.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Secretaria de Governo",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-governo/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Infraestrutura e dos Recursos Hídricos",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-infraestrutura-e-dos-recursos-hidricos",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Juventude, Esporte e Lazer",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-juventude-esporte-e-lazer/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Meio Ambiente e Sustentabilidade",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-do-meio-ambiente-e-sustentabilidade",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Mulher e da Diversidade Humana",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-mulher-e-da-diversidade-humana/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Planejamento, Orçamento e Gestão",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-planejamento-orcamento-e-gestao/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Procuradoria Geral do Estado",
+      "href": "https://pge.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Representação Institucional",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-representacao-institucional/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Saúde",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-saude/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Segurança e Defesa Social",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-da-seguranca-e-defesa-social/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Turismo e Desenvolvimento Econômico",
+      "href": "https://paraiba.pb.gov.br/diretas/secretaria-de-turismo-e-desenvolvimento-economico/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A União",
+      "href": "https://auniao.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "AESA",
+      "href": "http://www.aesa.pb.gov.br/aesa-website/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "ARPB",
+      "href": "https://arpb.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Agevisa",
+      "href": "https://agevisa.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Cagepa",
+      "href": "https://www.cagepa.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Cehap",
+      "href": "http://www.cehap.pb.gov.br/sitecehap/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Cinep",
+      "href": "http://www.cinep.pb.gov.br/portal/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Codata",
+      "href": "https://codata.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Companhia Docas",
+      "href": "https://portodecabedelo.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Corpo de Bombeiros",
+      "href": "http://www.bombeiros.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "DER",
+      "href": "https://der.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "DETRAN",
+      "href": "https://detran.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "EMPAER",
+      "href": "https://empaer.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "ESPEP",
+      "href": "https://espep.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "EPC",
+      "href": "https://epc.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "FAC",
+      "href": "http://www.fac.pb.gov.br/index.php",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Fapesq",
+      "href": "https://fapesq.rpp.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Fundação Casa de José Américo",
+      "href": "https://fcja.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "FUNAD",
+      "href": "https://funad.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "FUNDAC",
+      "href": "https://fundac.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "FUNES",
+      "href": "http://www.funes.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "FUNESC",
+      "href": "https://funesc.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "IMEQ",
+      "href": "https://imeq.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "IASS",
+      "href": "https://iass.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "IPHAEP",
+      "href": "https://iphaep.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "JUCEP",
+      "href": "https://jucep.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "LIFESA",
+      "href": "https://lifesa.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "LOTEP",
+      "href": "https://lotep.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ouvidoria Geral do Estado",
+      "href": "https://ouvidoria.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PAP",
+      "href": "https://pap.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PBGÁS",
+      "href": "https://pbgas.com.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PB Saúde",
+      "href": "https://pbsaude.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PBTUR",
+      "href": "https://www.pbtur.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PBPREV",
+      "href": "http://www.pbprev.pb.gov.br/pbprev",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Projeto Cooperar",
+      "href": "https://cooperar.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PROCASE",
+      "href": "https://www.procase.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PROCON",
+      "href": "https://procon.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Polícia Militar",
+      "href": "https://www.pm.pb.gov.br/portal/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Polícia Civil",
+      "href": "https://www.policiacivil.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Rádio Tabajara",
+      "href": "https://radiotabajara.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "SUDEMA",
+      "href": "https://sudema.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "SUPLAN",
+      "href": "https://suplan.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "UEPB",
+      "href": "https://uepb.edu.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ir para o conteúdo",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#content",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ir para o menu",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#main-navigation",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ir para a busca",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#portal-searchbox",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ir para o rodapé",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#portal-footer",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "ALTO CONTRASTE",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "VLIBRAS",
+      "href": "http://www.vlibras.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A-",
+      "href": "javascript:$('body').css({'zoom':parseFloat($('body').css('zoom'))-0.1})",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A+",
+      "href": "javascript:$('body').css({'zoom':parseFloat($('body').css('zoom'))+0.1})",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A",
+      "href": "javascript:$('body').css({'zoom':0})",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://auniao.pb.gov.br/",
+      "id": "portal-logo",
+      "cls": ""
+    },
+    {
+      "text": "×",
+      "href": "javascript:void(0)",
+      "id": "",
+      "cls": "gsst_a"
+    },
+    {
+      "text": "Institucional",
+      "href": "https://auniao.pb.gov.br/institucional",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Quem somos",
+      "href": "https://auniao.pb.gov.br/institucional/quem-somos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/institucional/jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/institucional/diario-oficial-do-estado",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editora A União",
+      "href": "https://auniao.pb.gov.br/institucional/editora-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Livraria A União",
+      "href": "https://auniao.pb.gov.br/institucional/livraria-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Gráfica A União",
+      "href": "https://auniao.pb.gov.br/institucional/portfolio-grafico",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Produtos",
+      "href": "https://auniao.pb.gov.br/produtos",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Arquivo Digital",
+      "href": "https://auniao.pb.gov.br/servicos",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/servicos/copy_of_jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Correio das Artes",
+      "href": "https://auniao.pb.gov.br/servicos/correio-das-artes",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/servicos/doe",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Publicidade",
+      "href": "https://auniao.pb.gov.br/servicos/editais-balancos-e-atas-na-integra",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editais e documentos",
+      "href": "https://auniao.pb.gov.br/servicos/editais-e-documentos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Notícias",
+      "href": "https://auniao.pb.gov.br/noticias",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Colunistas",
+      "href": "https://auniao.pb.gov.br/noticias/colunistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Paraíba",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_paraiba",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Cultura",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_cultura",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Esportes",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_esporte",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diversidade",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_diversidade",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Políticas",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_politicas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Entrevistas",
+      "href": "https://auniao.pb.gov.br/noticias/entrevistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Turismo",
+      "href": "https://auniao.pb.gov.br/noticias/turismo",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Economia",
+      "href": "https://auniao.pb.gov.br/noticias/economia",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Últimas",
+      "href": "https://auniao.pb.gov.br/noticias/ultimas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Primeira Página",
+      "href": "https://auniao.pb.gov.br/noticias/primeira-pagina",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Opinião",
+      "href": "https://auniao.pb.gov.br/noticias/opiniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Geral",
+      "href": "https://auniao.pb.gov.br/noticias/geral",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Almanaque",
+      "href": "https://auniao.pb.gov.br/noticias/almanaque",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Edições Recentes - A União",
+      "href": "https://auniao.pb.gov.br/edicoes-recentes-a-uniao",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Edições recentes - DOE",
+      "href": "https://auniao.pb.gov.br/doe",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Institucional",
+      "href": "https://auniao.pb.gov.br/institucional",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Quem somos",
+      "href": "https://auniao.pb.gov.br/institucional/quem-somos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/institucional/jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/institucional/diario-oficial-do-estado",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editora A União",
+      "href": "https://auniao.pb.gov.br/institucional/editora-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Livraria A União",
+      "href": "https://auniao.pb.gov.br/institucional/livraria-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Gráfica A União",
+      "href": "https://auniao.pb.gov.br/institucional/portfolio-grafico",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Produtos",
+      "href": "https://auniao.pb.gov.br/produtos",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Arquivo Digital",
+      "href": "https://auniao.pb.gov.br/servicos",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/servicos/copy_of_jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Correio das Artes",
+      "href": "https://auniao.pb.gov.br/servicos/correio-das-artes",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/servicos/doe",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Publicidade",
+      "href": "https://auniao.pb.gov.br/servicos/editais-balancos-e-atas-na-integra",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editais e documentos",
+      "href": "https://auniao.pb.gov.br/servicos/editais-e-documentos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Notícias",
+      "href": "https://auniao.pb.gov.br/noticias",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Colunistas",
+      "href": "https://auniao.pb.gov.br/noticias/colunistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Paraíba",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_paraiba",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Cultura",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_cultura",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Esportes",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_esporte",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diversidade",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_diversidade",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Políticas",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_politicas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Entrevistas",
+      "href": "https://auniao.pb.gov.br/noticias/entrevistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Turismo",
+      "href": "https://auniao.pb.gov.br/noticias/turismo",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Economia",
+      "href": "https://auniao.pb.gov.br/noticias/economia",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Últimas",
+      "href": "https://auniao.pb.gov.br/noticias/ultimas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Primeira Página",
+      "href": "https://auniao.pb.gov.br/noticias/primeira-pagina",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Opinião",
+      "href": "https://auniao.pb.gov.br/noticias/opiniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Geral",
+      "href": "https://auniao.pb.gov.br/noticias/geral",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Almanaque",
+      "href": "https://auniao.pb.gov.br/noticias/almanaque",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Edições Recentes - A União",
+      "href": "https://auniao.pb.gov.br/edicoes-recentes-a-uniao",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Edições recentes - DOE",
+      "href": "https://auniao.pb.gov.br/doe",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Twitter",
+      "href": "https://www.twitter.com/jornalauniao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/jornalauniao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/uniaogovpb",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/uniaogovpb",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Alto Contraste",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "VLibras",
+      "href": "http://www.vlibras.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A-",
+      "href": "javascript:$('body').css({'zoom':parseFloat($('body').css('zoom'))-0.1})",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A+",
+      "href": "javascript:$('body').css({'zoom':parseFloat($('body').css('zoom'))+0.1})",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "A",
+      "href": "javascript:$('body').css({'zoom':0})",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Twitter",
+      "href": "https://www.twitter.com/jornalauniao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/jornalauniao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/uniaogovpb",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/uniaogovpb",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Navegação",
+      "href": "",
+      "id": "",
+      "cls": "ico-navegacao"
+    },
+    {
+      "text": "",
+      "href": "https://auniao.pb.gov.br/",
+      "id": "portal-logo",
+      "cls": ""
+    },
+    {
+      "text": "×",
+      "href": "javascript:void(0)",
+      "id": "",
+      "cls": "gsst_a"
+    },
+    {
+      "text": "Institucional",
+      "href": "https://auniao.pb.gov.br/institucional",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Quem somos",
+      "href": "https://auniao.pb.gov.br/institucional/quem-somos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/institucional/jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/institucional/diario-oficial-do-estado",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editora A União",
+      "href": "https://auniao.pb.gov.br/institucional/editora-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Livraria A União",
+      "href": "https://auniao.pb.gov.br/institucional/livraria-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Gráfica A União",
+      "href": "https://auniao.pb.gov.br/institucional/portfolio-grafico",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Produtos",
+      "href": "https://auniao.pb.gov.br/produtos",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Arquivo Digital",
+      "href": "https://auniao.pb.gov.br/servicos",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/servicos/copy_of_jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Correio das Artes",
+      "href": "https://auniao.pb.gov.br/servicos/correio-das-artes",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/servicos/doe",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Publicidade",
+      "href": "https://auniao.pb.gov.br/servicos/editais-balancos-e-atas-na-integra",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editais e documentos",
+      "href": "https://auniao.pb.gov.br/servicos/editais-e-documentos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Notícias",
+      "href": "https://auniao.pb.gov.br/noticias",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Colunistas",
+      "href": "https://auniao.pb.gov.br/noticias/colunistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Paraíba",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_paraiba",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Cultura",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_cultura",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Esportes",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_esporte",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diversidade",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_diversidade",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Políticas",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_politicas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Entrevistas",
+      "href": "https://auniao.pb.gov.br/noticias/entrevistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Turismo",
+      "href": "https://auniao.pb.gov.br/noticias/turismo",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Economia",
+      "href": "https://auniao.pb.gov.br/noticias/economia",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Últimas",
+      "href": "https://auniao.pb.gov.br/noticias/ultimas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Primeira Página",
+      "href": "https://auniao.pb.gov.br/noticias/primeira-pagina",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Opinião",
+      "href": "https://auniao.pb.gov.br/noticias/opiniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Geral",
+      "href": "https://auniao.pb.gov.br/noticias/geral",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Almanaque",
+      "href": "https://auniao.pb.gov.br/noticias/almanaque",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Edições Recentes - A União",
+      "href": "https://auniao.pb.gov.br/edicoes-recentes-a-uniao",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Edições recentes - DOE",
+      "href": "https://auniao.pb.gov.br/doe",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "Twitter",
+      "href": "https://www.twitter.com/jornalauniao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/jornalauniao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/uniaogovpb",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "YouTube",
+      "href": "https://www.youtube.com/uniaogovpb",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Página Inicial",
+      "href": "https://auniao.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Arquivo Digital",
+      "href": "https://auniao.pb.gov.br/servicos",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "2026",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2026",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2025",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2025-1",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2024",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2024",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2023",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2023",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2022",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2022",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2021",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2021",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2020",
+      "href": "https://auniao.pb.gov.br/servicos/doe/janeiro",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2019",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2019",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2018",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2018",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2017",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2017",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2016",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2016",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2015",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2015",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2014",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2014",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2013",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2013",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2012",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2012",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2011",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2011",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2010",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2010",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2009",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2009",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2008",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2008",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2007",
+      "href": "https://auniao.pb.gov.br/servicos/doe/2007",
+      "id": "",
+      "cls": "summary url"
+    },
+    {
+      "text": "2",
+      "href": "https://auniao.pb.gov.br/servicos/doe/?b_start:int=20",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Próximo »",
+      "href": "https://auniao.pb.gov.br/servicos/doe/?b_start:int=20",
+      "id": "",
+      "cls": "proximo"
+    },
+    {
+      "text": "VOLTAR AO TOPO",
+      "href": "https://auniao.pb.gov.br/servicos/doe/#wrapper",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "DIÁRIO OFICIAL DA PARAÍBA",
+      "href": "https://auniao.pb.gov.br/@@search?Subject%3Alist=Di%C3%A1rio%20Oficial%20da%20Para%C3%ADba",
+      "id": "",
+      "cls": "link-category"
+    },
+    {
+      "text": "DOE",
+      "href": "https://auniao.pb.gov.br/@@search?Subject%3Alist=DOE",
+      "id": "",
+      "cls": "link-category"
+    },
+    {
+      "text": "Contracheque",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/d2a04e2fbd884a8b8fed01114502e227",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Cursos de qualificação",
+      "href": "http://espep.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Lei 4.714",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/2e86d78edb624864b9fca077f9762fe3",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Decreto 22.827",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/b7f8f6fc2f4642bb8c1683c7b38983dd",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Decreto 26.375",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/096d1c3d0fba46628bae0286e69ffd87",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Decreto 30.608",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/adbcc198bbfb418d9d781d33aa115510",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Decreto 24.649",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/5f7e788260694ff18f8ccb015c74fa4f",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Reserve seu anúncio",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/d7c2e99656094e90bff6665d09bd11fd",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Faça sua assinatura",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/d8da40eebafe4ded9c3ade272e0f41a1",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Locais de circulação",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/39809a22c29b4f04889540ac8084b952",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Portal de Transparência",
+      "href": "http://transparencia.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Localização Google Maps",
+      "href": "https://www.google.com.br/maps/place/Jornal+A+Uni%C3%A3o/@-7.1735481,-34.901916,17z/data=!3m1!4b1!4m2!3m1!1s0x7ace9a1ecd6a7dd:0xa52b8daa88d43940",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Comercial",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/b892e61a9fd843499c4aaf32efece94d",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Assinatura",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/9b4a496f513a428d9e197ea604dac725",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Orçamento",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/498d7c87572e40c7841b213894c96d02",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Redação",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/435d300669074841844c381861a41198",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Publicidade",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/7317730e0c024252a14fe51dd8a82f4c",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Diário Oficial",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/5f8fc43a2f4847bf96e487d18e0f5178",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "Editora",
+      "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/bd101ab7898a42d384ab46df19a172fa",
+      "id": "",
+      "cls": "internal-link"
+    },
+    {
+      "text": "",
+      "href": "https://codata.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://paraiba.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "INSTITUCIONAL",
+      "href": "https://auniao.pb.gov.br/institucional",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Quem somos",
+      "href": "https://auniao.pb.gov.br/institucional/quem-somos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/institucional/jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/institucional/diario-oficial-do-estado",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editora A União",
+      "href": "https://auniao.pb.gov.br/institucional/editora-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Livraria A União",
+      "href": "https://auniao.pb.gov.br/institucional/livraria-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Gráfica A União",
+      "href": "https://auniao.pb.gov.br/institucional/portfolio-grafico",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "PRODUTOS",
+      "href": "https://auniao.pb.gov.br/produtos",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "ARQUIVO DIGITAL",
+      "href": "https://auniao.pb.gov.br/servicos",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Jornal A União",
+      "href": "https://auniao.pb.gov.br/servicos/copy_of_jornal-a-uniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Correio das Artes",
+      "href": "https://auniao.pb.gov.br/servicos/correio-das-artes",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diário Oficial do Estado",
+      "href": "https://auniao.pb.gov.br/servicos/doe",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Publicidade",
+      "href": "https://auniao.pb.gov.br/servicos/editais-balancos-e-atas-na-integra",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Editais e documentos",
+      "href": "https://auniao.pb.gov.br/servicos/editais-e-documentos",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "NOTÍCIAS",
+      "href": "https://auniao.pb.gov.br/noticias",
+      "id": "",
+      "cls": "plain dropdown-toggle"
+    },
+    {
+      "text": "Colunistas",
+      "href": "https://auniao.pb.gov.br/noticias/colunistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Paraíba",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_paraiba",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Cultura",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_cultura",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Esportes",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_esporte",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Diversidade",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_diversidade",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Políticas",
+      "href": "https://auniao.pb.gov.br/noticias/caderno_politicas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Entrevistas",
+      "href": "https://auniao.pb.gov.br/noticias/entrevistas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Turismo",
+      "href": "https://auniao.pb.gov.br/noticias/turismo",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Economia",
+      "href": "https://auniao.pb.gov.br/noticias/economia",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Últimas",
+      "href": "https://auniao.pb.gov.br/noticias/ultimas",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Primeira Página",
+      "href": "https://auniao.pb.gov.br/noticias/primeira-pagina",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Opinião",
+      "href": "https://auniao.pb.gov.br/noticias/opiniao",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Geral",
+      "href": "https://auniao.pb.gov.br/noticias/geral",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "Almanaque",
+      "href": "https://auniao.pb.gov.br/noticias/almanaque",
+      "id": "",
+      "cls": "state-published teste-gabriel-2"
+    },
+    {
+      "text": "EDIÇÕES RECENTES - A UNIÃO",
+      "href": "https://auniao.pb.gov.br/edicoes-recentes-a-uniao",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "EDIÇÕES RECENTES - DOE",
+      "href": "https://auniao.pb.gov.br/doe",
+      "id": "",
+      "cls": "plain "
+    },
+    {
+      "text": "",
+      "href": "http://sic.pb.gov.br/",
+      "id": "",
+      "cls": ""
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://auniao.pb.gov.br/servicos/doe/",
+      "method": "get",
+      "id": "",
+      "cls": "gsc-search-box gsc-search-box-tools",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "search",
+          "id": "gsc-i-id1",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "pesquisar",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "action": "https://auniao.pb.gov.br/servicos/doe/",
+      "method": "get",
+      "id": "",
+      "cls": "gsc-search-box gsc-search-box-tools",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "search",
+          "id": "gsc-i-id2",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "pesquisar",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://www.google-analytics.com/analytics.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-4F6BZ0HW12&cx=c&gtm=4e68h1",
+    "https://cse.google.com/adsense/search/async-ads.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-64192421-9&cx=c&gtm=4e68h1",
+    "https://www.googletagmanager.com/gtag/js?id=UA-64192421-2&cx=c&gtm=4e68h1",
+    "https://www.youtube.com/s/player/3891b194/www-widgetapi.vflset/www-widgetapi.js",
+    "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-855c29fca5c7166fa9531e1e1734d7d2.js",
+    "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.recurrencejquery.tmpl-beta1-cachekey-a6a38f979021c44d56fbafa6c33b8036.js",
+    "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.coverjsmain-cachekey-ed36a192b61b7d1227c8a902d9c9d73a.js",
+    "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourcedropdown-menu-cachekey-04f56dbe7daaa30ba2b7e4ee4f8c94f6.js",
+    "https://auniao.pb.gov.br/++resource++brasil.gov.agenda/brasilgovagenda-b80d378.js",
+    "https://auniao.pb.gov.br/++resource++brasil.gov.portal/brasilgovportal-6d27299.js",
+    "https://www.youtube.com/iframe_api",
+    "https://www.google.com/cse/static/element/93e57cb47c499c53/cse_element__pt_br.js?usqp=CAM%3D",
+    "https://auniao.pb.gov.br/++theme++paraibaCinza2021/++theme++paraibaCinza2021/brasilgovtemas-a4eb3ef.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-R2NWMZKKEQ",
+    "https://cse.google.com/cse.js?cx=f748d1f61789e4163"
+  ]
+}

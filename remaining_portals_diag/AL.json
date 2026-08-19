@@ -1,0 +1,417 @@
+{
+  "state": "AL",
+  "start_url": "https://diario.imprensaoficial.al.gov.br/",
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/",
+      "content_type": "text/html",
+      "body_preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel=\"icon\" href=\"/favicon/DOE-AL/favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/DOE-AL/apple-touch-icon.png\">\n    <link rel=\"mask-icon\" href=\"/favicon/DOE-AL/safari-pinned-tab.svg\" color=\"#5bbad5\">\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\">\n    <meta name=\"theme-color\" content=\"#ffffff\">\n    <link rel=\"stylesheet\" href=\"/fonts/fonts.css\">\n    <script type=\"module\" crossorigin src=\"/assets/index-344f66e8.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index-88848d2d.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n    \n</body>\n</html>\n",
+      "body_length": 962
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/fonts.css",
+      "content_type": "text/css",
+      "body_preview": "@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Hairline.woff2') format('woff2'),\n    url('HKGroteskPro-Hairline.woff') format('woff');\n  font-weight: 100;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-HairlineItalic.woff2') format('woff2'),\n    url('HKGroteskPro-HairlineItalic.woff') format('woff');\n  font-weight: 100;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Thin.woff2') format('woff2'),\n    url('HKGroteskPro-Thin.woff') format('woff');\n  font-weight: 200;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-ThinItalic.woff2') format('woff2'),\n    url('HKGroteskPro-ThinItalic.woff') format('woff');\n  font-weight: 200;\n  font-style: italic;\n}\n\n/* @font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-ExtraLight.woff2') format('woff2'),\n    url('HKGroteskPro-ExtraLight.woff') format('woff');\n  font-weight: 300;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-ExtraLightItalic.woff2') format('woff2'),\n    url('HKGroteskPro-ExtraLightItalic.woff') format('woff');\n  font-weight: 300;\n  font-style: italic;\n} */\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Light.woff2') format('woff2'),\n    url('HKGroteskPro-Light.woff') format('woff');\n  font-weight: 300;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-LightItalic.woff2') format('woff2'),\n    url('HKGroteskPro-LightItalic.woff') format('woff');\n  font-weight: 300;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Regular.woff2') format('woff2'),\n    url('HKGroteskPro-Regular.woff') format('woff');\n  font-weight: 400;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Italic.woff2') format('woff2'),\n    url('HKGroteskPro-Italic.woff') format('woff');\n  font-weight: 400;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Medium.woff2') format('woff2'),\n    url('HKGroteskPro-Medium.woff') format('woff');\n  font-weight: 500;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-MediumItalic.woff2') format('woff2'),\n    url('HKGroteskPro-MediumItalic.woff') format('woff');\n  font-weight: 500;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-SemiBold.woff2') format('woff2'),\n    url('HKGroteskPro-SemiBold.woff') format('woff');\n  font-weight: 600;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-SemiBoldItalic.woff2') format('woff2'),\n    url('HKGroteskPro-SemiBoldItalic.woff') format('woff');\n  font-weight: 600;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Bold.woff2') format('woff2'),\n    url('HKGroteskPro-Bold.woff') format('woff');\n  font-weight: 700;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-BoldItalic.woff2') format('woff2'),\n    url('HKGroteskPro-BoldItalic.woff') format('woff');\n  font-weight: 700;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Bold.woff2') format('woff2'),\n    url('HKGroteskPro-Bold.woff') format('woff');\n  font-weight: 700;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-BoldItalic.woff2') format('woff2'),\n    url('HKGroteskPro-BoldItalic.woff') format('woff');\n  font-weight: 700;\n  font-style: italic;\n}\n",
+      "body_length": 3671
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/assets/index-88848d2d.css",
+      "content_type": "text/css",
+      "body_preview": "@charset \"UTF-8\";@import\"https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=latin-ext\";body{font-family:Roboto,sans-serif!important}.input-error,.select-error>div{border-color:#f86c6b!important;padding-right:calc(1.5em + .75rem)!important;background-image:url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f86c6b' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23f86c6b' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E\")!important;background-repeat:no-repeat!important;background-position:center right 28px!important;background-size:calc(.7em + .375rem) calc(.7em + .375rem)!important}.input-valid,.select-valid>div{border-color:#4dbd74!important;padding-right:calc(1.5em + .75rem);background-image:url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%234dbd74' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e\");background-repeat:no-repeat;background-position:center right calc(.375em + .1875rem);background-size:calc(.75em + .375rem) calc(.75em + .375rem)}#logoSite{width:175px;height:175px;border:4px solid #fff}#logoSiteMobile{text-align:center;width:85px;height:80px;height:auto;background-color:#2c3352;background-color:#fffc}#logoSiteMobile img{height:75px}#tituloSite{position:absolute;width:calc(100% - 175px);margin:45px 0 0;top:0;right:87.5px;text-align:center}#tituloSite h1{font-size:32pt;font-weight:bolder;margin-bottom:0;line-height:.75rem}#tituloSite hr{width:520px;border:none;border-top:2px solid #2C3352;margin:1rem auto .2rem}#tituloSite h4{font-size:1.5rem;margin-bottom:0}#imagemTopo{position:absolute;width:calc(100% - 265px);margin:0;top:28px;right:120px;text-align:center}#menuSite #containerMenu{position:relative}#menuSite #containerMenu #containerLogin{position:absolute;top:25px;right:0;z-index:2}#menuSite #containerMenu #containerLogin #formLogin{height:25px;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;width:350px;margin-bottom:.1rem}#menuSite #containerMenu #containerLogin #formLogin .campoLogin{padding-left:2px;padding-right:2px}#menuSite #containerMenu #containerLogin #formLogin .form-group{margin-bottom:.5rem}#menuSite #containerMenu #containerLogin #formLogin .form-group .btn{margin-top:-1px;padding:.3rem .35rem;line-height:.5}#menuSite #containerMenu #containerLogin #formLogin .form-control{padding:.175rem .75rem;font-size:13px}#menuSite #fundoMenu{background-color:#fffffff2;width:auto;height:55px;margin:120px 0 0}#menuSite #fundoMenu .nav{height:55px;text-align:right;float:left}#menuSite #fundoMenu .nav .nav-item{margin-right:10px;min-width:120px;text-align:center}#menuSite #fundoMenu .nav .nav-item:last-child{margin-right:0}#menuSite #fundoMenu .nav .nav-item .nav-link{margin-top:5px;height:50px;line-height:35px;font-weight:500;padding:.5rem 2rem;vertical-align:middle;color:#000;background-color:#2c335214;border-bottom:0 #2C3352 solid;transition:all .15s ease-out;-moz-transition:all .15s ease-out;-webkit-transition:all .15s ease-out}#menuSite #fundoMenu .nav .nav-item .nav-link:hover{background-color:red;background-color:#2c33521a;border-bottom:4px #2C3352 solid;transition:all .15s ease-in;-moz-transition:all .15s ease-in;-webkit-transition:all .15s ease-in}#menuSite #fundoMenu .nav .nav-item .nav-link.active{color:#fff;background-color:#2c3352;cursor:default}#menuSite #fundoMenuMobile{width:100%;background-color:#fffc}#menuSite #fundoMenuMobile .navbar .navbar-toggler{background-color:#2c3352}#menuSite #fundoMenuMobile .navbar .navbar-brand{color:#2c3352;font-size:.9rem}#menuSite #fundoMenuMobile .navbar #nav_collapse .nav .nav-item{width:100%}#menuSite #fundoMenuMobile .navbar #nav_collapse .nav .nav-item .nav-link{width:100%;color:#000}#menuSite #fundoMenuMobile .navbar #nav_collapse .nav .nav-item .nav-link.active{col",
+      "body_length": 296839
+    },
+    {
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=latin-ext",
+      "content_type": "text/css; charset=utf-8",
+      "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkC3kaWzU.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkAnkaWzU.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkCnkaWzU.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBXkaWzU.woff2) format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* math */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkenkaWzU.woff2) format('woff2');\n  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;\n}\n/* symbols */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkaHkaWzU.woff2) format('woff2');\n  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996,",
+      "body_length": 43200
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/assets/index-344f66e8.js",
+      "content_type": "application/javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/assets/data-f900a206.js",
+      "content_type": "application/javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/assets/gazetaTopo2-0c18e4dd.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Italic.woff2",
+      "content_type": "font/woff2"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Medium.woff2",
+      "content_type": "font/woff2"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/gazetaTopo1.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/published?page=1",
+      "content_type": "application/json",
+      "body_preview": "{\"status\":\"success\",\"editions\":[{\"id\":51777,\"number\":2867,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-19T03:00:00.000000Z\",\"downloads\":749,\"views\":2796},{\"id\":51776,\"number\":2866,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-18T03:00:00.000000Z\",\"downloads\":1262,\"views\":4843},{\"id\":51775,\"number\":2865,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-17T03:00:00.000000Z\",\"downloads\":1539,\"views\":6103},{\"id\":51774,\"number\":2864,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-14T03:00:00.000000Z\",\"downloads\":2049,\"views\":8349},{\"id\":51773,\"number\":2863,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-13T03:00:00.000000Z\",\"downloads\":1655,\"views\":6599}]}",
+      "body_length": 967
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Regular.woff2",
+      "content_type": "font/woff2"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/logo_diario.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/logo.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Bold.woff2",
+      "content_type": "font/woff2"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-MediumItalic.woff2",
+      "content_type": "font/woff2"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-BoldItalic.woff2",
+      "content_type": "font/woff2"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/tituloPagFdo.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/assets/rodapefdopattern-98441ec9.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/rodapeLogo.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Light.woff2",
+      "content_type": "font/woff2"
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://diario.imprensaoficial.al.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 200,
+      "content_type": "text/html",
+      "length": 962,
+      "preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel=\"icon\" href=\"/favicon/DOE-AL/favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/DOE-AL/apple-touch-icon.png\">\n    <link rel=\"mask-icon\" href=\"/favicon/DOE-AL/safari-pinned-tab.svg\" color=\"#5bbad5\">\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\">\n    <meta name=\"theme-color\" content=\"#ffffff\">\n    <link rel=\"stylesheet\" href=\"/fonts/fonts.css\">\n    <script type=\"module\" crossorigin src=\"/assets/index-344f66e8.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index-88848d2d.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n    \n</body>\n</html>\n"
+    },
+    {
+      "url": "https://diario.imprensaoficial.al.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 200,
+      "content_type": "text/html",
+      "length": 962,
+      "preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel=\"icon\" href=\"/favicon/DOE-AL/favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/DOE-AL/apple-touch-icon.png\">\n    <link rel=\"mask-icon\" href=\"/favicon/DOE-AL/safari-pinned-tab.svg\" color=\"#5bbad5\">\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\">\n    <meta name=\"theme-color\" content=\"#ffffff\">\n    <link rel=\"stylesheet\" href=\"/fonts/fonts.css\">\n    <script type=\"module\" crossorigin src=\"/assets/index-344f66e8.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index-88848d2d.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n    \n</body>\n</html>\n"
+    },
+    {
+      "url": "https://diario.imprensaoficial.al.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 200,
+      "content_type": "text/html",
+      "length": 962,
+      "preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel=\"icon\" href=\"/favicon/DOE-AL/favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/DOE-AL/apple-touch-icon.png\">\n    <link rel=\"mask-icon\" href=\"/favicon/DOE-AL/safari-pinned-tab.svg\" color=\"#5bbad5\">\n    <meta name=\"msapplication-TileColor\" content=\"#da532c\">\n    <meta name=\"theme-color\" content=\"#ffffff\">\n    <link rel=\"stylesheet\" href=\"/fonts/fonts.css\">\n    <script type=\"module\" crossorigin src=\"/assets/index-344f66e8.js\"></script>\n    <link rel=\"stylesheet\" href=\"/assets/index-88848d2d.css\">\n  </head>\n  <body>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n    \n</body>\n</html>\n"
+    }
+  ],
+  "navigation_status": 200,
+  "final_url": "https://diario.imprensaoficial.al.gov.br/",
+  "title": "Diário Oficial Eletrônico",
+  "html_length": 31277,
+  "links": [
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/",
+      "id": "logoSite",
+      "cls": "d-none d-md-block router-link-exact-active active"
+    },
+    {
+      "text": "Home",
+      "href": "https://diario.imprensaoficial.al.gov.br/",
+      "id": "",
+      "cls": "nav-link router-link-exact-active active"
+    },
+    {
+      "text": "Busca",
+      "href": "https://diario.imprensaoficial.al.gov.br/busca",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "Edições",
+      "href": "https://diario.imprensaoficial.al.gov.br/edicoes",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "Publicar no Diário Oficial",
+      "href": "https://diario.imprensaoficial.al.gov.br/publicar-no-diario",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "Sobre",
+      "href": "https://diario.imprensaoficial.al.gov.br/sobre",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/",
+      "id": "logoSiteMobile",
+      "cls": "d-block d-sm-block d-md-none py-1 my-1 router-link-exact-active active"
+    },
+    {
+      "text": "Diário Oficial Eletrônico",
+      "href": "https://diario.imprensaoficial.al.gov.br/#",
+      "id": "",
+      "cls": "navbar-brand"
+    },
+    {
+      "text": "Home",
+      "href": "https://diario.imprensaoficial.al.gov.br/",
+      "id": "",
+      "cls": "nav-link router-link-exact-active active"
+    },
+    {
+      "text": "Busca",
+      "href": "https://diario.imprensaoficial.al.gov.br/busca",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "Edições",
+      "href": "https://diario.imprensaoficial.al.gov.br/edicoes",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "Publicar no Diário Oficial",
+      "href": "https://diario.imprensaoficial.al.gov.br/publicar-no-diario",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "Sobre",
+      "href": "https://diario.imprensaoficial.al.gov.br/sobre",
+      "id": "",
+      "cls": "nav-link"
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51777",
+      "id": "ultimaEdicao",
+      "cls": ""
+    },
+    {
+      "text": "ver edição",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51777",
+      "id": "",
+      "cls": "btn botaoDestaque d-table mb-4 mb-sm-0 mb-md-0 mb-lg-0 mb-xl-0 btn-secondary"
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51777",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51777",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51776",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51776",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51775",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51775",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51774",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51774",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51773",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51773",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Ver edições anteriores",
+      "href": "https://diario.imprensaoficial.al.gov.br/edicoes",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diario.imprensaoficial.al.gov.br/",
+      "id": "",
+      "cls": "text-sm-center text-center text-md-left text-lg-right text-xl-right d-block"
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://diario.imprensaoficial.al.gov.br/",
+      "method": "get",
+      "id": "formBusca",
+      "cls": "mb-4 mb-sm-0 mb-md-0 mb-lg-0 mb-xl-0",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "inputPalavraChave",
+          "value": "",
+          "text": "",
+          "placeholder": "Buscar por: (Qualquer palavra...)"
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "",
+          "id": "inputPeriodoInicial",
+          "value": "",
+          "text": "",
+          "placeholder": "Período inicial ..."
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "",
+          "id": "inputPeriodoFinal",
+          "value": "",
+          "text": "",
+          "placeholder": "Período final ..."
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "inputNumeroEdicao",
+          "value": "",
+          "text": "",
+          "placeholder": "Número da Edição ..."
+        },
+        {
+          "tag": "INPUT",
+          "type": "search",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "×",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "search",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "×",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "reset",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "Limpar",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "Buscar",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://diario.imprensaoficial.al.gov.br/assets/index-344f66e8.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-82KCQJ98R7&l=dataLayer"
+  ]
+}

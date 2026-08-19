@@ -1,0 +1,40 @@
+{
+  "state": "GO",
+  "start_url": "https://diariooficial.abc.go.gov.br/",
+  "errors": [
+    "goto: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://diariooficial.abc.go.gov.br/\", waiting until \"domcontentloaded\"\n"
+  ],
+  "network": [],
+  "common_endpoint_tests": [
+    {
+      "url": "apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "error": "Error: APIRequestContext.get: Invalid URL"
+    },
+    {
+      "url": "apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "error": "Error: APIRequestContext.get: Invalid URL"
+    },
+    {
+      "url": "apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "error": "Error: APIRequestContext.get: Invalid URL"
+    },
+    {
+      "url": "https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+    },
+    {
+      "url": "https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+    },
+    {
+      "url": "https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+    }
+  ],
+  "final_url": "about:blank",
+  "title": "",
+  "html_length": 39,
+  "links": [],
+  "forms": [],
+  "scripts": []
+}

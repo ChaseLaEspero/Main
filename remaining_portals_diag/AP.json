@@ -1,0 +1,407 @@
+{
+  "state": "AP",
+  "start_url": "https://diofe.portal.ap.gov.br/",
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700",
+      "content_type": "text/css; charset=utf-8",
+      "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8SL2V6As.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8Qb2V6As.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8Sb2V6As.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8Rr2V6As.woff2) format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8Sr2V6As.woff2) format('woff2');\n  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;\n}\n/* latin-ext */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8S72V6As.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8Rb2V.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;\n}\n/* cyrillic-ext */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDujMR6WR.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuHMR6WR.woff2) format('woff2');\n  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;\n}\n/* greek-ext */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDunMR6WR.woff2) format('woff2');\n  unicode-range: U+1F00-1FFF;\n}\n/* greek */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDubMR6WR.woff2) format('woff2');\n  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;\n}\n/* vietnamese */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NFdQDnbTkabZAIOl9il_O6KJj73e",
+      "body_length": 7625
+    },
+    {
+      "status": 204,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787148000883&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1261202379.1787148001&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787148001&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1794",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "status": 301,
+      "url": "https://www.google.com/jsapi",
+      "content_type": "text/html; charset=UTF-8",
+      "body_error": "Error: Response.text: Response body is unavailable for redirect responses"
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/js/consulta_autenticidade.js",
+      "content_type": "text/javascript",
+      "body_preview": "$(document).ready(function() {\n    $('#btn-autenticidade').click(function() {\n        var hash = $('#hash').val();\n        $('a#download-box img').fadeOut('fast');\n        if (hash != '') {\n            $.ajax({\n                'url': BASE_URL + '/portal/edicoes/consulta_autenticidade/' + hash,\n                'success': function(data) {\n                    if (data.data.error != true) {\n                        carregarImagemAuternticidade(data.data.Edicao.id);\n                    }\n                    $('#infos-edicao').html(data.data.msg);\n                }\n            });\n        } else {\n          $('#infos-edicao').html('');\n        }\n    });\n\n      $('#btn-autenticidade-materia').click(function() {\n        let hash = $('#hashMateria').val();\n        if (hash != '') {\n            $.post({\n                url: BASE_URL + '/portal/edicoes/consulta_aut_materia/',\n                data: {protocolo: hash},\n                success: function(data) {\n                    $('#infos-edicao-materia').html(data.data.msg + '. Clique <a href=\"'+ data.data.url+'\" target=\"_blank\">aqui</a> para visualizar');\n                },\n                error: function(e) {\n                    alert(e.responseJSON.message);\n                }\n            });\n        } else {\n          $('#infos-edicao-materia').html('');\n        }\n    });\n});\n\nfunction carregarImagemAuternticidade(edicao_id) {\n    if (edicao_id > 0) {\n        var url = BASE_URL + ((SUBTEMA) ? '/' + SUBTEMA : '') + '/apifront/portal/edicoes/imagem_diario/' + edicao_id + '/1/imagem';\n        $('a#download-box img').show();\n        var imagem = $('<div class=\"processing\"></div>');\n        $(\"#imagem-diario\").parent().append(imagem);\n        var im = new Image();\n        im.onload = function() {\n            $(\"#imagem-diario\").fadeOut('fast');\n            $(\"#imagem-diario\").attr('src', url).fadeIn('fast');\n            $(\"#imagem-diario\").parent().find(\".processing\").fadeOut('slow', function() {\n                $(this).remove();\n            });\n        }\n        im.src = url;\n        $('a#download-box').attr('href', BASE_URL + ((SUBTEMA) ? '/' + SUBTEMA : '') + '/portal/edicoes/download/' + edicao_id);\n    }\n}\n",
+      "body_length": 2185
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/icon_area_publicador.svg",
+      "content_type": "image/svg+xml",
+      "body_preview": "<svg width=\"269\" height=\"243\" viewBox=\"0 0 269 243\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0)\">\n<path d=\"M251.581 118.167H240.896V85.7233C240.919 84.4285 240.654 83.1447 240.12 81.9648C239.586 80.7849 238.796 79.7385 237.807 78.9013C222.991 66.2683 204.192 59.2618 184.717 59.1143H182.741C183.025 56.9548 183.17 54.7792 183.173 52.601C183.173 38.6464 177.627 25.2633 167.755 15.3958C157.883 5.52842 144.493 -0.0150452 130.531 -0.0150452C116.57 -0.0150452 103.18 5.52842 93.308 15.3958C83.4357 25.2633 77.8895 38.6464 77.8895 52.601C77.9085 54.7786 78.0529 56.9533 78.3219 59.1143C59.3836 59.6521 41.193 66.6199 26.7456 78.8704C25.7169 79.6879 24.8836 80.7245 24.3066 81.9047C23.7296 83.0849 23.4233 84.3789 23.4101 85.6925V118.197H17.6039C12.9422 118.238 8.4834 120.109 5.18987 123.407C1.89633 126.704 0.032255 131.164 0 135.824L0 153.357C0.0080185 155.654 0.47064 157.926 1.36121 160.044C2.25179 162.161 3.55271 164.081 5.18903 165.694C6.82536 167.306 8.76474 168.579 10.8955 169.44C13.0262 170.3 15.3061 170.73 17.6039 170.705H23.1013V234.234C23.1205 235.869 23.5924 237.467 24.4646 238.851C25.3368 240.235 26.5752 241.351 28.0427 242.074C29.2819 242.685 30.6452 243.002 32.0267 243C33.9189 243.014 35.7633 242.407 37.277 241.272C49.9707 233.055 64.8057 228.761 79.9279 228.924C95.8022 229.078 111.367 233.331 125.111 241.272C127.269 242.313 129.633 242.854 132.029 242.854C134.425 242.854 136.79 242.313 138.947 241.272C152.72 233.426 168.25 229.18 184.1 228.924C199.22 228.842 214.042 233.13 226.782 241.272C228.07 242.237 229.603 242.824 231.207 242.966C232.811 243.108 234.423 242.799 235.861 242.074C237.323 241.352 238.552 240.234 239.409 238.848C240.266 237.462 240.717 235.863 240.71 234.234V170.829H251.581C253.869 170.849 256.139 170.415 258.257 169.551C260.376 168.687 262.301 167.411 263.922 165.797C265.543 164.183 266.826 162.263 267.698 160.148C268.57 158.034 269.012 155.767 269 153.481V135.824C269 131.183 267.173 126.729 263.913 123.425C260.654 120.12 256.224 118.231 251.581 118.167ZM80.2985 211.514C66.8142 211.464 53.4635 214.185 41.0758 219.509V170.798H52.7191C54.996 170.815 57.2535 170.377 59.3596 169.512C61.4657 168.647 63.3782 167.371 64.9855 165.759C66.5927 164.147 67.8625 162.231 68.7206 160.122C69.5787 158.014 70.0079 155.756 69.9832 153.481V135.824C70.02 133.524 69.6021 131.24 68.7536 129.102C67.9052 126.964 66.6427 125.015 65.0387 123.366C63.4348 121.716 61.5208 120.4 59.4067 119.492C57.2926 118.584 55.0199 118.102 52.7191 118.074H41.0758V90.0141C52.1385 81.4026 65.7516 76.7114 79.7735 76.6787C93.1931 76.9774 106.309 80.7305 117.853 87.5755C118.703 88.6332 119.655 89.6051 120.695 90.4771V219.694C107.882 214.393 94.1654 211.615 80.2985 211.514ZM223.57 219.509C211.207 214.279 197.926 211.561 184.501 211.514C170.578 211.521 156.795 214.291 143.951 219.663V89.2733C156.146 81.3862 170.288 77.0271 184.81 76.6787C198.822 76.8254 212.409 81.504 223.539 90.0141V118.167H216.466C211.821 118.231 207.388 120.119 204.123 123.423C200.859 126.726 199.024 131.18 199.017 135.824V153.357C199.013 155.643 199.462 157.907 200.339 160.018C201.216 162.129 202.503 164.045 204.126 165.655C205.749 167.266 207.675 168.539 209.793 169.4C211.911 170.262 214.179 170.695 216.466 170.675H223.384V219.509H223.57Z\" fill=\"white\"/>\n</g>\n<defs>\n<clipPath id=\"clip0\">\n<rect width=\"269\" height=\"243\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n",
+      "body_length": 3389
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/download.svg",
+      "content_type": "image/svg+xml",
+      "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32.9 35.09\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>download</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g>\n        <path class=\"cls-1\" d=\"M25.12,16a1.1,1.1,0,0,0-1-.64H19.74V1.1A1.1,1.1,0,0,0,18.64,0H14.26a1.1,1.1,0,0,0-1.1,1.1V15.35H8.77a1.1,1.1,0,0,0-1,.64A1.09,1.09,0,0,0,8,17.17l7.67,8.77a1.09,1.09,0,0,0,1.65,0L25,17.17A1.1,1.1,0,0,0,25.12,16Z\"/>\n        <path class=\"cls-1\" d=\"M28.51,24.12V30.7H4.39V24.12H0V32.9a2.19,2.19,0,0,0,2.19,2.19H30.7a2.19,2.19,0,0,0,2.2-2.19V24.12Z\"/>\n      </g>\n    </g>\n  </g>\n</svg>\n",
+      "body_length": 683
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/pdf.svg",
+      "content_type": "image/svg+xml",
+      "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 33.62 37.97\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>pdf</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g>\n        <path class=\"cls-1\" d=\"M8.88,19.45c0-1-.71-1.63-2-1.63a4.25,4.25,0,0,0-1,.1V21.2a3.81,3.81,0,0,0,.84.07C8.06,21.27,8.88,20.59,8.88,19.45Z\"/>\n        <path class=\"cls-1\" d=\"M16.64,17.85a5.17,5.17,0,0,0-1.14.1v7.28a4.53,4.53,0,0,0,.87.05c2.28,0,3.76-1.24,3.76-3.9A3.18,3.18,0,0,0,16.64,17.85Z\"/>\n        <path class=\"cls-1\" d=\"M31.5,13.58h-.92V9.1a.75.75,0,0,0-.18-.48L23.08.25h0a.44.44,0,0,0-.15-.12s0,0,0,0L22.73,0h0l-.17,0h-18A1.49,1.49,0,0,0,3,1.49V13.58H2.13A2.13,2.13,0,0,0,0,15.71V26.77A2.13,2.13,0,0,0,2.13,28.9H3v7.58A1.49,1.49,0,0,0,4.53,38H29.09a1.49,1.49,0,0,0,1.49-1.49V28.9h.92a2.12,2.12,0,0,0,2.12-2.13V15.71A2.12,2.12,0,0,0,31.5,13.58ZM4.53,1.49H21.77V9.11a.75.75,0,0,0,.75.74h6.57v3.73H4.53ZM22.81,21.3A5.63,5.63,0,0,1,21,25.8a7.93,7.93,0,0,1-5.13,1.44A20.22,20.22,0,0,1,13,27.07V16.15a23.45,23.45,0,0,1,3.39-.23,7.18,7.18,0,0,1,4.56,1.19A4.94,4.94,0,0,1,22.81,21.3ZM3.39,27.12v-11a20.93,20.93,0,0,1,3.4-.23,5.31,5.31,0,0,1,3.4.9,3.23,3.23,0,0,1,1.18,2.57,3.56,3.56,0,0,1-1,2.64A5.15,5.15,0,0,1,6.74,23.2a6.87,6.87,0,0,1-.86-.05v4Zm25.7,9H4.53V28.9H29.09v7.17Zm2.16-18H27v2.54h4v2H27v4.47H24.46V16h6.79Z\"/>\n      </g>\n    </g>\n  </g>\n</svg>\n",
+      "body_length": 1431
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/img/pdf-null.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/html.svg",
+      "content_type": "image/svg+xml",
+      "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30.08 35.09\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>html</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g id=\"Html\">\n        <path class=\"cls-1\" d=\"M3.87,1.53a.65.65,0,0,1,.91-.13.8.8,0,0,1,.13.13l.1.16V0H3.76V1.69Z\"/>\n        <path class=\"cls-1\" d=\"M3.13,35.09H27a.62.62,0,0,0,.62-.62V23.19H26.32V32a1.88,1.88,0,0,1-1.88,1.88H2.51v.63A.62.62,0,0,0,3.13,35.09Z\"/>\n        <path class=\"cls-1\" d=\"M.63,32.59H24.44a.63.63,0,0,0,.63-.63V23.19H5.64a1.88,1.88,0,0,1-1.88-1.88V8.77A1.88,1.88,0,0,1,5.64,6.89H25.07V.63A.63.63,0,0,0,24.44,0H6.27V3.76a.63.63,0,0,1-.63.63.64.64,0,0,1-.52-.28L4.39,3l-.74,1.1a.63.63,0,0,1-.86.17.62.62,0,0,1-.28-.52V0H.63A.63.63,0,0,0,0,.63V32A.63.63,0,0,0,.63,32.59Z\"/>\n        <path class=\"cls-1\" d=\"M30.08,21.31V8.77a.63.63,0,0,0-.63-.62H5.64A.63.63,0,0,0,5,8.77V21.31a.63.63,0,0,0,.63.62H29.45A.63.63,0,0,0,30.08,21.31ZM11.28,18.8H10V15.67H7.52V18.8H6.27V11.28H7.52v3.13H10V11.28h1.25Zm6.27-6.27H15.67V18.8H14.41V12.53H12.53V11.28h5Zm6.26,6.27H22.56V13.42l-.81.81a.64.64,0,0,1-.89,0l-.81-.81V18.8H18.8V11.91a.63.63,0,0,1,.63-.63.67.67,0,0,1,.44.18l1.44,1.44,1.43-1.44a.64.64,0,0,1,.89,0,.63.63,0,0,1,.18.45Zm5,0H25.69a.63.63,0,0,1-.62-.63V11.28h1.25v6.27h2.51Z\"/>\n        <path class=\"cls-1\" d=\"M27,2.51h-.63V6.89h1.25V3.13A.62.62,0,0,0,27,2.51Z\"/>\n      </g>\n    </g>\n  </g>\n</svg>\n",
+      "body_length": 1470
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/acervo.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/imagem_diario/10072/1/imagem/1",
+      "content_type": "image/jpeg"
+    },
+    {
+      "status": 204,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787148000883&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1261202379.1787148001&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=2&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787148001&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6802",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "length": 259495,
+      "preview": "{\"erro\":false,\"msg\":\"\",\"itens\":[{\"id\":10072,\"data\":\"18\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8721,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10070,\"data\":\"17\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8720,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10069,\"data\":\"14\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8719,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10067,\"data\":\"13\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8718,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10065,\"data\":\"12\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8717,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10064,\"data\":\"11\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8716,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10062,\"data\":\"10\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8715,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10060,\"data\":\"07\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8714,\"tipo_"
+    },
+    {
+      "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "length": 220,
+      "preview": "{\"erro\":false,\"msg\":\"\",\"data\":\"2010-01-05\",\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":4853,\"data\":\"05\\/01\\/2010\",\"suplemento\":0,\"numero\":4653,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":0,\"paginas\":6}]}"
+    },
+    {
+      "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "length": 220,
+      "preview": "{\"erro\":false,\"msg\":\"\",\"data\":\"2021-12-31\",\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":785,\"data\":\"31\\/12\\/2021\",\"suplemento\":0,\"numero\":7576,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1,\"paginas\":30}]}"
+    }
+  ],
+  "navigation_status": 200,
+  "final_url": "https://diofe.portal.ap.gov.br/",
+  "title": "Diário Oficial / Home",
+  "html_length": 424628,
+  "links": [
+    {
+      "text": "",
+      "href": "https://diofe.portal.ap.gov.br/",
+      "id": "",
+      "cls": "logo-imprensa mb-3"
+    },
+    {
+      "text": "",
+      "href": "https://t.me/amapabot",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "RECEBA O DIÁRIO OFICIAL PELO TELEGRAM",
+      "href": "https://t.me/amapabot",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Esqueceu a senha?",
+      "href": "https://diofe.portal.ap.gov.br/usuarios/recupera_senha",
+      "id": "",
+      "cls": "text-blue-amapa"
+    },
+    {
+      "text": "Início",
+      "href": "https://diofe.portal.ap.gov.br/",
+      "id": "",
+      "cls": "nav-link active"
+    },
+    {
+      "text": "Cadastre-se",
+      "href": "https://diofe.portal.ap.gov.br/cadastro",
+      "id": "",
+      "cls": "nav-link "
+    },
+    {
+      "text": "Estrutura de Governo",
+      "href": "https://www.portal.ap.gov.br/estrutura/governo",
+      "id": "",
+      "cls": "nav-link "
+    },
+    {
+      "text": "Valores de Referência",
+      "href": "https://diofe.portal.ap.gov.br/canal/valores",
+      "id": "",
+      "cls": "nav-link "
+    },
+    {
+      "text": "Normas de envio",
+      "href": "https://editor.amapa.gov.br/arquivos_portais/publicacoes/SEAD_fccce5c2a8961f73601d3d35267ba793.pdf",
+      "id": "",
+      "cls": "nav-link "
+    },
+    {
+      "text": "DOWNLOAD",
+      "href": "https://diofe.portal.ap.gov.br/portal/edicoes/visualizar_pdf/10072/#e:10072",
+      "id": "downloadEVisualizarPdf",
+      "cls": "text-amapa text-decoration-none mt-3"
+    },
+    {
+      "text": "CLIQUE AQUI E FAÇA O DOWNLOAD DA ÚLTIMA EDIÇÃO Nº 8.721",
+      "href": "https://diofe.portal.ap.gov.br/portal/edicoes/download/10072",
+      "id": "edicaoDwnld",
+      "cls": "text-amapa text-decoration-none mt-3"
+    },
+    {
+      "text": "CLIQUE AQUI E VISUALIZE A PÁGINA EM PDF",
+      "href": "https://diofe.portal.ap.gov.br/portal/visualizacoes/pdf/10072/#e:10072",
+      "id": "downloadPdf",
+      "cls": "text-amapa text-decoration-none mt-3"
+    },
+    {
+      "text": "CLIQUE AQUI E ACESSE A VERSÃO HTML",
+      "href": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/10072/#e:10072",
+      "id": "downloadHTML",
+      "cls": "text-amapa text-decoration-none mt-3"
+    },
+    {
+      "text": "CLIQUE AQUI E VISUALIZE A VERSÃO JORNAL",
+      "href": "https://diofe.portal.ap.gov.br/portal/visualizacoes/jornal/10072/#e:10072",
+      "id": "downloadJornal",
+      "cls": "text-amapa text-decoration-none mt-3"
+    },
+    {
+      "text": "CLIQUE AQUI E ACESSE O ACERVO DA IMPRENSA",
+      "href": "https://sead.portal.ap.gov.br/diario_oficial",
+      "id": "acessarAcervo",
+      "cls": "text-amapa text-decoration-none mt-3"
+    },
+    {
+      "text": "",
+      "href": "javascript:void(0)",
+      "id": "download-box",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://diofe.portal.ap.gov.br/#",
+      "id": "",
+      "cls": "bg-white-amapa text-blue-amapa btn-sm transition-amapa"
+    },
+    {
+      "text": "",
+      "href": "https://diofe.portal.ap.gov.br/#",
+      "id": "",
+      "cls": "bg-white-amapa text-blue-amapa btn-sm transition-amapa"
+    },
+    {
+      "text": "",
+      "href": "https://diofe.portal.ap.gov.br/#",
+      "id": "",
+      "cls": "bg-white-amapa text-blue-amapa btn-sm transition-amapa"
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://diofe.portal.ap.gov.br/login",
+      "method": "post",
+      "id": "UsuarioLoginForm",
+      "cls": "form-row",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "_method",
+          "id": "",
+          "value": "POST",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "data[Usuario][usuario]",
+          "id": "Usuario",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "password",
+          "name": "data[Usuario][senha]",
+          "id": "Senha",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "LOGIN",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "action": "https://diofe.portal.ap.gov.br/buscanova",
+      "method": "post",
+      "id": "",
+      "cls": "",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "dataEdicaoPortal",
+          "value": "18/08/2026",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "sbmt1",
+          "value": "OK",
+          "text": "OK",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "action": "https://diofe.portal.ap.gov.br/buscanova",
+      "method": "post",
+      "id": "",
+      "cls": "busca_palavra",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "q",
+          "id": "input2",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "OK",
+          "text": "OK",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "dataBuscaInicial",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "dataBuscaFinal",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "OK",
+          "text": "OK",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "action": "https://diofe.portal.ap.gov.br/",
+      "method": "get",
+      "id": "",
+      "cls": "consulta_autenticidade",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "hash",
+          "value": "",
+          "text": "",
+          "placeholder": "Código de Aut. de Edição "
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "",
+          "id": "btn-autenticidade",
+          "value": "OK",
+          "text": "OK",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "hashMateria",
+          "value": "",
+          "text": "",
+          "placeholder": "Buscar Matéria p/ Protocolo"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "",
+          "id": "btn-autenticidade-materia",
+          "value": "OK",
+          "text": "OK",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-SKZ66VLH1J",
+    "https://diofe.portal.ap.gov.br/js/jquery.min.js",
+    "https://diofe.portal.ap.gov.br/js/bootstrap.min.js",
+    "https://diofe.portal.ap.gov.br/assets/bootstrap-datepicker/js/bootstrap-datepicker.js",
+    "https://diofe.portal.ap.gov.br/assets/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js",
+    "https://diofe.portal.ap.gov.br/util/js/clock.js",
+    "https://diofe.portal.ap.gov.br/admin/js/vendor/jquery/jquery.mask.js",
+    "https://www.google.com/jsapi",
+    "https://diofe.portal.ap.gov.br/assets/blockui/jquery.blockUI.js",
+    "https://diofe.portal.ap.gov.br/theme/Amapa/js/home.js",
+    "https://diofe.portal.ap.gov.br/js/consulta_autenticidade.js"
+  ]
+}

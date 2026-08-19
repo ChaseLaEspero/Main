@@ -1,0 +1,352 @@
+<!DOCTYPE html><html class="no-js"><!--<![endif]--><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-DMSNRJFQ9Q&amp;cx=c&amp;gtm=4e68h1"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-48855333-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-48855333-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Diário Oficial  / Visualizacoes</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700" rel="stylesheet" type="text/css">
+    <link href="/theme/Es/favicon.ico" type="image/x-icon" rel="icon"><link href="/theme/Es/favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/bootstrap-datepicker/css/datepicker.css">
+	<link rel="stylesheet" type="text/css" href="/css/fontawesomeIcon.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Es/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Es/css/custom.css">
+
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/theme/Es/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="/assets/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js"></script>
+<script type="text/javascript" src="/util/js/clock.js"></script><script type="text/javascript" src="/admin/js/vendor/jquery/jquery.mask.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var PLUGIN_URL = '/portal/diario_oficial';
+        var CURRENT_URL = '/balcao';
+        var CDN_URL = '';
+        var SUBTEMA = false;
+    </script>
+</head>
+
+
+<body onload="relogio()">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-menu">
+            <ul>
+                <button class="sidebar-toggle" id="close-sidebar">
+                    <img src="/img/sidebar-icon.png" id="img-seta" class="sidebar-icon" alt=""> Menu
+                </button>
+                <!-- Link para a Área do Publicador adicionado à sidebar -->
+                <li>
+                    <a href="/" class="publicador-link">
+                        <img src="/img/login-icon.png" id="img-login" class="sidebar-icon" alt="">                        Área do Publicador
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://dio.es.gov.br/faq_diulia_responde" class="publicador-link">
+                        <img src="/img/duvida-icon.png" id="img-login" class="sidebar-icon" alt="">                        Dúvidas frequentes
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://dio.es.gov.br/horario-de-atendimento" class="publicador-link">
+                        <img src="/img/ajuda-icon.png" id="img-login" class="sidebar-icon" alt="">                        Ajuda
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://comunicacaocidada.es.gov.br/" class="publicador-link">
+                        <img src="/img/guia-icon.png" id="img-login" class="sidebar-icon" alt="">                        Guia de Comunicação Cidadã
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <div class="container-fluid" id="header">
+        
+        <!-- Header expandido para os lados -->
+        <div class="header-container">
+            <!-- Lado esquerdo: Botão sidebar e login -->
+            <div class="left-section col-xs-12 col-sm-12 col-md-4">
+                <button class="sidebar-toggle" id="open-sidebar"><img src="/img/sidebar-icon-branco.png" id="img-seta" class="sidebar-icon" alt=""></button>
+
+                <div class="login-area">
+                                            <div class="form-login">
+                            <form action="/login" class="" name="UsuarioLogin" id="UsuarioLoginForm" novalidate="1" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div><input name="data[Usuario][usuario]" class="opaco" placeholder="USUÁRIO" type="text" id="UsuarioUsuario"><input name="data[Usuario][senha]" class="opaco" placeholder="SENHA" type="password" id="UsuarioSenha">
+                            <button type="submit" class="botao" value="Ok">OK</button>
+                            </form>                        </div>
+                                        </div>
+            </div>
+
+            <!-- Centro: Data e Hora -->
+            <div class="datetime-center col-xs-12 col-sm-12 col-md-4">
+                <span class="dia-semana">QUARTA-FEIRA,</span>&nbsp;<span class="date"> 19 DE AGOSTO DE 2026</span>                <span class="time"> / <span id="h">14</span>H<span id="m">00</span></span>
+                <img src="/img/relogio.png" alt="relogio" class="relogio-vermelho">            </div>
+
+            <!-- Lado direito: Logos -->
+            <div class="logos-right col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                                <img src="/theme/Es/img/Ativo%201dio.png" alt="slogan" id="slogan" class="slogan-home">                <a href="/portal/visualizacoes/diario_oficial" class="logo logo-home">
+                    <img src="/theme/Es/img/Ativo%202dio.png" alt="slogan" id="logo" class="logo logo-home">                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container ">
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/site/js/enquete.js"></script>
+	<script type="text/javascript" src="/assets/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Es/js/controllers/home.js"></script>
+
+<div class="container-fluid home" style="width: 100%; margin: 0; padding: 0; ">
+    <div class="container-fluid" style="width: 100%; margin: 0; padding: 0; min-height: 100%;">
+        <div class="row" style="margin: 0; width: 100%; min-height: 100%;display:flex">
+
+            <!-- Seção Esquerda: Outros Inputs -->
+            <div class="col-xs-12 col-sm-12 col-md-4 formularios">
+                <div class="acima-secao-inputs">
+                    <a href="/clipping" class="home-clipping-btn">Pesquisa Agendada</a>                </div>
+                <div class="secao-inputs">
+                    <div class="row">
+                        
+                        <a id="selectEdicaoPortal" name="edicao">Diário Oficial do Espírito Santo</a>
+
+                        <select id="selectEdicaoExtras" name="edicaoextras" style="display: none;"><option>Nenhuma Edição Extra</option></select>
+
+                        <select id="outros-diarios">
+                            <option value="" hidden="">Outros Diários Oficiais</option>
+                                                                <option value="/caderno_municipios">
+                                        Caderno dos municípios                                    </option>
+                                                                    <option value="/dom">
+                                        DOM - AMUNES                                    </option>
+                                                                    <option value="/diariodaserra">
+                                        Prefeitura Municipal da Serra                                    </option>
+                                                        </select>
+                    </div>
+                </div>
+
+                <!-- Consulta de Autenticidade-->
+                <form class="row consulta_autententicidade">
+                    <div>
+                        <input name="_Token[fields]" autocomplete="off" value="QMf89EWhuZCiUzvIJeTrnP3K2wtYLB67gbkFdjN51qX" type="hidden">
+                        <input type="text" id="hash" placeholder="Código de Autenticidade">
+                        <input type="submit" value="OK" id="btn-autenticidade" onclick="return false">
+                    </div>
+                </form>
+            </div>
+
+            <!-- Seção Central: Diário Oficial -->
+            <div class="col-xs-12 col-sm-12 col-md-4 capa preview">
+
+                    <div class="imagem">
+                        
+                        <div class="capa-container">
+                            <a href="/portal/edicoes/download/11399" id="baixar-diario-completo">
+                                <img src="/apifront/portal/edicoes/imagem_diario/11399/1/imagem" id="imagemCapa" style="">
+                            </a>
+
+                            <!-- Aba verde com número da edição - AGORA EMBAIXO, SAINDO DA CAPA -->
+                            <div class="aba-edicao-container">
+                                <div class="aba-edicao" id="aba-edicao">
+                                    <div class="aba-content">
+                                        <span class="aba-texto">Edição nº</span>
+                                        <span id="numero-edicao-aba">26.792</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-edicao row">
+                        <div class="col-xs-12 downloads">
+                            <div id="downloadxs"><a href="/portal/edicoes/download/11399" id="downloadDiario"></a></div>
+                            <div id="pdf"><a href="/portal/visualizacoes/pdf/11399/#e:11399" id="downloadPdf"></a></div>
+                            <div id="jornal"><a href="/portal/visualizacoes/jornal/11399/#e:11399" id="downloadJornal"></a></div>
+                            <div id="html"><a href="/portal/visualizacoes/html/11399/#e:11399" id="downloadHTML"></a></div>
+                        </div>
+                    </div>
+
+                    <div class="visible-xs" style="margin-top: 20px;margin-bottom:10px">
+                        <ul style="padding:0;margin:0;">
+                            <li class="span1" id="pdfxs" style="float:left;width:33%"><a href="/portal/visualizacoes/pdf/11399/#e:11399" id="downloadPdfXs" style="height: 52px;"></a></li>
+                            <li class="span1" id="htmlxs" style="float:left;width:33%"><a href="/portal/visualizacoes/html/11399/#e:11399" id="downloadHTMLXs" style="height: 52px;"></a></li>
+                            <li class="span1" id="jornalxs" style="float:left;width:33%"><a href="/portal/visualizacoes/jornal/11399/#e:11399" id="downloadJornalXs" style="height: 52px;"></a></li>
+                        </ul>
+                    </div>
+
+            </div>
+
+            <!-- Seção Direita: Busca por Palavra -->
+            <div class="col-xs-12 col-sm-12 col-md-4 formularios">
+                <div class="busca-inputs">
+                    <div class="row busca-box">
+                        <form class="busca_data" onsubmit="return changeFace()" method="post" action="/buscanova">
+                            <input type="text" class="databusca data col-xs-9 col-sm-8 col-md-9 col-lg-10" id="dataEdicaoPortal" placeholder="DD/MM/AAAA" value="">
+                        </form>
+                        <form class="busca_palavra" action="/buscanova" method="post">
+                            <div class="row datas">
+                                <div class="col-xs-5">
+                                    <input type="text" class="data" placeholder="DD/MM/AAAA" id="dataBuscaInicial">
+                                </div>
+                                <div class="col-xs-5">
+                                    <input type="text" class="data" placeholder="DD/MM/AAAA" id="dataBuscaFinal">
+                                </div>
+                                <div class="col-xs-2">
+                                    <input type="submit" value="OK" id="smbt2" class="btn">
+                                </div>
+                            </div>
+                            <input type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 q" id="input2" placeholder="Ex: Decreto Nº 12.000" name="q">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="modalWhatsappForm" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">×</span>
+                        <span class="sr-only"></span>
+                    </button>
+                    <h2 class="modal-title">Cadastre seu WhatsApp</h2>
+                    <h4>Cadastre-se para receber a edição do Diário Oficial no seu WhatsApp</h4>
+                </div>
+
+                <div class="modal-body">
+                    <form action="/cadastrar_whatsapp" method="post" id="whatsapp_form" novalidate="1" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>                    <div class="form-group">
+                        <label for="usuario" class="col-form-label">Informe seu nome</label>
+                        <div class="controls">
+                            <input type="text" name="nome" class="form-control" id="usuario" style="border-radius: 25px !important;">
+                        </div>
+                        <label for="celular" class="col-form-label">Núm. do Celular (obrigatório)</label>
+                        <div class="controls">
+                            <input name="celular" class="celMask form-control required" required="required" placeholder="(99) 99999-9999" id="celular-wpp" style="border-radius: 25px !important;" maxlength="15" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="border-radius: 25px !important;">Cancelar</button>
+                        <button type="submit" id="submit-wpp" class="btn btn-success" style="border-radius: 25px !important;">Cadastrar</button>
+                    </div>
+                    </form>                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="modal-autenticidade" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="autenticidade-header">Código Válido</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="autenticidade-texto"></p>
+                <a id="autenticidade-download" href="javascript:void(0)" title="Clique para baixar a edição completa" class="btn btn-info" style="border-radius: 25px !important;">Baixar Edição</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" style="border-radius: 25px !important;">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $('#botaoWhatsapp').on('click', function() {
+        $('#modalWhatsappForm').modal();
+    });
+    $(document).on('ready', function() {
+        $(document).on('submit', '#submit-wpp', function() {
+            $(e).preventDefault();
+            if ($('#celular-wpp').length == 0) {
+                $('#celular-wpp').focus();
+                return false;
+            }
+            $(this).submit();
+            return true;
+        })
+    });
+    $(".celMask").mask("(99) 99999-9999");
+</script>
+    </div>
+
+    <footer>
+        <div class="contato">
+            <div class="footer-info">
+                <p>DEPARTAMENTO DE IMPRENSA OFICIAL DO ESPÍRITO SANTO</p>
+                <p>CNPJ: 28.161.362/0001-83</p>
+                <p>AV. NOSSA SRA. DA PENHA, 714, ED. RS TRADE TOWER, 4º ANDAR - PRAIA DO CANTO</p>
+                <p>CEP: 29.055-130 - VITÓRIA / ES</p>
+                <p>CEP: 29.055-130 - VITÓRIA / ES</p>
+                <p>TEL.: 27 3636-6929</p>
+            </div>
+            <div class="footer-logo">
+                <img src="/theme/Es/img/ES.png" alt="ES">                <img src="/theme/Es/img/Brasil.png" alt="Brasil">            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        // Função do relógio original
+        function relogio() {
+            momentoAtual = new Date()
+            hora = momentoAtual.getHours()
+            minuto = momentoAtual.getMinutes()
+
+            // Formata para ter sempre 2 dígitos
+            hora = hora < 10 ? '0' + hora : hora;
+            minuto = minuto < 10 ? '0' + minuto : minuto;
+
+            $('#h').html(hora);
+            $('#m').html(minuto);
+
+            setTimeout("relogio()", 1000)
+        }
+
+        // Controle da sidebar
+        $(document).ready(function() {
+            $('#open-sidebar').click(function() {
+                $('#sidebar').addClass('open');
+                $('#sidebar-overlay').addClass('open');
+                $('body').css('overflow', 'hidden');
+            });
+
+            $('#close-sidebar, #sidebar-overlay').click(function() {
+                $('#sidebar').removeClass('open');
+                $('#sidebar-overlay').removeClass('open');
+                $('body').css('overflow', 'auto');
+            });
+
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+
+
+
+</body></html>

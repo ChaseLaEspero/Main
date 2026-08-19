@@ -1,0 +1,588 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sistema de Visualização de Diários Oficiais do Estado de Roraima">
+    <meta name="author" content="MDinelly">
+    <title>:: IMPRENSA OFICIAL DO ESTADO DE RORAIMA ::</title>
+    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="../lib/chartist/css/chartist.css" rel="stylesheet">
+    <link href="../lib/rickshaw/css/rickshaw.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slim.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+<body>
+
+    <div class="slim-header" style="background-image:url(../img/fita.jpg)">
+        <div class="container">
+            <div class="slim-header-left">
+                <h2 class="slim-logo"><a href="./" style="color:#DDDDDD"> Diário Oficial</a></h2>
+            </div>
+            <div class="slim-header-right">
+                <div class="dropdown dropdown-c">
+                    <a class="logged-user" target="_blank" href="http://www.transparencia.rr.gov.br" title="Transparência" style="color:#CDCDCD"><span class="fa fa-search-plus"></span><span class="g-social-text">Transparência</span></a>
+                </div>
+                <div class="dropdown dropdown-c"><a target="_blank" href="http://www.ouvidoria.rr.gov.br" title="Ouvidoria" class="logged-user" style="color:#CDCDCD"><span class="fa fa-commenting"></span><span class="g-social-text"> Ouvidoria</span></a></div>
+                <div class="dropdown dropdown-c"><a target="_blank" href="http://www.esic.rr.gov.br" title="Acesso à informação" class="logged-user" style="color:#CDCDCD"><span class="fa fa-eye"></span><span class="g-social-text"> Acesso à informação</span></a></div>
+                <div class="dropdown dropdown-c"><a target="_blank" href="http://www.servidor.rr.gov.br" title="Diário Oficial" class="logged-user" style="color:#CDCDCD"><span class="fa fa-calendar"></span><span class="g-social-text"> Portal do Servidor</span></a></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="slim-navbar">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item active"><a class="nav-link" href="#"><i class="icon ion-ios-home-outline"></i><span>Inicial</span></a></li>
+                <li class="nav-item with-sub mega-dropdown"><a class="nav-link" href="#"><i class="icon ion-ios-filing-outline"></i><span>Anos Anteriores</span></a>
+                    <div class="sub-item menu-anos">
+                        <div class="row">
+
+                            
+<div class="col-lg-12">
+<div class="row">
+    <div class="col-lg-2"><ul><li><a href="../_visualizar/?ano=2025"><i class="icon fa fa-calendar"></i> - 2025</a></li></ul><ul><li><a href="../_visualizar/?ano=2024"><i class="icon fa fa-calendar"></i> - 2024</a></li></ul><ul><li><a href="../_visualizar/?ano=2023"><i class="icon fa fa-calendar"></i> - 2023</a></li></ul><ul><li><a href="../_visualizar/?ano=2022"><i class="icon fa fa-calendar"></i> - 2022</a></li></ul><ul><li><a href="../_visualizar/?ano=2021"><i class="icon fa fa-calendar"></i> - 2021</a></li></ul><ul><li><a href="../_visualizar/?ano=2020"><i class="icon fa fa-calendar"></i> - 2020</a></li></ul><ul><li><a href="../_visualizar/?ano=2019"><i class="icon fa fa-calendar"></i> - 2019</a></li></ul><ul><li><a href="../_visualizar/?ano=2018"><i class="icon fa fa-calendar"></i> - 2018</a></li></ul><ul><li><a href="../_visualizar/?ano=2017"><i class="icon fa fa-calendar"></i> - 2017</a></li></ul><ul><li><a href="../_visualizar/?ano=2016"><i class="icon fa fa-calendar"></i> - 2016</a></li></ul></div><div class="col-lg-2"><ul><li><a href="../_visualizar/?ano=2015"><i class="icon fa fa-calendar"></i> - 2015</a></li></ul><ul><li><a href="../_visualizar/?ano=2014"><i class="icon fa fa-calendar"></i> - 2014</a></li></ul><ul><li><a href="../_visualizar/?ano=2013"><i class="icon fa fa-calendar"></i> - 2013</a></li></ul><ul><li><a href="../_visualizar/?ano=2012"><i class="icon fa fa-calendar"></i> - 2012</a></li></ul><ul><li><a href="../_visualizar/?ano=2011"><i class="icon fa fa-calendar"></i> - 2011</a></li></ul><ul><li><a href="../_visualizar/?ano=2010"><i class="icon fa fa-calendar"></i> - 2010</a></li></ul><ul><li><a href="../_visualizar/?ano=2009"><i class="icon fa fa-calendar"></i> - 2009</a></li></ul><ul><li><a href="../_visualizar/?ano=2008"><i class="icon fa fa-calendar"></i> - 2008</a></li></ul><ul><li><a href="../_visualizar/?ano=2007"><i class="icon fa fa-calendar"></i> - 2007</a></li></ul><ul><li><a href="../_visualizar/?ano=2006"><i class="icon fa fa-calendar"></i> - 2006</a></li></ul></div><div class="col-lg-2"><ul><li><a href="../_visualizar/?ano=2005"><i class="icon fa fa-calendar"></i> - 2005</a></li></ul><ul><li><a href="../_visualizar/?ano=2004"><i class="icon fa fa-calendar"></i> - 2004</a></li></ul><ul><li><a href="../_visualizar/?ano=2003"><i class="icon fa fa-calendar"></i> - 2003</a></li></ul><ul><li><a href="../_visualizar/?ano=2002"><i class="icon fa fa-calendar"></i> - 2002</a></li></ul><ul><li><a href="../_visualizar/?ano=2001"><i class="icon fa fa-calendar"></i> - 2001</a></li></ul><ul><li><a href="../_visualizar/?ano=2000"><i class="icon fa fa-calendar"></i> - 2000</a></li></ul><ul><li><a href="../_visualizar/?ano=1999"><i class="icon fa fa-calendar"></i> - 1999</a></li></ul><ul><li><a href="../_visualizar/?ano=1998"><i class="icon fa fa-calendar"></i> - 1998</a></li></ul><ul><li><a href="../_visualizar/?ano=1997"><i class="icon fa fa-calendar"></i> - 1997</a></li></ul><ul><li><a href="../_visualizar/?ano=1996"><i class="icon fa fa-calendar"></i> - 1996</a></li></ul></div><div class="col-lg-2"><ul><li><a href="../_visualizar/?ano=1995"><i class="icon fa fa-calendar"></i> - 1995</a></li></ul><ul><li><a href="../_visualizar/?ano=1994"><i class="icon fa fa-calendar"></i> - 1994</a></li></ul><ul><li><a href="../_visualizar/?ano=1993"><i class="icon fa fa-calendar"></i> - 1993</a></li></ul><ul><li><a href="../_visualizar/?ano=1992"><i class="icon fa fa-calendar"></i> - 1992</a></li></ul><ul><li><a href="../_visualizar/?ano=1991"><i class="icon fa fa-calendar"></i> - 1991</a></li></ul><ul><li><a href="../_visualizar/?ano=1990"><i class="icon fa fa-calendar"></i> - 1990</a></li></ul><ul><li><a href="../_visualizar/?ano=1989"><i class="icon fa fa-calendar"></i> - 1989</a></li></ul><ul><li><a href="../_visualizar/?ano=1988"><i class="icon fa fa-calendar"></i> - 1988</a></li></ul><ul><li><a href="../_visualizar/?ano=1987"><i class="icon fa fa-calendar"></i> - 1987</a></li></ul><ul><li><a href="../_visualizar/?ano=1986"><i class="icon fa fa-calendar"></i> - 1986</a></li></ul></div><div class="col-lg-2"><ul><li><a href="../_visualizar/?ano=1985"><i class="icon fa fa-calendar"></i> - 1985</a></li></ul><ul><li><a href="../_visualizar/?ano=1984"><i class="icon fa fa-calendar"></i> - 1984</a></li></ul><ul><li><a href="../_visualizar/?ano=1983"><i class="icon fa fa-calendar"></i> - 1983</a></li></ul><ul><li><a href="../_visualizar/?ano=1982"><i class="icon fa fa-calendar"></i> - 1982</a></li></ul><ul><li><a href="../_visualizar/?ano=1981"><i class="icon fa fa-calendar"></i> - 1981</a></li></ul><ul><li><a href="../_visualizar/?ano=1980"><i class="icon fa fa-calendar"></i> - 1980</a></li></ul></div>
+</div>
+                        </div>
+                    </div>
+                </div></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../_institucional"><i class="icon ion-ios-briefcase-outline"></i><span>Institucional</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="../_contato"><i class="icon ion-ios-location-outline"></i><span>Localização</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slim-mainpanel">
+        <div class="container">
+
+            <div class="slim-pageheader">
+                <ol class="breadcrumb slim-breadcrumb"></ol>
+                <h6 class="slim-pagetitle">EDIÇÕES DO ANO DE 2026</h6>
+            </div>
+
+            <div class="row row-sm">
+                <div class="col-lg-8">
+
+                
+    
+
+        
+            <div class="card card-dash-one ">
+                <div class="row no-gutters">
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Janeiro</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=01" style="color: #000000">
+                  18</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Fevereiro</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=02" style="color: #000000">
+                  17</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Março</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=03" style="color: #000000">
+                  22</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Abril</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=04" style="color: #000000">
+                  18</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                      
+                </div>
+            </div>
+
+                    
+
+        
+            <div class="card card-dash-one  mg-t-10">
+                <div class="row no-gutters">
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Maio</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=05" style="color: #000000">
+                  22</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Junho</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=06" style="color: #000000">
+                  20</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Julho</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=07" style="color: #000000">
+                  21</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Agosto</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=08" style="color: #000000">
+                  12</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                      
+                </div>
+            </div>
+
+                    
+
+        
+            <div class="card card-dash-one  mg-t-10">
+                <div class="row no-gutters">
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Setembro</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=09" style="color: #000000">
+                  0</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Outubro</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=10" style="color: #000000">
+                  0</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Novembro</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=11" style="color: #000000">
+                  0</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                    
+
+        
+          <div class="col-lg-3">
+            <img src="../img/1.png" width="40">
+            <div class="dash-content">
+              <label class="tx-primary">Dezembro</label>
+              <h2><a href="../_visualizar-mes/?ano=2026&amp;mes=12" style="color: #000000">
+                  0</a>
+              </h2>
+              <div style="font-size:10px">Arquivos</div>
+            </div><!-- dash-content -->
+          </div><!-- col-3 -->
+
+                      
+                </div>
+            </div>
+
+                    
+                    <div class="card card-table mg-t-10 mg-b-10">
+                        <div class="card-header">
+                            <h6 class="slim-card-title">ÚLTIMAS PUBLICAÇÕES DO MÊS 08/2026</h6>
+                        </div>
+
+                        <div class="table-responsive">
+                            <div class="col-lg-12">
+                                <table class="table mg-b-0 tx-13">
+                                    <thead>
+                                        <tr>
+                                            <th align="center">Arquivo</th>
+                                            <th align="center">Data</th>
+                                            <th align="center">Tamanho</th>
+                                            <th align="center">Visualizar</th>
+                                        </tr>
+                                    </thead>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 18 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 6.97 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260818.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 17 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 3.83 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260817.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 14 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 3.16 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260814.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 13 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 3.4 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260813.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 12 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 4.11 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260812.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 11 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 2.88 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260811.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 10 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 4.58 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260810.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 07 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 2.34 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260807.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 06 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 3 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260806.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 05 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 4 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260805.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 04 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 2.72 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260804.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                            <tbody>
+                                            <tr>
+                                                <td><i class="icon fa fa-file-pdf-o"></i> - Diário Oficial</td>
+                                                <td><i class="icon fa fa-calendar"></i> - 03 / 08 / 2026</td>
+                                                <td><i class="icon fa fa fa-database"></i> - 3.1 MB</td>
+                                                <td align="center">
+                                                    <form role="form" action="../_visualizar-doe/" target="_blank" method="post">
+                                                        <input type="hidden" name="doe" value="2026/08/doe-20260803.pdf">
+                                                        <input type="hidden" name="ipconexao" value="172.184.175.146">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:04:44">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                    </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card card-table">
+                        <div class="table-responsive" align="center">
+                            <img src="../img/logo.png" width="175">
+                        </div>
+                    </div>
+
+                    <div class="card card-table mg-t-10">
+                        <div class="table-responsive" align="center">
+                            <img src="../img/io.png" width="230">
+                        </div>
+                    </div>
+
+                    <div class="mg-t-10">
+                        <a href="../_buscar/" class="btn btn-danger btn-block mg-t-10">PESQUISAR POR PALAVRA CHAVE</a>
+                    </div>
+
+
+                    <div class="mg-t-10" align="center">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgovroraima%2F&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+
+
+
+                    <!--
+	
+	<div class="card card-table mg-t-10">
+    <div class="table-responsive" align="center"> 
+    <img src="../img/io2.png" width="230" />
+    </div> 
+    </div>
+	
+    <a href="http://www.portal.rr.gov.br" class="btn btn-outline-primary btn-block mg-t-10" target="_blank">Portal do Governo</a>
+    <a href="http://www.transparencia.rr.gov.br" class="btn btn-warning btn-block mg-t-10" target="_blank">PORTAL DA TRANSPARÊNCIA</a>
+    <a href="http://www.servidor.rr.gov.br" class="btn btn-primary btn-block mg-t-10" target="_blank">SERVIDORWEB</a>-->
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slim-footer">
+        <div class="container">
+            <p>Copyright 2026 © Todos os direitos reservados. Governo do Estado de Roraima</p>
+            <p>V 2.1 - <a href="http://www.sefaz.rr.gov.br" target="_blank">CETIF/SEFAZ</a></p>
+        </div>
+    </div>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-9YNHL28ERZ&amp;cx=c&amp;gtm=4e68h1"></script><script src="../lib/jquery/js/jquery.js"></script>
+    <script src="../lib/popper.js/js/popper.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../lib/jquery.cookie/js/jquery.cookie.js"></script>
+    <script src="../lib/chartist/js/chartist.js"></script>
+    <script src="../lib/d3/js/d3.js"></script>
+    <script src="../lib/rickshaw/js/rickshaw.min.js"></script>
+    <script src="../lib/jquery.sparkline.bower/js/jquery.sparkline.min.js"></script>
+    <script src="../js/ResizeSensor.js"></script>
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/slim.js"></script>
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118954292-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-118954292-1');
+    </script>
+
+
+
+</body></html>

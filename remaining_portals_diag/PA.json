@@ -1,0 +1,331 @@
+{
+  "state": "PA",
+  "start_url": "https://www.ioepa.com.br/",
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js",
+      "content_type": "text/javascript; charset=UTF-8",
+      "body_preview": "/*!\n * jQuery JavaScript Library v1.5.1\n * http://jquery.com/\n *\n * Copyright 2011, John Resig\n * Dual licensed under the MIT or GPL Version 2 licenses.\n * http://jquery.org/license\n *\n * Includes Sizzle.js\n * http://sizzlejs.com/\n * Copyright 2011, The Dojo Foundation\n * Released under the MIT, BSD, and GPL Licenses.\n *\n * Date: Wed Feb 23 13:55:29 2011 -0500\n */\n(function(a,b){function cg(a){return d.isWindow(a)?a:a.nodeType===9?a.defaultView||a.parentWindow:!1}function cd(a){if(!bZ[a]){var b=d(\"<\"+a+\">\").appendTo(\"body\"),c=b.css(\"display\");b.remove();if(c===\"none\"||c===\"\")c=\"block\";bZ[a]=c}return bZ[a]}function cc(a,b){var c={};d.each(cb.concat.apply([],cb.slice(0,b)),function(){c[this]=a});return c}function bY(){try{return new a.ActiveXObject(\"Microsoft.XMLHTTP\")}catch(b){}}function bX(){try{return new a.XMLHttpRequest}catch(b){}}function bW(){d(a).unload(function(){for(var a in bU)bU[a](0,1)})}function bQ(a,c){a.dataFilter&&(c=a.dataFilter(c,a.dataType));var e=a.dataTypes,f={},g,h,i=e.length,j,k=e[0],l,m,n,o,p;for(g=1;g<i;g++){if(g===1)for(h in a.converters)typeof h===\"string\"&&(f[h.toLowerCase()]=a.converters[h]);l=k,k=e[g];if(k===\"*\")k=l;else if(l!==\"*\"&&l!==k){m=l+\" \"+k,n=f[m]||f[\"* \"+k];if(!n){p=b;for(o in f){j=o.split(\" \");if(j[0]===l||j[0]===\"*\"){p=f[j[1]+\" \"+k];if(p){o=f[o],o===!0?n=p:p===!0&&(n=o);break}}}}!n&&!p&&d.error(\"No conversion from \"+m.replace(\" \",\" to \")),n!==!0&&(c=n?n(c):p(o(c)))}}return c}function bP(a,c,d){var e=a.contents,f=a.dataTypes,g=a.responseFields,h,i,j,k;for(i in g)i in d&&(c[g[i]]=d[i]);while(f[0]===\"*\")f.shift(),h===b&&(h=a.mimeType||c.getResponseHeader(\"content-type\"));if(h)for(i in e)if(e[i]&&e[i].test(h)){f.unshift(i);break}if(f[0]in d)j=f[0];else{for(i in d){if(!f[0]||a.converters[i+\" \"+f[0]]){j=i;break}k||(k=i)}j=j||k}if(j){j!==f[0]&&f.unshift(j);return d[j]}}function bO(a,b,c,e){if(d.isArray(b)&&b.length)d.each(b,function(b,f){c||bq.test(a)?e(a,f):bO(a+\"[\"+(typeof f===\"object\"||d.isArray(f)?b:\"\")+\"]\",f,c,e)});else if(c||b==null||typeof b!==\"object\")e(a,b);else if(d.isArray(b)||d.isEmptyObject(b))e(a,\"\");else for(var f in b)bO(a+\"[\"+f+\"]\",b[f],c,e)}function bN(a,c,d,e,f,g){f=f||c.dataTypes[0],g=g||{},g[f]=!0;var h=a[f],i=0,j=h?h.length:0,k=a===bH,l;for(;i<j&&(k||!l);i++)l=h[i](c,d,e),typeof l===\"string\"&&(!k||g[l]?l=b:(c.dataTypes.unshift(l),l=bN(a,c,d,e,l,g)));(k||!l)&&!g[\"*\"]&&(l=bN(a,c,d,e,\"*\",g));return l}function bM(a){return function(b,c){typeof b!==\"string\"&&(c=b,b=\"*\");if(d.isFunction(c)){var e=b.toLowerCase().split(bB),f=0,g=e.length,h,i,j;for(;f<g;f++)h=e[f],j=/^\\+/.test(h),j&&(h=h.substr(1)||\"*\"),i=a[h]=a[h]||[],i[j?\"unshift\":\"push\"](c)}}}function bo(a,b,c){var e=b===\"width\"?bi:bj,f=b===\"width\"?a.offsetWidth:a.offsetHeight;if(c===\"border\")return f;d.each(e,function(){c||(f-=parseFloat(d.css(a,\"padding\"+this))||0),c===\"margin\"?f+=parseFloat(d.css(a,\"margin\"+this))||0:f-=parseFloat(d.css(a,\"border\"+this+\"Width\"))||0});return f}function ba(a,b){b.src?d.ajax({url:b.src,async:!1,dataType:\"script\"}):d.globalEval(b.text||b.textContent||b.innerHTML||\"\"),b.parentNode&&b.parentNode.removeChild(b)}function _(a){return\"getElementsByTagName\"in a?a.getElementsByTagName(\"*\"):\"querySelectorAll\"in a?a.querySelectorAll(\"*\"):[]}function $(a,b){if(b.nodeType===1){var c=b.nodeName.toLowerCase();b.clearAttributes(),b.mergeAttributes(a);if(c===\"object\")b.outerHTML=a.outerHTML;else if(c!==\"input\"||a.type!==\"checkbox\"&&a.type!==\"radio\"){if(c===\"option\")b.selected=a.defaultSelected;else if(c===\"input\"||c===\"textarea\")b.defaultValue=a.defaultValue}else a.checked&&(b.defaultChecked=b.checked=a.checked),b.value!==a.value&&(b.value=a.value);b.removeAttribute(d.expando)}}function Z(a,b){if(b.nodeType===1&&d.hasData(a)){var c=d.expando,e=d.data(a),f=d.data(b,e);if(e=e[c]){var g=e.events;f=f[c]=d.extend({},e);if(g){delete f.handle,f.events={};for(var h in g)for(var i=0,j=g[h].length;i<j;i++)d.event.add(b,h+(g[h][i].namespace?\".\":\"\")+g[h][i].namespace,g[h][i],g[h][i].data)}}}}function Y(a,b){return d.nodeN",
+      "body_length": 85259
+    },
+    {
+      "status": 204,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787148224725&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1841952661.1787148225&frm=0&pscdl=noapi&rcb=9&sr=1280x720&ul=pt-br&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787148224&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1334",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-LT68PSKK5Q&gtm=45je68h1v9115703202za20g&_p=1787148227149&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIAGA&are=1&cid=1841952661.1787148225&frm=1&ir=1&pscdl=noapi&rcb=13&sr=1280x720&ul=pt-br&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~119381664~120213116~120385423&sid=1787148227&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2FFrame&dr=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=Busca%20IOE&en=page_view&_fv=1&_ss=1&tfd=627",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "status": 200,
+      "url": "http://www.ioepa.com.br/portal/images/busca/bt_envio.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 204,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787148224725&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1841952661.1787148225&frm=0&pscdl=noapi&rcb=9&sr=1280x720&ul=pt-br&_s=2&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787148224&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6341",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    }
+  ],
+  "common_endpoint_tests": [
+    {
+      "url": "http://www.ioepa.com.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+    },
+    {
+      "url": "http://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+    },
+    {
+      "url": "http://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+    },
+    {
+      "url": "https://www.ioepa.com.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+      "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+    },
+    {
+      "url": "https://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+      "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+    },
+    {
+      "url": "https://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+      "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+    }
+  ],
+  "navigation_status": 200,
+  "final_url": "http://www.ioepa.com.br/portal/",
+  "title": "",
+  "html_length": 17836,
+  "links": [
+    {
+      "text": "",
+      "href": "http://www.ioepa.com.br/portal",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://www.ouvidoria.pa.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "PRINCIPAL",
+      "href": "http://www.ioepa.com.br/portal/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "INSTITUCIONAL",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=1",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "HISTÓRIA",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=5",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "CERTIFICAÇÃO DIGITAL",
+      "href": "http://www.ioepa.com.br/portal/certificacao",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "GRÁFICA",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=2",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "NOTÍCIAS",
+      "href": "http://www.ioepa.com.br/portal/noticias.aspx",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "CONTATO",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=4",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "TRANSPARÊNCIA PÚBLICA",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=8",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "saiba mais",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=6",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "saiba mais",
+      "href": "http://www.ioepa.com.br/portal/certificacao/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "http://www.ioepa.com.br/portal/atos.aspx",
+      "id": "HyperLink1",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "https://www.sistemas.pa.gov.br/esic/public/main/index.xhtml",
+      "id": "HyperLink2",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "http://www.ioepa.com.br/portal/certificacao/",
+      "id": "HyperLink3",
+      "cls": ""
+    },
+    {
+      "text": "",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=5",
+      "id": "HyperLink4",
+      "cls": ""
+    },
+    {
+      "text": "Principal",
+      "href": "http://www.ioepa.com.br/portal/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Institucional",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=1",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "História",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=5",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Certificação Digital",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=6",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Notícias",
+      "href": "http://www.ioepa.com.br/portal/noticias.aspx",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Imprensas Oficiais",
+      "href": "http://www.abio.com.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Parque gráfico",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=2",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Produtos",
+      "href": "http://www.ioepa.com.br/portal/#",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Orçamento",
+      "href": "http://www.ioepa.com.br/portal/#",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Serviço de Informação ao Cidadão",
+      "href": "https://www.sistemas.pa.gov.br/esic/public/main/index.xhtml",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Contato",
+      "href": "http://www.ioepa.com.br/portal/conteudo.aspx?cont=4",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Lista de autoridades",
+      "href": "http://www.pa.gov.br/downloads/lista_autoridades.pdf",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Hino do Estado do Pará",
+      "href": "http://www.pa.gov.br/O_Para/HinodoPara.zip",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Constituição do Estado",
+      "href": "http://www.pa.gov.br/downloads/ConstituicaodoParaateaEC48.pdf",
+      "id": "",
+      "cls": ""
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://www.ioepa.com.br/portal/",
+      "method": "post",
+      "id": "form1",
+      "cls": "",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__EVENTTARGET",
+          "id": "__EVENTTARGET",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__EVENTARGUMENT",
+          "id": "__EVENTARGUMENT",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__VIEWSTATE",
+          "id": "__VIEWSTATE",
+          "value": "/wEPDwUKMTk2MDQxODY1Mw9kFgJmD2QWAgIDD2QWCAIDDw8WAh4LTmF2aWdhdGVVcmwFCWF0b3MuYXNweGQWAmYPDxYCHghJbWFnZVVybAUZaW9lX2ltZy9kZXN0X2J0X2F0b3MyLmpwZ2RkAgQPDxYCHwAFO2h0dHBzOi8vd3d3LnNpc3RlbWFzLnBhLmdvdi5ici9lc2ljL3B1YmxpYy9tYWluL2luZGV4LnhodG1sZBYCZg8PFgIfAQUOaW1hZ2VzL3NpYy5wbmdkZAIFDw8WAh8ABSxodHRwOi8vd3d3",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "__VIEWSTATEGENERATOR",
+          "id": "__VIEWSTATEGENERATOR",
+          "value": "1925773B",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": "",
+          "id": "Button1",
+          "value": "Acessar o sistema eDiário",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": "",
+          "id": "Button2",
+          "value": "Pesquisa textual",
+          "text": "",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://www.google-analytics.com/analytics.js",
+    "https://www.googletagmanager.com/gtag/js?id=UA-40823363-1&cx=c&gtm=4e68h1",
+    "http://www.google-analytics.com/analytics.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-FPXVK7QWY2",
+    "http://www.ioepa.com.br/portal/jquery/jquery-1.8.2.min.js",
+    "http://www.ioepa.com.br/portal/jquery/jquery.ba-throttle-debounce.min.js",
+    "http://www.ioepa.com.br/portal/jquery/jquery.carouFredSel-6.1.0-packed.js",
+    "http://www.ioepa.com.br/portal/jquery/jquery.carouFredSel-6.1.0.js",
+    "http://www.ioepa.com.br/portal/jquery/jquery.mousewheel.min.js",
+    "http://www.ioepa.com.br/portal/jquery/jquery.touchSwipe.min.js",
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js",
+    "http://www.ioepa.com.br/portal/slides.min.jquery.js",
+    "http://www.ioepa.com.br/portal/WebResource.axd?d=o6OvnT9Rl7qWy1GD8LXFUPSCwRWZsgS7tSK6o04O50Qa1aeTMutYQuhzTIqtnWYwtmEFCg2_bVDlgRqJuj2vgh4FCgX2fKCIO8Pxp92-z0Y1&t=636160732665894255",
+    "http://www.ioepa.com.br/portal/ScriptResource.axd?d=3ZMwsWo7fBK62tTCY-ZiZJzM3hFWokGDQCJfO12NPYTMLV_nAhFTvjqPqlVqjwBKBlv55W6X0XbpEyzrSFNkQNGCqn8-CtN4rdg3ZDtfp7GNJmNKedCxoOT8ZY6nURfFJdxkZSR1s59nfomued5YtQ2&t=ffffffffaa73f696",
+    "http://www.ioepa.com.br/portal/ScriptResource.axd?d=BbzSSabkvSWWr5VRo1zXyQ78LB8Mxi0ukIy0sRPYsNmmaOOX5oI1DCESf-iBZqpJ2_Vm-cZba3UgabZOR5KV9Hpze7JkeB1CKJaJ8ACYfUFtvDpbbfhK0LKIpeQ6d3qYcrKb8Br7Bz21Ow8YMt9Tyw2&t=ffffffffaa73f696",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+  ]
+}
