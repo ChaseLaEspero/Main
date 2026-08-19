@@ -1,0 +1,31 @@
+name: Search and commit remaining states results
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  search:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.title, 'Commit remaining search')
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4
+      - run: python remaining_states_search.py
+      - name: Commit results
+        run: |
+          mkdir -p research
+          cp remaining_states_search_results.json research/remaining_states_search_results.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/remaining_states_search_results.json
+          git commit -m 'Add remaining states search results' || true
+          git push
