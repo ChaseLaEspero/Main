@@ -1,5 +1,5 @@
+# Trigger inline context extraction: 2026-08-19
 from pathlib import Path
-import json
 
 ROOT=Path('remaining_portals_diag')
 TERMS={
