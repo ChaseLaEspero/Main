@@ -1,0 +1,1078 @@
+<!DOCTYPE html><html lang="pt" class="ng-scope" ng-controller="AppController as appCtrl"><head><style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style><style type="text/css">.uib-time input{width:50px;}</style><style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style><style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style><style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style><style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style><style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- src/index.html -->
+
+  <!--[htmlclean-protect]-->
+  <!--[/htmlclean-protect]-->
+
+  <title>CEPE</title>
+
+  <link rel="icon" href="../content/images/icone.png?v=1779975595">
+  <link rel="stylesheet" href="content/css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="content/styles-min/lib-9a0b99ceb2.min.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="bower_components/html5shiv/dist/html5shiv.min.js"></script>
+  <script src="bower_components/respond/dest/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body style="">
+<div ng-hide="isI18nLoaded" class="ng-hide" style="">Checking language requirements...</div>
+<!-- uiView: application-template-view --><div ui-view="application-template-view" ng-show="isI18nLoaded" class="ng-scope" style=""><link rel="stylesheet" href="content/css/custom.css" class="ng-scope">
+<link rel="stylesheet" href="content/css/2019Custom.css" class="ng-scope">
+<link rel="stylesheet" ng-href="https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/css/tema-diario.css" class="ng-scope" href="https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/css/tema-diario.css">
+
+<loading-full-screen isloading="fullScreenLoading" config="vm.Loading.loadingConfig" class="ng-scope ng-isolate-scope"><style>
+        .overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 9999;
+                background-color: rgba(232, 235, 239, 0.5);
+                /*dim the background*/
+        }
+</style>
+<div class="overlay ng-hide" ng-show="isloading" style="">        
+        <!-- ngIf: config.type == 'spinner' --><!-- ngInclude: 'app/directives/loading-full-screen/spinner.html' --><div ng-include="'app/directives/loading-full-screen/spinner.html'" ng-if="config.type == 'spinner'" class="ng-scope" style=""><style class="ng-scope">
+        .sk-circle {  
+        position: fixed;
+        z-index: 99999999;
+        height: 8em;
+        width: 8em;
+        overflow: show;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;  
+        }
+        .sk-circle .sk-child {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        }
+        .sk-circle .sk-child:before {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+        height: 15%;
+        background-color: #333;
+        border-radius: 100%;
+        -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+                animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
+        }
+        .sk-circle .sk-circle2 {
+        -webkit-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+                transform: rotate(30deg); }
+        .sk-circle .sk-circle3 {
+        -webkit-transform: rotate(60deg);
+            -ms-transform: rotate(60deg);
+                transform: rotate(60deg); }
+        .sk-circle .sk-circle4 {
+        -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+                transform: rotate(90deg); }
+        .sk-circle .sk-circle5 {
+        -webkit-transform: rotate(120deg);
+            -ms-transform: rotate(120deg);
+                transform: rotate(120deg); }
+        .sk-circle .sk-circle6 {
+        -webkit-transform: rotate(150deg);
+            -ms-transform: rotate(150deg);
+                transform: rotate(150deg); }
+        .sk-circle .sk-circle7 {
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg); }
+        .sk-circle .sk-circle8 {
+        -webkit-transform: rotate(210deg);
+            -ms-transform: rotate(210deg);
+                transform: rotate(210deg); }
+        .sk-circle .sk-circle9 {
+        -webkit-transform: rotate(240deg);
+            -ms-transform: rotate(240deg);
+                transform: rotate(240deg); }
+        .sk-circle .sk-circle10 {
+        -webkit-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+                transform: rotate(270deg); }
+        .sk-circle .sk-circle11 {
+        -webkit-transform: rotate(300deg);
+            -ms-transform: rotate(300deg);
+                transform: rotate(300deg); }
+        .sk-circle .sk-circle12 {
+        -webkit-transform: rotate(330deg);
+            -ms-transform: rotate(330deg);
+                transform: rotate(330deg); }
+        .sk-circle .sk-circle2:before {
+        -webkit-animation-delay: -1.1s;
+                animation-delay: -1.1s; }
+        .sk-circle .sk-circle3:before {
+        -webkit-animation-delay: -1s;
+                animation-delay: -1s; }
+        .sk-circle .sk-circle4:before {
+        -webkit-animation-delay: -0.9s;
+                animation-delay: -0.9s; }
+        .sk-circle .sk-circle5:before {
+        -webkit-animation-delay: -0.8s;
+                animation-delay: -0.8s; }
+        .sk-circle .sk-circle6:before {
+        -webkit-animation-delay: -0.7s;
+                animation-delay: -0.7s; }
+        .sk-circle .sk-circle7:before {
+        -webkit-animation-delay: -0.6s;
+                animation-delay: -0.6s; }
+        .sk-circle .sk-circle8:before {
+        -webkit-animation-delay: -0.5s;
+                animation-delay: -0.5s; }
+        .sk-circle .sk-circle9:before {
+        -webkit-animation-delay: -0.4s;
+                animation-delay: -0.4s; }
+        .sk-circle .sk-circle10:before {
+        -webkit-animation-delay: -0.3s;
+                animation-delay: -0.3s; }
+        .sk-circle .sk-circle11:before {
+        -webkit-animation-delay: -0.2s;
+                animation-delay: -0.2s; }
+        .sk-circle .sk-circle12:before {
+        -webkit-animation-delay: -0.1s;
+                animation-delay: -0.1s; }
+
+        @-webkit-keyframes sk-circleBounceDelay {
+        0%, 80%, 100% {
+            -webkit-transform: scale(0);
+                    transform: scale(0);
+        } 40% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+        }
+        }
+
+        @keyframes sk-circleBounceDelay {
+        0%, 80%, 100% {
+            -webkit-transform: scale(0);
+                    transform: scale(0);
+        } 40% {
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+        }
+        }
+
+        .loading-bar {
+                position: fixed;
+                z-index: 99999999;
+                height: 8em;
+                width: 8em;
+                overflow: show;
+                margin: auto;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;  
+        }
+
+</style>
+<div class="sk-circle ng-scope">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+</div></div><!-- end ngIf: config.type == 'spinner' -->
+        <!-- ngIf: config.type == 'loadingBar' -->
+        <!-- ngIf: config.type == 'roundLoadingBar' -->        
+</div></loading-full-screen>
+<header id="header" class="collapse-animation ng-scope" style=" height: auto; overflow: initial; max-height: 100%;">
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V4CZ66XLPK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V4CZ66XLPK');
+    </script>
+    <!-- End of Global site tag (gtag.js) - Google Analytics -->
+    <!-- ngIf: vm.codigoDiario && vm.codigoDiario == 1 --><nav id="topbar" class="navbar navbar-inverse navbar-xs primary-background-color top-bar-font-color ng-scope" style="min-height: 47px; margin-bottom: -1px; background: #861F1F;" ng-if="vm.codigoDiario &amp;&amp; vm.codigoDiario == 1">
+
+
+        <div>
+
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" style="float: right" data-toggle="collapse" data-target=".navAdmin">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a href="#">
+                        <img ng-src="https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/logos/logo-global.png" alt="logo" class="logo-global" src="https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/logos/logo-global.png">
+                    </a>
+
+                </div>
+
+                <!-- /.navbar-collapse -->
+                <div class="menubar top-bar-font-color">
+                    <ul class="navAdmin collapse navbar-collapse">
+                        <li>
+                            <a href="https://www.cepe.com.br/" target="_blank">DIÁRIO OFICIAL ESTADO DE
+                                PERNAMBUCO</a>
+                        </li>
+                        <li>
+                            <a href="http://editora.cepe.com.br/" target="_blank">Cepe EDITORA</a>
+                        </li>
+                        <li>
+                            <a href="http://www.revistacontinente.com.br/" target="_blank">REVISTA
+                                CONTINENTE</a>
+                        </li>
+                        <li>
+                            <a href="http://www.suplementopernambuco.com.br/" target="_blank">JORNAL
+                                LITERÁRIO
+                                PERNAMBUCO</a>
+                        </li>
+                        <li>
+                            <a href="http://www.acervocepe.com.br/" target="_blank">Acervo Cepe</a>
+                        </li>
+                        <li>
+                            <a href="https://www.cepe.com.br/lojacepe/" target="_blank">LOJA CEPE</a>
+                        </li>
+                        <li>
+                            <a href="https://diariooficial.cepe.com.br/balancoweb/" target="_blank">BALANÇOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </nav><!-- end ngIf: vm.codigoDiario && vm.codigoDiario == 1 -->
+    <!-- #navigation -->
+
+    <nav id="navigation" class="navbar navbar-inverse header-border-botton secondary-background-color " style="margin: 0;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbarmenu" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class=" navbarmenu navbar-collapse collapse">
+                    <a href="#" class="navbar-left logo-header navbarmenu" style="margin: 20px 50px 20px 0;">
+                        <!-- ngIf: vm.showLogo --><img ng-if="vm.showLogo" id="logoMenu" ng-src="https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/logos/logo-diario.png" class="logo ng-scope" style="max-height: 81px; max-width: 180px; margin-left: 5vw; margin-top: 35px;" src="https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/logos/logo-diario.png"><!-- end ngIf: vm.showLogo -->
+
+                        
+                    </a>
+                </div>
+                <!--                <div class="header-container">-->
+                <!--                    <a href="#" class="navbar-left logo-header ">-->
+                <!--                        <div id="logoMenu" class="logotipo">&nbsp;</div>-->
+                <!--                    </a>-->
+                <!--                </div>-->
+
+            </div>
+
+            <div id="navbar" class=" navbarmenu navbar-collapse collapse">
+
+                <ul id="menuContainer" class="navbarmenu nav navbar-nav menu-container"></ul>
+
+                <!-- ngIf: vm.mostrarLogin() --><div ng-if="vm.mostrarLogin()" class="ng-scope">
+                    <div style="float: right; margin-top: 20px; width: 173px; font-weight: bold">
+                        <a class="botao-padrao2 btn-primary" ng-click="vm.goLogin()" style="margin-bottom: 18px;">
+                            Enviar Publicação
+                        </a>
+                        <a class="botao-padrao2 btn-primary" ng-click="vm.goLogin()" style="margin-bottom: 18px;">
+                            Enviar Clipping
+                        </a>
+                    </div>
+
+                </div><!-- end ngIf: vm.mostrarLogin() -->
+
+                <!-- ngIf: vm.UserProfileService.isFullyAuthenticated() -->
+
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+</header>
+<div class="panel panel-default ng-scope">
+    <div style="padding-left: 15px;">
+        <i class="glyphicon glyphicon-menu-hamburger secondary-background-color primary" style="float:left; border:7px solid black;font-size: 15pt; color: white;background-color: black;margin-top: -2px; border-radius: 0 0 7px 7px" ng-click="vm.showNav()"></i>
+    </div>
+
+    <div print-remove="" class="panel-heading no-background-image printRemove" style="padding-left: 0; border: none;">
+
+    </div>
+
+    <div class="panel-body container-fluid" style="min-height: 63vh; padding-left: 4vw;padding-right: 4vw;">
+        <!-- uiView: content-view --><div ui-view="content-view" class="main-content ng-scope"><link rel="stylesheet" href="app/busca-avancada/busca-avancada.css" class="ng-scope">
+<div class="x_panel ng-scope">
+    <div class="x_title">
+        <div class="page-header">
+            <h1 translate="" class="ng-scope ng-binding">Busca Avançada</h1>
+        </div>
+        <h4 class="ng-binding">Digite abaixo a palavra desejada. Se preferir, escolha a pesquisa avançada para filtrar por ano ou década</h4>
+        <br>
+        <!-- / .page-header -->
+    </div>
+    <br>
+    <form name="formFiltro" ng-submit="vm.submit()" class="ng-invalid ng-dirty ng-invalid-mask ng-valid-parse ng-valid-required" style="">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4 class="ng-binding">Palavras:*</h4>
+                <input id="palavras" class="form-control input-lg ng-pristine ng-untouched ng-not-empty ng-valid ng-valid-required" ng-disabled="!vm.codigoDiario" type="text" ng-model="vm.filtro.palavras" name="palavras" required="" style="">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="ng-binding">Categoria</h4>
+                <select ng-disabled="!vm.codigoDiario" style="width: 100%" class="input-lg form-control ng-pristine ng-untouched ng-valid ng-empty" name="repeatSelect" id="repeatSelect" ng-model="vm.filtro.codigoCategoria">
+                    <option value="">Todas as categorias</option>
+                    <option value="999999999">Não categoriazado</option>
+                    <!-- ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="32" class="ng-binding ng-scope" style="">Poder Executivo
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="33" class="ng-binding ng-scope">Governo do Estado
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="68" class="ng-binding ng-scope">Governo do Estado → Chefe de Gabinete do Estado
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="411" class="ng-binding ng-scope">Governo do Estado → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="34" class="ng-binding ng-scope">Vice-Governadoria
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="854" class="ng-binding ng-scope">Vice-Governadoria → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="35" class="ng-binding ng-scope">Secretarias de Estado
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="36" class="ng-binding ng-scope">Secretarias de Estado → Administração
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="222" class="ng-binding ng-scope">Secretarias de Estado → Administração → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1745" class="ng-binding ng-scope">Secretarias de Estado → Administração Penitenciária e Ressocialização
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1713" class="ng-binding ng-scope">Secretarias de Estado → Assessoria Especial à Governadora e Relações Internacionais
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="48" class="ng-binding ng-scope">Secretarias de Estado → Assistência Social, Combate à Fome e Políticas sobre Drogas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="934" class="ng-binding ng-scope">Secretarias de Estado → Assistência Social, Combate à Fome e Políticas sobre Drogas → 4 colunas (26cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="38" class="ng-binding ng-scope">Secretarias de Estado → Casa Civil
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="39" class="ng-binding ng-scope">Secretarias de Estado → Casa Militar
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="41" class="ng-binding ng-scope">Secretarias de Estado → Ciência, Tecnologia e Inovação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="52" class="ng-binding ng-scope">Secretarias de Estado → Comunicação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1216" class="ng-binding ng-scope">Secretarias de Estado → Comunicação → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="42" class="ng-binding ng-scope">Secretarias de Estado → Controladoria-Geral do Estado
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1746" class="ng-binding ng-scope">Secretarias de Estado → Criança e Juventude
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="43" class="ng-binding ng-scope">Secretarias de Estado → Cultura
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="44" class="ng-binding ng-scope">Secretarias de Estado → Defesa Social
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="654" class="ng-binding ng-scope">Secretarias de Estado → Defesa Social → Corregedoria da SDS - 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="655" class="ng-binding ng-scope">Secretarias de Estado → Defesa Social → Polícia Civil - 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="656" class="ng-binding ng-scope">Secretarias de Estado → Defesa Social → Polícia Militar - 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="657" class="ng-binding ng-scope">Secretarias de Estado → Defesa Social → Corpo de Bombeiros - 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="37" class="ng-binding ng-scope">Secretarias de Estado → Desenvolvimento Agrário, Agricultura, Pecuária e Pesca
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="47" class="ng-binding ng-scope">Secretarias de Estado → Desenvolvimento Econômico
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="56" class="ng-binding ng-scope">Secretarias de Estado → Desenvolvimento Profissional e Empreendedorismo
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="51" class="ng-binding ng-scope">Secretarias de Estado → Desenvolvimento Urbano e Habitação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="49" class="ng-binding ng-scope">Secretarias de Estado → Educação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1876" class="ng-binding ng-scope">Secretarias de Estado → Esportes
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="50" class="ng-binding ng-scope">Secretarias de Estado → Fazenda
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="221" class="ng-binding ng-scope">Secretarias de Estado → Fazenda → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="53" class="ng-binding ng-scope">Secretarias de Estado → Justiça, Direitos Humanos e Prevenção a Violência
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="55" class="ng-binding ng-scope">Secretarias de Estado → Meio Ambiente, Sustentabilidade e Fernando de Noronha
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="775" class="ng-binding ng-scope">Secretarias de Estado → Mobilidade e Infraestrutura
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1613" class="ng-binding ng-scope">Secretarias de Estado → Mobilidade e Infraestrutura → Secretaria de Infraestrutura e Recursos Hídricos - FERH
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="57" class="ng-binding ng-scope">Secretarias de Estado → Mulher
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="754" class="ng-binding ng-scope">Secretarias de Estado → Políticas de Prevenção à Violência e às Drogas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1014" class="ng-binding ng-scope">Secretarias de Estado → Políticas de Prevenção à Violência e às Drogas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="58" class="ng-binding ng-scope">Secretarias de Estado → Planejamento, Gestão e Desenvolvimento Regional
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="61" class="ng-binding ng-scope">Secretarias de Estado → Turismo e Lazer
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1658" class="ng-binding ng-scope">Secretarias de Estado → Projetos Estratégicos
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1662" class="ng-binding ng-scope">Secretarias de Estado → Recursos Hídricos e de Saneamento
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="59" class="ng-binding ng-scope">Secretarias de Estado → Saúde
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="223" class="ng-binding ng-scope">Secretarias de Estado → Saúde → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="62" class="ng-binding ng-scope">Secretarias de Estado → Procuradoria-Geral do Estado
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="63" class="ng-binding ng-scope">Secretarias de Estado → Defensoria Pública
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="64" class="ng-binding ng-scope">Repartições Estaduais
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="69" class="ng-binding ng-scope">Repartições Estaduais → ADAGRO
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="224" class="ng-binding ng-scope">Repartições Estaduais → ADAGRO → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="225" class="ng-binding ng-scope">Repartições Estaduais → ADAGRO → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="70" class="ng-binding ng-scope">Repartições Estaduais → ADEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="226" class="ng-binding ng-scope">Repartições Estaduais → ADEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="227" class="ng-binding ng-scope">Repartições Estaduais → ADEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="71" class="ng-binding ng-scope">Repartições Estaduais → AGE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="228" class="ng-binding ng-scope">Repartições Estaduais → AGE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="229" class="ng-binding ng-scope">Repartições Estaduais → AGE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="72" class="ng-binding ng-scope">Repartições Estaduais → ARPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="230" class="ng-binding ng-scope">Repartições Estaduais → ARPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="231" class="ng-binding ng-scope">Repartições Estaduais → ARPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="73" class="ng-binding ng-scope">Repartições Estaduais → AG. TRABALHO
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="232" class="ng-binding ng-scope">Repartições Estaduais → AG. TRABALHO → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="233" class="ng-binding ng-scope">Repartições Estaduais → AG. TRABALHO → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="74" class="ng-binding ng-scope">Repartições Estaduais → AG. CPRH
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="234" class="ng-binding ng-scope">Repartições Estaduais → AG. CPRH → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="235" class="ng-binding ng-scope">Repartições Estaduais → AG. CPRH → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="75" class="ng-binding ng-scope">Repartições Estaduais → AG. CONDEPE/FIDEM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="236" class="ng-binding ng-scope">Repartições Estaduais → AG. CONDEPE/FIDEM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="237" class="ng-binding ng-scope">Repartições Estaduais → AG. CONDEPE/FIDEM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="76" class="ng-binding ng-scope">Repartições Estaduais → ATI
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="238" class="ng-binding ng-scope">Repartições Estaduais → ATI → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="239" class="ng-binding ng-scope">Repartições Estaduais → ATI → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="77" class="ng-binding ng-scope">Repartições Estaduais → APAC
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="240" class="ng-binding ng-scope">Repartições Estaduais → APAC → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="241" class="ng-binding ng-scope">Repartições Estaduais → APAC → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="78" class="ng-binding ng-scope">Repartições Estaduais → APEVISA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="244" class="ng-binding ng-scope">Repartições Estaduais → APEVISA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="245" class="ng-binding ng-scope">Repartições Estaduais → APEVISA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="79" class="ng-binding ng-scope">Repartições Estaduais → Assembleia Legislativa
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="246" class="ng-binding ng-scope">Repartições Estaduais → Assembleia Legislativa → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="247" class="ng-binding ng-scope">Repartições Estaduais → Assembleia Legislativa → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="86" class="ng-binding ng-scope">Repartições Estaduais → Autarquia Fernando de Noronha
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="248" class="ng-binding ng-scope">Repartições Estaduais → Autarquia Fernando de Noronha → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="249" class="ng-binding ng-scope">Repartições Estaduais → Autarquia Fernando de Noronha → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="80" class="ng-binding ng-scope">Repartições Estaduais → CISAM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="250" class="ng-binding ng-scope">Repartições Estaduais → CISAM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="251" class="ng-binding ng-scope">Repartições Estaduais → CISAM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="81" class="ng-binding ng-scope">Repartições Estaduais → CEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="252" class="ng-binding ng-scope">Repartições Estaduais → CEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="253" class="ng-binding ng-scope">Repartições Estaduais → CEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="82" class="ng-binding ng-scope">Repartições Estaduais → CEHAB
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="254" class="ng-binding ng-scope">Repartições Estaduais → CEHAB → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="255" class="ng-binding ng-scope">Repartições Estaduais → CEHAB → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="84" class="ng-binding ng-scope">Repartições Estaduais → COMPESA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="258" class="ng-binding ng-scope">Repartições Estaduais → COMPESA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="259" class="ng-binding ng-scope">Repartições Estaduais → COMPESA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="83" class="ng-binding ng-scope">Repartições Estaduais → COPERGÁS
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="256" class="ng-binding ng-scope">Repartições Estaduais → COPERGÁS → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="257" class="ng-binding ng-scope">Repartições Estaduais → COPERGÁS → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="85" class="ng-binding ng-scope">Repartições Estaduais → COMP. SUAPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="260" class="ng-binding ng-scope">Repartições Estaduais → COMP. SUAPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="261" class="ng-binding ng-scope">Repartições Estaduais → COMP. SUAPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="87" class="ng-binding ng-scope">Repartições Estaduais → Conservatório de Música
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="262" class="ng-binding ng-scope">Repartições Estaduais → Conservatório de Música → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="263" class="ng-binding ng-scope">Repartições Estaduais → Conservatório de Música → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="88" class="ng-binding ng-scope">Repartições Estaduais → Corpo de Bombeiros
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="264" class="ng-binding ng-scope">Repartições Estaduais → Corpo de Bombeiros → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="265" class="ng-binding ng-scope">Repartições Estaduais → Corpo de Bombeiros → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="578" class="ng-binding ng-scope">Repartições Estaduais → CEASA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="579" class="ng-binding ng-scope">Repartições Estaduais → CEASA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="580" class="ng-binding ng-scope">Repartições Estaduais → CEASA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="555" class="ng-binding ng-scope">Repartições Estaduais → CEDCA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="556" class="ng-binding ng-scope">Repartições Estaduais → CEDCA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="557" class="ng-binding ng-scope">Repartições Estaduais → CEDCA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="89" class="ng-binding ng-scope">Repartições Estaduais → CTM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="266" class="ng-binding ng-scope">Repartições Estaduais → CTM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="267" class="ng-binding ng-scope">Repartições Estaduais → CTM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="91" class="ng-binding ng-scope">Repartições Estaduais → DER
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="268" class="ng-binding ng-scope">Repartições Estaduais → DER → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="269" class="ng-binding ng-scope">Repartições Estaduais → DER → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="92" class="ng-binding ng-scope">Repartições Estaduais → DETRAN
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="270" class="ng-binding ng-scope">Repartições Estaduais → DETRAN → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="93" class="ng-binding ng-scope">Repartições Estaduais → EMPETUR
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="276" class="ng-binding ng-scope">Repartições Estaduais → EMPETUR → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="277" class="ng-binding ng-scope">Repartições Estaduais → EMPETUR → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="94" class="ng-binding ng-scope">Repartições Estaduais → EPC
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="278" class="ng-binding ng-scope">Repartições Estaduais → EPC → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="279" class="ng-binding ng-scope">Repartições Estaduais → EPC → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="95" class="ng-binding ng-scope">Repartições Estaduais → EPTI
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="280" class="ng-binding ng-scope">Repartições Estaduais → EPTI → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="281" class="ng-binding ng-scope">Repartições Estaduais → EPTI → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="96" class="ng-binding ng-scope">Repartições Estaduais → Escola Politécnica
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="282" class="ng-binding ng-scope">Repartições Estaduais → Escola Politécnica → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="283" class="ng-binding ng-scope">Repartições Estaduais → Escola Politécnica → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="97" class="ng-binding ng-scope">Repartições Estaduais → Escola Superior
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="284" class="ng-binding ng-scope">Repartições Estaduais → Escola Superior → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="285" class="ng-binding ng-scope">Repartições Estaduais → Escola Superior → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="98" class="ng-binding ng-scope">Repartições Estaduais → Faculdade de Ciências
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="286" class="ng-binding ng-scope">Repartições Estaduais → Faculdade de Ciências → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="287" class="ng-binding ng-scope">Repartições Estaduais → Faculdade de Ciências → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="99" class="ng-binding ng-scope">Repartições Estaduais → Faculdade de Enfermagem
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="288" class="ng-binding ng-scope">Repartições Estaduais → Faculdade de Enfermagem → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="289" class="ng-binding ng-scope">Repartições Estaduais → Faculdade de Enfermagem → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="100" class="ng-binding ng-scope">Repartições Estaduais → Faculdade Odontológica
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="290" class="ng-binding ng-scope">Repartições Estaduais → Faculdade Odontológica → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="291" class="ng-binding ng-scope">Repartições Estaduais → Faculdade Odontológica → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="101" class="ng-binding ng-scope">Repartições Estaduais → FACEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="292" class="ng-binding ng-scope">Repartições Estaduais → FACEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="293" class="ng-binding ng-scope">Repartições Estaduais → FACEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="102" class="ng-binding ng-scope">Repartições Estaduais → FUNAPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="294" class="ng-binding ng-scope">Repartições Estaduais → FUNAPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="295" class="ng-binding ng-scope">Repartições Estaduais → FUNAPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="103" class="ng-binding ng-scope">Repartições Estaduais → FUNASE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="296" class="ng-binding ng-scope">Repartições Estaduais → FUNASE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="297" class="ng-binding ng-scope">Repartições Estaduais → FUNASE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="104" class="ng-binding ng-scope">Repartições Estaduais → Fund. Hemope
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="298" class="ng-binding ng-scope">Repartições Estaduais → Fund. Hemope → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="299" class="ng-binding ng-scope">Repartições Estaduais → Fund. Hemope → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="105" class="ng-binding ng-scope">Repartições Estaduais → FUNDARPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="300" class="ng-binding ng-scope">Repartições Estaduais → FUNDARPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="301" class="ng-binding ng-scope">Repartições Estaduais → FUNDARPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="106" class="ng-binding ng-scope">Repartições Estaduais → Gab. Governadora
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="302" class="ng-binding ng-scope">Repartições Estaduais → Gab. Governadora → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="303" class="ng-binding ng-scope">Repartições Estaduais → Gab. Governadora → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="107" class="ng-binding ng-scope">Repartições Estaduais → Grande Recife
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="304" class="ng-binding ng-scope">Repartições Estaduais → Grande Recife → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="305" class="ng-binding ng-scope">Repartições Estaduais → Grande Recife → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="108" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Agamenon
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="306" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Agamenon → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="307" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Agamenon → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="109" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Barão
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="308" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Barão → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="309" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Barão → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="110" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Restauração
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="310" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Restauração → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="311" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Restauração → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="111" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Mirueira
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="312" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Mirueira → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="313" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Mirueira → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="112" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Getúlio Vargas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="314" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Getúlio Vargas → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="315" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Getúlio Vargas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="113" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Otávio de Freitas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="316" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Otávio de Freitas → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="317" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Otávio de Freitas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="114" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Regional do Agreste
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="318" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Regional do Agreste → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="319" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Regional do Agreste → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="115" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Oswaldo Cruz
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="320" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Oswaldo Cruz → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="321" class="ng-binding ng-scope">Repartições Estaduais → Hosp. Oswaldo Cruz → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="116" class="ng-binding ng-scope">Repartições Estaduais → IPA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="322" class="ng-binding ng-scope">Repartições Estaduais → IPA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="323" class="ng-binding ng-scope">Repartições Estaduais → IPA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="117" class="ng-binding ng-scope">Repartições Estaduais → IPEM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="324" class="ng-binding ng-scope">Repartições Estaduais → IPEM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="325" class="ng-binding ng-scope">Repartições Estaduais → IPEM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="118" class="ng-binding ng-scope">Repartições Estaduais → IASSEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="326" class="ng-binding ng-scope">Repartições Estaduais → IASSEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="327" class="ng-binding ng-scope">Repartições Estaduais → IASSEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="119" class="ng-binding ng-scope">Repartições Estaduais → ITEP
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="328" class="ng-binding ng-scope">Repartições Estaduais → ITEP → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="329" class="ng-binding ng-scope">Repartições Estaduais → ITEP → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="120" class="ng-binding ng-scope">Repartições Estaduais → ITERPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="332" class="ng-binding ng-scope">Repartições Estaduais → ITERPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="333" class="ng-binding ng-scope">Repartições Estaduais → ITERPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="121" class="ng-binding ng-scope">Repartições Estaduais → JUCEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="334" class="ng-binding ng-scope">Repartições Estaduais → JUCEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="335" class="ng-binding ng-scope">Repartições Estaduais → JUCEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="122" class="ng-binding ng-scope">Repartições Estaduais → LAFEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="336" class="ng-binding ng-scope">Repartições Estaduais → LAFEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="337" class="ng-binding ng-scope">Repartições Estaduais → LAFEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="123" class="ng-binding ng-scope">Repartições Estaduais → PERPART
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="338" class="ng-binding ng-scope">Repartições Estaduais → PERPART → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="339" class="ng-binding ng-scope">Repartições Estaduais → PERPART → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="124" class="ng-binding ng-scope">Repartições Estaduais → Polícia Civil
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="340" class="ng-binding ng-scope">Repartições Estaduais → Polícia Civil → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="341" class="ng-binding ng-scope">Repartições Estaduais → Polícia Civil → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="125" class="ng-binding ng-scope">Repartições Estaduais → Polícia Militar
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="342" class="ng-binding ng-scope">Repartições Estaduais → Polícia Militar → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="343" class="ng-binding ng-scope">Repartições Estaduais → Polícia Militar → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="126" class="ng-binding ng-scope">Repartições Estaduais → Porto do Recife
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="344" class="ng-binding ng-scope">Repartições Estaduais → Porto do Recife → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="345" class="ng-binding ng-scope">Repartições Estaduais → Porto do Recife → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="127" class="ng-binding ng-scope">Repartições Estaduais → PROCAPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="330" class="ng-binding ng-scope">Repartições Estaduais → PROCAPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="331" class="ng-binding ng-scope">Repartições Estaduais → PROCAPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="128" class="ng-binding ng-scope">Repartições Estaduais → PROCON
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="274" class="ng-binding ng-scope">Repartições Estaduais → PROCON → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="275" class="ng-binding ng-scope">Repartições Estaduais → PROCON → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="616" class="ng-binding ng-scope">Repartições Estaduais → PRODETUR
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="617" class="ng-binding ng-scope">Repartições Estaduais → PRODETUR → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="129" class="ng-binding ng-scope">Repartições Estaduais → PRORURAL
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="272" class="ng-binding ng-scope">Repartições Estaduais → PRORURAL → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="273" class="ng-binding ng-scope">Repartições Estaduais → PRORURAL → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="130" class="ng-binding ng-scope">Repartições Estaduais → UPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="242" class="ng-binding ng-scope">Repartições Estaduais → UPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="243" class="ng-binding ng-scope">Repartições Estaduais → UPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1785" class="ng-binding ng-scope">Repartições Estaduais → Instituto de Ciências Biológicas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="65" class="ng-binding ng-scope">Licitações e Contratos
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="133" class="ng-binding ng-scope">Licitações e Contratos → ADAGRO
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="346" class="ng-binding ng-scope">Licitações e Contratos → ADAGRO → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="347" class="ng-binding ng-scope">Licitações e Contratos → ADAGRO → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="134" class="ng-binding ng-scope">Licitações e Contratos → ADEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="348" class="ng-binding ng-scope">Licitações e Contratos → ADEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="349" class="ng-binding ng-scope">Licitações e Contratos → ADEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="135" class="ng-binding ng-scope">Licitações e Contratos → AGE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="350" class="ng-binding ng-scope">Licitações e Contratos → AGE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="351" class="ng-binding ng-scope">Licitações e Contratos → AGE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="136" class="ng-binding ng-scope">Licitações e Contratos → ARPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="352" class="ng-binding ng-scope">Licitações e Contratos → ARPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="353" class="ng-binding ng-scope">Licitações e Contratos → ARPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="137" class="ng-binding ng-scope">Licitações e Contratos → AG. TRABALHO
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="354" class="ng-binding ng-scope">Licitações e Contratos → AG. TRABALHO → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="355" class="ng-binding ng-scope">Licitações e Contratos → AG. TRABALHO → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="138" class="ng-binding ng-scope">Licitações e Contratos → AG. CPRH
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="356" class="ng-binding ng-scope">Licitações e Contratos → AG. CPRH → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="357" class="ng-binding ng-scope">Licitações e Contratos → AG. CPRH → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="139" class="ng-binding ng-scope">Licitações e Contratos → AG. CONDEPE/FIDEM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="358" class="ng-binding ng-scope">Licitações e Contratos → AG. CONDEPE/FIDEM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="359" class="ng-binding ng-scope">Licitações e Contratos → AG. CONDEPE/FIDEM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="140" class="ng-binding ng-scope">Licitações e Contratos → ATI
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="360" class="ng-binding ng-scope">Licitações e Contratos → ATI → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="361" class="ng-binding ng-scope">Licitações e Contratos → ATI → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="141" class="ng-binding ng-scope">Licitações e Contratos → APAC
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="362" class="ng-binding ng-scope">Licitações e Contratos → APAC → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="363" class="ng-binding ng-scope">Licitações e Contratos → APAC → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="142" class="ng-binding ng-scope">Licitações e Contratos → APEVISA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="364" class="ng-binding ng-scope">Licitações e Contratos → APEVISA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="365" class="ng-binding ng-scope">Licitações e Contratos → APEVISA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="143" class="ng-binding ng-scope">Licitações e Contratos → Assembleia Legislativa
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="367" class="ng-binding ng-scope">Licitações e Contratos → Assembleia Legislativa → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="144" class="ng-binding ng-scope">Licitações e Contratos → Autarquia Fernando de Noronha
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="368" class="ng-binding ng-scope">Licitações e Contratos → Autarquia Fernando de Noronha → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="370" class="ng-binding ng-scope">Licitações e Contratos → Autarquia Fernando de Noronha → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="145" class="ng-binding ng-scope">Licitações e Contratos → CISAM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="371" class="ng-binding ng-scope">Licitações e Contratos → CISAM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="372" class="ng-binding ng-scope">Licitações e Contratos → CISAM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="146" class="ng-binding ng-scope">Licitações e Contratos → CEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="373" class="ng-binding ng-scope">Licitações e Contratos → CEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="374" class="ng-binding ng-scope">Licitações e Contratos → CEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="147" class="ng-binding ng-scope">Licitações e Contratos → CEHAB
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="375" class="ng-binding ng-scope">Licitações e Contratos → CEHAB → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="376" class="ng-binding ng-scope">Licitações e Contratos → CEHAB → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="148" class="ng-binding ng-scope">Licitações e Contratos → COPERGÁS
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="377" class="ng-binding ng-scope">Licitações e Contratos → COPERGÁS → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="378" class="ng-binding ng-scope">Licitações e Contratos → COPERGÁS → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="149" class="ng-binding ng-scope">Licitações e Contratos → COMPESA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="379" class="ng-binding ng-scope">Licitações e Contratos → COMPESA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="380" class="ng-binding ng-scope">Licitações e Contratos → COMPESA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="150" class="ng-binding ng-scope">Licitações e Contratos → COMP. SUAPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="381" class="ng-binding ng-scope">Licitações e Contratos → COMP. SUAPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="382" class="ng-binding ng-scope">Licitações e Contratos → COMP. SUAPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="151" class="ng-binding ng-scope">Licitações e Contratos → Conservatório de Música
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="383" class="ng-binding ng-scope">Licitações e Contratos → Conservatório de Música → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="384" class="ng-binding ng-scope">Licitações e Contratos → Conservatório de Música → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="575" class="ng-binding ng-scope">Licitações e Contratos → CEASA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="576" class="ng-binding ng-scope">Licitações e Contratos → CEASA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="577" class="ng-binding ng-scope">Licitações e Contratos → CEASA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="552" class="ng-binding ng-scope">Licitações e Contratos → CEDCA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="553" class="ng-binding ng-scope">Licitações e Contratos → CEDCA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="554" class="ng-binding ng-scope">Licitações e Contratos → CEDCA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="153" class="ng-binding ng-scope">Licitações e Contratos → CTM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="387" class="ng-binding ng-scope">Licitações e Contratos → CTM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="388" class="ng-binding ng-scope">Licitações e Contratos → CTM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="152" class="ng-binding ng-scope">Licitações e Contratos → Corpo de Bombeiros
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="385" class="ng-binding ng-scope">Licitações e Contratos → Corpo de Bombeiros → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="386" class="ng-binding ng-scope">Licitações e Contratos → Corpo de Bombeiros → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="154" class="ng-binding ng-scope">Licitações e Contratos → Defensoria Pública
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="389" class="ng-binding ng-scope">Licitações e Contratos → Defensoria Pública → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="390" class="ng-binding ng-scope">Licitações e Contratos → Defensoria Pública → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="155" class="ng-binding ng-scope">Licitações e Contratos → DER
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="391" class="ng-binding ng-scope">Licitações e Contratos → DER → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="392" class="ng-binding ng-scope">Licitações e Contratos → DER → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="156" class="ng-binding ng-scope">Licitações e Contratos → DETRAN
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="393" class="ng-binding ng-scope">Licitações e Contratos → DETRAN → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="157" class="ng-binding ng-scope">Licitações e Contratos → EMPETUR
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="395" class="ng-binding ng-scope">Licitações e Contratos → EMPETUR → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="396" class="ng-binding ng-scope">Licitações e Contratos → EMPETUR → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="158" class="ng-binding ng-scope">Licitações e Contratos → EPC
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="397" class="ng-binding ng-scope">Licitações e Contratos → EPC → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="398" class="ng-binding ng-scope">Licitações e Contratos → EPC → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="159" class="ng-binding ng-scope">Licitações e Contratos → EPTI
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="399" class="ng-binding ng-scope">Licitações e Contratos → EPTI → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="400" class="ng-binding ng-scope">Licitações e Contratos → EPTI → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="160" class="ng-binding ng-scope">Licitações e Contratos → Escola Politécnica
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="401" class="ng-binding ng-scope">Licitações e Contratos → Escola Politécnica → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="402" class="ng-binding ng-scope">Licitações e Contratos → Escola Politécnica → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="161" class="ng-binding ng-scope">Licitações e Contratos → Escola Superior
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="403" class="ng-binding ng-scope">Licitações e Contratos → Escola Superior → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="404" class="ng-binding ng-scope">Licitações e Contratos → Escola Superior → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="162" class="ng-binding ng-scope">Licitações e Contratos → Faculdade de Ciências
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="405" class="ng-binding ng-scope">Licitações e Contratos → Faculdade de Ciências → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="406" class="ng-binding ng-scope">Licitações e Contratos → Faculdade de Ciências → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="163" class="ng-binding ng-scope">Licitações e Contratos → Faculdade de Enfermagem
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="407" class="ng-binding ng-scope">Licitações e Contratos → Faculdade de Enfermagem → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="408" class="ng-binding ng-scope">Licitações e Contratos → Faculdade de Enfermagem → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="164" class="ng-binding ng-scope">Licitações e Contratos → Faculdade Odontológica
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="409" class="ng-binding ng-scope">Licitações e Contratos → Faculdade Odontológica → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="410" class="ng-binding ng-scope">Licitações e Contratos → Faculdade Odontológica → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="165" class="ng-binding ng-scope">Licitações e Contratos → FACEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="412" class="ng-binding ng-scope">Licitações e Contratos → FACEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="413" class="ng-binding ng-scope">Licitações e Contratos → FACEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="166" class="ng-binding ng-scope">Licitações e Contratos → FUNAPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="414" class="ng-binding ng-scope">Licitações e Contratos → FUNAPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="415" class="ng-binding ng-scope">Licitações e Contratos → FUNAPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="167" class="ng-binding ng-scope">Licitações e Contratos → FUNASE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="416" class="ng-binding ng-scope">Licitações e Contratos → FUNASE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="417" class="ng-binding ng-scope">Licitações e Contratos → FUNASE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="168" class="ng-binding ng-scope">Licitações e Contratos → Fund. Hemope
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="418" class="ng-binding ng-scope">Licitações e Contratos → Fund. Hemope → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="419" class="ng-binding ng-scope">Licitações e Contratos → Fund. Hemope → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="169" class="ng-binding ng-scope">Licitações e Contratos → FUNDARPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="420" class="ng-binding ng-scope">Licitações e Contratos → FUNDARPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="421" class="ng-binding ng-scope">Licitações e Contratos → FUNDARPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="170" class="ng-binding ng-scope">Licitações e Contratos → Gab. Governadora
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="432" class="ng-binding ng-scope">Licitações e Contratos → Gab. Governadora → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="433" class="ng-binding ng-scope">Licitações e Contratos → Gab. Governadora → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="895" class="ng-binding ng-scope">Licitações e Contratos → Assessoria Especial à Governadora e Relações Internacionais
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="734" class="ng-binding ng-scope">Licitações e Contratos → Vice-Governadoria
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="171" class="ng-binding ng-scope">Licitações e Contratos → Grande Recife
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="434" class="ng-binding ng-scope">Licitações e Contratos → Grande Recife → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="435" class="ng-binding ng-scope">Licitações e Contratos → Grande Recife → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="172" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Agamenon
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="436" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Agamenon → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="437" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Agamenon → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="173" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Barão
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="438" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Barão → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="439" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Barão → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="653" class="ng-binding ng-scope">Licitações e Contratos → Hospital Belarmino Correia
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="658" class="ng-binding ng-scope">Licitações e Contratos → Hospital Colonia Professor Alcides Codoceira
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="614" class="ng-binding ng-scope">Licitações e Contratos → Hospital Correia Picanço
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="174" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Restauração
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="440" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Restauração → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="441" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Restauração → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="615" class="ng-binding ng-scope">Licitações e Contratos → Hospital Geral de Areias
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="607" class="ng-binding ng-scope">Licitações e Contratos → Hospital Dom Moura
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="608" class="ng-binding ng-scope">Licitações e Contratos → Hospital Jaboatão
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="175" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Mirueira
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="442" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Mirueira → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="443" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Mirueira → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="176" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Getúlio Vargas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="444" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Getúlio Vargas → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="445" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Getúlio Vargas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="652" class="ng-binding ng-scope">Licitações e Contratos → Hospital Jesus Nazareno
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="609" class="ng-binding ng-scope">Licitações e Contratos → Hospital Limoeiro
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="177" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Otávio de Freitas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="446" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Otávio de Freitas → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="447" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Otávio de Freitas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="178" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Regional do Agreste
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="448" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Regional do Agreste → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="449" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Regional do Agreste → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="774" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Regional Inácio de Sá
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="794" class="ng-binding ng-scope">Licitações e Contratos → Hospital Regional Professor Agamenon Magalhães
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="610" class="ng-binding ng-scope">Licitações e Contratos → Hospital Ulysses
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="179" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Oswaldo Cruz
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="450" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Oswaldo Cruz → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="451" class="ng-binding ng-scope">Licitações e Contratos → Hosp. Oswaldo Cruz → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="180" class="ng-binding ng-scope">Licitações e Contratos → IPA
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="452" class="ng-binding ng-scope">Licitações e Contratos → IPA → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="453" class="ng-binding ng-scope">Licitações e Contratos → IPA → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="605" class="ng-binding ng-scope">Licitações e Contratos → Instituto de Ciências Biológicas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="714" class="ng-binding ng-scope">Licitações e Contratos → Instituto de Ciências Biológicas → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="715" class="ng-binding ng-scope">Licitações e Contratos → Instituto de Ciências Biológicas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="181" class="ng-binding ng-scope">Licitações e Contratos → IPEM
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="454" class="ng-binding ng-scope">Licitações e Contratos → IPEM → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="455" class="ng-binding ng-scope">Licitações e Contratos → IPEM → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="182" class="ng-binding ng-scope">Licitações e Contratos → IASSEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="456" class="ng-binding ng-scope">Licitações e Contratos → IASSEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="457" class="ng-binding ng-scope">Licitações e Contratos → IASSEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="183" class="ng-binding ng-scope">Licitações e Contratos → ITEP
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="458" class="ng-binding ng-scope">Licitações e Contratos → ITEP → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="459" class="ng-binding ng-scope">Licitações e Contratos → ITEP → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="184" class="ng-binding ng-scope">Licitações e Contratos → ITERPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="460" class="ng-binding ng-scope">Licitações e Contratos → ITERPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="461" class="ng-binding ng-scope">Licitações e Contratos → ITERPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="185" class="ng-binding ng-scope">Licitações e Contratos → JUCEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="462" class="ng-binding ng-scope">Licitações e Contratos → JUCEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="463" class="ng-binding ng-scope">Licitações e Contratos → JUCEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="186" class="ng-binding ng-scope">Licitações e Contratos → LAFEPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="464" class="ng-binding ng-scope">Licitações e Contratos → LAFEPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="465" class="ng-binding ng-scope">Licitações e Contratos → LAFEPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="187" class="ng-binding ng-scope">Licitações e Contratos → PERPART
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="466" class="ng-binding ng-scope">Licitações e Contratos → PERPART → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="467" class="ng-binding ng-scope">Licitações e Contratos → PERPART → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="188" class="ng-binding ng-scope">Licitações e Contratos → Polícia Civil
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="468" class="ng-binding ng-scope">Licitações e Contratos → Polícia Civil → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="469" class="ng-binding ng-scope">Licitações e Contratos → Polícia Civil → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="189" class="ng-binding ng-scope">Licitações e Contratos → Polícia Militar
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="470" class="ng-binding ng-scope">Licitações e Contratos → Polícia Militar → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="471" class="ng-binding ng-scope">Licitações e Contratos → Polícia Militar → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="190" class="ng-binding ng-scope">Licitações e Contratos → Porto do Recife
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="472" class="ng-binding ng-scope">Licitações e Contratos → Porto do Recife → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="473" class="ng-binding ng-scope">Licitações e Contratos → Porto do Recife → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="191" class="ng-binding ng-scope">Licitações e Contratos → PROCAPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="474" class="ng-binding ng-scope">Licitações e Contratos → PROCAPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="475" class="ng-binding ng-scope">Licitações e Contratos → PROCAPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="192" class="ng-binding ng-scope">Licitações e Contratos → PROCON
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="476" class="ng-binding ng-scope">Licitações e Contratos → PROCON → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="477" class="ng-binding ng-scope">Licitações e Contratos → PROCON → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="193" class="ng-binding ng-scope">Licitações e Contratos → Procuradoria
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="478" class="ng-binding ng-scope">Licitações e Contratos → Procuradoria → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="479" class="ng-binding ng-scope">Licitações e Contratos → Procuradoria → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="194" class="ng-binding ng-scope">Licitações e Contratos → PRORURAL
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="480" class="ng-binding ng-scope">Licitações e Contratos → PRORURAL → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="481" class="ng-binding ng-scope">Licitações e Contratos → PRORURAL → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="195" class="ng-binding ng-scope">Licitações e Contratos → UPE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="482" class="ng-binding ng-scope">Licitações e Contratos → UPE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="483" class="ng-binding ng-scope">Licitações e Contratos → UPE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="196" class="ng-binding ng-scope">Licitações e Contratos → Administração
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="484" class="ng-binding ng-scope">Licitações e Contratos → Administração → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="485" class="ng-binding ng-scope">Licitações e Contratos → Administração → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="212" class="ng-binding ng-scope">Licitações e Contratos → Administração Penitenciária e Ressocialização
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="517" class="ng-binding ng-scope">Licitações e Contratos → Administração Penitenciária e Ressocialização → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="206" class="ng-binding ng-scope">Licitações e Contratos → Assistência Social, Combate à Fome e Políticas sobre Drogas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="505" class="ng-binding ng-scope">Licitações e Contratos → Assistência Social, Combate à Fome e Políticas sobre Drogas → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="506" class="ng-binding ng-scope">Licitações e Contratos → Assistência Social, Combate à Fome e Políticas sobre Drogas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="198" class="ng-binding ng-scope">Licitações e Contratos → Casa Civil
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="488" class="ng-binding ng-scope">Licitações e Contratos → Casa Civil → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="489" class="ng-binding ng-scope">Licitações e Contratos → Casa Civil → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="199" class="ng-binding ng-scope">Licitações e Contratos → Casa Militar
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="490" class="ng-binding ng-scope">Licitações e Contratos → Casa Militar → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="491" class="ng-binding ng-scope">Licitações e Contratos → Casa Militar → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="200" class="ng-binding ng-scope">Licitações e Contratos → Cidades
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="201" class="ng-binding ng-scope">Licitações e Contratos → Ciência, Tecnologia e Inovação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="495" class="ng-binding ng-scope">Licitações e Contratos → Ciência, Tecnologia e Inovação → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="496" class="ng-binding ng-scope">Licitações e Contratos → Ciência, Tecnologia e Inovação → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="210" class="ng-binding ng-scope">Licitações e Contratos → Comunicação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="513" class="ng-binding ng-scope">Licitações e Contratos → Comunicação → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="514" class="ng-binding ng-scope">Licitações e Contratos → Comunicação → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="202" class="ng-binding ng-scope">Licitações e Contratos → Controladoria-Geral
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="497" class="ng-binding ng-scope">Licitações e Contratos → Controladoria-Geral → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="498" class="ng-binding ng-scope">Licitações e Contratos → Controladoria-Geral → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1747" class="ng-binding ng-scope">Licitações e Contratos → Criança e da Juventude
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1748" class="ng-binding ng-scope">Licitações e Contratos → Criança e da Juventude → 2 colunas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="203" class="ng-binding ng-scope">Licitações e Contratos → Cultura
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="499" class="ng-binding ng-scope">Licitações e Contratos → Cultura → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="500" class="ng-binding ng-scope">Licitações e Contratos → Cultura → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="214" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Profissional e Empreendedorismo
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="521" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Profissional e Empreendedorismo → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="522" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Profissional e Empreendedorismo → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="204" class="ng-binding ng-scope">Licitações e Contratos → Defesa Social
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="501" class="ng-binding ng-scope">Licitações e Contratos → Defesa Social → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="502" class="ng-binding ng-scope">Licitações e Contratos → Defesa Social → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="197" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Agrário, Agricultura, Pecuária e Pesca
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="486" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Agrário, Agricultura, Pecuária e Pesca → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="487" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Agrário, Agricultura, Pecuária e Pesca → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="205" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Econômico
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="503" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Econômico → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="504" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Econômico → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="209" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Urbano e Habitação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="511" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Urbano e Habitação → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="512" class="ng-binding ng-scope">Licitações e Contratos → Desenvolvimento Urbano e Habitação → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="207" class="ng-binding ng-scope">Licitações e Contratos → Educação
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="508" class="ng-binding ng-scope">Licitações e Contratos → Educação → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="507" class="ng-binding ng-scope">Licitações e Contratos → Educação → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1877" class="ng-binding ng-scope">Licitações e Contratos → Esportes
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="208" class="ng-binding ng-scope">Licitações e Contratos → Fazenda
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="509" class="ng-binding ng-scope">Licitações e Contratos → Fazenda → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="510" class="ng-binding ng-scope">Licitações e Contratos → Fazenda → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="211" class="ng-binding ng-scope">Licitações e Contratos → Justiça, Direitos Humanos e Prevenção a Violência
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="515" class="ng-binding ng-scope">Licitações e Contratos → Justiça, Direitos Humanos e Prevenção a Violência → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="516" class="ng-binding ng-scope">Licitações e Contratos → Justiça, Direitos Humanos e Prevenção a Violência → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="776" class="ng-binding ng-scope">Licitações e Contratos → Mobilidade e Infraestrutura
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1056" class="ng-binding ng-scope">Licitações e Contratos → Mobilidade e Infraestrutura → 2 colunas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1614" class="ng-binding ng-scope">Licitações e Contratos → Mobilidade e Infraestrutura → Secretaria de Infraestrutura e Recursos Hídricos - FERH
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1615" class="ng-binding ng-scope">Licitações e Contratos → Mobilidade e Infraestrutura → Secretaria de Infraestrutura e Recursos Hídricos - FERH → 2 colunas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="213" class="ng-binding ng-scope">Licitações e Contratos → Meio Ambiente, Sustentabilidade e Fernando de Noronha
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="519" class="ng-binding ng-scope">Licitações e Contratos → Meio Ambiente, Sustentabilidade e Fernando de Noronha → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="520" class="ng-binding ng-scope">Licitações e Contratos → Meio Ambiente, Sustentabilidade e Fernando de Noronha → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="215" class="ng-binding ng-scope">Licitações e Contratos → Mulher
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="523" class="ng-binding ng-scope">Licitações e Contratos → Mulher → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="524" class="ng-binding ng-scope">Licitações e Contratos → Mulher → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="216" class="ng-binding ng-scope">Licitações e Contratos → Planejamento, Gestão e Desenvolvimento Regional
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="525" class="ng-binding ng-scope">Licitações e Contratos → Planejamento, Gestão e Desenvolvimento Regional → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="526" class="ng-binding ng-scope">Licitações e Contratos → Planejamento, Gestão e Desenvolvimento Regional → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="777" class="ng-binding ng-scope">Licitações e Contratos → Políticas de Prevenção à Violência e às Drogas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="834" class="ng-binding ng-scope">Licitações e Contratos → Políticas de Prevenção à Violência e às Drogas → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="835" class="ng-binding ng-scope">Licitações e Contratos → Políticas de Prevenção à Violência e às Drogas → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1659" class="ng-binding ng-scope">Licitações e Contratos → Projetos Estratégicos
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1660" class="ng-binding ng-scope">Licitações e Contratos → Projetos Estratégicos → 2 colunas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1661" class="ng-binding ng-scope">Licitações e Contratos → Projetos Estratégicos → 4 colunas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1663" class="ng-binding ng-scope">Licitações e Contratos → Recursos Hídricos e de Saneamento
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1664" class="ng-binding ng-scope">Licitações e Contratos → Recursos Hídricos e de Saneamento → 2 colunas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1665" class="ng-binding ng-scope">Licitações e Contratos → Recursos Hídricos e de Saneamento → 4 colunas
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="217" class="ng-binding ng-scope">Licitações e Contratos → Saúde
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="527" class="ng-binding ng-scope">Licitações e Contratos → Saúde → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="528" class="ng-binding ng-scope">Licitações e Contratos → Saúde → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="218" class="ng-binding ng-scope">Licitações e Contratos → Transportes
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="219" class="ng-binding ng-scope">Licitações e Contratos → Turismo e Lazer
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="531" class="ng-binding ng-scope">Licitações e Contratos → Turismo e Lazer → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="532" class="ng-binding ng-scope">Licitações e Contratos → Turismo e Lazer → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="220" class="ng-binding ng-scope">Licitações e Contratos → TCE
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="533" class="ng-binding ng-scope">Licitações e Contratos → TCE → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="534" class="ng-binding ng-scope">Licitações e Contratos → TCE → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="66" class="ng-binding ng-scope">Publicações Municipais
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="814" class="ng-binding ng-scope">Publicações Municipais → 1 coluna (6,2cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="611" class="ng-binding ng-scope">Publicações Municipais → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="67" class="ng-binding ng-scope">Publicações Particulares
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="815" class="ng-binding ng-scope">Publicações Particulares → 1 coluna (6,2cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="131" class="ng-binding ng-scope">Publicações Particulares → 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="132" class="ng-binding ng-scope">Publicações Particulares → 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="674" class="ng-binding ng-scope">Publicações Particulares → Balanço Patrimonial 1 coluna (6,2 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="675" class="ng-binding ng-scope">Publicações Particulares → Balanço Patrimonial 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="676" class="ng-binding ng-scope">Publicações Particulares → Balanço Patrimonial 4 colunas (26cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1689" class="ng-binding ng-scope">Publicações Particulares → Balanço resumido 1 coluna (6,2cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1690" class="ng-binding ng-scope">Publicações Particulares → Balanço resumido 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1691" class="ng-binding ng-scope">Publicações Particulares → Balanço resumido 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1749" class="ng-binding ng-scope">Publicações Particulares → Balanço Financeiro 4 colunas (26cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1750" class="ng-binding ng-scope">Publicações Particulares → Balanço Financeiro 2 colunas (12,8)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1751" class="ng-binding ng-scope">Publicações Particulares → Balanço Financeiro 1 coluna (6,2cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1752" class="ng-binding ng-scope">Publicações Particulares → Editais
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1753" class="ng-binding ng-scope">Publicações Particulares → Editais 2 colunas (12,8 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias --><option ng-repeat="categoria in vm.categorias" value="1754" class="ng-binding ng-scope">Publicações Particulares → Editais 4 colunas (26 cm)
+                    </option><!-- end ngRepeat: categoria in vm.categorias -->
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Data Inicial*</h4>
+                <div class="form-group input-group input-group-lg date" style="cursor: pointer;">
+                    <span class="has-float-label">
+                    <input id="dataInicial" name="dataInicial" type="text" class="form-control input-lg ng-untouched ng-isolate-scope ng-invalid ng-not-empty ng-valid-required ng-dirty ng-invalid-mask ng-valid-parse" ng-disabled="!vm.codigoDiario" ng-model="vm.filtro.dataInicial" placeholder="dd/mm/aaaa" mask="39/19/9999" restrict="reject" datepicker="" autocomplete="off" max-date="vm.today" required="" style="display: inline-block; width: 100%;">
+                    </span>
+                <span class="input-group-addon" style="font-size: inherit;"><i class="glyphicon glyphicon-calendar"></i></span></div>
+            </div>
+            <div class="col-md-6">
+                <h4>Data Final*</h4>
+                <div class="form-group input-group input-group-lg date" style="cursor: pointer;">
+                    <span class="has-float-label">
+                    <input id="dataFinal" name="dataFinal" type="text" class="form-control input-lg ng-untouched ng-isolate-scope ng-invalid ng-not-empty ng-valid-required ng-dirty ng-invalid-mask ng-valid-parse" ng-disabled="!vm.codigoDiario" ng-model="vm.filtro.dataFinal" placeholder="dd/mm/aaaa" mask="39/19/9999" restrict="reject" datepicker="" autocomplete="off" max-date="vm.today" required="" style="display: inline-block; width: 100%;">
+                    </span>
+                <span class="input-group-addon" style="font-size: inherit;"><i class="glyphicon glyphicon-calendar"></i></span></div>
+            </div>
+        </div>
+        <div class="pull-right">
+            <div class="form-group input-group input-group-lg">
+                <button class="btn btn-default ng-binding" type="button" ng-disabled="!vm.codigoDiario" ng-click="vm.limparFiltros()">
+                    Limpar Filtros
+                </button>
+                <button class="btn btn-default ng-binding" ng-disabled="!vm.codigoDiario" type="submit">
+                    Consultar
+                </button>
+            </div>
+        </div>
+    </form>
+    <!-- / form -->
+
+
+    <!-- Resultado da consulta -->
+    <div class="x_content">
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <!-- ngIf: vm.totalItems > 0 -->
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+
+                <!-- ngIf: !vm.resultadoEncontrado --><h4 class="text-center ng-binding ng-scope" ng-if="!vm.resultadoEncontrado" style="">
+                    Nenhum resultado foi encontrado</h4><!-- end ngIf: !vm.resultadoEncontrado -->
+
+                <!-- ngRepeat: materia in vm.materias -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <ul uib-pagination="" total-items="vm.totalItems" ng-model="vm.currentPage" items-per-page="10" ng-change="vm.pageChanged()" class="ng-pristine ng-untouched ng-valid ng-isolate-scope pagination ng-not-empty" role="menu"><!-- ngIf: ::boundaryLinks -->
+<!-- ngIf: ::directionLinks --><li role="menuitem" ng-if="::directionLinks" ng-class="{disabled: noPrevious()||ngDisabled}" class="pagination-prev ng-scope disabled"><a href="" ng-click="selectPage(page - 1, $event)" ng-disabled="noPrevious()||ngDisabled" uib-tabindex-toggle="" class="ng-binding" disabled="disabled" tabindex="-1">Previous</a></li><!-- end ngIf: ::directionLinks -->
+<!-- ngRepeat: page in pages track by $index --><li role="menuitem" ng-repeat="page in pages track by $index" ng-class="{active: page.active,disabled: ngDisabled&amp;&amp;!page.active}" class="pagination-page ng-scope active"><a href="" ng-click="selectPage(page.number, $event)" ng-disabled="ngDisabled&amp;&amp;!page.active" uib-tabindex-toggle="" class="ng-binding">1</a></li><!-- end ngRepeat: page in pages track by $index -->
+<!-- ngIf: ::directionLinks --><li role="menuitem" ng-if="::directionLinks" ng-class="{disabled: noNext()||ngDisabled}" class="pagination-next ng-scope disabled"><a href="" ng-click="selectPage(page + 1, $event)" ng-disabled="noNext()||ngDisabled" uib-tabindex-toggle="" class="ng-binding" disabled="disabled" tabindex="-1">Next</a></li><!-- end ngIf: ::directionLinks -->
+<!-- ngIf: ::boundaryLinks -->
+</ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</div>
+    </div>
+
+    <div print-remove="" class="panel-footer printRemove" style="border: none; padding: 0;">
+
+        <footer id="footer" style="border-top-width: 0; padding-top: 0; margin-top: 0;">
+            <div class="footer-info section footer-classic bg-image secondary-background-color">
+                <div class="row">
+                    <div class="col-md-4 pull-left">
+                        <a class="pull-left" target="_blank" href="https://www.cepe.com.br/">www.cepe.com.br</a>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p class="text-center">COPYRIGHT © Companhia Editora de Pernambuco -
+                            CEPE</p>
+                    </div>
+                    <div class="col-md-4 pull-right">
+                        <a class="pull-right ng-binding">Versão:
+                            4.8.1
+                            prod </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /footer-info -->
+
+        </footer>
+        <!-- / footer -->
+
+    </div>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade ng-scope" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content modal-twocolors">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Visualizar Matéria</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4 texto-branco">
+                        <div class="form-group">
+                            <div class="grid col-sm-9">
+                                <div class="item col-sm-4 h100"></div>
+                                <div class="item col-sm-4 h60"></div>
+                                <div class="item col-sm-4 h60"></div>
+                                <div class="item-destaque col-sm-8 h40"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <p class="form-control-static col-sm-12"><strong>Tamanho do
+                                arquivo:</strong>99kb</p>
+                        </div>
+                        <div class="form-group">
+                            <p class="form-control-static col-sm-12"><strong>Valor:</strong>R$ 9,99
+                            </p>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="button" class="btn btn-primary btn-lg">Enviar Matéria
+                            </button>
+                        </div>
+
+                    </div>
+                    <!-- /col-md -->
+                    <div class="col-md-8 text-center">
+                        <img src="content/images/materia.jpg" class="img-thumbnail">
+                    </div>
+                    <!-- /col-md -->
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div></div>
+
+<script src="content/scripts-min/lib-9865d3c4d3.min.js"></script>
+
+
+<script src="content/scripts-min/app-9ea73055ca.min.js"></script>
+<!-- PDF.js is kept outside the build pipeline to avoid uglify errors on modern syntax -->
+<script src="app/app.config.js"></script>
+
+<!--    <script src="content/js/editorjs/editor.js"></script>-->
+<!--    <script src="content/js/editorjs/header.js"></script>-->
+<!--    <script src="content/js/editorjs/table.js"></script>-->
+<!-- Smartsupp Live Chat script -->
+
+
+
+
+<div class="daterangepicker dropdown-menu single opensright"><div class="calendar left single"><div class="daterangepicker_input"><input class="input-mini" type="text" name="daterangepicker_start" value="" style="display: none;"><i class="fa fa-calendar glyphicon glyphicon-calendar" style="display: none;"></i><div class="calendar-time" style="display: none;"><div></div><i class="fa fa-clock-o glyphicon glyphicon-time" style="display: none;"></i></div></div><div class="calendar-table"></div></div><div class="calendar right" style="display: none;"><div class="daterangepicker_input"><input class="input-mini" type="text" name="daterangepicker_end" value="" style="display: none;"><i class="fa fa-calendar glyphicon glyphicon-calendar" style="display: none;"></i><div class="calendar-time" style="display: none;"><div></div><i class="fa fa-clock-o glyphicon glyphicon-time" style="display: none;"></i></div></div><div class="calendar-table"></div></div><div class="ranges" style="display: none;"><div class="range_inputs"><button class="applyBtn btn btn-sm btn-success" disabled="disabled" type="button">Apply</button> <button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button></div></div></div><div class="daterangepicker dropdown-menu single opensright"><div class="calendar left single"><div class="daterangepicker_input"><input class="input-mini" type="text" name="daterangepicker_start" value="" style="display: none;"><i class="fa fa-calendar glyphicon glyphicon-calendar" style="display: none;"></i><div class="calendar-time" style="display: none;"><div></div><i class="fa fa-clock-o glyphicon glyphicon-time" style="display: none;"></i></div></div><div class="calendar-table"></div></div><div class="calendar right" style="display: none;"><div class="daterangepicker_input"><input class="input-mini" type="text" name="daterangepicker_end" value="" style="display: none;"><i class="fa fa-calendar glyphicon glyphicon-calendar" style="display: none;"></i><div class="calendar-time" style="display: none;"><div></div><i class="fa fa-clock-o glyphicon glyphicon-time" style="display: none;"></i></div></div><div class="calendar-table"></div></div><div class="ranges" style="display: none;"><div class="range_inputs"><button class="applyBtn btn btn-sm btn-success" disabled="disabled" type="button">Apply</button> <button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button></div></div></div></body></html>

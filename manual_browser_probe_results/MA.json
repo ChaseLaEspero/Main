@@ -1,0 +1,24 @@
+{
+  "state": "MA",
+  "start_url": "https://diariooficial.ma.gov.br/acervo/",
+  "errors": [
+    "goto: TimeoutError: Page.goto: Timeout 120000ms exceeded.\nCall log:\n  - navigating to \"https://diariooficial.ma.gov.br/acervo/\", waiting until \"domcontentloaded\"\n"
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://diariooficial.ma.gov.br/acervo/",
+      "resource_type": "document",
+      "post_data": null
+    }
+  ],
+  "responses": [],
+  "final_url": "about:blank",
+  "title": "",
+  "html_length": 39,
+  "forms": [],
+  "controls": [],
+  "scripts": [],
+  "ma_select_count": 0,
+  "ma_rows": []
+}
