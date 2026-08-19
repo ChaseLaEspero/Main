@@ -1,0 +1,43 @@
+name: Probe AutoPage coverage
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - probe_autopage.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+      - name: Probe official AutoPage archives
+        run: python probe_autopage.py
+      - name: Commit probe results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add autopage_probe/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Store AutoPage coverage probe"
+            git pull --rebase
+            git push
+          fi
+      - name: Upload probe
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autopage-coverage-probe
+          path: autopage_probe/
+          if-no-files-found: warn
