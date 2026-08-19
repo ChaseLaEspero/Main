@@ -2,6 +2,10 @@ name: Resolve PI and RO archive boundaries
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - resolve_pi_ro.py
   issues:
     types: [opened]
 
@@ -10,7 +14,7 @@ permissions:
 
 jobs:
   resolve:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.title, 'Resolve PI RO')
+    if: github.event_name != 'issues' || contains(github.event.issue.title, 'Resolve PI RO')
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
