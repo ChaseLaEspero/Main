@@ -1,0 +1,51 @@
+{
+  "state": "RO",
+  "main_url": "https://diof.ro.gov.br/diarios",
+  "download_page": "https://diof.ro.gov.br/downloads/",
+  "legal_electronic_start": "2019-08-08",
+  "candidate_count": 438,
+  "verified_pdf_count": 2,
+  "earliest_valid_issue_pdf": {
+    "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
+    "effective_date": "2019-09-17",
+    "source_page": "predictable dated path",
+    "link_text": "",
+    "verification": {
+      "url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
+      "status": 206,
+      "content_type": "application/pdf",
+      "content_length": "4096",
+      "is_pdf": true
+    }
+  },
+  "first_valid_issue_pdfs": [
+    {
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
+      "effective_date": "2019-09-17",
+      "source_page": "predictable dated path",
+      "link_text": "",
+      "verification": {
+        "url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
+        "status": 206,
+        "content_type": "application/pdf",
+        "content_length": "4096",
+        "is_pdf": true
+      }
+    },
+    {
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-18-09-2019.pdf",
+      "effective_date": "2019-09-18",
+      "source_page": "predictable dated path",
+      "link_text": "",
+      "verification": {
+        "url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-18-09-2019.pdf",
+        "status": 206,
+        "content_type": "application/pdf",
+        "content_length": "4096",
+        "is_pdf": true
+      }
+    }
+  ],
+  "covers_2010_2021_in_current_electronic_archive": false,
+  "conclusion": "The current official electronic full-issue archive begins in August 2019 and does not cover 2010-2018. The Diário itself existed in print before then, but no official online full-issue source for 2010-2018 was verified."
+}
