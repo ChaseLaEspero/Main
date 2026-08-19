@@ -4,7 +4,7 @@
     "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/published?page=1",
     "content_type": "application/json",
     "length": 967,
-    "preview": "{\"status\":\"success\",\"editions\":[{\"id\":51777,\"number\":2867,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-19T03:00:00.000000Z\",\"downloads\":805,\"views\":2996},{\"id\":51776,\"number\":2866,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-18T03:00:00.000000Z\",\"downloads\":1270,\"views\":4886},{\"id\":51775,\"number\":2865,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-17T03:00:00.000000Z\",\"downloads\":1544,\"views\":6138},{\"id\":51774,\"number\":2864,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-14T03:00:00.000000Z\",\"downloads\":2051,\"views\":8407},{\"id\":51773,\"number\":2863,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-13T03:00:00.000000Z\",\"downloads\":1658,\"views\":6629}]}",
+    "preview": "{\"status\":\"success\",\"editions\":[{\"id\":51777,\"number\":2867,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-19T03:00:00.000000Z\",\"downloads\":815,\"views\":3048},{\"id\":51776,\"number\":2866,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-18T03:00:00.000000Z\",\"downloads\":1273,\"views\":4891},{\"id\":51775,\"number\":2865,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-17T03:00:00.000000Z\",\"downloads\":1544,\"views\":6143},{\"id\":51774,\"number\":2864,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-14T03:00:00.000000Z\",\"downloads\":2051,\"views\":8408},{\"id\":51773,\"number\":2863,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-13T03:00:00.000000Z\",\"downloads\":1658,\"views\":6629}]}",
     "json": {
       "status": "success",
       "editions": [
@@ -14,8 +14,8 @@
           "edition_type_name": "Diário Oficial do Estado de Alagoas",
           "suplement": false,
           "publication_date": "2026-08-19T03:00:00.000000Z",
-          "downloads": 805,
-          "views": 2996
+          "downloads": 815,
+          "views": 3048
         },
         {
           "id": 51776,
@@ -23,8 +23,8 @@
           "edition_type_name": "Diário Oficial do Estado de Alagoas",
           "suplement": false,
           "publication_date": "2026-08-18T03:00:00.000000Z",
-          "downloads": 1270,
-          "views": 4886
+          "downloads": 1273,
+          "views": 4891
         },
         {
           "id": 51775,
@@ -33,7 +33,7 @@
           "suplement": false,
           "publication_date": "2026-08-17T03:00:00.000000Z",
           "downloads": 1544,
-          "views": 6138
+          "views": 6143
         },
         {
           "id": 51774,
@@ -42,7 +42,7 @@
           "suplement": false,
           "publication_date": "2026-08-14T03:00:00.000000Z",
           "downloads": 2051,
-          "views": 8407
+          "views": 8408
         },
         {
           "id": 51773,
