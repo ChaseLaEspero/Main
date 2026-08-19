@@ -4,7 +4,7 @@
   "download_page": "https://diof.ro.gov.br/downloads/",
   "legal_electronic_start": "2019-08-08",
   "candidate_count": 438,
-  "verified_pdf_count": 2,
+  "tested_until_first_valid": 122,
   "earliest_valid_issue_pdf": {
     "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
     "effective_date": "2019-09-17",
@@ -18,32 +18,860 @@
       "is_pdf": true
     }
   },
-  "first_valid_issue_pdfs": [
+  "boundary_tests": [
     {
-      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
-      "effective_date": "2019-09-17",
-      "source_page": "predictable dated path",
-      "link_text": "",
-      "verification": {
-        "url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
-        "status": 206,
-        "content_type": "application/pdf",
-        "content_length": "4096",
-        "is_pdf": true
-      }
+      "effective_date": "2019-08-08",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-08-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
     },
     {
-      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-18-09-2019.pdf",
-      "effective_date": "2019-09-18",
-      "source_page": "predictable dated path",
-      "link_text": "",
-      "verification": {
-        "url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-18-09-2019.pdf",
-        "status": 206,
-        "content_type": "application/pdf",
-        "content_length": "4096",
-        "is_pdf": true
-      }
+      "effective_date": "2019-08-08",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-08-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-08",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-08-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-09",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-09-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-09",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-09-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-09",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-09-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-10",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-10-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-10",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-10-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-10",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-10-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-11",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-11-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-11",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-11-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-11",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-11-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-12",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-12-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-12",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-12-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-12",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-12-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-13",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-13-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-13",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-13-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-13",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-13-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-14",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-14-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-14",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-14-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-14",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-14-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-15",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-15-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-15",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-15-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-15",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-15-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-16",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-16-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-16",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-16-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-16",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-16-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-17",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-17-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-17",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-17-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-17",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-17-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-18",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-18-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-18",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-18-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-18",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-18-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-19",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-19-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-19",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-19-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-19",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-19-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-20",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-20-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-20",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-20-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-20",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-20-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-21",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-21-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-21",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-21-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-21",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-21-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-22",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-22-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-22",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-22-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-22",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-22-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-23",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-23-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-23",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-23-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-23",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-23-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-24",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-24-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-24",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-24-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-24",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-24-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-25",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-25-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-25",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-25-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-25",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-25-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-26",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-26-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-26",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-26-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-26",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-26-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-27",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-27-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-27",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-27-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-27",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-27-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-28",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-28-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-28",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-28-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-28",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-28-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-29",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-29-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-29",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-29-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-29",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-29-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-30",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-30-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-30",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-30-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-30",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-30-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-31",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-31-08-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-31",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-31-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-08-31",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/08/DOE-SUPLEMENTAR-31-08-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-01",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-01-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-01",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-01-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-01",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-01-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-02",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-02-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-02",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-02-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-02",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-02-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-03",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-03-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-03",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-03-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-03",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-03-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-04",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-04-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-04",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-04-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-04",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-04-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-05",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-05-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-05",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-05-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-05",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-05-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-06",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-06-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-06",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-06-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-06",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-06-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-07",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-07-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-07",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-07-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-07",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-07-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-08",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-08-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-08",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-08-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-08",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-08-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-09",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-09-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-09",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-09-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-09",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-09-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-10",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-10-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-10",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-10-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-10",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-10-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-11",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-11-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-11",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-11-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-11",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-11-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-12",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-12-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-12",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-12-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-12",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-12-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-13",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-13-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-13",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-13-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-13",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-13-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-14",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-14-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-14",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-14-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-14",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-14-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-15",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-15-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-15",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-15-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-15",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-15-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-16",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-16-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-16",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-16-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-16",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-SUPLEMENTAR-16-09-2019.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-17",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019-SUPLEMENTAR.pdf",
+      "is_pdf": false,
+      "status": 404,
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "effective_date": "2019-09-17",
+      "pdf_url": "https://diof.ro.gov.br/data/uploads/2019/09/DOE-17-09-2019.pdf",
+      "is_pdf": true,
+      "status": 206,
+      "content_type": "application/pdf"
     }
   ],
   "covers_2010_2021_in_current_electronic_archive": false,
