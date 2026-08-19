@@ -12,13 +12,13 @@
     },
     {
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787148224725&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1841952661.1787148225&frm=0&pscdl=noapi&rcb=9&sr=1280x720&ul=pt-br&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787148224&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1334",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787150036254&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1428492400.1787150036&frm=0&pscdl=noapi&rcb=5&sr=1280x720&ul=pt-br&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787150036&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1505",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     },
     {
       "status": 204,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-LT68PSKK5Q&gtm=45je68h1v9115703202za20g&_p=1787148227149&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIAGA&are=1&cid=1841952661.1787148225&frm=1&ir=1&pscdl=noapi&rcb=13&sr=1280x720&ul=pt-br&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~119381664~120213116~120385423&sid=1787148227&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2FFrame&dr=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=Busca%20IOE&en=page_view&_fv=1&_ss=1&tfd=627",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-LT68PSKK5Q&gtm=45je68h1v9115703202za20g&_p=1787150038431&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIAGA&are=1&cid=1428492400.1787150036&frm=1&ir=1&pscdl=noapi&rcb=9&sr=1280x720&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385423&sid=1787150038&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2FFrame&dr=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=Busca%20IOE&en=page_view&_fv=1&_ss=1&tfd=752",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     },
@@ -29,7 +29,7 @@
     },
     {
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787148224725&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1841952661.1787148225&frm=0&pscdl=noapi&rcb=9&sr=1280x720&ul=pt-br&_s=2&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787148224&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6341",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787150036254&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1428492400.1787150036&frm=0&pscdl=noapi&rcb=5&sr=1280x720&ul=pt-br&_s=2&tag_exp=115616985~115938466~115938468~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787150036&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=scroll&epn.percent_scrolled=90&_et=4&tfd=6512",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     }

@@ -19,13 +19,13 @@
     },
     {
       "status": 204,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-R2NWMZKKEQ&gtm=45je68h1v894996816za200zd894996816&_p=1787148237537&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=641819068.1787148238&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938468~118012008~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148237&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2573",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-R2NWMZKKEQ&gtm=45je68h1v894996816za200zd894996816&_p=1787150052431&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=1943087490.1787150053&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787150052&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3176",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     },
     {
       "status": 204,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-4F6BZ0HW12&gtm=45je68h1v9122483608za20gzd894996816&_p=1787148237537&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIAGA&are=1&cid=641819068.1787148238&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148237&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_ss=1&tfd=2874",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-4F6BZ0HW12&gtm=45je68h1v9122483608za20gzd894996816&_p=1787150052431&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIAGA&are=1&cid=1943087490.1787150053&frm=0&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787150052&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_ss=1&tfd=3449",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     },
@@ -1831,9 +1831,9 @@
     }
   ],
   "scripts": [
+    "https://cse.google.com/adsense/search/async-ads.js",
     "https://www.google-analytics.com/analytics.js",
     "https://www.googletagmanager.com/gtag/js?id=G-4F6BZ0HW12&cx=c&gtm=4e68h1",
-    "https://cse.google.com/adsense/search/async-ads.js",
     "https://www.googletagmanager.com/gtag/js?id=UA-64192421-9&cx=c&gtm=4e68h1",
     "https://www.googletagmanager.com/gtag/js?id=UA-64192421-2&cx=c&gtm=4e68h1",
     "https://www.youtube.com/s/player/3891b194/www-widgetapi.vflset/www-widgetapi.js",

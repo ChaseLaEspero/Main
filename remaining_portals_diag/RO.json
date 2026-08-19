@@ -66,7 +66,7 @@
   "navigation_status": 200,
   "final_url": "https://diof.ro.gov.br/",
   "title": "Imprensa Oficial do Governo do Estado de Rondônia - Diário Oficial",
-  "html_length": 132876,
+  "html_length": 132888,
   "links": [
     {
       "text": "",
@@ -352,19 +352,19 @@
     },
     {
       "text": "BAIXAR",
-      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026.pdf",
+      "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026-SUPLEMENTAR.pdf",
       "id": "",
       "cls": "btn btn-sm btn-block"
     },
     {
       "text": "",
-      "href": "https://chat.whatsapp.com/HaBQbo6UjO0C9qxXT562qe",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSe45IAbOZsIq6kV2YWyt5koawB2lElAIYebEz--FyvbCzBrvw/viewform?usp=sf_link",
       "id": "",
       "cls": ""
     },
     {
       "text": "",
-      "href": "https://docs.google.com/forms/d/e/1FAIpQLSe45IAbOZsIq6kV2YWyt5koawB2lElAIYebEz--FyvbCzBrvw/viewform?usp=sf_link",
+      "href": "https://chat.whatsapp.com/HaBQbo6UjO0C9qxXT562qe",
       "id": "",
       "cls": ""
     },
@@ -467,8 +467,8 @@
   ],
   "forms": [],
   "scripts": [
-    "https://connect.facebook.net/pt_BR/all.js?hash=a0d88f07459a89c2988a93042c551427",
     "https://www.google-analytics.com/analytics.js",
+    "https://connect.facebook.net/pt_BR/all.js?hash=a0d88f07459a89c2988a93042c551427",
     "https://connect.facebook.net/pt_BR/all.js#xfbml=1",
     "https://analytics.sistemas.ro.gov.br/matomo.js",
     "https://cdn.sistemas.ro.gov.br/modernizr/modernizr.min.js",

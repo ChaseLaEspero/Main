@@ -12,7 +12,7 @@
     },
     {
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787148000883&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1261202379.1787148001&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787148001&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1794",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787150012205&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=954440525.1787150012&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385423&sid=1787150012&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=4284",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     },
@@ -38,13 +38,6 @@
     },
     {
       "status": 200,
-      "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/download.svg",
-      "content_type": "image/svg+xml",
-      "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32.9 35.09\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>download</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g>\n        <path class=\"cls-1\" d=\"M25.12,16a1.1,1.1,0,0,0-1-.64H19.74V1.1A1.1,1.1,0,0,0,18.64,0H14.26a1.1,1.1,0,0,0-1.1,1.1V15.35H8.77a1.1,1.1,0,0,0-1,.64A1.09,1.09,0,0,0,8,17.17l7.67,8.77a1.09,1.09,0,0,0,1.65,0L25,17.17A1.1,1.1,0,0,0,25.12,16Z\"/>\n        <path class=\"cls-1\" d=\"M28.51,24.12V30.7H4.39V24.12H0V32.9a2.19,2.19,0,0,0,2.19,2.19H30.7a2.19,2.19,0,0,0,2.2-2.19V24.12Z\"/>\n      </g>\n    </g>\n  </g>\n</svg>\n",
-      "body_length": 683
-    },
-    {
-      "status": 200,
       "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/pdf.svg",
       "content_type": "image/svg+xml",
       "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 33.62 37.97\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>pdf</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g>\n        <path class=\"cls-1\" d=\"M8.88,19.45c0-1-.71-1.63-2-1.63a4.25,4.25,0,0,0-1,.1V21.2a3.81,3.81,0,0,0,.84.07C8.06,21.27,8.88,20.59,8.88,19.45Z\"/>\n        <path class=\"cls-1\" d=\"M16.64,17.85a5.17,5.17,0,0,0-1.14.1v7.28a4.53,4.53,0,0,0,.87.05c2.28,0,3.76-1.24,3.76-3.9A3.18,3.18,0,0,0,16.64,17.85Z\"/>\n        <path class=\"cls-1\" d=\"M31.5,13.58h-.92V9.1a.75.75,0,0,0-.18-.48L23.08.25h0a.44.44,0,0,0-.15-.12s0,0,0,0L22.73,0h0l-.17,0h-18A1.49,1.49,0,0,0,3,1.49V13.58H2.13A2.13,2.13,0,0,0,0,15.71V26.77A2.13,2.13,0,0,0,2.13,28.9H3v7.58A1.49,1.49,0,0,0,4.53,38H29.09a1.49,1.49,0,0,0,1.49-1.49V28.9h.92a2.12,2.12,0,0,0,2.12-2.13V15.71A2.12,2.12,0,0,0,31.5,13.58ZM4.53,1.49H21.77V9.11a.75.75,0,0,0,.75.74h6.57v3.73H4.53ZM22.81,21.3A5.63,5.63,0,0,1,21,25.8a7.93,7.93,0,0,1-5.13,1.44A20.22,20.22,0,0,1,13,27.07V16.15a23.45,23.45,0,0,1,3.39-.23,7.18,7.18,0,0,1,4.56,1.19A4.94,4.94,0,0,1,22.81,21.3ZM3.39,27.12v-11a20.93,20.93,0,0,1,3.4-.23,5.31,5.31,0,0,1,3.4.9,3.23,3.23,0,0,1,1.18,2.57,3.56,3.56,0,0,1-1,2.64A5.15,5.15,0,0,1,6.74,23.2a6.87,6.87,0,0,1-.86-.05v4Zm25.7,9H4.53V28.9H29.09v7.17Zm2.16-18H27v2.54h4v2H27v4.47H24.46V16h6.79Z\"/>\n      </g>\n    </g>\n  </g>\n</svg>\n",
@@ -52,8 +45,10 @@
     },
     {
       "status": 200,
-      "url": "https://diofe.portal.ap.gov.br/img/pdf-null.png",
-      "content_type": "image/png"
+      "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/download.svg",
+      "content_type": "image/svg+xml",
+      "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32.9 35.09\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>download</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g>\n        <path class=\"cls-1\" d=\"M25.12,16a1.1,1.1,0,0,0-1-.64H19.74V1.1A1.1,1.1,0,0,0,18.64,0H14.26a1.1,1.1,0,0,0-1.1,1.1V15.35H8.77a1.1,1.1,0,0,0-1,.64A1.09,1.09,0,0,0,8,17.17l7.67,8.77a1.09,1.09,0,0,0,1.65,0L25,17.17A1.1,1.1,0,0,0,25.12,16Z\"/>\n        <path class=\"cls-1\" d=\"M28.51,24.12V30.7H4.39V24.12H0V32.9a2.19,2.19,0,0,0,2.19,2.19H30.7a2.19,2.19,0,0,0,2.2-2.19V24.12Z\"/>\n      </g>\n    </g>\n  </g>\n</svg>\n",
+      "body_length": 683
     },
     {
       "status": 200,
@@ -61,6 +56,11 @@
       "content_type": "image/svg+xml",
       "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30.08 35.09\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>html</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g id=\"Html\">\n        <path class=\"cls-1\" d=\"M3.87,1.53a.65.65,0,0,1,.91-.13.8.8,0,0,1,.13.13l.1.16V0H3.76V1.69Z\"/>\n        <path class=\"cls-1\" d=\"M3.13,35.09H27a.62.62,0,0,0,.62-.62V23.19H26.32V32a1.88,1.88,0,0,1-1.88,1.88H2.51v.63A.62.62,0,0,0,3.13,35.09Z\"/>\n        <path class=\"cls-1\" d=\"M.63,32.59H24.44a.63.63,0,0,0,.63-.63V23.19H5.64a1.88,1.88,0,0,1-1.88-1.88V8.77A1.88,1.88,0,0,1,5.64,6.89H25.07V.63A.63.63,0,0,0,24.44,0H6.27V3.76a.63.63,0,0,1-.63.63.64.64,0,0,1-.52-.28L4.39,3l-.74,1.1a.63.63,0,0,1-.86.17.62.62,0,0,1-.28-.52V0H.63A.63.63,0,0,0,0,.63V32A.63.63,0,0,0,.63,32.59Z\"/>\n        <path class=\"cls-1\" d=\"M30.08,21.31V8.77a.63.63,0,0,0-.63-.62H5.64A.63.63,0,0,0,5,8.77V21.31a.63.63,0,0,0,.63.62H29.45A.63.63,0,0,0,30.08,21.31ZM11.28,18.8H10V15.67H7.52V18.8H6.27V11.28H7.52v3.13H10V11.28h1.25Zm6.27-6.27H15.67V18.8H14.41V12.53H12.53V11.28h5Zm6.26,6.27H22.56V13.42l-.81.81a.64.64,0,0,1-.89,0l-.81-.81V18.8H18.8V11.91a.63.63,0,0,1,.63-.63.67.67,0,0,1,.44.18l1.44,1.44,1.43-1.44a.64.64,0,0,1,.89,0,.63.63,0,0,1,.18.45Zm5,0H25.69a.63.63,0,0,1-.62-.63V11.28h1.25v6.27h2.51Z\"/>\n        <path class=\"cls-1\" d=\"M27,2.51h-.63V6.89h1.25V3.13A.62.62,0,0,0,27,2.51Z\"/>\n      </g>\n    </g>\n  </g>\n</svg>\n",
       "body_length": 1470
+    },
+    {
+      "status": 200,
+      "url": "https://diofe.portal.ap.gov.br/img/pdf-null.png",
+      "content_type": "image/png"
     },
     {
       "status": 200,
@@ -74,7 +74,7 @@
     },
     {
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787148000883&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1261202379.1787148001&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=2&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787148001&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6802",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787150012205&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=954440525.1787150012&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=2&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385423&sid=1787150012&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=scroll&epn.percent_scrolled=90&_et=10&tfd=9296",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     }

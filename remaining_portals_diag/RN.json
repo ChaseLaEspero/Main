@@ -24,17 +24,17 @@
     },
     {
       "status": 200,
-      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/jquery-ui/jquery-ui.min.css",
-      "content_type": "text/css",
-      "body_preview": "/*! jQuery UI - v1.11.3 - 2015-02-26\n* http://jqueryui.com\n* Includes: core.css, datepicker.css, theme.css\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande%2CLucida%20Sans%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=5c9ccc&bgTextureHeader=gloss_wave&bgImgOpacityHeader=55&borderColorHeader=4297d7&fcHeader=ffffff&iconColorHeader=d8e7f3&bgColorContent=fcfdfd&bgTextureContent=inset_hard&bgImgOpacityContent=100&borderColorContent=a6c9e2&fcContent=222222&iconColorContent=469bdd&bgColorDefault=dfeffc&bgTextureDefault=glass&bgImgOpacityDefault=85&borderColorDefault=c5dbec&fcDefault=2e6e9e&iconColorDefault=6da8d5&bgColorHover=d0e5f5&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=79b7e7&fcHover=1d5987&iconColorHover=217bc0&bgColorActive=f5f8f9&bgTextureActive=inset_hard&bgImgOpacityActive=100&borderColorActive=79b7e7&fcActive=e17009&iconColorActive=f9bd01&bgColorHighlight=fbec88&bgTextureHighlight=flat&bgImgOpacityHighlight=55&borderColorHighlight=fad42e&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px\n* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */\n\n.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:\"\";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:45%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepick",
-      "body_length": 19023
-    },
-    {
-      "status": 200,
       "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2.css",
       "content_type": "text/css",
       "body_preview": "/*\nVersion: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014\n*/\n.select2-container {\n    margin: 0;\n    position: relative;\n    display: inline-block;\n    /* inline-block for ie7 */\n    zoom: 1;\n    *display: inline;\n    vertical-align: middle;\n}\n\n.select2-container,\n.select2-drop,\n.select2-search,\n.select2-search input {\n  /*\n    Force border-box so that % widths fit the parent\n    container without overlap because of margin/padding.\n    More Info : http://www.quirksmode.org/css/box.html\n  */\n  -webkit-box-sizing: border-box; /* webkit */\n     -moz-box-sizing: border-box; /* firefox */\n          box-sizing: border-box; /* css3 */\n}\n\n.select2-container .select2-choice {\n    display: block;\n    height: 26px;\n    padding: 0 0 0 8px;\n    overflow: hidden;\n    position: relative;\n\n    border: 1px solid #aaa;\n    white-space: nowrap;\n    line-height: 26px;\n    color: #444;\n    text-decoration: none;\n\n    border-radius: 4px;\n\n    background-clip: padding-box;\n\n    -webkit-touch-callout: none;\n      -webkit-user-select: none;\n         -moz-user-select: none;\n          -ms-user-select: none;\n              user-select: none;\n\n    background-color: #fff;\n    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));\n    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);\n    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);\n    background-image: linear-gradient(to top, #eee 0%, #fff 50%);\n}\n\nhtml[dir=\"rtl\"] .select2-container .select2-choice {\n    padding: 0 8px 0 0;\n}\n\n.select2-container.select2-drop-above .select2-choice {\n    border-bottom-color: #aaa;\n\n    border-radius: 0 0 4px 4px;\n\n    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.9, #fff));\n    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 90%);\n    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 90%);\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0);\n    background-image: linear-gradient(to bottom, #eee 0%, #fff 90%);\n}\n\n.select2-container.select2-allowclear .select2-choice .select2-chosen {\n    margin-right: 42px;\n}\n\n.select2-container .select2-choice > .select2-chosen {\n    margin-right: 26px;\n    display: block;\n    overflow: hidden;\n\n    white-space: nowrap;\n\n    text-overflow: ellipsis;\n    float: none;\n    width: auto;\n}\n\nhtml[dir=\"rtl\"] .select2-container .select2-choice > .select2-chosen {\n    margin-left: 26px;\n    margin-right: 0;\n}\n\n.select2-container .select2-choice abbr {\n    display: none;\n    width: 12px;\n    height: 12px;\n    position: absolute;\n    right: 24px;\n    top: 8px;\n\n    font-size: 1px;\n    text-decoration: none;\n\n    border: 0;\n    background: url('select2.png') right top no-repeat;\n    cursor: pointer;\n    outline: 0;\n}\n\n.select2-container.select2-allowclear .select2-choice abbr {\n    display: inline-block;\n}\n\n.select2-container .select2-choice abbr:hover {\n    background-position: right -11px;\n    cursor: pointer;\n}\n\n.select2-drop-mask {\n    border: 0;\n    margin: 0;\n    padding: 0;\n    position: fixed;\n    left: 0;\n    top: 0;\n    min-height: 100%;\n    min-width: 100%;\n    height: auto;\n    width: auto;\n    opacity: 0;\n    z-index: 9998;\n    /* styles required for IE to work */\n    background-color: #fff;\n    filter: alpha(opacity=0);\n}\n\n.select2-drop {\n    width: 100%;\n    margin-top: -1px;\n    position: absolute;\n    z-index: 9999;\n    top: 100%;\n\n    background: #fff;\n    color: #000;\n    border: 1px solid #aaa;\n    border-top: 0;\n\n    border-radius: 0 0 4px 4px;\n\n    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);\n            box-shadow: 0 4px 5px rgba(0, 0, 0, .15);\n}\n\n.select2-drop.select2-drop-above {\n    margin-top: 1px;\n    border-top: 1px solid #aaa;\n",
       "body_length": 19457
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/jquery-ui/jquery-ui.min.css",
+      "content_type": "text/css",
+      "body_preview": "/*! jQuery UI - v1.11.3 - 2015-02-26\n* http://jqueryui.com\n* Includes: core.css, datepicker.css, theme.css\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande%2CLucida%20Sans%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=5c9ccc&bgTextureHeader=gloss_wave&bgImgOpacityHeader=55&borderColorHeader=4297d7&fcHeader=ffffff&iconColorHeader=d8e7f3&bgColorContent=fcfdfd&bgTextureContent=inset_hard&bgImgOpacityContent=100&borderColorContent=a6c9e2&fcContent=222222&iconColorContent=469bdd&bgColorDefault=dfeffc&bgTextureDefault=glass&bgImgOpacityDefault=85&borderColorDefault=c5dbec&fcDefault=2e6e9e&iconColorDefault=6da8d5&bgColorHover=d0e5f5&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=79b7e7&fcHover=1d5987&iconColorHover=217bc0&bgColorActive=f5f8f9&bgTextureActive=inset_hard&bgImgOpacityActive=100&borderColorActive=79b7e7&fcActive=e17009&iconColorActive=f9bd01&bgColorHighlight=fbec88&bgTextureHighlight=flat&bgImgOpacityHighlight=55&borderColorHighlight=fad42e&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px\n* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */\n\n.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:\"\";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:45%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepick",
+      "body_length": 19023
     },
     {
       "status": 200,
@@ -57,17 +57,19 @@
     },
     {
       "status": 200,
-      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/bootstrap/bootstrap.min.js",
-      "content_type": "application/x-javascript"
-    },
-    {
-      "status": 200,
-      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery/jquery-1.11.2.min.js",
-      "content_type": "application/x-javascript"
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1448618469&t=pageview&_s=1&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&ul=pt-br&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=1417721628&gjid=884975724&cid=1169823556.1787150078&tid=UA-103233428-1&_gid=949937278.1787150078&_r=1&_slc=1&z=1160597251",
+      "content_type": "text/plain",
+      "body_preview": "2,cG-3K57H2HNFV",
+      "body_length": 15
     },
     {
       "status": 200,
       "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery-ui/jquery-ui.min.js",
+      "content_type": "application/x-javascript"
+    },
+    {
+      "status": 200,
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/bootstrap/bootstrap.min.js",
       "content_type": "application/x-javascript"
     },
     {
@@ -77,10 +79,8 @@
     },
     {
       "status": 200,
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=579323710&t=pageview&_s=1&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&ul=pt-br&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=1085193746&gjid=2132323313&cid=1219094368.1787148264&tid=UA-103233428-1&_gid=1634161514.1787148264&_r=1&_slc=1&z=256306620",
-      "content_type": "text/plain",
-      "body_preview": "2,cG-3K57H2HNFV",
-      "body_length": 15
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery/jquery-1.11.2.min.js",
+      "content_type": "application/x-javascript"
     },
     {
       "status": 200,
@@ -94,12 +94,12 @@
     },
     {
       "status": 200,
-      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_body.png",
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_cabecalho.png",
       "content_type": "image/png"
     },
     {
       "status": 200,
-      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_cabecalho.png",
+      "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_body.png",
       "content_type": "image/png"
     },
     {
@@ -108,15 +108,15 @@
       "content_type": "image/png"
     },
     {
+      "status": 204,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3K57H2HNFV&gtm=45je68h1h1v9135335248za20g&_p=1787150077844&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&_ng=1&are=1&cid=1169823556.1787150078&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385422~120476658&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sid=1787150078&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1857",
+      "content_type": "text/plain",
+      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
       "status": 200,
       "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/BuscaAvancada.js",
       "content_type": "application/x-javascript"
-    },
-    {
-      "status": 204,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-3K57H2HNFV&gtm=45je68h1v9135335248za20g&_p=1787148263710&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&_ng=1&are=1&cid=1219094368.1787148264&frm=0&ir=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120032689~120213116~120385423&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sid=1787148263&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1986",
-      "content_type": "text/plain",
-      "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     }
   ],
   "common_endpoint_tests": [

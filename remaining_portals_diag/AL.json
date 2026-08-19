@@ -63,15 +63,15 @@
     },
     {
       "status": 200,
-      "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/published?page=1",
-      "content_type": "application/json",
-      "body_preview": "{\"status\":\"success\",\"editions\":[{\"id\":51777,\"number\":2867,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-19T03:00:00.000000Z\",\"downloads\":749,\"views\":2796},{\"id\":51776,\"number\":2866,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-18T03:00:00.000000Z\",\"downloads\":1262,\"views\":4843},{\"id\":51775,\"number\":2865,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-17T03:00:00.000000Z\",\"downloads\":1539,\"views\":6103},{\"id\":51774,\"number\":2864,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-14T03:00:00.000000Z\",\"downloads\":2049,\"views\":8349},{\"id\":51773,\"number\":2863,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-13T03:00:00.000000Z\",\"downloads\":1655,\"views\":6599}]}",
-      "body_length": 967
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Bold.woff2",
+      "content_type": "font/woff2"
     },
     {
       "status": 200,
-      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Regular.woff2",
-      "content_type": "font/woff2"
+      "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/published?page=1",
+      "content_type": "application/json",
+      "body_preview": "{\"status\":\"success\",\"editions\":[{\"id\":51777,\"number\":2867,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-19T03:00:00.000000Z\",\"downloads\":782,\"views\":2913},{\"id\":51776,\"number\":2866,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-18T03:00:00.000000Z\",\"downloads\":1267,\"views\":4869},{\"id\":51775,\"number\":2865,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-17T03:00:00.000000Z\",\"downloads\":1542,\"views\":6133},{\"id\":51774,\"number\":2864,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-14T03:00:00.000000Z\",\"downloads\":2050,\"views\":8386},{\"id\":51773,\"number\":2863,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-13T03:00:00.000000Z\",\"downloads\":1656,\"views\":6620}]}",
+      "body_length": 967
     },
     {
       "status": 200,
@@ -80,13 +80,13 @@
     },
     {
       "status": 200,
-      "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/logo.png",
-      "content_type": "image/png"
+      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Regular.woff2",
+      "content_type": "font/woff2"
     },
     {
       "status": 200,
-      "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Bold.woff2",
-      "content_type": "font/woff2"
+      "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/logo.png",
+      "content_type": "image/png"
     },
     {
       "status": 200,

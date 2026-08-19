@@ -1,40 +1,509 @@
 {
   "state": "AC",
   "start_url": "https://diario.ac.gov.br/",
-  "errors": [
-    "goto: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://diario.ac.gov.br/\", waiting until \"domcontentloaded\"\n"
+  "errors": [],
+  "network": [
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/",
+      "content_type": "text/html; charset=iso-8859-1",
+      "body_preview": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"ISO-8859-1\">\r\n\t<meta name=\"viewport\" content=\"width=device-width\">\r\n\t\r\n\t<link rel=\"canonical\" href=\"https://diario.ac.gov.br/\"/>\r\n\t\r\n\t<!-- Google tag (gtag.js) -->\r\n\t<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1VWPTNVWBV\"></script>\r\n\t<script>\r\n\t  window.dataLayer = window.dataLayer || [];\r\n\t  function gtag(){dataLayer.push(arguments);}\r\n\t  gtag('js', new Date());\r\n\r\n\t  gtag('config', 'G-1VWPTNVWBV');\r\n\t</script>\r\n\t\r\n\t<!-- Primary Meta Tags -->\r\n\t<title>Diário Oficial do Estado do Acre</title>\r\n\t<meta name=\"title\" content=\"Diário Oficial do Estado do Acre\" />\r\n\t<meta name=\"description\" content=\"Diário Oficial do Estado do Acre. Inicio · Normas para publicação · Enviar arquivo · Ajuda · Fale Conosco · Webmail ·\" />\r\n\r\n\t<!-- Open Graph / Facebook -->\r\n\t<meta property=\"og:type\" content=\"website\" />\r\n\t<meta property=\"og:url\" content=\"https://diario.ac.gov.br/\" />\r\n\t<meta property=\"og:title\" content=\"Diário Oficial do Estado do Acre\" />\r\n\t<meta property=\"og:description\" content=\"Diário Oficial do Estado do Acre. Inicio · Normas para publicação · Enviar arquivo · Ajuda · Fale Conosco · Webmail ·\" />\r\n\r\n\t<!-- Twitter -->\r\n\t<meta property=\"twitter:card\" content=\"summary_large_image\" />\r\n\t<meta property=\"twitter:url\" content=\"https://diario.ac.gov.br/\" />\r\n\t<meta property=\"twitter:title\" content=\"Diário Oficial do Estado do Acre\" />\r\n\t<meta property=\"twitter:description\" content=\"Diário Oficial do Estado do Acre. Inicio · Normas para publicação · Enviar arquivo · Ajuda · Fale Conosco · Webmail ·\" />\r\n\r\n\t<link rel=\"icon\" href=\"https://diario.ac.gov.br/favicon.ico\" type=\"image/x-icon\"></link>\r\n\t<link href=\"https://diario.ac.gov.br/novo_layout/css/estilos.css\" rel=\"stylesheet\" type=\"text/css\">\r\n\t<link href=\"https://diario.ac.gov.br/novo_layout/jquery/jquery-ui-1.10.4.custom.min.css\" rel=\"stylesheet\"  />\r\n\t<script type=\"text/javascript\" src=\"https://diario.ac.gov.br/novo_layout/jquery/jquery-1.7.2.min.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"https://diario.ac.gov.br/novo_layout/jquery/jquery-ui.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"https://diario.ac.gov.br/novo_layout/js/funcoes.js\"></script>\r\n</head>\r\n<body>\r\n<div id=\"site\">\r\n    <header class=\"header\">\r\n      <div id=\"brasao\"><img src=\"https://diario.ac.gov.br/novo_layout/img/brasao.png\" width=\"132\" height=\"133\" alt=\"Brasão Estado do Acre\"/></div>\r\n      <div class=\"orgtitulo\">\r\n          <div class=\"titulo\" id=\"titulomenor\">Estado do Acre</div>\r\n        <div class=\"titulo\">Diário Oficial</div>\r\n      </div>\r\n    </header><!-- Fim organizador cabeÃ§alho -->\r\n        <div id=\"menu\"><!-- Menu -->\r\n          <div class=\"menuop\">\r\n          <a href=\"https://diario.ac.gov.br/\" class=\"menuop ativo\">Inicio</a></div>\r\n          <div class=\"menuop\" >\r\n          <a href=\"https://diario.ac.gov.br/normas.php\" class=\"menuop \">Normas para publicação</a></div>\r\n          <div class=\"menuop\" >\r\n          <a href=\"https://diario.ac.gov.br/recebimento/\" class=\"menuop\">Enviar arquivo</a></div>\r\n          <div class=\"menuop\"  >\r\n          <a href=\"https://diario.ac.gov.br/ajuda.php\" class=\"menuop \">Ajuda</a></div>\r\n     \t</div><!-- Fim Menu -->\r\n      <div id=\"submenu\"> <!-- Organizador SubMenu -->\r\n            <div class=\"submenuop\">\r\n            \t<a href=\"https://diario.ac.gov.br/contato.php\">\r\n                \t<span class=\"icon\"><img src=\"https://diario.ac.gov.br/novo_layout/img/tel_icon.png\" width=\"17\" height=\"18\"  alt=\"\"/></span>\r\n                \t<span class=\"subop\">Fale Conosco</span>\r\n                </a>\r\n            </div>\r\n            <div class=\"submenuop\">\r\n            \t<a href=\"https://webmail.ac.gov.br\" target=\"_new\">\r\n                \t<span class=\"icon\"><img src=\"https://diario.ac.gov.br/novo_layout/img/mail_icon.png\" width=\"26\" height=\"18\"  alt=\"\"/></span>\r\n                \t<span class=\"subop\">Webmail</span>\r\n                </a>\r\n            </div>\r\n      </div><!-- Fim organizador SubMenu -->\r\n  ",
+      "body_length": 8107
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/css/estilos.css",
+      "content_type": "text/css",
+      "body_preview": "/* remove pontilhado dos elementos */\r\n* {outline:none;}\r\n\r\nbody, html {\r\n\theight: 100%;\r\n\tbackground-color:#FFF;\r\n\twidth:auto;\r\n\tfont-family: Arial, sans-serif;\r\n\tfont-style: normal;\r\n\tfont-weight: normal;\r\n\tfont-size: 16px;\r\n\tcolor: #4C4C4C;\r\n\toverflow: auto;\r\n\t-ms-overflow-x:hidden; /* IE 8 */\r\n\toverflow-x:hidden;\r\n\tmargin:auto;\r\n}\r\n\r\n#rodape {\r\n\tfont-size: 14px;\r\n\tbackground-color: #F7F7F7;\r\n\tborder-top: 1px solid #DDDDDD;\r\n\theight: 21px;\r\n\tpadding-top: 6px;\r\n\tpadding-left: 20px;\r\n\tbottom: 0;\r\n\tposition:absolute;\r\n\twidth: 100%;\r\n}\r\n#site { /* Corpo do site */\r\n\twidth:100%;\r\n\tmin-height: 100%;\r\n\tposition: relative;\r\n}\r\n#conteudo{\r\n    clear: both;\r\n    margin: auto;\r\n    max-width: 1024px;\r\n    padding: 10px 0 33px;\t\r\n    text-align: justify;\r\n}\r\n\r\n#conteudo h1 {text-align:left;}\r\n\r\n#banner { /* Banner Acesso */\r\n\tmargin: 50px auto auto auto;\r\n\twidth: 600px;\r\n}\r\n\r\nimg{ /* Fix para borda em img IE*/\r\n\tborder:none;\r\n}\r\n\r\n/* Links */\r\na:link, a:visited, a.active {\r\n\tcolor: #4a4c4c;\t\r\n\ttext-decoration: none;\r\n}\r\n\r\na:hover {\r\n\tcolor: #43B34B;\r\n\ttext-decoration: none;\r\n}\r\n\r\n/* Cabeçaalho */\r\n.header {\r\n\twidth: 605px;\r\n\tdisplay: block;\r\n\tmargin: 0 auto 30px auto;\r\n}\r\n#brasao {\r\n\tdisplay: inline-block;\r\n\tmargin: 10px 14px 0 20px;\r\n}\r\n\r\n#titulomenor {\r\n\tfont-size:26px;\r\n\tmargin-bottom:-18px;\r\n}\r\n\r\n.titulo {\r\n\tfont-family: \"Times New Roman\", Arial;\r\n\tfont-size: 70px;\r\n\ttext-decoration: none;\r\n\tcolor: #333333;\r\n\tletter-spacing: 3px;\r\n}\r\n.orgtitulo {\r\n\tdisplay: inline-block;\r\n\tvertical-align:21px;\r\n} /* FIM CabeÃ§alho */\r\n\r\n/* Menu Principal */\r\n#menu {\r\n\tcolor: #4C4C4C;\r\n\tfont-family: Arial, sans-serif;\r\n\tfont-size: 16px;\r\n\theight: auto;\r\n\ttext-align: center;\r\n\tpadding-bottom: 3px;\r\n\tborder-bottom: 1px solid #dddddd;\r\n}\r\n\r\n.menuop {\r\n\tcolor: #4C4C4C;\r\n\tdisplay: inline-block;\r\n\theight: 24px;\r\n\tmargin: 0 5px 0 10px;\r\n\tcursor: pointer;\r\n}\r\n\r\na.menuop:link {\r\n\tcolor:#4a4c4c;\r\n\ttext-decoration: none;\r\n}\r\na.menuop:hover,\r\na.menuop.ativo {\r\n\tcolor: #43B34B;\r\n\ttext-decoration: none;\r\n\tborder-bottom: 4px solid #43B34B;\r\n\t-webkit-transition: border-bottom-color 0.3s linear 0s, color 0.3s linear 0s, border-bottom-width 0.1s linear 0s;\r\n\t-moz-transition: border-bottom-color 0.3s linear 0s, color 0.3s linear 0s, border-bottom-width 0.1s linear 0s;\r\n\t-ms-transition: border-bottom-color 0.3s linear 0s, color 0.3s linear 0s, border-bottom-width 0.1s linear 0s;\r\n\t-o-transition: border-bottom-color 0.3s linear 0s, color 0.3s linear 0s, border-bottom-width 0.1s linear 0s;\r\n\ttransition: border-bottom-color 0.3s linear 0s, color 0.3s linear 0s, border-bottom-width 0.1s linear 0s;\r\n} \r\n\r\na.menuop:active {\r\n\tbackground-color: #43B34B;\r\n\tcolor: white;\r\n\ttext-decoration: none;\r\n\t-webkit-transition:none;\r\n\t\r\n\t/*Fix IE transiÃ§Ã£o = 0*/\r\n\t-webkit-transition: border-bottom-color 0s linear 0s, color 0s linear 0s, border-bottom-width 0s linear 0s;\r\n\t-moz-transition: border-bottom-color 0s linear 0s, color 0s linear 0s, border-bottom-width 0s linear 0s;\r\n\t-ms-transition: border-bottom-color 0s linear 0s, color 0s linear 0s, border-bottom-width 0s linear 0s;\r\n\t-o-transition: border-bottom-color 0s linear 0s, color 0s linear 0s, border-bottom-width 0s linear 0s;\r\n\ttransition: border-bottom-color 0s linear 0s, color 0s linear 0s, border-bottom-width 0s linear 0s;\r\n}\r\n/* FIM Menu Principal */\r\n\r\n/* Sub Menu Principal */\r\n#submenu {\r\n\tdisplay: inline-block;\r\n\tfloat: right;\r\n\theight: auto;\r\n\twidth: 692px;\r\n\ttext-align: right;\r\n\tmargin: 10px 0 10px 0;\r\n}\r\n.submenuop {\r\n\tdisplay: inline-block;\r\n}\r\n\r\n.submenuop a {\r\n\tfont-size:12px;\r\n\tcolor: #4C4C4C;\t\r\n}\r\n\r\n.submenuop a:hover{\r\n\topacity:0.7;\r\n}\r\n\r\n.icon {\r\n\tdisplay: inline-block;\r\n}\r\n\r\n.subop {\r\n\tfont-weight: normal;\r\n\tdisplay: inline-block;\r\n\tvertical-align: 4px;\r\n\tmargin-right:13px;\r\n}\r\n\r\n/* FIM Sub Menu Principal */\r\n\r\n/* Edição de Hoje central */\r\n.edhoje {\r\n\tclear: both;\r\n\twidth: 280px;\r\n\tmargin-right: auto;\r\n\tmargin-left: auto;\r\n\tmargin-bottom: 70px;\r\n}\r\n\r\n.edhoje:hover{\r\n\topacity:0.7;\r\n}\r\na.edhoje:hover{\r\n\t/* Fix par",
+      "body_length": 14266
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/jquery-ui-1.10.4.custom.min.css",
+      "content_type": "text/css",
+      "body_preview": "/*! jQuery UI - v1.10.4 - 2014-06-02\n* http://jqueryui.com\n* Includes: jquery.ui.core.css, jquery.ui.datepicker.css, jquery.ui.theme.css\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Arial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=6px&bgColorHeader=%23ffffff&bgTextureHeader=highlight_soft&bgImgOpacityHeader=15&borderColorHeader=%23FFF&fcHeader=%23000&iconColorHeader=%23999&bgColorContent=%23ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=%23eeeeee&fcContent=%23333333&iconColorContent=%23cc0000&bgColorDefault=%23eeeeee&bgTextureDefault=highlight_hard&bgImgOpacityDefault=100&borderColorDefault=%23d8dcdf&fcDefault=%23004276&iconColorDefault=%23cc0000&bgColorHover=%23f6f6f6&bgTextureHover=highlight_hard&bgImgOpacityHover=100&borderColorHover=%23cdd5da&fcHover=%23111111&iconColorHover=%23cc0000&bgColorActive=%23ffffff&bgTextureActive=flat&bgImgOpacityActive=65&borderColorActive=%23eeeeee&fcActive=%23cc0000&iconColorActive=%23cc0000&bgColorHighlight=%23fbf8ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=%23fcd3a1&fcHighlight=%23444444&iconColorHighlight=%23004276&bgColorError=%23f3d8d8&bgTextureError=diagonals_thick&bgImgOpacityError=75&borderColorError=%23cc0000&fcError=%232e2e2e&iconColorError=%23cc0000&bgColorOverlay=%23a6a6a6&bgTextureOverlay=dots_small&bgImgOpacityOverlay=65&opacityOverlay=40&bgColorShadow=%23333333&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=10&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px\n* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */\n\n.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:\"\";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.u",
+      "body_length": 19051
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/img/brasao.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/img/pdf_icon.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/js/funcoes.js",
+      "content_type": "text/javascript",
+      "body_preview": "// máscara para números\r\nfunction mascaraCampoNumerico(obj) {\r\n\tobj.value = obj.value.replace(/\\D/g, '');\r\n} \r\n  \r\n// máscara para mês e ano\r\nfunction mascaraCampoMesAno(obj) {\r\n\tmascaraCampoNumerico(obj);\r\n\tif (obj.value.length > 2)\r\n\t\tobj.value = obj.value.substr(0, 2) + '/' + obj.value.substr(2);\r\n}\r\n\r\n// calendário para selecionar diário\r\n$(function() {\r\n\t\r\n\tvar data = $(\"#data\").val();\r\n\t\r\n    $(\"#calendarioBusca\").datepicker({\r\n        dateFormat: 'yymmdd',\r\n\t\tdefaultDate: data,\r\n        dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],\r\n        dayNamesMin: ['D','S','T','Q','Q','S','S','D'],\r\n        dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],\r\n        monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],\r\n        monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],\r\n        onSelect: function (dateText, inst) {\r\n    \t\tselecaoDataNoCalendario(dateText);\r\n    \t}\r\n    });\r\n});\r\n\r\n/**\r\n * Quando uma data é selecionada no calendário\r\n * @param dataTexto\r\n */\r\nfunction selecaoDataNoCalendario(dataTexto) {\r\n\tvar form = document.forms['buscaPorData'];\r\n\tform.data.value = dataTexto;\r\n\tform.submit();\r\n}\r\n\r\n/**\r\n * Navega entre as páginas da busca de palavras-chave \r\n * @param pagina\r\n */\r\nfunction vaiParaPaginaBusca(pagina) {\r\n\tvar form = document.forms['buscaPorPalavra'];\r\n\tform.paginaIni.value = pagina;\r\n\tform.submit();\r\n}\r\n\r\n/* Ativa ou desativa id, coloando uma classe ativo */\r\nfunction ativarDesativarId(ativar, id) {\r\n\t  var obj = document.getElementById(id);\r\n\t  var classe = (ativar) ? 'ativo' : '';\r\n\t  obj.className = classe;\r\n}\r\n\r\n/* Ao alterar a opção de busca por palavra-chave */\r\nfunction selecaoOpcaoBusca(valor) {\r\n\t  var form = document.forms['buscaPorPalavra'];\r\n\t  form.palavraTipo.value = valor;\r\n\t  // vai para a página 0, pois pode pelo critério, muda a quantidade de resultados\r\n\t  form.paginaIni.value = 0;\r\n\t  form.submit();\r\n}",
+      "body_length": 2045
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/jquery-1.7.2.min.js",
+      "content_type": "text/javascript",
+      "body_preview": "/*! jQuery v1.7.2 jquery.com | jquery.org/license */\r\n(function(a,b){function cy(a){return f.isWindow(a)?a:a.nodeType===9?a.defaultView||a.parentWindow:!1}function cu(a){if(!cj[a]){var b=c.body,d=f(\"<\"+a+\">\").appendTo(b),e=d.css(\"display\");d.remove();if(e===\"none\"||e===\"\"){ck||(ck=c.createElement(\"iframe\"),ck.frameBorder=ck.width=ck.height=0),b.appendChild(ck);if(!cl||!ck.createElement)cl=(ck.contentWindow||ck.contentDocument).document,cl.write((f.support.boxModel?\"<!doctype html>\":\"\")+\"<html><body>\"),cl.close();d=cl.createElement(a),cl.body.appendChild(d),e=f.css(d,\"display\"),b.removeChild(ck)}cj[a]=e}return cj[a]}function ct(a,b){var c={};f.each(cp.concat.apply([],cp.slice(0,b)),function(){c[this]=a});return c}function cs(){cq=b}function cr(){setTimeout(cs,0);return cq=f.now()}function ci(){try{return new a.ActiveXObject(\"Microsoft.XMLHTTP\")}catch(b){}}function ch(){try{return new a.XMLHttpRequest}catch(b){}}function cb(a,c){a.dataFilter&&(c=a.dataFilter(c,a.dataType));var d=a.dataTypes,e={},g,h,i=d.length,j,k=d[0],l,m,n,o,p;for(g=1;g<i;g++){if(g===1)for(h in a.converters)typeof h==\"string\"&&(e[h.toLowerCase()]=a.converters[h]);l=k,k=d[g];if(k===\"*\")k=l;else if(l!==\"*\"&&l!==k){m=l+\" \"+k,n=e[m]||e[\"* \"+k];if(!n){p=b;for(o in e){j=o.split(\" \");if(j[0]===l||j[0]===\"*\"){p=e[j[1]+\" \"+k];if(p){o=e[o],o===!0?n=p:p===!0&&(n=o);break}}}}!n&&!p&&f.error(\"No conversion from \"+m.replace(\" \",\" to \")),n!==!0&&(c=n?n(c):p(o(c)))}}return c}function ca(a,c,d){var e=a.contents,f=a.dataTypes,g=a.responseFields,h,i,j,k;for(i in g)i in d&&(c[g[i]]=d[i]);while(f[0]===\"*\")f.shift(),h===b&&(h=a.mimeType||c.getResponseHeader(\"content-type\"));if(h)for(i in e)if(e[i]&&e[i].test(h)){f.unshift(i);break}if(f[0]in d)j=f[0];else{for(i in d){if(!f[0]||a.converters[i+\" \"+f[0]]){j=i;break}k||(k=i)}j=j||k}if(j){j!==f[0]&&f.unshift(j);return d[j]}}function b_(a,b,c,d){if(f.isArray(b))f.each(b,function(b,e){c||bD.test(a)?d(a,e):b_(a+\"[\"+(typeof e==\"object\"?b:\"\")+\"]\",e,c,d)});else if(!c&&f.type(b)===\"object\")for(var e in b)b_(a+\"[\"+e+\"]\",b[e],c,d);else d(a,b)}function b$(a,c){var d,e,g=f.ajaxSettings.flatOptions||{};for(d in c)c[d]!==b&&((g[d]?a:e||(e={}))[d]=c[d]);e&&f.extend(!0,a,e)}function bZ(a,c,d,e,f,g){f=f||c.dataTypes[0],g=g||{},g[f]=!0;var h=a[f],i=0,j=h?h.length:0,k=a===bS,l;for(;i<j&&(k||!l);i++)l=h[i](c,d,e),typeof l==\"string\"&&(!k||g[l]?l=b:(c.dataTypes.unshift(l),l=bZ(a,c,d,e,l,g)));(k||!l)&&!g[\"*\"]&&(l=bZ(a,c,d,e,\"*\",g));return l}function bY(a){return function(b,c){typeof b!=\"string\"&&(c=b,b=\"*\");if(f.isFunction(c)){var d=b.toLowerCase().split(bO),e=0,g=d.length,h,i,j;for(;e<g;e++)h=d[e],j=/^\\+/.test(h),j&&(h=h.substr(1)||\"*\"),i=a[h]=a[h]||[],i[j?\"unshift\":\"push\"](c)}}}function bB(a,b,c){var d=b===\"width\"?a.offsetWidth:a.offsetHeight,e=b===\"width\"?1:0,g=4;if(d>0){if(c!==\"border\")for(;e<g;e+=2)c||(d-=parseFloat(f.css(a,\"padding\"+bx[e]))||0),c===\"margin\"?d+=parseFloat(f.css(a,c+bx[e]))||0:d-=parseFloat(f.css(a,\"border\"+bx[e]+\"Width\"))||0;return d+\"px\"}d=by(a,b);if(d<0||d==null)d=a.style[b];if(bt.test(d))return d;d=parseFloat(d)||0;if(c)for(;e<g;e+=2)d+=parseFloat(f.css(a,\"padding\"+bx[e]))||0,c!==\"padding\"&&(d+=parseFloat(f.css(a,\"border\"+bx[e]+\"Width\"))||0),c===\"margin\"&&(d+=parseFloat(f.css(a,c+bx[e]))||0);return d+\"px\"}function bo(a){var b=c.createElement(\"div\");bh.appendChild(b),b.innerHTML=a.outerHTML;return b.firstChild}function bn(a){var b=(a.nodeName||\"\").toLowerCase();b===\"input\"?bm(a):b!==\"script\"&&typeof a.getElementsByTagName!=\"undefined\"&&f.grep(a.getElementsByTagName(\"input\"),bm)}function bm(a){if(a.type===\"checkbox\"||a.type===\"radio\")a.defaultChecked=a.checked}function bl(a){return typeof a.getElementsByTagName!=\"undefined\"?a.getElementsByTagName(\"*\"):typeof a.querySelectorAll!=\"undefined\"?a.querySelectorAll(\"*\"):[]}function bk(a,b){var c;b.nodeType===1&&(b.clearAttributes&&b.clearAttributes(),b.mergeAttributes&&b.mergeAttributes(a),c=b.nodeName.toLowerCase(),c===\"object\"?b.outerHTML=a.outerHTML:c!==\"input\"||a.type!==\"checkbox\"&&a.type!",
+      "body_length": 94842
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/img/portalservicos.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/jquery-ui.js",
+      "content_type": "text/javascript",
+      "body_preview": "/*! jQuery UI - v1.10.3 - 2013-05-03\r\n* http://jqueryui.com\r\n* Includes: jquery.ui.core.js, jquery.ui.widget.js, jquery.ui.mouse.js, jquery.ui.draggable.js, jquery.ui.droppable.js, jquery.ui.resizable.js, jquery.ui.selectable.js, jquery.ui.sortable.js, jquery.ui.effect.js, jquery.ui.accordion.js, jquery.ui.autocomplete.js, jquery.ui.button.js, jquery.ui.datepicker.js, jquery.ui.dialog.js, jquery.ui.effect-blind.js, jquery.ui.effect-bounce.js, jquery.ui.effect-clip.js, jquery.ui.effect-drop.js, jquery.ui.effect-explode.js, jquery.ui.effect-fade.js, jquery.ui.effect-fold.js, jquery.ui.effect-highlight.js, jquery.ui.effect-pulsate.js, jquery.ui.effect-scale.js, jquery.ui.effect-shake.js, jquery.ui.effect-slide.js, jquery.ui.effect-transfer.js, jquery.ui.menu.js, jquery.ui.position.js, jquery.ui.progressbar.js, jquery.ui.slider.js, jquery.ui.spinner.js, jquery.ui.tabs.js, jquery.ui.tooltip.js\r\n* Copyright 2013 jQuery Foundation and other contributors; Licensed MIT */\r\n(function( $, undefined ) {\r\n\r\nvar uuid = 0,\r\n\truniqueId = /^ui-id-\\d+$/;\r\n\r\n// $.ui might exist from components with no dependencies, e.g., $.ui.position\r\n$.ui = $.ui || {};\r\n\r\n$.extend( $.ui, {\r\n\tversion: \"1.10.3\",\r\n\r\n\tkeyCode: {\r\n\t\tBACKSPACE: 8,\r\n\t\tCOMMA: 188,\r\n\t\tDELETE: 46,\r\n\t\tDOWN: 40,\r\n\t\tEND: 35,\r\n\t\tENTER: 13,\r\n\t\tESCAPE: 27,\r\n\t\tHOME: 36,\r\n\t\tLEFT: 37,\r\n\t\tNUMPAD_ADD: 107,\r\n\t\tNUMPAD_DECIMAL: 110,\r\n\t\tNUMPAD_DIVIDE: 111,\r\n\t\tNUMPAD_ENTER: 108,\r\n\t\tNUMPAD_MULTIPLY: 106,\r\n\t\tNUMPAD_SUBTRACT: 109,\r\n\t\tPAGE_DOWN: 34,\r\n\t\tPAGE_UP: 33,\r\n\t\tPERIOD: 190,\r\n\t\tRIGHT: 39,\r\n\t\tSPACE: 32,\r\n\t\tTAB: 9,\r\n\t\tUP: 38\r\n\t}\r\n});\r\n\r\n// plugins\r\n$.fn.extend({\r\n\tfocus: (function( orig ) {\r\n\t\treturn function( delay, fn ) {\r\n\t\t\treturn typeof delay === \"number\" ?\r\n\t\t\t\tthis.each(function() {\r\n\t\t\t\t\tvar elem = this;\r\n\t\t\t\t\tsetTimeout(function() {\r\n\t\t\t\t\t\t$( elem ).focus();\r\n\t\t\t\t\t\tif ( fn ) {\r\n\t\t\t\t\t\t\tfn.call( elem );\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t}, delay );\r\n\t\t\t\t}) :\r\n\t\t\t\torig.apply( this, arguments );\r\n\t\t};\r\n\t})( $.fn.focus ),\r\n\r\n\tscrollParent: function() {\r\n\t\tvar scrollParent;\r\n\t\tif (($.ui.ie && (/(static|relative)/).test(this.css(\"position\"))) || (/absolute/).test(this.css(\"position\"))) {\r\n\t\t\tscrollParent = this.parents().filter(function() {\r\n\t\t\t\treturn (/(relative|absolute|fixed)/).test($.css(this,\"position\")) && (/(auto|scroll)/).test($.css(this,\"overflow\")+$.css(this,\"overflow-y\")+$.css(this,\"overflow-x\"));\r\n\t\t\t}).eq(0);\r\n\t\t} else {\r\n\t\t\tscrollParent = this.parents().filter(function() {\r\n\t\t\t\treturn (/(auto|scroll)/).test($.css(this,\"overflow\")+$.css(this,\"overflow-y\")+$.css(this,\"overflow-x\"));\r\n\t\t\t}).eq(0);\r\n\t\t}\r\n\r\n\t\treturn (/fixed/).test(this.css(\"position\")) || !scrollParent.length ? $(document) : scrollParent;\r\n\t},\r\n\r\n\tzIndex: function( zIndex ) {\r\n\t\tif ( zIndex !== undefined ) {\r\n\t\t\treturn this.css( \"zIndex\", zIndex );\r\n\t\t}\r\n\r\n\t\tif ( this.length ) {\r\n\t\t\tvar elem = $( this[ 0 ] ), position, value;\r\n\t\t\twhile ( elem.length && elem[ 0 ] !== document ) {\r\n\t\t\t\t// Ignore z-index if position is set to a value where z-index is ignored by the browser\r\n\t\t\t\t// This makes behavior of this function consistent across browsers\r\n\t\t\t\t// WebKit always returns auto if the element is positioned\r\n\t\t\t\tposition = elem.css( \"position\" );\r\n\t\t\t\tif ( position === \"absolute\" || position === \"relative\" || position === \"fixed\" ) {\r\n\t\t\t\t\t// IE returns 0 when zIndex is not specified\r\n\t\t\t\t\t// other browsers return a string\r\n\t\t\t\t\t// we ignore the case of nested elements with an explicit value of 0\r\n\t\t\t\t\t// <div style=\"z-index: -10;\"><div style=\"z-index: 0;\"></div></div>\r\n\t\t\t\t\tvalue = parseInt( elem.css( \"zIndex\" ), 10 );\r\n\t\t\t\t\tif ( !isNaN( value ) && value !== 0 ) {\r\n\t\t\t\t\t\treturn value;\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\telem = elem.parent();\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t\treturn 0;\r\n\t},\r\n\r\n\tuniqueId: function() {\r\n\t\treturn this.each(function() {\r\n\t\t\tif ( !this.id ) {\r\n\t\t\t\tthis.id = \"ui-id-\" + (++uuid);\r\n\t\t\t}\r\n\t\t});\r\n\t},\r\n\r\n\tremoveUniqueId: function() {\r\n\t\treturn this.each(function() {\r\n\t\t\tif ( runiqueId.test( this.id ) ) {\r\n\t\t\t\t$( this ).removeAttr( \"id\" );\r\n\t\t\t}\r\n\t\t});\r\n\t}\r\n",
+      "body_length": 450845
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/img/tel_icon.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/img/mail_icon.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/img/busca.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_highlight-soft_15_ffffff_1x100.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-icons_999_256x240.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_highlight-hard_100_eeeeee_1x100.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_flat_75_ffffff_40x100.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_glass_55_fbf8ee_1x400.png",
+      "content_type": "image/png"
+    }
   ],
-  "network": [],
   "common_endpoint_tests": [
     {
-      "url": "apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
-      "error": "Error: APIRequestContext.get: Invalid URL"
-    },
-    {
-      "url": "apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
-      "error": "Error: APIRequestContext.get: Invalid URL"
-    },
-    {
-      "url": "apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
-      "error": "Error: APIRequestContext.get: Invalid URL"
-    },
-    {
       "url": "https://diario.ac.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
-      "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diario.ac.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 279,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.59 (Debian) Server at diario.ac.gov.br Port 443</address>\n</body></html>\n"
     },
     {
       "url": "https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
-      "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 279,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.59 (Debian) Server at diario.ac.gov.br Port 443</address>\n</body></html>\n"
     },
     {
       "url": "https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
-      "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      "status": 404,
+      "content_type": "text/html; charset=iso-8859-1",
+      "length": 279,
+      "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n<hr>\n<address>Apache/2.4.59 (Debian) Server at diario.ac.gov.br Port 443</address>\n</body></html>\n"
     }
   ],
-  "final_url": "about:blank",
-  "title": "",
-  "html_length": 39,
-  "links": [],
-  "forms": [],
-  "scripts": []
+  "navigation_status": 200,
+  "final_url": "https://diario.ac.gov.br/",
+  "title": "Diário Oficial do Estado do Acre",
+  "html_length": 14837,
+  "links": [
+    {
+      "text": "Inicio",
+      "href": "https://diario.ac.gov.br/",
+      "id": "",
+      "cls": "menuop ativo"
+    },
+    {
+      "text": "Normas para publicação",
+      "href": "https://diario.ac.gov.br/normas.php",
+      "id": "",
+      "cls": "menuop "
+    },
+    {
+      "text": "Enviar arquivo",
+      "href": "https://diario.ac.gov.br/recebimento/",
+      "id": "",
+      "cls": "menuop"
+    },
+    {
+      "text": "Ajuda",
+      "href": "https://diario.ac.gov.br/ajuda.php",
+      "id": "",
+      "cls": "menuop "
+    },
+    {
+      "text": "Fale Conosco",
+      "href": "https://diario.ac.gov.br/contato.php",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Webmail",
+      "href": "https://webmail.ac.gov.br/",
+      "id": "",
+      "cls": ""
+    },
+    {
+      "text": "Última edição Diario Oficial nº 14332 19 de Agosto de 2026",
+      "href": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xNzg3MTM4ODg4MTIyNy5wZGY=",
+      "id": "",
+      "cls": "edhoje"
+    },
+    {
+      "text": "Prev",
+      "href": "",
+      "id": "",
+      "cls": "ui-datepicker-prev ui-corner-all"
+    },
+    {
+      "text": "Next",
+      "href": "",
+      "id": "",
+      "cls": "ui-datepicker-next ui-corner-all"
+    },
+    {
+      "text": "1",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "2",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "3",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "4",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "5",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "6",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "7",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "8",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "9",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "10",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "11",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "12",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "13",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "14",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "15",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "16",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "17",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "18",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "19",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default ui-state-highlight ui-state-active ui-state-hover"
+    },
+    {
+      "text": "20",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "21",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "22",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "23",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "24",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "25",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "26",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "27",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "28",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "29",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "30",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "31",
+      "href": "https://diario.ac.gov.br/#",
+      "id": "",
+      "cls": "ui-state-default"
+    },
+    {
+      "text": "",
+      "href": "https://www.ac.gov.br/",
+      "id": "",
+      "cls": ""
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://diario.ac.gov.br/",
+      "method": "post",
+      "id": "",
+      "cls": "form-wrapper cf",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "numero",
+          "id": "numero",
+          "value": "",
+          "text": "",
+          "placeholder": "12000..."
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "action": "https://diario.ac.gov.br/",
+      "method": "post",
+      "id": "buscaPorPalavra",
+      "cls": "form-wrapper cf",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "paginaIni",
+          "id": "paginaIni",
+          "value": "0",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "palavraTipo",
+          "id": "palavraTipo",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "ano_palavra",
+          "id": "ano_palavra",
+          "value": "2026",
+          "text": "2026\n2025\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\n2010",
+          "placeholder": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "palavra",
+          "id": "palavra",
+          "value": "",
+          "text": "",
+          "placeholder": "Pesquisa..."
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "action": "https://diario.ac.gov.br/",
+      "method": "post",
+      "id": "",
+      "cls": "form-wrapper cf",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "mesano",
+          "id": "mesano",
+          "value": "",
+          "text": "",
+          "placeholder": "08/2026..."
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "",
+          "id": "",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "action": "https://diario.ac.gov.br/",
+      "method": "post",
+      "id": "",
+      "cls": "",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "data",
+          "id": "data",
+          "value": "",
+          "text": "",
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-1VWPTNVWBV",
+    "https://diario.ac.gov.br/novo_layout/jquery/jquery-1.7.2.min.js",
+    "https://diario.ac.gov.br/novo_layout/jquery/jquery-ui.js",
+    "https://diario.ac.gov.br/novo_layout/js/funcoes.js"
+  ]
 }

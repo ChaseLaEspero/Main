@@ -26,13 +26,13 @@
     },
     {
       "status": 200,
-      "url": "https://www.diario.pi.gov.br/doe/img/governo_logo.png",
-      "content_type": "image/png"
+      "url": "https://www.diario.pi.gov.br/doe/vendors/jquery/dist/jquery.js",
+      "content_type": "application/javascript"
     },
     {
       "status": 200,
-      "url": "https://www.diario.pi.gov.br/doe/vendors/jquery/dist/jquery.js",
-      "content_type": "application/javascript"
+      "url": "https://www.diario.pi.gov.br/doe/img/governo_logo.png",
+      "content_type": "image/png"
     },
     {
       "status": 200,
@@ -41,13 +41,13 @@
     },
     {
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68i0h2v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787148254319&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=522583234.1787148254&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148254&sct=1&seg=0&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&en=pi&_fv=1&_nsi=1&_ss=1&tfd=1929",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68h1v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787150068825&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1621451428.1787150069&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787150068&sct=1&seg=0&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&en=pi&_fv=1&_nsi=1&_ss=1&tfd=1760",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     },
     {
       "status": 200,
-      "url": "https://www.diario.pi.gov.br/doe/vendors/moment/min/moment.min.js",
+      "url": "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.js",
       "content_type": "application/javascript"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "status": 200,
-      "url": "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.js",
+      "url": "https://www.diario.pi.gov.br/doe/vendors/moment/min/moment.min.js",
       "content_type": "application/javascript"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "status": 204,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68i0h2v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787148254319&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=522583234.1787148254&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148254&sct=1&seg=1&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&_s=2&tfd=6938",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68h1v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787150068825&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1621451428.1787150069&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787150068&sct=1&seg=1&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&_s=2&tfd=6768",
       "content_type": "text/plain",
       "body_error": "Error: Response.text: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
     }
@@ -115,7 +115,7 @@
   "navigation_status": 200,
   "final_url": "https://www.diario.pi.gov.br/doe/",
   "title": "Governo do Piauí - Site Oficial do Governo do Estado do Piauí",
-  "html_length": 343441,
+  "html_length": 343437,
   "links": [
     {
       "text": "Acessibilidade",
@@ -783,8 +783,8 @@
     }
   ],
   "scripts": [
-    "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1h1",
-    "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1h1",
+    "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1",
+    "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1",
     "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
     "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
     "https://www.pi.gov.br/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
