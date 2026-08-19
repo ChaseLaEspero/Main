@@ -1,0 +1,4219 @@
+[
+  {
+    "state": "AC",
+    "start_url": "https://diario.ac.gov.br/",
+    "final_url": "about:blank",
+    "navigation_status": null,
+    "title": "",
+    "errors": [
+      "goto: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://diario.ac.gov.br/\", waiting until \"domcontentloaded\"\n"
+    ],
+    "html_length": 39,
+    "links": [],
+    "forms": [],
+    "scripts": [],
+    "network": [],
+    "common_endpoint_tests": [
+      {
+        "url": "apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "https://diario.ac.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diario.ac.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diario.ac.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      }
+    ]
+  },
+  {
+    "state": "AL",
+    "start_url": "https://diario.imprensaoficial.al.gov.br/",
+    "final_url": "https://diario.imprensaoficial.al.gov.br/",
+    "navigation_status": 200,
+    "title": "Diário Oficial Eletrônico",
+    "errors": [],
+    "html_length": 31277,
+    "links": [
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/"
+      },
+      {
+        "text": "Home",
+        "href": "https://diario.imprensaoficial.al.gov.br/"
+      },
+      {
+        "text": "Busca",
+        "href": "https://diario.imprensaoficial.al.gov.br/busca"
+      },
+      {
+        "text": "Edições",
+        "href": "https://diario.imprensaoficial.al.gov.br/edicoes"
+      },
+      {
+        "text": "Publicar no Diário Oficial",
+        "href": "https://diario.imprensaoficial.al.gov.br/publicar-no-diario"
+      },
+      {
+        "text": "Sobre",
+        "href": "https://diario.imprensaoficial.al.gov.br/sobre"
+      },
+      {
+        "text": "Diário Oficial Eletrônico",
+        "href": "https://diario.imprensaoficial.al.gov.br/#"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51777"
+      },
+      {
+        "text": "ver edição",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51777"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51777"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51776"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51776"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51775"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51775"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51774"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51774"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/viewPdf/51773"
+      },
+      {
+        "text": "",
+        "href": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/downloadPdf/51773"
+      },
+      {
+        "text": "Ver edições anteriores",
+        "href": "https://diario.imprensaoficial.al.gov.br/edicoes"
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://diario.imprensaoficial.al.gov.br/",
+        "method": "get",
+        "id": "formBusca",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "inputPalavraChave",
+            "value": "",
+            "text": "",
+            "placeholder": "Buscar por: (Qualquer palavra...)"
+          },
+          {
+            "tag": "INPUT",
+            "type": "date",
+            "name": "",
+            "id": "inputPeriodoInicial",
+            "value": "",
+            "text": "",
+            "placeholder": "Período inicial ..."
+          },
+          {
+            "tag": "INPUT",
+            "type": "date",
+            "name": "",
+            "id": "inputPeriodoFinal",
+            "value": "",
+            "text": "",
+            "placeholder": "Período final ..."
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "inputNumeroEdicao",
+            "value": "",
+            "text": "",
+            "placeholder": "Número da Edição ..."
+          },
+          {
+            "tag": "INPUT",
+            "type": "search",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "×",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "search",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "×",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "reset",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "Limpar",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "Buscar",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://diario.imprensaoficial.al.gov.br/assets/index-344f66e8.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-82KCQJ98R7&l=dataLayer"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/",
+        "content_type": "text/html",
+        "body_length": 962,
+        "body_preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel=\"icon\" href=\"/favicon/DOE-AL/favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/favicon/DOE-AL/apple-touch-icon.png\">\n    <link rel=\"mask-icon\" href=\"/favicon"
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/fonts.css",
+        "content_type": "text/css",
+        "body_length": 3671,
+        "body_preview": "@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Hairline.woff2') format('woff2'),\n    url('HKGroteskPro-Hairline.woff') format('woff');\n  font-weight: 100;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-HairlineItalic.woff2') format('woff2'),\n    url('HKGroteskPro-HairlineItalic.woff') format('woff');\n  font-weight: 100;\n  font-style: italic;\n}\n\n@font-face {\n  font-family: 'HKGroteskPro';\n  src: url('HKGroteskPro-Thin.woff2') fo"
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/assets/index-88848d2d.css",
+        "content_type": "text/css",
+        "body_length": 296839,
+        "body_preview": "@charset \"UTF-8\";@import\"https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=latin-ext\";body{font-family:Roboto,sans-serif!important}.input-error,.select-error>div{border-color:#f86c6b!important;padding-right:calc(1.5em + .75rem)!important;background-image:url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23f86c6b' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23f86c6b' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3"
+      },
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=latin-ext",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 43200,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkC3kaWzU.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Roboto';\n  font-style: italic;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KF"
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/assets/index-344f66e8.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/assets/data-f900a206.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/assets/gazetaTopo2-0c18e4dd.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Italic.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Medium.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/gazetaTopo1.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/published?page=1",
+        "content_type": "application/json",
+        "body_length": 967,
+        "body_preview": "{\"status\":\"success\",\"editions\":[{\"id\":51777,\"number\":2867,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-19T03:00:00.000000Z\",\"downloads\":749,\"views\":2796},{\"id\":51776,\"number\":2866,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-18T03:00:00.000000Z\",\"downloads\":1262,\"views\":4843},{\"id\":51775,\"number\":2865,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suple"
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Regular.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/logo_diario.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/logo.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Bold.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-MediumItalic.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-BoldItalic.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/tituloPagFdo.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/assets/rodapefdopattern-98441ec9.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/imagens/DOE-AL/rodapeLogo.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diario.imprensaoficial.al.gov.br/fonts/HKGroteskPro-Light.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://diario.imprensaoficial.al.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 200,
+        "content_type": "text/html",
+        "length": 962,
+        "preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel",
+        "error": null
+      },
+      {
+        "url": "https://diario.imprensaoficial.al.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 200,
+        "content_type": "text/html",
+        "length": 962,
+        "preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel",
+        "error": null
+      },
+      {
+        "url": "https://diario.imprensaoficial.al.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 200,
+        "content_type": "text/html",
+        "length": 962,
+        "preview": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale = 1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no\">\n    <title>Sistema de Publicação Oficial</title>\n    <!-- favicon -->\n    <link rel",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "AP",
+    "start_url": "https://diofe.portal.ap.gov.br/",
+    "final_url": "https://diofe.portal.ap.gov.br/",
+    "navigation_status": 200,
+    "title": "Diário Oficial / Home",
+    "errors": [],
+    "html_length": 424628,
+    "links": [
+      {
+        "text": "RECEBA O DIÁRIO OFICIAL PELO TELEGRAM",
+        "href": "https://t.me/amapabot"
+      },
+      {
+        "text": "Normas de envio",
+        "href": "https://editor.amapa.gov.br/arquivos_portais/publicacoes/SEAD_fccce5c2a8961f73601d3d35267ba793.pdf"
+      },
+      {
+        "text": "DOWNLOAD",
+        "href": "https://diofe.portal.ap.gov.br/portal/edicoes/visualizar_pdf/10072/#e:10072"
+      },
+      {
+        "text": "CLIQUE AQUI E FAÇA O DOWNLOAD DA ÚLTIMA EDIÇÃO Nº 8.721",
+        "href": "https://diofe.portal.ap.gov.br/portal/edicoes/download/10072"
+      },
+      {
+        "text": "CLIQUE AQUI E VISUALIZE A PÁGINA EM PDF",
+        "href": "https://diofe.portal.ap.gov.br/portal/visualizacoes/pdf/10072/#e:10072"
+      },
+      {
+        "text": "CLIQUE AQUI E ACESSE A VERSÃO HTML",
+        "href": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/10072/#e:10072"
+      },
+      {
+        "text": "CLIQUE AQUI E ACESSE O ACERVO DA IMPRENSA",
+        "href": "https://sead.portal.ap.gov.br/diario_oficial"
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://diofe.portal.ap.gov.br/login",
+        "method": "post",
+        "id": "UsuarioLoginForm",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_method",
+            "id": "",
+            "value": "POST",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "data[Usuario][usuario]",
+            "id": "Usuario",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "password",
+            "name": "data[Usuario][senha]",
+            "id": "Senha",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "LOGIN",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://diofe.portal.ap.gov.br/buscanova",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "dataEdicaoPortal",
+            "value": "18/08/2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "sbmt1",
+            "value": "OK",
+            "text": "OK",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://diofe.portal.ap.gov.br/buscanova",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "q",
+            "id": "input2",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "OK",
+            "text": "OK",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "dataBuscaInicial",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "dataBuscaFinal",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "OK",
+            "text": "OK",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://diofe.portal.ap.gov.br/",
+        "method": "get",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "hash",
+            "value": "",
+            "text": "",
+            "placeholder": "Código de Aut. de Edição "
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "btn-autenticidade",
+            "value": "OK",
+            "text": "OK",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "hashMateria",
+            "value": "",
+            "text": "",
+            "placeholder": "Buscar Matéria p/ Protocolo"
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "btn-autenticidade-materia",
+            "value": "OK",
+            "text": "OK",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-SKZ66VLH1J",
+      "https://diofe.portal.ap.gov.br/js/jquery.min.js",
+      "https://diofe.portal.ap.gov.br/js/bootstrap.min.js",
+      "https://diofe.portal.ap.gov.br/assets/bootstrap-datepicker/js/bootstrap-datepicker.js",
+      "https://diofe.portal.ap.gov.br/assets/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js",
+      "https://diofe.portal.ap.gov.br/util/js/clock.js",
+      "https://diofe.portal.ap.gov.br/admin/js/vendor/jquery/jquery.mask.js",
+      "https://www.google.com/jsapi",
+      "https://diofe.portal.ap.gov.br/assets/blockui/jquery.blockUI.js",
+      "https://diofe.portal.ap.gov.br/theme/Amapa/js/home.js",
+      "https://diofe.portal.ap.gov.br/js/consulta_autenticidade.js"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 7625,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8SL2V6As.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondense"
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787148000883&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1261202379.1787148001&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787148001&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1794",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 301,
+        "url": "https://www.google.com/jsapi",
+        "content_type": "text/html; charset=UTF-8",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/js/consulta_autenticidade.js",
+        "content_type": "text/javascript",
+        "body_length": 2185,
+        "body_preview": "$(document).ready(function() {\n    $('#btn-autenticidade').click(function() {\n        var hash = $('#hash').val();\n        $('a#download-box img').fadeOut('fast');\n        if (hash != '') {\n            $.ajax({\n                'url': BASE_URL + '/portal/edicoes/consulta_autenticidade/' + hash,\n                'success': function(data) {\n                    if (data.data.error != true) {\n                        carregarImagemAuternticidade(data.data.Edicao.id);\n                    }\n             "
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/icon_area_publicador.svg",
+        "content_type": "image/svg+xml",
+        "body_length": 3389,
+        "body_preview": "<svg width=\"269\" height=\"243\" viewBox=\"0 0 269 243\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0)\">\n<path d=\"M251.581 118.167H240.896V85.7233C240.919 84.4285 240.654 83.1447 240.12 81.9648C239.586 80.7849 238.796 79.7385 237.807 78.9013C222.991 66.2683 204.192 59.2618 184.717 59.1143H182.741C183.025 56.9548 183.17 54.7792 183.173 52.601C183.173 38.6464 177.627 25.2633 167.755 15.3958C157.883 5.52842 144.493 -0.0150452 130.531 -0.0150452C116.57 -0.0150452 103.18 5.5284"
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/download.svg",
+        "content_type": "image/svg+xml",
+        "body_length": 683,
+        "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32.9 35.09\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>download</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g>\n        <path class=\"cls-1\" d=\"M25.12,16a1.1,1.1,0,0,0-1-.64H19.74V1.1A1.1,1.1,0,0,0,18.64,0H14.26a1.1,1.1,0,0,0-1.1,1.1V15.35H8.77a1.1,1.1,0,0,0-1,.64A1.09,1.09,0,0,0,8,17.17l7.67,8.77a1.09,1.09,0,0,0,1.65,0L25,17.17A1.1,1.1,0,0"
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/pdf.svg",
+        "content_type": "image/svg+xml",
+        "body_length": 1431,
+        "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 33.62 37.97\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>pdf</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g>\n        <path class=\"cls-1\" d=\"M8.88,19.45c0-1-.71-1.63-2-1.63a4.25,4.25,0,0,0-1,.1V21.2a3.81,3.81,0,0,0,.84.07C8.06,21.27,8.88,20.59,8.88,19.45Z\"/>\n        <path class=\"cls-1\" d=\"M16.64,17.85a5.17,5.17,0,0,0-1.14.1v7.28a4.53,4.53,0,"
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/img/pdf-null.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/html.svg",
+        "content_type": "image/svg+xml",
+        "body_length": 1470,
+        "body_preview": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30.08 35.09\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <title>html</title>\n  <g id=\"Layer_2\" data-name=\"Layer 2\">\n    <g id=\"Camada_1\" data-name=\"Camada 1\">\n      <g id=\"Html\">\n        <path class=\"cls-1\" d=\"M3.87,1.53a.65.65,0,0,1,.91-.13.8.8,0,0,1,.13.13l.1.16V0H3.76V1.69Z\"/>\n        <path class=\"cls-1\" d=\"M3.13,35.09H27a.62.62,0,0,0,.62-.62V23.19H26.32V32a1.88,1.88,0,0,1-1.88,1.88H2.51v.63A.62"
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/theme/amapa/img/acervo.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/imagem_diario/10072/1/imagem/1",
+        "content_type": "image/jpeg",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SKZ66VLH1J&gtm=45je68h1v9101483413za200zd9101483413&_p=1787148000883&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1261202379.1787148001&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=2&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120315471~120385422&sid=1787148001&sct=1&seg=0&dl=https%3A%2F%2Fdiofe.portal.ap.gov.br%2F&dt=Di%C3%A1rio%20Oficial%20%2F%20Home&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6802",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length": 259495,
+        "preview": "{\"erro\":false,\"msg\":\"\",\"itens\":[{\"id\":10072,\"data\":\"18\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8721,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1},{\"id\":10070,\"data\":\"17\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":8720,\"tipo_edicao_id\":1,\"tipo_edica",
+        "error": null
+      },
+      {
+        "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length": 220,
+        "preview": "{\"erro\":false,\"msg\":\"\",\"data\":\"2010-01-05\",\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":4853,\"data\":\"05\\/01\\/2010\",\"suplemento\":0,\"numero\":4653,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":0,\"paginas\":6}]}",
+        "error": null
+      },
+      {
+        "url": "https://diofe.portal.ap.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length": 220,
+        "preview": "{\"erro\":false,\"msg\":\"\",\"data\":\"2021-12-31\",\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":785,\"data\":\"31\\/12\\/2021\",\"suplemento\":0,\"numero\":7576,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial\",\"capa\":1,\"paginas\":30}]}",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "CE",
+    "start_url": "https://www.ce.gov.br/diario-oficial/",
+    "final_url": "https://www.ce.gov.br/diario-oficial/",
+    "navigation_status": 403,
+    "title": "Error Page",
+    "errors": [],
+    "html_length": 306,
+    "links": [],
+    "forms": [],
+    "scripts": [],
+    "network": [
+      {
+        "status": 403,
+        "url": "https://www.ce.gov.br/diario-oficial/",
+        "content_type": "text/html; charset=UTF-8",
+        "body_length": 310,
+        "body_preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 6b229bca-a07e-475c-8c63-74e18806c4c0<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></body></html>\n"
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://www.ce.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "length": 310,
+        "preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 619d0699-e045-4b0d-9c69-bbeb83242586<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></bod",
+        "error": null
+      },
+      {
+        "url": "https://www.ce.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "length": 310,
+        "preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 3da8338c-e5d5-444a-a530-72d34b99bd8f<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></bod",
+        "error": null
+      },
+      {
+        "url": "https://www.ce.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "length": 310,
+        "preview": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 1000dd95-a5af-4ea2-8b6e-12966c8f541f<h2>Error 403 - Forbidden</h2>F5 site: sv10-sjc<br/><br/><a href='javascript:history.back();'>[Go Back]</a></bod",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "DF",
+    "start_url": "https://dodf.df.gov.br/",
+    "final_url": "about:blank",
+    "navigation_status": null,
+    "title": "",
+    "errors": [
+      "goto: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://dodf.df.gov.br/\", waiting until \"domcontentloaded\"\n"
+    ],
+    "html_length": 39,
+    "links": [],
+    "forms": [],
+    "scripts": [],
+    "network": [],
+    "common_endpoint_tests": [
+      {
+        "url": "apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "https://dodf.df.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://dodf.df.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://dodf.df.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://dodf.df.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://dodf.df.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://dodf.df.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      }
+    ]
+  },
+  {
+    "state": "ES",
+    "start_url": "https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial",
+    "final_url": "https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial",
+    "navigation_status": 200,
+    "title": "Diário Oficial / Visualizacoes",
+    "errors": [],
+    "html_length": 18682,
+    "links": [
+      {
+        "text": "Área do Publicador",
+        "href": "https://ioes.dio.es.gov.br/"
+      },
+      {
+        "text": "",
+        "href": "https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial"
+      },
+      {
+        "text": "Pesquisa Agendada",
+        "href": "https://ioes.dio.es.gov.br/clipping"
+      },
+      {
+        "text": "Diário Oficial do Espírito Santo",
+        "href": ""
+      },
+      {
+        "text": "",
+        "href": "https://ioes.dio.es.gov.br/portal/edicoes/download/11399"
+      },
+      {
+        "text": "",
+        "href": "https://ioes.dio.es.gov.br/portal/visualizacoes/pdf/11399/#e:11399"
+      },
+      {
+        "text": "",
+        "href": "https://ioes.dio.es.gov.br/portal/visualizacoes/html/11399/#e:11399"
+      },
+      {
+        "text": "Baixar Edição",
+        "href": "javascript:void(0)"
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://ioes.dio.es.gov.br/login",
+        "method": "post",
+        "id": "UsuarioLoginForm",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_method",
+            "id": "",
+            "value": "POST",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "data[Usuario][usuario]",
+            "id": "UsuarioUsuario",
+            "value": "",
+            "text": "",
+            "placeholder": "USUÁRIO"
+          },
+          {
+            "tag": "INPUT",
+            "type": "password",
+            "name": "data[Usuario][senha]",
+            "id": "UsuarioSenha",
+            "value": "",
+            "text": "",
+            "placeholder": "SENHA"
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "Ok",
+            "text": "OK",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial",
+        "method": "get",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_Token[fields]",
+            "id": "",
+            "value": "QMf89EWhuZCiUzvIJeTrnP3K2wtYLB67gbkFdjN51qX",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "hash",
+            "value": "",
+            "text": "",
+            "placeholder": "Código de Autenticidade"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "",
+            "id": "btn-autenticidade",
+            "value": "OK",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://ioes.dio.es.gov.br/buscanova",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "dataEdicaoPortal",
+            "value": "19/08/2026",
+            "text": "",
+            "placeholder": "DD/MM/AAAA"
+          }
+        ]
+      },
+      {
+        "action": "https://ioes.dio.es.gov.br/buscanova",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "dataBuscaInicial",
+            "value": "",
+            "text": "",
+            "placeholder": "DD/MM/AAAA"
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "",
+            "id": "dataBuscaFinal",
+            "value": "",
+            "text": "",
+            "placeholder": "DD/MM/AAAA"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "",
+            "id": "smbt2",
+            "value": "OK",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "q",
+            "id": "input2",
+            "value": "",
+            "text": "",
+            "placeholder": "Ex: Decreto Nº 12.000"
+          }
+        ]
+      },
+      {
+        "action": "https://ioes.dio.es.gov.br/cadastrar_whatsapp",
+        "method": "post",
+        "id": "whatsapp_form",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_method",
+            "id": "",
+            "value": "POST",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "nome",
+            "id": "usuario",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "celular",
+            "id": "celular-wpp",
+            "value": "",
+            "text": "",
+            "placeholder": "(99) 99999-9999"
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "Cancelar",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "submit-wpp",
+            "value": "",
+            "text": "Cadastrar",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-DMSNRJFQ9Q&cx=c&gtm=4e68h1",
+      "https://www.googletagmanager.com/gtag/js?id=UA-48855333-1",
+      "https://ioes.dio.es.gov.br/js/jquery.min.js",
+      "https://ioes.dio.es.gov.br/theme/Es/js/bootstrap.min.js",
+      "https://ioes.dio.es.gov.br/assets/bootstrap-datepicker/js/bootstrap-datepicker.js",
+      "https://ioes.dio.es.gov.br/assets/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js",
+      "https://ioes.dio.es.gov.br/util/js/clock.js",
+      "https://ioes.dio.es.gov.br/admin/js/vendor/jquery/jquery.mask.js",
+      "https://www.google.com/jsapi",
+      "https://ioes.dio.es.gov.br/site/js/enquete.js",
+      "https://ioes.dio.es.gov.br/assets/blockui/jquery.blockUI.js",
+      "https://ioes.dio.es.gov.br/theme/Es/js/controllers/home.js"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://ioes.dio.es.gov.br/portal/visualizacoes/diario_oficial",
+        "content_type": "text/html; charset=UTF-8",
+        "body_length": 18389,
+        "body_preview": "<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!-->\n<html class=\"no-js\"> <!--<![endif]-->\n\n<head>\n    <!-- Global site tag (gtag.js) - Google Analytics -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-48855333-1\"></script>\n    <script>\n        window.dataLayer = window.dataL"
+      },
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 7625,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondensed/v24/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8SL2V6As.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Open Sans Condensed';\n  font-style: italic;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/opensanscondense"
+      },
+      {
+        "status": 301,
+        "url": "https://www.google.com/jsapi",
+        "content_type": "text/html; charset=UTF-8",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DMSNRJFQ9Q&gtm=45je68h1v9119047335za20g&_p=1787148017397&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid=32499992.1787148018&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385423~120474864&sid=1787148018&sct=1&seg=0&dl=https%3A%2F%2Fioes.dio.es.gov.br%2Fportal%2Fvisualizacoes%2Fdiario_oficial&dt=Di%C3%A1rio%20Oficial%20%2F%20Visualizacoes&en=page_view&_fv=1&_ss=1&tfd=1871",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://ioes.dio.es.gov.br/theme/Es/img/HTML.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 400,
+        "url": "https://ioes.dio.es.gov.br/site/enquetes/buscar_enquete",
+        "content_type": "application/json; charset=UTF-8",
+        "body_length": 46,
+        "body_preview": "{\"error\":true,\"message\":\"Enquete inexistente\"}"
+      },
+      {
+        "status": 200,
+        "url": "https://ioes.dio.es.gov.br/apifront/portal/edicoes/edicoes_from_data.json?subtheme=false",
+        "content_type": "application/json; charset=UTF-8",
+        "body_length": 240,
+        "body_preview": "{\"erro\":false,\"msg\":\"\",\"data\":null,\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":11399,\"data\":\"19\\/08\\/2026\",\"suplemento\":\"\",\"numero\":26792,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial do Esp\\u00edrito Santo\",\"capa\":1,\"paginas\":110}]}"
+      },
+      {
+        "status": 200,
+        "url": "https://ioes.dio.es.gov.br/apifront/portal/edicoes/imagem_diario/11399/1/imagem",
+        "content_type": "image/jpeg",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://ioes.dio.es.gov.br/apifront/portal/edicoes/edicoes_from_data/2026-08-19.json?&subtheme=false",
+        "content_type": "application/json; charset=UTF-8",
+        "body_length": 248,
+        "body_preview": "{\"erro\":false,\"msg\":\"\",\"data\":\"2026-08-19\",\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":11399,\"data\":\"19\\/08\\/2026\",\"suplemento\":\"\",\"numero\":26792,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial do Esp\\u00edrito Santo\",\"capa\":1,\"paginas\":110}]}"
+      },
+      {
+        "status": 200,
+        "url": "https://ioes.dio.es.gov.br/theme/Es/img/PDF.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://ioes.dio.es.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length": 148932,
+        "preview": "{\"erro\":false,\"msg\":\"\",\"itens\":[{\"id\":11399,\"data\":\"19\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":26792,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial do Esp\\u00edrito Santo\",\"capa\":1},{\"id\":11396,\"data\":\"18\\/08\\/2026\",\"suplemento\":0,\"suplemento_nome\":\"\",\"numero\":26791,\"tipo",
+        "error": null
+      },
+      {
+        "url": "https://ioes.dio.es.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length": 240,
+        "preview": "{\"erro\":false,\"msg\":\"\",\"data\":\"2010-01-05\",\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":952,\"data\":\"05\\/01\\/2010\",\"suplemento\":0,\"numero\":0,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial do Esp\\u00edrito Santo\",\"capa\":1,\"paginas\":64}]}",
+        "error": null
+      },
+      {
+        "url": "https://ioes.dio.es.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length": 245,
+        "preview": "{\"erro\":false,\"msg\":\"\",\"data\":\"2021-12-31\",\"numero\":null,\"ano\":\"\",\"itens\":[{\"id\":6534,\"data\":\"31\\/12\\/2021\",\"suplemento\":1,\"numero\":25646,\"tipo_edicao_id\":1,\"tipo_edicao_nome\":\"Di\\u00e1rio Oficial do Esp\\u00edrito Santo\",\"capa\":1,\"paginas\":22}]}",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "GO",
+    "start_url": "https://diariooficial.abc.go.gov.br/",
+    "final_url": "about:blank",
+    "navigation_status": null,
+    "title": "",
+    "errors": [
+      "goto: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://diariooficial.abc.go.gov.br/\", waiting until \"domcontentloaded\"\n"
+    ],
+    "html_length": 39,
+    "links": [],
+    "forms": [],
+    "scripts": [],
+    "network": [],
+    "common_endpoint_tests": [
+      {
+        "url": "apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.abc.go.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      }
+    ]
+  },
+  {
+    "state": "MA",
+    "start_url": "https://diariooficial.ma.gov.br/",
+    "final_url": "about:blank",
+    "navigation_status": null,
+    "title": "",
+    "errors": [
+      "goto: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://diariooficial.ma.gov.br/\", waiting until \"domcontentloaded\"\n"
+    ],
+    "html_length": 39,
+    "links": [],
+    "forms": [],
+    "scripts": [],
+    "network": [],
+    "common_endpoint_tests": [
+      {
+        "url": "apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "https://diariooficial.ma.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.ma.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diariooficial.ma.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.ma.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diariooficial.ma.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.ma.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      }
+    ]
+  },
+  {
+    "state": "PA",
+    "start_url": "https://www.ioepa.com.br/",
+    "final_url": "http://www.ioepa.com.br/portal/",
+    "navigation_status": 200,
+    "title": "",
+    "errors": [],
+    "html_length": 17836,
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.sistemas.pa.gov.br/esic/public/main/index.xhtml"
+      },
+      {
+        "text": "Serviço de Informação ao Cidadão",
+        "href": "https://www.sistemas.pa.gov.br/esic/public/main/index.xhtml"
+      },
+      {
+        "text": "Lista de autoridades",
+        "href": "http://www.pa.gov.br/downloads/lista_autoridades.pdf"
+      },
+      {
+        "text": "Constituição do Estado",
+        "href": "http://www.pa.gov.br/downloads/ConstituicaodoParaateaEC48.pdf"
+      }
+    ],
+    "forms": [
+      {
+        "action": "http://www.ioepa.com.br/portal/",
+        "method": "post",
+        "id": "form1",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__EVENTTARGET",
+            "id": "__EVENTTARGET",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__EVENTARGUMENT",
+            "id": "__EVENTARGUMENT",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__VIEWSTATE",
+            "id": "__VIEWSTATE",
+            "value": "/wEPDwUKMTk2MDQxODY1Mw9kFgJmD2QWAgIDD2QWCAIDDw8WAh4LTmF2aWdhdGVVcmwFCWF0b3MuYXNweGQWAmYPDxYCHghJbWFnZVVybAUZaW9lX2ltZy9kZXN0X2J0X2F0b3MyLmpwZ2RkAgQPDxYCHwAFO2h0dHBzOi8vd3d3LnNpc3RlbWFzLnBhLmdvdi5ici9lc2ljL3B1YmxpYy9tYWluL2luZGV4LnhodG1sZBYCZg8PFgIfAQUOaW1hZ2VzL3NpYy5wbmdkZAIFDw8WAh8ABSxodHRwOi8vd3d3",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__VIEWSTATEGENERATOR",
+            "id": "__VIEWSTATEGENERATOR",
+            "value": "1925773B",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "button",
+            "name": "",
+            "id": "Button1",
+            "value": "Acessar o sistema eDiário",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "button",
+            "name": "",
+            "id": "Button2",
+            "value": "Pesquisa textual",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=UA-40823363-1&cx=c&gtm=4e68h1",
+      "http://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-FPXVK7QWY2",
+      "http://www.ioepa.com.br/portal/jquery/jquery-1.8.2.min.js",
+      "http://www.ioepa.com.br/portal/jquery/jquery.ba-throttle-debounce.min.js",
+      "http://www.ioepa.com.br/portal/jquery/jquery.carouFredSel-6.1.0-packed.js",
+      "http://www.ioepa.com.br/portal/jquery/jquery.carouFredSel-6.1.0.js",
+      "http://www.ioepa.com.br/portal/jquery/jquery.mousewheel.min.js",
+      "http://www.ioepa.com.br/portal/jquery/jquery.touchSwipe.min.js",
+      "https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js",
+      "http://www.ioepa.com.br/portal/slides.min.jquery.js",
+      "http://www.ioepa.com.br/portal/WebResource.axd?d=o6OvnT9Rl7qWy1GD8LXFUPSCwRWZsgS7tSK6o04O50Qa1aeTMutYQuhzTIqtnWYwtmEFCg2_bVDlgRqJuj2vgh4FCgX2fKCIO8Pxp92-z0Y1&t=636160732665894255",
+      "http://www.ioepa.com.br/portal/ScriptResource.axd?d=3ZMwsWo7fBK62tTCY-ZiZJzM3hFWokGDQCJfO12NPYTMLV_nAhFTvjqPqlVqjwBKBlv55W6X0XbpEyzrSFNkQNGCqn8-CtN4rdg3ZDtfp7GNJmNKedCxoOT8ZY6nURfFJdxkZSR1s59nfomued5YtQ2&t=ffffffffaa73f696",
+      "http://www.ioepa.com.br/portal/ScriptResource.axd?d=BbzSSabkvSWWr5VRo1zXyQ78LB8Mxi0ukIy0sRPYsNmmaOOX5oI1DCESf-iBZqpJ2_Vm-cZba3UgabZOR5KV9Hpze7JkeB1CKJaJ8ACYfUFtvDpbbfhK0LKIpeQ6d3qYcrKb8Br7Bz21Ow8YMt9Tyw2&t=ffffffffaa73f696",
+      "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js",
+        "content_type": "text/javascript; charset=UTF-8",
+        "body_length": 85259,
+        "body_preview": "/*!\n * jQuery JavaScript Library v1.5.1\n * http://jquery.com/\n *\n * Copyright 2011, John Resig\n * Dual licensed under the MIT or GPL Version 2 licenses.\n * http://jquery.org/license\n *\n * Includes Sizzle.js\n * http://sizzlejs.com/\n * Copyright 2011, The Dojo Foundation\n * Released under the MIT, BSD, and GPL Licenses.\n *\n * Date: Wed Feb 23 13:55:29 2011 -0500\n */\n(function(a,b){function cg(a){return d.isWindow(a)?a:a.nodeType===9?a.defaultView||a.parentWindow:!1}function cd(a){if(!bZ[a]){var b="
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787148224725&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1841952661.1787148225&frm=0&pscdl=noapi&rcb=9&sr=1280x720&ul=pt-br&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787148224&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1334",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-LT68PSKK5Q&gtm=45je68h1v9115703202za20g&_p=1787148227149&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAIAGA&are=1&cid=1841952661.1787148225&frm=1&ir=1&pscdl=noapi&rcb=13&sr=1280x720&ul=pt-br&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~119381664~120213116~120385423&sid=1787148227&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2FFrame&dr=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=Busca%20IOE&en=page_view&_fv=1&_ss=1&tfd=627",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "http://www.ioepa.com.br/portal/images/busca/bt_envio.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FPXVK7QWY2&gtm=45je68h1v880435349za200zd880435349&_p=1787148224725&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1841952661.1787148225&frm=0&pscdl=noapi&rcb=9&sr=1280x720&ul=pt-br&_s=2&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787148224&sct=1&seg=0&dl=http%3A%2F%2Fwww.ioepa.com.br%2Fportal%2F&dt=&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6341",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "http://www.ioepa.com.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+      },
+      {
+        "url": "http://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+      },
+      {
+        "url": "http://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+      },
+      {
+        "url": "https://www.ioepa.com.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+      },
+      {
+        "url": "https://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+      },
+      {
+        "url": "https://www.ioepa.com.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf3 in position 268: invalid continuation byte"
+      }
+    ]
+  },
+  {
+    "state": "PB",
+    "start_url": "https://auniao.pb.gov.br/servicos/doe/",
+    "final_url": "https://auniao.pb.gov.br/servicos/doe/",
+    "navigation_status": 200,
+    "title": "Diário Oficial do Estado — A União - Jornal, Editora e Gráfica",
+    "errors": [],
+    "html_length": 155467,
+    "links": [
+      {
+        "text": "DIÁRIO OFICIAL",
+        "href": "https://auniao.pb.gov.br/doe"
+      },
+      {
+        "text": "Ir para a busca",
+        "href": "https://auniao.pb.gov.br/servicos/doe/#portal-searchbox"
+      },
+      {
+        "text": "Diário Oficial do Estado",
+        "href": "https://auniao.pb.gov.br/institucional/diario-oficial-do-estado"
+      },
+      {
+        "text": "Arquivo Digital",
+        "href": "https://auniao.pb.gov.br/servicos"
+      },
+      {
+        "text": "Diário Oficial do Estado",
+        "href": "https://auniao.pb.gov.br/servicos/doe"
+      },
+      {
+        "text": "DIÁRIO OFICIAL DA PARAÍBA",
+        "href": "https://auniao.pb.gov.br/@@search?Subject%3Alist=Di%C3%A1rio%20Oficial%20da%20Para%C3%ADba"
+      },
+      {
+        "text": "Diário Oficial",
+        "href": "https://auniao.pb.gov.br/servicos/doe/resolveuid/5f8fc43a2f4847bf96e487d18e0f5178"
+      },
+      {
+        "text": "ARQUIVO DIGITAL",
+        "href": "https://auniao.pb.gov.br/servicos"
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://auniao.pb.gov.br/servicos/doe/",
+        "method": "get",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "search",
+            "id": "gsc-i-id1",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "pesquisar",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://auniao.pb.gov.br/servicos/doe/",
+        "method": "get",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "search",
+            "id": "gsc-i-id2",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "pesquisar",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-4F6BZ0HW12&cx=c&gtm=4e68h1",
+      "https://cse.google.com/adsense/search/async-ads.js",
+      "https://www.googletagmanager.com/gtag/js?id=UA-64192421-9&cx=c&gtm=4e68h1",
+      "https://www.googletagmanager.com/gtag/js?id=UA-64192421-2&cx=c&gtm=4e68h1",
+      "https://www.youtube.com/s/player/3891b194/www-widgetapi.vflset/www-widgetapi.js",
+      "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-855c29fca5c7166fa9531e1e1734d7d2.js",
+      "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.recurrencejquery.tmpl-beta1-cachekey-a6a38f979021c44d56fbafa6c33b8036.js",
+      "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourcecollective.coverjsmain-cachekey-ed36a192b61b7d1227c8a902d9c9d73a.js",
+      "https://auniao.pb.gov.br/portal_javascripts/Sunburst%20Theme/resourcedropdown-menu-cachekey-04f56dbe7daaa30ba2b7e4ee4f8c94f6.js",
+      "https://auniao.pb.gov.br/++resource++brasil.gov.agenda/brasilgovagenda-b80d378.js",
+      "https://auniao.pb.gov.br/++resource++brasil.gov.portal/brasilgovportal-6d27299.js",
+      "https://www.youtube.com/iframe_api",
+      "https://www.google.com/cse/static/element/93e57cb47c499c53/cse_element__pt_br.js?usqp=CAM%3D",
+      "https://auniao.pb.gov.br/++theme++paraibaCinza2021/++theme++paraibaCinza2021/brasilgovtemas-a4eb3ef.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-R2NWMZKKEQ",
+      "https://cse.google.com/cse.js?cx=f748d1f61789e4163"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://www.youtube.com/iframe_api",
+        "content_type": "text/javascript; charset=utf-8",
+        "body_length": 993,
+        "body_preview": "var scriptUrl = 'https:\\/\\/www.youtube.com\\/s\\/player\\/3891b194\\/www-widgetapi.vflset\\/www-widgetapi.js';try{var ttPolicy=window.trustedTypes.createPolicy(\"youtube-widget-api\",{createScriptURL:function(x){return x}});scriptUrl=ttPolicy.createScriptURL(scriptUrl)}catch(e){}var YT;if(!window[\"YT\"])YT={loading:0,loaded:0};var YTConfig;if(!window[\"YTConfig\"])YTConfig={\"host\":\"https://www.youtube.com\"};\nif(!YT.loading){YT.loading=1;(function(){var l=[];YT.ready=function(f){if(YT.loaded)f();else l.pus"
+      },
+      {
+        "status": 200,
+        "url": "https://www.youtube.com/s/player/3891b194/www-widgetapi.vflset/www-widgetapi.js",
+        "content_type": "text/javascript",
+        "body_length": 26769,
+        "body_preview": "(function(){'use strict';var n,aa=typeof Object.create==\"function\"?Object.create:function(a){function b(){}\nb.prototype=a;return new b},p=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;\na[b]=c.value;return a};\nfunction ba(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var b=0;b<a.length;++b){var c=a[b];if(c&&c.Math"
+      },
+      {
+        "status": 204,
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R2NWMZKKEQ&gtm=45je68h1v894996816za200zd894996816&_p=1787148237537&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=641819068.1787148238&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938468~118012008~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148237&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2573",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-4F6BZ0HW12&gtm=45je68h1v9122483608za20gzd894996816&_p=1787148237537&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIAGA&are=1&cid=641819068.1787148238&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148237&sct=1&seg=0&dl=https%3A%2F%2Fauniao.pb.gov.br%2Fservicos%2Fdoe%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20%E2%80%94%20A%20Uni%C3%A3o%20-%20Jornal%2C%20Editora%20e%20Gr%C3%A1fica&en=page_view&_fv=1&_ss=1&tfd=2874",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+        "content_type": "text/html",
+        "body_length": 14627,
+        "body_preview": "<!DOCTYPE html>\n<meta charset=utf-8><script>\n(function(){'use strict';var aa=typeof Object.create==\"function\"?Object.create:function(a){function b(){}b.prototype=a;return new b},h=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,b,c){if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a};\nfunction ba(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var b="
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://auniao.pb.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 404,
+        "content_type": "text/html;charset=utf-8",
+        "length": 99625,
+        "preview": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-br\" xml:lang=\"pt-br\">\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\n    \n        <base href=\"https://auniao.pb.gov.br/\" /><!--[if lt IE 7]></base><![endif]-->\n    \n\n    \n        \n\n<meta property=",
+        "error": null
+      },
+      {
+        "url": "https://auniao.pb.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 404,
+        "content_type": "text/html;charset=utf-8",
+        "length": 99625,
+        "preview": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-br\" xml:lang=\"pt-br\">\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\n    \n        <base href=\"https://auniao.pb.gov.br/\" /><!--[if lt IE 7]></base><![endif]-->\n    \n\n    \n        \n\n<meta property=",
+        "error": null
+      },
+      {
+        "url": "https://auniao.pb.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 404,
+        "content_type": "text/html;charset=utf-8",
+        "length": 99625,
+        "preview": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"pt-br\" xml:lang=\"pt-br\">\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\n    \n        <base href=\"https://auniao.pb.gov.br/\" /><!--[if lt IE 7]></base><![endif]-->\n    \n\n    \n        \n\n<meta property=",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "PE",
+    "start_url": "https://diariooficial.cepe.com.br/diariooficialweb/",
+    "final_url": "https://diariooficial.cepe.com.br/diariooficialweb/#/login",
+    "navigation_status": 200,
+    "title": "CEPE",
+    "errors": [],
+    "html_length": 27712,
+    "links": [
+      {
+        "text": "",
+        "href": "https://diariooficial.cepe.com.br/diariooficialweb/#"
+      },
+      {
+        "text": "DIÁRIO OFICIAL ESTADO DE PERNAMBUCO",
+        "href": "https://www.cepe.com.br/"
+      },
+      {
+        "text": "ACERVO CEPE",
+        "href": "http://www.acervocepe.com.br/"
+      },
+      {
+        "text": "BALANÇOS",
+        "href": "https://diariooficial.cepe.com.br/balancoweb/"
+      },
+      {
+        "text": "ENVIAR PUBLICAÇÃO",
+        "href": ""
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://diariooficial.cepe.com.br/diariooficialweb/#/login",
+        "method": "get",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "email",
+            "name": "login",
+            "id": "login",
+            "value": "",
+            "text": "",
+            "placeholder": "E-mail"
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "PRÓXIMO",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.gstatic.com/recaptcha/releases/xg_pWYS8-HRESiV6Rdg4aY_R/recaptcha__pt_br.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-V4CZ66XLPK",
+      "https://diariooficial.cepe.com.br/diariooficialweb/content/scripts-min/lib-9865d3c4d3.min.js",
+      "https://diariooficial.cepe.com.br/diariooficialweb/content/scripts-min/app-9ea73055ca.min.js",
+      "https://diariooficial.cepe.com.br/diariooficialweb/app/app.config.js",
+      "https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/",
+        "content_type": "text/html",
+        "body_length": 1653,
+        "body_preview": "<!DOCTYPE html>\n<html lang=\"pt\" class=\"ng-cloak\" ng-controller=\"AppController as appCtrl\">\n\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n  <!-- Meta, title, CSS, favicons, etc. -->\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n\n  <!-- src/index.html -->\n\n  <!--[htmlclean-protect]-->\n  <!--[/htmlclean-protect]-->\n\n  <title>CEPE</title>\n\n  <link rel=\"icon\" href"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/css/font-awesome-4.7.0/css/font-awesome.min.css",
+        "content_type": "text/css",
+        "body_length": 31000,
+        "body_preview": "/*!\n *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome\n *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\n */@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.7.0');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('../fonts/fontawesome-web"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/styles-min/lib-9a0b99ceb2.min.css",
+        "content_type": "text/css",
+        "body_length": 252879,
+        "body_preview": "#toast-container *,.ng-table th.filter .input-filter{-webkit-box-sizing:border-box;-moz-box-sizing:border-box}.multiple-date-picker,.ng-table th{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}@-moz-keyframes throbber-loader{0%,40%{background:#dde2e7}10%{background:#6b9dc8}}@-webkit-keyframes throbber-loader{0%,40%{background:#dde2e7}10%{background:#6b9dc8}}@keyframes throbber-loader{0%,40%{background:#dde2e7}10%{background:#6b9dc8}}.throbber-loader:not(:required){-moz-animat"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/scripts-min/lib-9865d3c4d3.min.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/scripts-min/app-9ea73055ca.min.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/app/app.config.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficial/public/resource-bundle?lang=pt-BR",
+        "content_type": "application/json;charset=UTF-8",
+        "body_length": 41657,
+        "body_preview": "{\"mensagem.quantidade.colunas.categoria.invalida\":\"A quantidade de colunas configurada na categoria selecionada está inválida.\",\"Label.Usuario.principal\":\"Principal\",\"mensagem.erro.arquivo.nao.suportado\":\"Arquivo não suportado pelo sistema.\",\"mensagem.erro.dia.sem.publicacao\":\"Dia {0} não tem publicações.\",\"label.visualizar.publicacao.texto.publicacao\":\"Publicação\",\"Label.Categoria.quantidadeColunas\":\"Quantidade de Colunas/Largura\",\"titulo.relatorio.publicacoes\":\"Demonstrativo de Publicações\",\"L"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/app/application-template/application-template.html",
+        "content_type": "text/html",
+        "body_length": 11276,
+        "body_preview": "<link rel=\"stylesheet\" href=\"content/css/custom.css\">\n<link rel=\"stylesheet\" href=\"content/css/2019Custom.css\">\n<link rel=\"stylesheet\" ng-href=\"{{'aws.s3.endpoint' | translate}}/{{vm.urlTemaCss}}\">\n\n<loading-full-screen isloading=\"fullScreenLoading\"\n                     config=\"vm.Loading.loadingConfig\"></loading-full-screen>\n<header id=\"header\" class=\"collapse-animation\" style=\" height: auto; overflow: initial; max-height: 100%;\">\n    <!-- Google tag (gtag.js) -->\n    <script async src=\"https:/"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/app/authentication/login.html",
+        "content_type": "text/html",
+        "body_length": 9507,
+        "body_preview": "<div>\n  <div class=\"row\">\n    <div class=\"col-md-8 col-md-offset-2\">\n      <div\n        class=\"alert alert-warning\"\n        role=\"alert\"\n        ng-if=\"vm.logoutWithCertificate\"\n      >\n        <span\n          class=\"glyphicon glyphicon-exclamation-sign\"\n          aria-hidden=\"true\"\n        ></span>\n        <span class=\"sr-only\">Error:</span> {{ 'mensagem.logout.certificado' |\n        translate }}\n      </div>\n      <div\n        class=\"alert alert-warning\"\n        role=\"alert\"\n        ng-if=\"vm."
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/images/materia.jpg",
+        "content_type": "image/jpeg",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/fonts/glyphicons-halflings-regular.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/css/2019Custom.css",
+        "content_type": "text/css",
+        "body_length": 2532,
+        "body_preview": "/*================================ MEDIA QUERIES ====================================*/\n@media (max-width: 1024px) { {\n\n}\n}\n\n/*================================ BUTTONS ====================================*/\n.btn-red {\n    height: 46px;\n    font-size: 16px;\n}\n\n/*================================ TEXTS ====================================*/\nfieldset h3 {\n    color: #e2001a;\n}\n\n\n/*================================ MAGIN ====================================*/\n.offtop-33 {\n    margin-top: 33%;\n}\n\n.offt"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/css/custom.css",
+        "content_type": "text/css",
+        "body_length": 22750,
+        "body_preview": "@import \"../fonts/kelson/stylesheet.css\";\n\nbody {\n    font-family: 'Kelson Sans', Arial, sans-serif;\n    font-size: 13px;\n    text-rendering: optimizeLegibility;\n}\n\n#header .navbar-brand {\n    background-image: url(../images/Cia_EditoraPE_BRANCA_crop.png);\n    /*background-position: 0 -140px;*/\n    width: 100%;\n    height: 108px;\n    background-repeat: no-repeat;\n    display: block;\n    float: left;\n    margin: 20px 200px 20px 0;\n    text-indent: -9999px;\n\n}\n\n\n.collapse-animation {\n    transitio"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/fonts/kelson/stylesheet.css",
+        "content_type": "text/css",
+        "body_length": 2262,
+        "body_preview": "@font-face {\n    font-family: 'Kelson Sans';\n    src: url('KelsonSans-Bold.eot');\n    src: url('KelsonSans-Bold.eot?#iefix') format('embedded-opentype'),\n        url('KelsonSans-Bold.woff2') format('woff2'),\n        url('KelsonSans-Bold.woff') format('woff'),\n        url('KelsonSans-Bold.ttf') format('truetype');\n    font-weight: bold;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Kelson Sans';\n    src: url('KelsonSans-Regular.eot');\n    src: url('KelsonSans-Regular.eot?#iefix') form"
+      },
+      {
+        "status": 200,
+        "url": "https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&render=explicit",
+        "content_type": "text/javascript; charset=utf-8",
+        "body_length": 1616,
+        "body_preview": "/* PLEASE DO NOT COPY AND PASTE THIS CODE. */(function(){var w=window,C='___grecaptcha_cfg',cfg=w[C]=w[C]||{},N='grecaptcha';var gr=w[N]=w[N]||{};gr.ready=gr.ready||function(f){(cfg['fns']=cfg['fns']||[]).push(f);};w['__recaptcha_api']='https://www.google.com/recaptcha/api2/';(cfg['render']=cfg['render']||[]).push('explicit');(cfg['onload']=cfg['onload']||[]).push('vcRecaptchaApiLoaded');(cfg['anchor-ms']=cfg['anchor-ms']||[]).push(20000);(cfg['execute-ms']=cfg['execute-ms']||[]).push(30000);w['"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/fonts/kelson/KelsonSans-Regular_1.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/content/fonts/kelson/KelsonSans-Bold_1.woff2",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/app/directives/loading-full-screen/loading-full-screen-directive.html",
+        "content_type": "text/html",
+        "body_length": 751,
+        "body_preview": "<style>\n        .overlay {\n                position: fixed;\n                top: 0;\n                left: 0;\n                width: 100%;\n                height: 100%;\n                z-index: 9999;\n                background-color: rgba(232, 235, 239, 0.5);\n                /*dim the background*/\n        }\n</style>\n<div class=\"overlay\" ng-show=\"isloading\">        \n        <div ng-include=\"'app/directives/loading-full-screen/spinner.html'\" ng-if=\"config.type == 'spinner'\"></div>\n        <div ng-i"
+      },
+      {
+        "status": 200,
+        "url": "https://diariooficial.cepe.com.br/diariooficialweb/app/directives/loading-full-screen/spinner.html",
+        "content_type": "text/html",
+        "body_length": 5401,
+        "body_preview": "<style>\n        .sk-circle {  \n        position: fixed;\n        z-index: 99999999;\n        height: 8em;\n        width: 8em;\n        overflow: show;\n        margin: auto;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;  \n        }\n        .sk-circle .sk-child {\n        width: 100%;\n        height: 100%;\n        position: absolute;\n        left: 0;\n        top: 0;\n        }\n        .sk-circle .sk-child:before {\n        content: '';\n        display: block;\n        margin: 0 au"
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V4CZ66XLPK&gtm=45je68h1v9118217535za200zd9118217535&_p=1787148246087&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=BA&are=1&cid=740998100.1787148246&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148246&sct=1&seg=0&dl=https%3A%2F%2Fdiariooficial.cepe.com.br%2Fdiariooficialweb%2F&dt=CEPE&en=page_view&_fv=1&_ss=1&_ee=1&ep.event_category=page_view&tfd=1356",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/css/tema-diario.css",
+        "content_type": "text/css",
+        "body_length": 10866,
+        "body_preview": ".menubar > ul > li > a {\r\ncolor: #FFFFFF !important; /* TOP_BAR_FONT_COLOR */\r\n}\r\n\r\n.menubar > ul > li > a:hover {\r\nbackground: #00593B !important; /* PRIMARY */\r\n}\r\n\r\n.letter-container {\r\nbackground: #FFFFFF !important; /* TOP_BAR_FONT_COLOR */\r\ncolor: #00593B !important; /* PRIMARY */\r\n}\r\n\r\n.top-bar-font-color {\r\ncolor: #FFFFFF !important; /* TOP_BAR_FONT_COLOR */\r\n}\r\n\r\n.header-bar-font-color {\r\ncolor: #FFFFFF !important; /* HEADER_FONT_COLOR */\r\n}\r\n\r\n.titulo-home {\r\ncolor: #00593B !important;"
+      },
+      {
+        "status": 200,
+        "url": "https://cepebr-prod.s3.sa-east-1.amazonaws.com/1/logos/logo-diario.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://diariooficial.cepe.com.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 404,
+        "content_type": "text/html",
+        "length": 555,
+        "preview": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.0</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a paddin",
+        "error": null
+      },
+      {
+        "url": "https://diariooficial.cepe.com.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 404,
+        "content_type": "text/html",
+        "length": 555,
+        "preview": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.0</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a paddin",
+        "error": null
+      },
+      {
+        "url": "https://diariooficial.cepe.com.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 404,
+        "content_type": "text/html",
+        "length": 555,
+        "preview": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.30.0</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a paddin",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "PI",
+    "start_url": "https://www.diario.pi.gov.br/doe/",
+    "final_url": "https://www.diario.pi.gov.br/doe/",
+    "navigation_status": 200,
+    "title": "Governo do Piauí - Site Oficial do Governo do Estado do Piauí",
+    "errors": [],
+    "html_length": 343441,
+    "links": [
+      {
+        "text": "Acessibilidade",
+        "href": "https://www.diario.pi.gov.br/doe/#"
+      },
+      {
+        "text": "Mapa do Site",
+        "href": "https://www.diario.pi.gov.br/doe/#"
+      },
+      {
+        "text": "Governo",
+        "href": "https://www.diario.pi.gov.br/doe/#"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/"
+      },
+      {
+        "text": "Buscar por palavras",
+        "href": "https://www.diario.pi.gov.br/doe/busca"
+      },
+      {
+        "text": "Vídeo Demonstrativo",
+        "href": "https://www.diario.pi.gov.br/doe/tutorial"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/5e111773-ff42-4622-9e74-8cbbcacc2e8f/DOEPI_158_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/c03e4447-279b-4d5a-b041-d089f88d51eb/DOEPI_157_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/b0fe2c5c-1f47-4ad9-adfd-a47c5a59141f/DOEPI_156_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/afbdf2a1-2989-4a51-be3a-5ca9141ea8ca/DOEPI_155_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/f897f087-db84-4b89-89e4-5de684ca0478/DOEPI_154_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/0125c723-3926-456f-9a9d-2a2dcb0189e4/DOEPI_154_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/bdf8c8fd-75cd-4687-b2e2-0d10421bed9f/DOEPI_153_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/0a5fb209-487a-431b-85e7-58f15a35f482/DOEPI_152_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/2f9c5c93-b018-41d4-a7ef-c1e98b21ff8e/DOEPI_151_2026.pdf"
+      },
+      {
+        "text": "",
+        "href": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/89f04f03-c2ea-4150-bf1f-eda6357426b2/DOEPI_151_2026.pdf"
+      },
+      {
+        "text": "Governador",
+        "href": "https://www.diario.pi.gov.br/doe/governador"
+      },
+      {
+        "text": "Vice-Governador",
+        "href": "https://www.diario.pi.gov.br/doe/vice-governador"
+      },
+      {
+        "text": "Agenda do governador",
+        "href": "https://www.diario.pi.gov.br/doe/agenda"
+      },
+      {
+        "text": "Órgãos",
+        "href": "https://www.diario.pi.gov.br/doe/orgaos"
+      },
+      {
+        "text": "Símbolos do governo",
+        "href": "https://www.diario.pi.gov.br/doe/simbolos-do-governo"
+      },
+      {
+        "text": "Notícias",
+        "href": "https://www.diario.pi.gov.br/doe/noticias"
+      },
+      {
+        "text": "Fotos",
+        "href": "https://www.diario.pi.gov.br/doe/area-da-imprensa"
+      },
+      {
+        "text": "Vídeos",
+        "href": "https://www.diario.pi.gov.br/doe/area-da-imprensa"
+      },
+      {
+        "text": "Áudios",
+        "href": "https://www.diario.pi.gov.br/doe/#"
+      },
+      {
+        "text": "Identidade visual",
+        "href": "https://www.diario.pi.gov.br/doe/identidade-visual"
+      },
+      {
+        "text": "Área da Transparência",
+        "href": "https://www.diario.pi.gov.br/area-da-transparencia"
+      },
+      {
+        "text": "Perguntas frequentes",
+        "href": "https://www.diario.pi.gov.br/perguntas-frequentes"
+      },
+      {
+        "text": "Contracheque Online",
+        "href": "https://pidigital.pi.gov.br/app/catalog/vida-funcional-do-servidor-publico/consultar-contracheque"
+      },
+      {
+        "text": "Diário Oficial",
+        "href": "https://www.diario.pi.gov.br/doe/"
+      },
+      {
+        "text": "Arabic",
+        "href": "https://www.diario.pi.gov.br/doe/#ar"
+      },
+      {
+        "text": "Hebrew",
+        "href": "https://www.diario.pi.gov.br/doe/#he"
+      },
+      {
+        "text": "Polish",
+        "href": "https://www.diario.pi.gov.br/doe/#pl"
+      },
+      {
+        "text": "Bulgarian",
+        "href": "https://www.diario.pi.gov.br/doe/#bg"
+      },
+      {
+        "text": "Hindi",
+        "href": "https://www.diario.pi.gov.br/doe/#hi"
+      },
+      {
+        "text": "Portuguese",
+        "href": "https://www.diario.pi.gov.br/doe/#pt"
+      },
+      {
+        "text": "Catalan",
+        "href": "https://www.diario.pi.gov.br/doe/#ca"
+      },
+      {
+        "text": "Hmong Daw",
+        "href": "https://www.diario.pi.gov.br/doe/#mww"
+      },
+      {
+        "text": "Romanian",
+        "href": "https://www.diario.pi.gov.br/doe/#ro"
+      },
+      {
+        "text": "Chinese Simplified",
+        "href": "https://www.diario.pi.gov.br/doe/#zh-CHS"
+      },
+      {
+        "text": "Hungarian",
+        "href": "https://www.diario.pi.gov.br/doe/#hu"
+      },
+      {
+        "text": "Russian",
+        "href": "https://www.diario.pi.gov.br/doe/#ru"
+      },
+      {
+        "text": "Chinese Traditional",
+        "href": "https://www.diario.pi.gov.br/doe/#zh-CHT"
+      },
+      {
+        "text": "Indonesian",
+        "href": "https://www.diario.pi.gov.br/doe/#id"
+      },
+      {
+        "text": "Slovak",
+        "href": "https://www.diario.pi.gov.br/doe/#sk"
+      },
+      {
+        "text": "Czech",
+        "href": "https://www.diario.pi.gov.br/doe/#cs"
+      },
+      {
+        "text": "Italian",
+        "href": "https://www.diario.pi.gov.br/doe/#it"
+      },
+      {
+        "text": "Slovenian",
+        "href": "https://www.diario.pi.gov.br/doe/#sl"
+      },
+      {
+        "text": "Danish",
+        "href": "https://www.diario.pi.gov.br/doe/#da"
+      },
+      {
+        "text": "Japanese",
+        "href": "https://www.diario.pi.gov.br/doe/#ja"
+      },
+      {
+        "text": "Spanish",
+        "href": "https://www.diario.pi.gov.br/doe/#es"
+      },
+      {
+        "text": "Dutch",
+        "href": "https://www.diario.pi.gov.br/doe/#nl"
+      },
+      {
+        "text": "Klingon",
+        "href": "https://www.diario.pi.gov.br/doe/#tlh"
+      },
+      {
+        "text": "Swedish",
+        "href": "https://www.diario.pi.gov.br/doe/#sv"
+      },
+      {
+        "text": "English",
+        "href": "https://www.diario.pi.gov.br/doe/#en"
+      },
+      {
+        "text": "Korean",
+        "href": "https://www.diario.pi.gov.br/doe/#ko"
+      },
+      {
+        "text": "Thai",
+        "href": "https://www.diario.pi.gov.br/doe/#th"
+      },
+      {
+        "text": "Estonian",
+        "href": "https://www.diario.pi.gov.br/doe/#et"
+      },
+      {
+        "text": "Latvian",
+        "href": "https://www.diario.pi.gov.br/doe/#lv"
+      },
+      {
+        "text": "Turkish",
+        "href": "https://www.diario.pi.gov.br/doe/#tr"
+      },
+      {
+        "text": "Finnish",
+        "href": "https://www.diario.pi.gov.br/doe/#fi"
+      },
+      {
+        "text": "Lithuanian",
+        "href": "https://www.diario.pi.gov.br/doe/#lt"
+      },
+      {
+        "text": "Ukrainian",
+        "href": "https://www.diario.pi.gov.br/doe/#uk"
+      },
+      {
+        "text": "French",
+        "href": "https://www.diario.pi.gov.br/doe/#fr"
+      },
+      {
+        "text": "Malay",
+        "href": "https://www.diario.pi.gov.br/doe/#ms"
+      },
+      {
+        "text": "Urdu",
+        "href": "https://www.diario.pi.gov.br/doe/#ur"
+      },
+      {
+        "text": "German",
+        "href": "https://www.diario.pi.gov.br/doe/#de"
+      },
+      {
+        "text": "Maltese",
+        "href": "https://www.diario.pi.gov.br/doe/#mt"
+      },
+      {
+        "text": "Vietnamese",
+        "href": "https://www.diario.pi.gov.br/doe/#vi"
+      },
+      {
+        "text": "Greek",
+        "href": "https://www.diario.pi.gov.br/doe/#el"
+      },
+      {
+        "text": "Norwegian",
+        "href": "https://www.diario.pi.gov.br/doe/#no"
+      },
+      {
+        "text": "Welsh",
+        "href": "https://www.diario.pi.gov.br/doe/#cy"
+      },
+      {
+        "text": "Haitian Creole",
+        "href": "https://www.diario.pi.gov.br/doe/#ht"
+      },
+      {
+        "text": "Persian",
+        "href": "https://www.diario.pi.gov.br/doe/#fa"
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://www.diario.pi.gov.br/doe/",
+        "method": "get",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "searchValue",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": "O que você procura?"
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "Buscar",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1h1",
+      "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&cx=c&gtm=4e68h1h1",
+      "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
+      "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
+      "https://www.pi.gov.br/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "https://vlibras.gov.br/app/vlibras-plugin.js",
+      "https://www.diario.pi.gov.br/doe/vendors/jquery/dist/jquery.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js",
+      "https://www.googletagmanager.com/gtag/js?id=GTM-MNBRHWNB",
+      "https://www.diario.pi.gov.br/doe/vendors/DateJS/build/date.js",
+      "https://www.diario.pi.gov.br/doe/vendors/moment/min/moment.min.js",
+      "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.js",
+      "https://markcell.github.io/jquery-tabledit/assets/js/tabledit.min.js",
+      "https://www.diario.pi.gov.br/doe/vendors/datatables.net/js/jquery.dataTables.min.js"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 1866,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 400;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5"
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/",
+        "content_type": "text/html; charset=UTF-8",
+        "body_length": 336456,
+        "body_preview": "<html lang=\"en\" data-theme=\"default\" class=\"no-touch\" style=\"\">\n<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Montserrat\">\n\n<head>\n    <style type=\"text/css\">\n        :root,\n        :host {\n            --font-montserrat: 'Montserrat';\n            --fa-font-solid: normal 900 1em/1 \"Font Awesome 6 Solid\";\n            --fa-font-regular: normal 400 1em/1 \"Font Awesome 6 Regular\";\n            --fa-font-light: normal 300 1em/1 \"Font Awesome 6 Light\";\n            --fa-font-thin: "
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.css",
+        "content_type": "text/css",
+        "body_length": 8402,
+        "body_preview": ".daterangepicker {\n  position: absolute;\n  color: inherit;\n  background-color: #fff;\n  border-radius: 4px;\n  border: 1px solid #ddd;\n  width: 278px;\n  max-width: none;\n  padding: 0;\n  margin-top: 7px;\n  top: 100px;\n  left: 20px;\n  z-index: 3001;\n  display: none;\n  font-family: arial;\n  font-size: 15px;\n  line-height: 1em;\n}\n\n.daterangepicker:before, .daterangepicker:after {\n  position: absolute;\n  display: inline-block;\n  border-bottom-color: rgba(0, 0, 0, 0.2);\n  content: '';\n}\n\n.daterangepicke"
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/img/governo_logo.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/vendors/jquery/dist/jquery.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/img/logo-eleicoes-white.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68i0h2v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787148254319&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=522583234.1787148254&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148254&sct=1&seg=0&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&en=pi&_fv=1&_nsi=1&_ss=1&tfd=1929",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/vendors/moment/min/moment.min.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/vendors/DateJS/build/date.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/vendors/datatables.net/js/jquery.dataTables.min.js",
+        "content_type": "application/javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/img/loading.gif",
+        "content_type": "image/gif",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/Api/listardiarios.json",
+        "content_type": "text/html; charset=UTF-8",
+        "body_length": 3034,
+        "body_preview": "{\"draw\":1,\"recordsTotal\":1189,\"recordsFiltered\":1189,\"data\":[[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/5e111773-ff42-4622-9e74-8cbbcacc2e8f\\/DOEPI_158_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\"><img src=\\\"img\\/icone-diario.png\\\" alt=\\\"imagem abrir pasta\\\" style=\\\"margin-right: 0;\\\"><\\/a>\",\"158\\/2026  \",\"18\\/08\\/2026\",\"18\\/08\\/2026 18:01:00\"],[\"<a href=\\\"..\\/doe\\/files\\/diarios\\/anexo\\/c03e4447-279b-4d5a-b041-d089f88d51eb\\/DOEPI_157_2026.pdf\\\" target=\\\"_blank\\\" class=\\\"controles-btn\\\""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diario.pi.gov.br/doe/img/icone-diario.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V9MKX4DQ9G&gtm=45je68i0h2v9166193019z89165595567za20gzb9165595567zd9165595567&_p=1787148254319&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=522583234.1787148254&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120213116~120385423&sid=1787148254&sct=1&seg=1&dl=https%3A%2F%2Fwww.diario.pi.gov.br%2Fdoe%2F&dt=Governo%20do%20Piau%C3%AD%20-%20Site%20Oficial%20do%20Governo%20do%20Estado%20do%20Piau%C3%AD&_s=2&tfd=6938",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://www.diario.pi.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 196,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+        "error": null
+      },
+      {
+        "url": "https://www.diario.pi.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 196,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+        "error": null
+      },
+      {
+        "url": "https://www.diario.pi.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 196,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "RN",
+    "start_url": "https://www.diariooficial.rn.gov.br/dei/dorn3/",
+    "final_url": "https://www.diariooficial.rn.gov.br/dei/dorn3/",
+    "navigation_status": 200,
+    "title": "Diário Oficial do Estado do Rio Grande do Norte",
+    "errors": [],
+    "html_length": 44663,
+    "links": [
+      {
+        "text": "Diário Oficial do Estado do Rio Grande do Norte",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/default.aspx"
+      },
+      {
+        "text": "Inicio",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/default.aspx"
+      },
+      {
+        "text": "A República",
+        "href": "http://arepublica.rn.gov.br/"
+      },
+      {
+        "text": "Publicador",
+        "href": "https://deirn.sdoe.com.br/diariooficialweb/#/diarios"
+      },
+      {
+        "text": "Busca até 17-11-2022",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/Search.aspx"
+      },
+      {
+        "text": "Busca Avançada",
+        "href": "https://deirn.sdoe.com.br/diariooficialweb/#/home?diario=MTIx"
+      },
+      {
+        "text": "Carta de Serviços ao Cidadão",
+        "href": "https://cloud.diariooficial.rn.gov.br/s/DXwdAqSjLMBpLHP"
+      },
+      {
+        "text": "Concursos e Processos Seletivos",
+        "href": "https://cloud.diariooficial.rn.gov.br/s/3ZM7wp9Cd2dBQRR?path=%2F"
+      },
+      {
+        "text": "DEFENSORIA PUBLICA DO ESTADO",
+        "href": "javascript:__doPostBack('Menu1$dgMenu$ctl08$LinkButton1','')"
+      },
+      {
+        "text": "DIÁRIO DA JUSTIÇA",
+        "href": "javascript:__doPostBack('Menu1$dgMenu$ctl09$LinkButton1','')"
+      },
+      {
+        "text": "Acesso Publicador",
+        "href": "https://deirn.sdoe.com.br/diariooficialweb/#/diarios"
+      },
+      {
+        "text": "Passo a Passo ( Publicador)",
+        "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/sdoe.pdf"
+      },
+      {
+        "text": "Diário Oficial Edição do Dia",
+        "href": "https://deirn.sdoe.com.br/diariooficialweb/#/home?diario=MTIx"
+      },
+      {
+        "text": "Diário Oficial Edição Extra do Dia 02.07.2026",
+        "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/12026-07-02E.pdf"
+      },
+      {
+        "text": "Diário Oficial Edição Extra do Dia 03.07.2026",
+        "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/12026-07-03E.pdf"
+      },
+      {
+        "text": "Diário Oficial Edição Extra do Dia 20.07.2026",
+        "href": "https://webdisk.diariooficial.rn.gov.br/Jornal/12026-07-20E.pdf"
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://api.whatsapp.com/send?phone=5584987300836"
+      },
+      {
+        "text": "arquivo@dei.rn.gov.br",
+        "href": "mailto: arquivo@dei.rn.gov.br"
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://api.whatsapp.com/send?phone=5584987299756"
+      },
+      {
+        "text": "WhatsApp",
+        "href": "https://api.whatsapp.com/send?phone=5584987299778"
+      },
+      {
+        "text": "1",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "4",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "5",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "6",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "7",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "8",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "11",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "12",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "13",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "14",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "15",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "18",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      },
+      {
+        "text": "19",
+        "href": "https://www.diariooficial.rn.gov.br/dei/dorn3/#"
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://www.diariooficial.rn.gov.br/dei/dorn3/Default.aspx",
+        "method": "post",
+        "id": "Form1",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__EVENTTARGET",
+            "id": "__EVENTTARGET",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__EVENTARGUMENT",
+            "id": "__EVENTARGUMENT",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__LASTFOCUS",
+            "id": "__LASTFOCUS",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__VSTATE",
+            "id": "__VSTATE",
+            "value": "eJztk8GO0kAYx2mBXRZMyurSxLiW8eayye5MWwpsvBRazSjSpi3Gm2mYljRxIYGS6CP4Ct48GZ+DB9MpED7QxpNHOTS/Yb7fP99M5vspSEwqVwnWsUE0o00kJosx/1TFU/49iaW6JItK7cMzK0zD/nw1Y1NWbyhV0rvF3VsVq0aVdAHbgDqgBqgCkj1iSMAdQAMQcjHkYkjQOHZ2iPeo9gC7gG1AHVADVAEhl0AC6QAagJBLIJccJEBneN/Z/7v8d3d5cV1Upn/9yULMREHK3nQpiD6l5XPrBjlxMknCj3eI",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "__VIEWSTATE",
+            "id": "\n__VIEWSTATE",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "Exibir navegao",
+            "placeholder": ""
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "SelDataEd$cboData",
+            "id": "SelDataEd_cboData",
+            "value": "19/08/2026",
+            "text": "19/08/2026\n\t18/08/2026\n\t15/08/2026\n\t14/08/2026\n\t13/08/2026\n\t12/08/2026\n\t11/08/2026\n\t08/08/2026\n\t07/08/2026\n\t06/08/2026\n\t05/08/2026\n\t04/08/2026\n\t01/08/2026\n\t31/07/2026\n\t30/07/2026\n\t29/07/2026\n\t28/07/2026\n\t25/07/2026\n\t24/07/2026\n\t23/07/2026\n\t22/07/2026\n\t21/07/2026\n\t18/07/2026\n\t17/07/2026\n\t16/07/2026\n\t",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "trueCboData",
+            "id": "trueCboData",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "data",
+            "id": "cboDataClient",
+            "value": "19/08/2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "date",
+            "name": "",
+            "id": "dataDO",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "Consultar",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "button",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "Abrir Edição Extra",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-3K57H2HNFV&cx=c&_slc=1",
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery/jquery-1.11.2.min.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/bootstrap/bootstrap.min.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery-ui/jquery-ui.min.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/JavaScript.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2.min.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2_locale_pt-BR.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/colorbox/jquery.colorbox-min.js",
+      "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/BuscaAvancada.js"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/",
+        "content_type": "text/html; charset=utf-8",
+        "body_length": 37481,
+        "body_preview": "\r\n<!DOCTYPE HTML>\r\n<html lang=\"pt-BR\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/dorn/stylesheets/styles.css\" />\r\n    <link rel=\"Stylesheet\" type=\"text/css\" href=\"assets/dorn/stylesheets/jquery-ui/jquery-ui.min.css\" />\r\n    <link rel=\"Stylesheet\" type=\"text/css\" href=\"assets/dorn/stylesheets/jquery-ui/jquery-ui.theme.min.css\" />\r\n    <link rel=\"Stylesheet\" type=\"text/css\" "
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/cp_logo_governo.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/colorbox/colorbox.css",
+        "content_type": "text/css",
+        "body_length": 4435,
+        "body_preview": "/*\n    Colorbox Core Style:\n    The following CSS is consistent between example themes and should not be altered.\n*/\n#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}\n#cboxWrapper {max-width:none;}\n#cboxOverlay{position:fixed; width:100%; height:100%;}\n#cboxMiddleLeft, #cboxBottomLeft{clear:left;}\n#cboxContent{position:relative;}\n#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}\n#cboxTitle{margin:0;}\n#cboxLoadingOverlay, #"
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/jquery-ui/jquery-ui.min.css",
+        "content_type": "text/css",
+        "body_length": 19023,
+        "body_preview": "/*! jQuery UI - v1.11.3 - 2015-02-26\n* http://jqueryui.com\n* Includes: core.css, datepicker.css, theme.css\n* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande%2CLucida%20Sans%2CArial%2Csans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=5px&bgColorHeader=5c9ccc&bgTextureHeader=gloss_wave&bgImgOpacityHeader=55&borderColorHeader=4297d7&fcHeader=ffffff&iconColorHeader=d8e7f3&bgColorContent=fcfdfd&bgTextureContent=inset_hard&bgImgOpacityContent=100&bo"
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2.css",
+        "content_type": "text/css",
+        "body_length": 19457,
+        "body_preview": "/*\nVersion: 3.5.2 Timestamp: Sat Nov  1 14:43:36 EDT 2014\n*/\n.select2-container {\n    margin: 0;\n    position: relative;\n    display: inline-block;\n    /* inline-block for ie7 */\n    zoom: 1;\n    *display: inline;\n    vertical-align: middle;\n}\n\n.select2-container,\n.select2-drop,\n.select2-search,\n.select2-search input {\n  /*\n    Force border-box so that % widths fit the parent\n    container without overlap because of margin/padding.\n    More Info : http://www.quirksmode.org/css/box.html\n  */\n  -w"
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/jquery-ui/jquery-ui.theme.min.css",
+        "content_type": "text/css",
+        "body_length": 13861,
+        "body_preview": "/*! jQuery UI - v1.11.3 - 2015-02-26\n* http://jqueryui.com\n* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */\n\n.ui-widget{font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;font-size:1.1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #a6c9e2;background:#fcfdfd url(\"images/ui-bg_inset-hard_100_fcfdfd_1x"
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/JavaScript.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/stylesheets/styles.css",
+        "content_type": "text/css",
+        "body_length": 363057,
+        "body_preview": "@charset \"UTF-8\";\r\n/*! normalize.css v3.0.2 | MIT License | git.io/normalize */\r\n/* line 9, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nhtml {\r\n  font-family: sans-serif;\r\n  -ms-text-size-adjust: 100%;\r\n  -webkit-text-size-adjust: 100%;\r\n}\r\n\r\n/* line 19, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/_normalize.scss */\r\nbody {\r\n  margin: 0;\r\n}\r\n\r\n/* line 33, .."
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/bootstrap/bootstrap.min.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery/jquery-1.11.2.min.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/jquery-ui/jquery-ui.min.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2_locale_pt-BR.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=579323710&t=pageview&_s=1&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&ul=pt-br&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sr=1280x720&vp=1280x720&_u=IEBAAEABAAAAACAAI~&jid=1085193746&gjid=2132323313&cid=1219094368.1787148264&tid=UA-103233428-1&_gid=1634161514.1787148264&_r=1&_slc=1&z=256306620",
+        "content_type": "text/plain",
+        "body_length": 15,
+        "body_preview": "2,cG-3K57H2HNFV"
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/select2/select2.min.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/colorbox/jquery.colorbox-min.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_body.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_cabecalho.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/images/bg_rodape.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://www.diariooficial.rn.gov.br/dei/dorn3/assets/dorn/javascripts/BuscaAvancada.js",
+        "content_type": "application/x-javascript",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 204,
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-3K57H2HNFV&gtm=45je68h1v9135335248za20g&_p=1787148263710&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&_ng=1&are=1&cid=1219094368.1787148264&frm=0&ir=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=pt-br&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120032689~120213116~120385423&dl=https%3A%2F%2Fwww.diariooficial.rn.gov.br%2Fdei%2Fdorn3%2F&dt=Di%C3%A1rio%20Oficial%20do%20Estado%20do%20Rio%20Grande%20do%20Norte&sid=1787148263&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1986",
+        "content_type": "text/plain",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://www.diariooficial.rn.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 404,
+        "content_type": "text/html",
+        "length": 1635,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>The page cannot be found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=Windows-1252\">\r\n<STYLE type=\"text/css\">\r\n  BODY { font: 8pt/12pt verdana }\r\n  H1 { font: 13pt/1",
+        "error": null
+      },
+      {
+        "url": "https://www.diariooficial.rn.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 404,
+        "content_type": "text/html",
+        "length": 1635,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>The page cannot be found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=Windows-1252\">\r\n<STYLE type=\"text/css\">\r\n  BODY { font: 8pt/12pt verdana }\r\n  H1 { font: 13pt/1",
+        "error": null
+      },
+      {
+        "url": "https://www.diariooficial.rn.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 404,
+        "content_type": "text/html",
+        "length": 1635,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>The page cannot be found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=Windows-1252\">\r\n<STYLE type=\"text/css\">\r\n  BODY { font: 8pt/12pt verdana }\r\n  H1 { font: 13pt/1",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "RO",
+    "start_url": "https://diof.ro.gov.br/",
+    "final_url": "https://diof.ro.gov.br/",
+    "navigation_status": 200,
+    "title": "Imprensa Oficial do Governo do Estado de Rondônia - Diário Oficial",
+    "errors": [],
+    "html_length": 132876,
+    "links": [
+      {
+        "text": "História",
+        "href": "https://diof.ro.gov.br/diarios/historia"
+      },
+      {
+        "text": "Equipe",
+        "href": "https://diof.ro.gov.br/diarios/equipe"
+      },
+      {
+        "text": "Missão",
+        "href": "https://diof.ro.gov.br/diarios/missao"
+      },
+      {
+        "text": "Quanto custa publicar?",
+        "href": "https://diof.ro.gov.br/diarios/quanto-custa-publicar"
+      },
+      {
+        "text": "Como publicar",
+        "href": "https://ppe.sistemas.ro.gov.br/"
+      },
+      {
+        "text": "Diário Oficial da União",
+        "href": "https://www.gov.br/imprensanacional/pt-br"
+      },
+      {
+        "text": "CLIQUE AQUI",
+        "href": "http://ditel.casacivil.ro.gov.br/cotel/Livros/Files/D31210.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026-SUPLEMENTAR.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-17-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-14-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-13-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-12-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-11-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-SUPLEMENTAR-11-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-10-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-07-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026-SUPLEMENTAR.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-05-08-2026.pdf"
+      },
+      {
+        "text": "BAIXAR",
+        "href": "https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026.pdf"
+      }
+    ],
+    "forms": [],
+    "scripts": [
+      "https://connect.facebook.net/pt_BR/all.js?hash=a0d88f07459a89c2988a93042c551427",
+      "https://www.google-analytics.com/analytics.js",
+      "https://connect.facebook.net/pt_BR/all.js#xfbml=1",
+      "https://analytics.sistemas.ro.gov.br/matomo.js",
+      "https://cdn.sistemas.ro.gov.br/modernizr/modernizr.min.js",
+      "https://cdn.setic.ro.gov.br/libs/artim/2.0.0/cookieconsent.min.js",
+      "https://cdn.sistemas.ro.gov.br/vendors/bootstrap/v5/js/bootstrap.bundle.min.js",
+      "https://cdn.sistemas.ro.gov.br/vendors/jquery/jquery-3.5.1.min.js",
+      "https://cdn.sistemas.ro.gov.br/jquery/original/jquery-1.8.0.min.js",
+      "https://cdn.sistemas.ro.gov.br/jquery/ui/js/jquery-ui.min.js",
+      "https://cdn.sistemas.ro.gov.br/jquery/easing/jquery-easing.min.js",
+      "https://cdn.sistemas.ro.gov.br/jquery/mousewheel/jquery-mousewheel.min.js",
+      "https://cdn.sistemas.ro.gov.br/bootstrap/original/js/bootstrap.min.js",
+      "https://cdn.sistemas.ro.gov.br/fancybox/js/fancybox.js",
+      "https://cdn.sistemas.ro.gov.br/fancybox/js/fancybox-buttons.js",
+      "https://cdn.sistemas.ro.gov.br/fancybox/js/fancybox-thumbs.js",
+      "https://diof.ro.gov.br/data/themes/governo-ro/js/main.js"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 22340,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url("
+      },
+      {
+        "status": 200,
+        "url": "https://portaldocidadao.ro.gov.br/css/home/buscar-servico_v1.0.css",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 7361,
+        "body_preview": ".container-buscar {\n    font-size: 9px;\n    height: 450px;\n    background: transparent url(../../images/logo/Hasteamento-da-Bandeira-de-Rondonia-no-Trevo-do-Roque.png) 0% 0% no-repeat padding-box;\n    opacity: 1;\n    background-position: center center;\n    background-size: cover;\n    padding-top: 180px !important;\n}\n\n@media only screen and (max-width: 990px) {\n    .container-buscar {\n        font-size: 7px;\n    }\n}\n\n@media only screen and (max-width: 600px) {\n    .container-buscar {\n        padd"
+      },
+      {
+        "status": 200,
+        "url": "https://cdn.sistemas.ro.gov.br/vendors/materialdesignicons/css/materialdesignicons.min.css",
+        "content_type": "text/css",
+        "body_length": 230878,
+        "body_preview": "@font-face{font-family:\"Material Design Icons\";src:url(\"../fonts/materialdesignicons-webfont.eot?v=5.0.45\");src:url(\"../fonts/materialdesignicons-webfont.eot?#iefix&v=5.0.45\") format(\"embedded-opentype\"),url(\"../fonts/materialdesignicons-webfont.woff2?v=5.0.45\") format(\"woff2\"),url(\"../fonts/materialdesignicons-webfont.woff?v=5.0.45\") format(\"woff\"),url(\"../fonts/materialdesignicons-webfont.ttf?v=5.0.45\") format(\"truetype\");font-weight:normal;font-style:normal}.mdi:before,.mdi-set{display:inline"
+      },
+      {
+        "status": 200,
+        "url": "https://cdn.sistemas.ro.gov.br/icones/pdf.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://diof.ro.gov.br/data/uploads/2019/08/PDF-FULLBANNER-FALE-BEM-DE-RONDONIA.pdf-940x250.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      },
+      {
+        "status": 200,
+        "url": "https://cdn.sistemas.ro.gov.br/vendors/materialdesignicons/fonts/materialdesignicons-webfont.woff2?v=5.0.45",
+        "content_type": "font/woff2",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://diof.ro.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "length": 91049,
+        "preview": " <!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head",
+        "error": null
+      },
+      {
+        "url": "https://diof.ro.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "length": 91049,
+        "preview": " <!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head",
+        "error": null
+      },
+      {
+        "url": "https://diof.ro.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "length": 91049,
+        "preview": " <!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n    <head",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "RR",
+    "start_url": "https://www.imprensaoficial.rr.gov.br/",
+    "final_url": "https://www.imprensaoficial.rr.gov.br/app/_inicial/",
+    "navigation_status": 200,
+    "title": ":: IMPRENSA OFICIAL DO ESTADO DE RORAIMA ::",
+    "errors": [],
+    "html_length": 39718,
+    "links": [
+      {
+        "text": "Diário Oficial",
+        "href": "https://www.imprensaoficial.rr.gov.br/app/_inicial/"
+      },
+      {
+        "text": "PESQUISAR POR PALAVRA CHAVE",
+        "href": "https://www.imprensaoficial.rr.gov.br/app/_buscar/"
+      }
+    ],
+    "forms": [
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260818.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260817.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260814.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260813.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260812.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260811.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260810.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260807.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260806.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260805.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260804.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      },
+      {
+        "action": "https://www.imprensaoficial.rr.gov.br/app/_visualizar-doe/",
+        "method": "post",
+        "id": "",
+        "fields": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "doe",
+            "id": "",
+            "value": "2026/08/doe-20260803.pdf",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ipconexao",
+            "id": "",
+            "value": "172.184.175.146",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "dia",
+            "id": "",
+            "value": "19",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "mes",
+            "id": "",
+            "value": "08",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "ano",
+            "id": "",
+            "value": "2026",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "hora",
+            "id": "",
+            "value": "10:04:44",
+            "text": "",
+            "placeholder": ""
+          },
+          {
+            "tag": "BUTTON",
+            "type": "submit",
+            "name": "",
+            "id": "",
+            "value": "",
+            "text": "",
+            "placeholder": ""
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "https://www.google-analytics.com/analytics.js",
+      "https://www.googletagmanager.com/gtag/js?id=G-9YNHL28ERZ&cx=c&gtm=4e68h1",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/jquery/js/jquery.js",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/popper.js/js/popper.js",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/bootstrap/js/bootstrap.js",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/jquery.cookie/js/jquery.cookie.js",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/chartist/js/chartist.js",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/d3/js/d3.js",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/rickshaw/js/rickshaw.min.js",
+      "https://www.imprensaoficial.rr.gov.br/app/lib/jquery.sparkline.bower/js/jquery.sparkline.min.js",
+      "https://www.imprensaoficial.rr.gov.br/app/js/ResizeSensor.js",
+      "https://www.imprensaoficial.rr.gov.br/app/js/dashboard.js",
+      "https://www.imprensaoficial.rr.gov.br/app/js/slim.js",
+      "https://www.googletagmanager.com/gtag/js?id=UA-118954292-1"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Lato:300,400,700",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 2338,
+        "body_preview": "/* latin-ext */\n@font-face {\n  font-family: 'Lato';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');\n  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;\n}\n/* latin */\n@font-face {\n  font-family: 'Lato';\n  font-style: normal;\n  font-weight: 300;\n  sr"
+      },
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 23176,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/open"
+      },
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 21548,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7C"
+      },
+      {
+        "status": 200,
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700",
+        "content_type": "text/css; charset=utf-8",
+        "body_length": 8885,
+        "body_preview": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;\n}\n/* cyrillic */\n@font-face {\n  font-family: 'Montserrat';\n  font-style: normal;\n  font-weight: 300;\n  src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('w"
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://www.imprensaoficial.rr.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 196,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+        "error": null
+      },
+      {
+        "url": "https://www.imprensaoficial.rr.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 196,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+        "error": null
+      },
+      {
+        "url": "https://www.imprensaoficial.rr.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 196,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL was not found on this server.</p>\n</body></html>\n",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "SC",
+    "start_url": "https://portal.doe.sea.sc.gov.br/",
+    "final_url": "https://portal.doe.sea.sc.gov.br/v2.44.07/",
+    "navigation_status": 200,
+    "title": "DOE - Diário Oficial de SC",
+    "errors": [],
+    "html_length": 13309,
+    "links": [],
+    "forms": [],
+    "scripts": [
+      "https://portal.doe.sea.sc.gov.br/v2.44.07/112.1dbddf8fd9063afe.js",
+      "https://portal.doe.sea.sc.gov.br/v2.44.07/common.c20e9804c42f8a54.js",
+      "https://portal.doe.sea.sc.gov.br/v2.44.07/581.0b58f1a995d7c992.js",
+      "https://portal.doe.sea.sc.gov.br/v2.44.07/runtime.4ecc72c59a41d917.js",
+      "https://portal.doe.sea.sc.gov.br/v2.44.07/polyfills.b44e79c5bdd98b7f.js",
+      "https://portal.doe.sea.sc.gov.br/v2.44.07/scripts.cb69a0cdf47477b0.js",
+      "https://portal.doe.sea.sc.gov.br/v2.44.07/main.7e3964baade27065.js"
+    ],
+    "network": [
+      {
+        "status": 200,
+        "url": "https://portal.doe.sea.sc.gov.br/apis/status",
+        "content_type": "application/json; charset=utf-8",
+        "body_length": 72,
+        "body_preview": "{\"code\":1,\"data\":[{\"object\":\"Database\",\"state\":\"Connected\",\"active\":1}]}"
+      },
+      {
+        "status": 200,
+        "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/assets/data/servico.json",
+        "content_type": "application/json",
+        "body_length": 2299,
+        "body_preview": "{\r\n    \"data\": [\r\n        {\r\n            \"description\": \"Buscar Edições\",\r\n            \"icon\": \"fa-solid fa-newspaper\",\r\n            \"routerLink\": \"/portal/edicao/buscar-edicao\",\r\n            \"title\": \"Buscar Edição\",\r\n            \"visible\": true\r\n        },\r\n        {\r\n            \"description\": \"Buscar Publicações\",\r\n            \"icon\": \"fa-solid fa-file-lines\",\r\n            \"routerLink\": \"/portal/edicao/buscar-publicacao\",\r\n            \"title\": \"Buscar Publicações\",\r\n            \"visible\": tr"
+      },
+      {
+        "status": 200,
+        "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/assets/data/menu.json",
+        "content_type": "application/json",
+        "body_length": 4205,
+        "body_preview": "{   \r\n    \"mobile\": [\r\n        {\r\n            \"label\": \"PORTAL DE NOTÍCIAS\",\r\n            \"target\": \"_blank\",\r\n            \"url\": \"https://estado.sc.gov.br/noticias/\"\r\n        },\r\n        {\r\n            \"label\": \"PORTAL DE SERVIÇOS\",\r\n            \"target\": \"_blank\",\r\n            \"url\": \"https://www.sc.gov.br/\"\r\n        },\r\n        {\r\n            \"label\": \"DIÁRIO OFICAL\",\r\n            \"target\": \"_blank\",\r\n            \"url\": \"https://doe.sea.sc.gov.br/\"\r\n        },\r\n        {\r\n            \"label\":"
+      },
+      {
+        "status": 200,
+        "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/assets/data/ouvidoria.json",
+        "content_type": "application/json",
+        "body_length": 1022,
+        "body_preview": "{\r\n    \"data\": [\r\n        {\r\n            \"description\": \"Denúncia\",\r\n            \"icon\": \"fas fa-bullhorn \",\r\n            \"url\": \"http://ouvidoria.sc.gov.br/cidadao/\",\r\n            \"title\": \"Denúncia\"\r\n        },\r\n        {\r\n            \"description\": \"Solicitação\",\r\n            \"icon\": \"fa-solid fa-hand-pointer \", \r\n            \"url\": \"http://ouvidoria.sc.gov.br/cidadao/\",\r\n            \"title\": \"Sugestão\"\r\n        },\r\n        {\r\n            \"description\": \"Sugestão\",\r\n            \"icon\": \" fa f"
+      },
+      {
+        "status": 200,
+        "url": "https://portal.doe.sea.sc.gov.br/apis/home/slide/68",
+        "content_type": "application/json; charset=utf-8",
+        "body_length": 530215,
+        "body_preview": "{\"error\":false,\"banner\":[{\"dsTitulo\":\"Diário Oficial de Santa Catarina\",\"dsResumo\":\"92 anos de história e transparência\",\"dsNoticia\":\"Em 1° de março de 2026, o Diário Oficial de Santa Catarina completa quase um século de existência. \",\"dsUrl\":\"https://www.sea.sc.gov.br/blog/diario-oficial-de-santa-catarina-92-anos-de-historia-e-transparencia/\",\"dsUrlcapa\":null,\"dsPalavrachave\":null,\"dsImagem\":\"20262271618-Gemini_Generated_Image_lp3y47lp3y47lp3y.png\",\"imagem\":\"data:image/png;base64,iVBORw0KGgoAAA"
+      },
+      {
+        "status": 200,
+        "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=12&dtStart=2011-10-03%2000:00:00&dtEnd=2026-08-19%2023:59:59",
+        "content_type": "application/json; charset=utf-8",
+        "body_length": 5681,
+        "body_preview": "{\"error\":false,\"records\":{\"meta\":{\"total\":4173,\"per_page\":12,\"current_page\":1,\"last_page\":348,\"first_page\":1,\"first_page_url\":\"/?page=1\",\"last_page_url\":\"/?page=348\",\"next_page_url\":\"/?page=2\",\"previous_page_url\":null},\"data\":[{\"cdJornal\":4629,\"qtdMaterias\":495,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-18T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-18T16:48:18.910Z\",\"dtFechado\":\"2026-08-18T16:48:00.000Z\",\"dsAno\":\"xcii\",\"vlNumero\":\"22821\",\"vlNumerop"
+      },
+      {
+        "status": 200,
+        "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/assets/layout/images/banner/bg-banner-materia.png",
+        "content_type": "image/png",
+        "body_length": null,
+        "body_preview": ""
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://portal.doe.sea.sc.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 200,
+        "content_type": "text/html",
+        "length": 2381,
+        "preview": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Redirect</title>\r\n</head>\r\n<body>\r\n    <p id=\"redirectMessage\">Verificando redireci",
+        "error": null
+      },
+      {
+        "url": "https://portal.doe.sea.sc.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 200,
+        "content_type": "text/html",
+        "length": 2381,
+        "preview": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Redirect</title>\r\n</head>\r\n<body>\r\n    <p id=\"redirectMessage\">Verificando redireci",
+        "error": null
+      },
+      {
+        "url": "https://portal.doe.sea.sc.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 200,
+        "content_type": "text/html",
+        "length": 2381,
+        "preview": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Redirect</title>\r\n</head>\r\n<body>\r\n    <p id=\"redirectMessage\">Verificando redireci",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "SE",
+    "start_url": "https://iose.se.gov.br/diario-oficial",
+    "final_url": "https://iose.se.gov.br/diario-oficial",
+    "navigation_status": 403,
+    "title": "403 Forbidden",
+    "errors": [],
+    "html_length": 198,
+    "links": [],
+    "forms": [],
+    "scripts": [],
+    "network": [
+      {
+        "status": 403,
+        "url": "https://iose.se.gov.br/diario-oficial",
+        "content_type": "text/html; charset=iso-8859-1",
+        "body_length": 199,
+        "body_preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n"
+      }
+    ],
+    "common_endpoint_tests": [
+      {
+        "url": "https://iose.se.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": 403,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 199,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n",
+        "error": null
+      },
+      {
+        "url": "https://iose.se.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": 403,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 199,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n",
+        "error": null
+      },
+      {
+        "url": "https://iose.se.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": 403,
+        "content_type": "text/html; charset=iso-8859-1",
+        "length": 199,
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n",
+        "error": null
+      }
+    ]
+  },
+  {
+    "state": "TO",
+    "start_url": "https://diariooficial.to.gov.br/",
+    "final_url": "about:blank",
+    "navigation_status": null,
+    "title": "",
+    "errors": [
+      "goto: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://diariooficial.to.gov.br/\", waiting until \"domcontentloaded\"\n"
+    ],
+    "html_length": 39,
+    "links": [],
+    "forms": [],
+    "scripts": [],
+    "network": [],
+    "common_endpoint_tests": [
+      {
+        "url": "apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "Error: APIRequestContext.get: Invalid URL"
+      },
+      {
+        "url": "https://diariooficial.to.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.to.gov.br/apifront/portal/edicoes/ultimas_edicoes.json?subtheme=false\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diariooficial.to.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.to.gov.br/apifront/portal/edicoes/edicoes_from_data/2010-01-05.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      },
+      {
+        "url": "https://diariooficial.to.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json",
+        "status": null,
+        "content_type": null,
+        "length": null,
+        "preview": "",
+        "error": "TimeoutError: APIRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://diariooficial.to.gov.br/apifront/portal/edicoes/edicoes_from_data/2021-12-31.json\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+      }
+    ]
+  }
+]
