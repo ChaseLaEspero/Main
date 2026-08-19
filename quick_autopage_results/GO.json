@@ -1,0 +1,126 @@
+{
+  "state": "GO",
+  "base": "https://diariooficial.abc.go.gov.br",
+  "endpoint_status": 200,
+  "content_type": "application/json; charset=UTF-8",
+  "bytes": 9153,
+  "edition_count": 44,
+  "earliest_issue": {
+    "id": 7278,
+    "date": "2026-07-20",
+    "obj": {
+      "id": 7278,
+      "data": "20/07/2026",
+      "suplemento": 1,
+      "suplemento_nome": "Edição Extra",
+      "numero": 24824,
+      "tipo_edicao_id": 1,
+      "tipo_edicao_nome": "Diário Oficial do Estado de Goiás",
+      "tipo_edicao_posicao": 1,
+      "capa": 1
+    }
+  },
+  "latest_issue": {
+    "id": 7325,
+    "date": "2026-08-19",
+    "obj": {
+      "id": 7325,
+      "data": "19/08/2026",
+      "suplemento": 0,
+      "suplemento_nome": "",
+      "numero": 24846,
+      "tipo_edicao_id": 1,
+      "tipo_edicao_nome": "Diário Oficial do Estado de Goiás",
+      "tipo_edicao_posicao": 1,
+      "capa": 1
+    }
+  },
+  "html_tests": [
+    {
+      "index": 21,
+      "id": 7303,
+      "date": "2026-08-04",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 456,
+        "url": "https://diariooficial.abc.go.gov.br/html/7303.html",
+        "length": 81890
+      }
+    },
+    {
+      "index": 10,
+      "id": 7288,
+      "date": "2026-07-27",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 30,
+        "url": "https://diariooficial.abc.go.gov.br/html/7288.html",
+        "length": 4580
+      }
+    },
+    {
+      "index": 4,
+      "id": 7282,
+      "date": "2026-07-22",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 4,
+        "url": "https://diariooficial.abc.go.gov.br/html/7282.html",
+        "length": 1526
+      }
+    },
+    {
+      "index": 1,
+      "id": 7279,
+      "date": "2026-07-21",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 474,
+        "url": "https://diariooficial.abc.go.gov.br/html/7279.html",
+        "length": 78977
+      }
+    },
+    {
+      "index": 0,
+      "id": 7278,
+      "date": "2026-07-20",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 20,
+        "url": "https://diariooficial.abc.go.gov.br/html/7278.html",
+        "length": 3126
+      }
+    },
+    {
+      "index": 0,
+      "id": 7278,
+      "date": "2026-07-20",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 20,
+        "url": "https://diariooficial.abc.go.gov.br/html/7278.html",
+        "length": 3126
+      },
+      "window": true
+    }
+  ],
+  "first_publication_html": {
+    "id": 7278,
+    "date": "2026-07-20",
+    "result": {
+      "status": 200,
+      "content_type": "text/html",
+      "matter_count": 20,
+      "url": "https://diariooficial.abc.go.gov.br/html/7278.html",
+      "length": 3126
+    }
+  },
+  "2010_issue_count": 0,
+  "2021_issue_count": 0
+}

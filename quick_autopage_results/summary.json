@@ -1,0 +1,851 @@
+[
+  {
+    "state": "AP",
+    "base": "https://diofe.portal.ap.gov.br",
+    "endpoint_status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "bytes": 259495,
+    "edition_count": 1695,
+    "earliest_issue": {
+      "id": 105,
+      "date": "2019-09-03",
+      "obj": {
+        "id": 105,
+        "data": "03/09/2019",
+        "suplemento": 0,
+        "suplemento_nome": "",
+        "numero": 6994,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial",
+        "capa": 1
+      }
+    },
+    "latest_issue": {
+      "id": 10072,
+      "date": "2026-08-18",
+      "obj": {
+        "id": 10072,
+        "data": "18/08/2026",
+        "suplemento": 0,
+        "suplemento_nome": "",
+        "numero": 8721,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial",
+        "capa": 1
+      }
+    },
+    "html_tests": [
+      {
+        "index": 847,
+        "id": 1553,
+        "date": "2023-03-21",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 178,
+          "url": "https://diofe.portal.ap.gov.br/html/1553.html",
+          "length": 28548
+        }
+      },
+      {
+        "index": 423,
+        "id": 1360,
+        "date": "2021-07-12",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1360",
+          "length": 7800
+        }
+      },
+      {
+        "index": 635,
+        "id": 930,
+        "date": "2022-05-18",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/930",
+          "length": 7794
+        }
+      },
+      {
+        "index": 741,
+        "id": 58,
+        "date": "2022-10-24",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/58",
+          "length": 7788
+        }
+      },
+      {
+        "index": 794,
+        "id": 1462,
+        "date": "2023-01-09",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 173,
+          "url": "https://diofe.portal.ap.gov.br/html/1462.html",
+          "length": 29683
+        }
+      },
+      {
+        "index": 767,
+        "id": 1095,
+        "date": "2022-12-05",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1095",
+          "length": 7800
+        }
+      },
+      {
+        "index": 780,
+        "id": 1437,
+        "date": "2022-12-22",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1437",
+          "length": 7800
+        }
+      },
+      {
+        "index": 787,
+        "id": 1448,
+        "date": "2022-12-31",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 47,
+          "url": "https://diofe.portal.ap.gov.br/html/1448.html",
+          "length": 8764
+        }
+      },
+      {
+        "index": 783,
+        "id": 1440,
+        "date": "2022-12-27",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 209,
+          "url": "https://diofe.portal.ap.gov.br/html/1440.html",
+          "length": 37002
+        }
+      },
+      {
+        "index": 781,
+        "id": 1438,
+        "date": "2022-12-23",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 83,
+          "url": "https://diofe.portal.ap.gov.br/html/1438.html",
+          "length": 15408
+        }
+      },
+      {
+        "index": 756,
+        "id": 60,
+        "date": "2022-11-17",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/60",
+          "length": 7788
+        },
+        "window": true
+      },
+      {
+        "index": 757,
+        "id": 24,
+        "date": "2022-11-18",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/24",
+          "length": 7788
+        },
+        "window": true
+      },
+      {
+        "index": 758,
+        "id": 935,
+        "date": "2022-11-21",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/935",
+          "length": 7794
+        },
+        "window": true
+      },
+      {
+        "index": 759,
+        "id": 1006,
+        "date": "2022-11-22",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1006",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 760,
+        "id": 1005,
+        "date": "2022-11-23",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1005",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 761,
+        "id": 1384,
+        "date": "2022-11-24",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1384",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 762,
+        "id": 1247,
+        "date": "2022-11-25",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1247",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 763,
+        "id": 1256,
+        "date": "2022-11-28",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1256",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 764,
+        "id": 865,
+        "date": "2022-11-29",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/865",
+          "length": 7794
+        },
+        "window": true
+      },
+      {
+        "index": 765,
+        "id": 805,
+        "date": "2022-12-01",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/805",
+          "length": 7794
+        },
+        "window": true
+      },
+      {
+        "index": 766,
+        "id": 1312,
+        "date": "2022-12-02",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1312",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 767,
+        "id": 1095,
+        "date": "2022-12-05",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1095",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 768,
+        "id": 1154,
+        "date": "2022-12-06",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1154",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 769,
+        "id": 1141,
+        "date": "2022-12-07",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1141",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 770,
+        "id": 1375,
+        "date": "2022-12-08",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1375",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 771,
+        "id": 1026,
+        "date": "2022-12-09",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1026",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 772,
+        "id": 1429,
+        "date": "2022-12-12",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1429",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 773,
+        "id": 1430,
+        "date": "2022-12-13",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1430",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 774,
+        "id": 1431,
+        "date": "2022-12-14",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1431",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 775,
+        "id": 1432,
+        "date": "2022-12-15",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1432",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 776,
+        "id": 1433,
+        "date": "2022-12-16",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1433",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 777,
+        "id": 1434,
+        "date": "2022-12-19",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1434",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 778,
+        "id": 1435,
+        "date": "2022-12-20",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1435",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 779,
+        "id": 1436,
+        "date": "2022-12-21",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1436",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 780,
+        "id": 1437,
+        "date": "2022-12-22",
+        "result": {
+          "status": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "matter_count": 0,
+          "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/1437",
+          "length": 7800
+        },
+        "window": true
+      },
+      {
+        "index": 781,
+        "id": 1438,
+        "date": "2022-12-23",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 83,
+          "url": "https://diofe.portal.ap.gov.br/html/1438.html",
+          "length": 15408
+        },
+        "window": true
+      }
+    ],
+    "first_publication_html": {
+      "id": 1438,
+      "date": "2022-12-23",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 83,
+        "url": "https://diofe.portal.ap.gov.br/html/1438.html",
+        "length": 15408
+      }
+    },
+    "2010_issue_count": 0,
+    "2021_issue_count": 227,
+    "2021_first_issue": {
+      "id": 21,
+      "date": "2021-01-04",
+      "obj": {
+        "id": 21,
+        "data": "04/01/2021",
+        "suplemento": 0,
+        "suplemento_nome": "",
+        "numero": 7325,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial",
+        "capa": 1
+      }
+    },
+    "2021_first_html": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "matter_count": 0,
+      "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/21",
+      "length": 7788
+    },
+    "2021_last_issue": {
+      "id": 785,
+      "date": "2021-12-31",
+      "obj": {
+        "id": 785,
+        "data": "31/12/2021",
+        "suplemento": 0,
+        "suplemento_nome": "",
+        "numero": 7576,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial",
+        "capa": 1
+      }
+    },
+    "2021_last_html": {
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "matter_count": 0,
+      "url": "https://diofe.portal.ap.gov.br/portal/visualizacoes/html/785",
+      "length": 7794
+    }
+  },
+  {
+    "state": "ES",
+    "base": "https://ioes.dio.es.gov.br",
+    "endpoint_status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "bytes": 148932,
+    "edition_count": 828,
+    "earliest_issue": {
+      "id": 8333,
+      "date": "2023-08-21",
+      "obj": {
+        "id": 8333,
+        "data": "21/08/2023",
+        "suplemento": 0,
+        "suplemento_nome": "",
+        "numero": 26052,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial do Espírito Santo",
+        "capa": 1
+      }
+    },
+    "latest_issue": {
+      "id": 11399,
+      "date": "2026-08-19",
+      "obj": {
+        "id": 11399,
+        "data": "19/08/2026",
+        "suplemento": 0,
+        "suplemento_nome": "",
+        "numero": 26792,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial do Espírito Santo",
+        "capa": 1
+      }
+    },
+    "html_tests": [
+      {
+        "index": 413,
+        "id": 9929,
+        "date": "2025-02-18",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 638,
+          "url": "https://ioes.dio.es.gov.br/html/9929.html",
+          "length": 103225
+        }
+      },
+      {
+        "index": 206,
+        "id": 9123,
+        "date": "2024-05-22",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 8,
+          "url": "https://ioes.dio.es.gov.br/html/9123.html",
+          "length": 1644
+        }
+      },
+      {
+        "index": 102,
+        "id": 8711,
+        "date": "2024-01-03",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 420,
+          "url": "https://ioes.dio.es.gov.br/html/8711.html",
+          "length": 73173
+        }
+      },
+      {
+        "index": 50,
+        "id": 8506,
+        "date": "2023-10-27",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 782,
+          "url": "https://ioes.dio.es.gov.br/html/8506.html",
+          "length": 114701
+        }
+      },
+      {
+        "index": 24,
+        "id": 8416,
+        "date": "2023-09-22",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 712,
+          "url": "https://ioes.dio.es.gov.br/html/8416.html",
+          "length": 102970
+        }
+      },
+      {
+        "index": 11,
+        "id": 8374,
+        "date": "2023-09-05",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 692,
+          "url": "https://ioes.dio.es.gov.br/html/8374.html",
+          "length": 100547
+        }
+      },
+      {
+        "index": 5,
+        "id": 8353,
+        "date": "2023-08-28",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 812,
+          "url": "https://ioes.dio.es.gov.br/html/8353.html",
+          "length": 117238
+        }
+      },
+      {
+        "index": 2,
+        "id": 8341,
+        "date": "2023-08-23",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 736,
+          "url": "https://ioes.dio.es.gov.br/html/8341.html",
+          "length": 112512
+        }
+      },
+      {
+        "index": 0,
+        "id": 8333,
+        "date": "2023-08-21",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 716,
+          "url": "https://ioes.dio.es.gov.br/html/8333.html",
+          "length": 103742
+        }
+      },
+      {
+        "index": 0,
+        "id": 8333,
+        "date": "2023-08-21",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 716,
+          "url": "https://ioes.dio.es.gov.br/html/8333.html",
+          "length": 103742
+        },
+        "window": true
+      }
+    ],
+    "first_publication_html": {
+      "id": 8333,
+      "date": "2023-08-21",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 716,
+        "url": "https://ioes.dio.es.gov.br/html/8333.html",
+        "length": 103742
+      }
+    },
+    "2010_issue_count": 0,
+    "2021_issue_count": 0
+  },
+  {
+    "state": "GO",
+    "base": "https://diariooficial.abc.go.gov.br",
+    "endpoint_status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "bytes": 9153,
+    "edition_count": 44,
+    "earliest_issue": {
+      "id": 7278,
+      "date": "2026-07-20",
+      "obj": {
+        "id": 7278,
+        "data": "20/07/2026",
+        "suplemento": 1,
+        "suplemento_nome": "Edição Extra",
+        "numero": 24824,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial do Estado de Goiás",
+        "tipo_edicao_posicao": 1,
+        "capa": 1
+      }
+    },
+    "latest_issue": {
+      "id": 7325,
+      "date": "2026-08-19",
+      "obj": {
+        "id": 7325,
+        "data": "19/08/2026",
+        "suplemento": 0,
+        "suplemento_nome": "",
+        "numero": 24846,
+        "tipo_edicao_id": 1,
+        "tipo_edicao_nome": "Diário Oficial do Estado de Goiás",
+        "tipo_edicao_posicao": 1,
+        "capa": 1
+      }
+    },
+    "html_tests": [
+      {
+        "index": 21,
+        "id": 7303,
+        "date": "2026-08-04",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 456,
+          "url": "https://diariooficial.abc.go.gov.br/html/7303.html",
+          "length": 81890
+        }
+      },
+      {
+        "index": 10,
+        "id": 7288,
+        "date": "2026-07-27",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 30,
+          "url": "https://diariooficial.abc.go.gov.br/html/7288.html",
+          "length": 4580
+        }
+      },
+      {
+        "index": 4,
+        "id": 7282,
+        "date": "2026-07-22",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 4,
+          "url": "https://diariooficial.abc.go.gov.br/html/7282.html",
+          "length": 1526
+        }
+      },
+      {
+        "index": 1,
+        "id": 7279,
+        "date": "2026-07-21",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 474,
+          "url": "https://diariooficial.abc.go.gov.br/html/7279.html",
+          "length": 78977
+        }
+      },
+      {
+        "index": 0,
+        "id": 7278,
+        "date": "2026-07-20",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 20,
+          "url": "https://diariooficial.abc.go.gov.br/html/7278.html",
+          "length": 3126
+        }
+      },
+      {
+        "index": 0,
+        "id": 7278,
+        "date": "2026-07-20",
+        "result": {
+          "status": 200,
+          "content_type": "text/html",
+          "matter_count": 20,
+          "url": "https://diariooficial.abc.go.gov.br/html/7278.html",
+          "length": 3126
+        },
+        "window": true
+      }
+    ],
+    "first_publication_html": {
+      "id": 7278,
+      "date": "2026-07-20",
+      "result": {
+        "status": 200,
+        "content_type": "text/html",
+        "matter_count": 20,
+        "url": "https://diariooficial.abc.go.gov.br/html/7278.html",
+        "length": 3126
+      }
+    },
+    "2010_issue_count": 0,
+    "2021_issue_count": 0
+  }
+]
