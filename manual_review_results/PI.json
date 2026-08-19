@@ -1,0 +1,39 @@
+{
+  "state": "PI",
+  "main_url": "https://www.diario.pi.gov.br/doe/",
+  "api_url": "https://www.diario.pi.gov.br/doe/Api/listardiarios.json",
+  "records_reported": 1189,
+  "records_parsed": 1189,
+  "earliest_issue": {
+    "date": "2022-12-14",
+    "edition": "236/2022",
+    "pdf_url": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/0f8e7884-6391-493e-9dcf-620ab4f19589/DIARIO-OFICIAL-DO-ESTADO-DO-PIAUI-PUBLICACAO-N-236.pdf"
+  },
+  "latest_issue": {
+    "date": "2026-08-18",
+    "edition": "158/2026",
+    "pdf_url": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/5e111773-ff42-4622-9e74-8cbbcacc2e8f/DOEPI_158_2026.pdf"
+  },
+  "year_counts": {
+    "2022": 13,
+    "2023": 302,
+    "2024": 344,
+    "2025": 326,
+    "2026": 204
+  },
+  "covers_2010_2021": false,
+  "earliest_pdf_verification": {
+    "status": 206,
+    "final_url": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/0f8e7884-6391-493e-9dcf-620ab4f19589/DIARIO-OFICIAL-DO-ESTADO-DO-PIAUI-PUBLICACAO-N-236.pdf",
+    "content_type": "application/pdf",
+    "content_length": "4096",
+    "is_pdf": true
+  },
+  "latest_pdf_verification": {
+    "status": 206,
+    "final_url": "https://www.diario.pi.gov.br/doe/files/diarios/anexo/5e111773-ff42-4622-9e74-8cbbcacc2e8f/DOEPI_158_2026.pdf",
+    "content_type": "application/pdf",
+    "content_length": "4096",
+    "is_pdf": true
+  }
+}
