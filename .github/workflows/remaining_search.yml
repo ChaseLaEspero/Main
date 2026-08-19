@@ -1,0 +1,29 @@
+name: Search remaining Diário Oficial states
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+
+jobs:
+  search:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.title, 'Remaining states search')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+      - name: Run search
+        run: python remaining_states_search.py
+      - name: Upload search results
+        uses: actions/upload-artifact@v4
+        with:
+          name: remaining-states-search-results
+          path: remaining_states_search_results.json
