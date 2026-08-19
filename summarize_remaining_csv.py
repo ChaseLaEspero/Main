@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+# Trigger: 2026-08-19
 import csv
 import json
 from pathlib import Path
@@ -8,7 +9,6 @@ ROOT = Path('remaining_portals_diag')
 OUT = ROOT / 'compact.csv'
 
 KEYWORDS = ('api','json','xml','html','pdf','download','edicao','edição','publica','materia','matéria','arquivo','acervo','consulta','pesquisa','busca','diario','diário','repositorio','repositório')
-
 
 def good(s: str) -> bool:
     x = (s or '').lower()
