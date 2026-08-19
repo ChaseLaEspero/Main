@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - resolve_pi_ro.py
+      - .github/workflows/resolve_pi_ro.yml
   issues:
     types: [opened]
 
