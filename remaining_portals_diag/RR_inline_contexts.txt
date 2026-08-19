@@ -1,0 +1,93 @@
+TERM=buscar OFFSET=36909
+                              <input type="hidden" name="doe" value="2026/08/doe-20260803.pdf">
+                                                        <input type="hidden" name="ipconexao" value="20.169.74.23">
+                                                        <input type="hidden" name="dia" value="19">
+                                                        <input type="hidden" name="mes" value="08">
+                                                        <input type="hidden" name="ano" value="2026">
+                                                        <input type="hidden" name="hora" value="10:35:00">
+                                                        <button type="submit" class="btn btn-success btn-sm"><i class="icon fa fa-search"></i></button>
+                                                    </form>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                                                    </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+
+                    <div class="card card-table">
+                        <div class="table-responsive" align="center">
+                            <img src="../img/logo.png" width="175">
+                        </div>
+                    </div>
+
+                    <div class="card card-table mg-t-10">
+                        <div class="table-responsive" align="center">
+                            <img src="../img/io.png" width="230">
+                        </div>
+                    </div>
+
+                    <div class="mg-t-10">
+                        <a href="../_buscar/" class="btn btn-danger btn-block mg-t-10">PESQUISAR POR PALAVRA CHAVE</a>
+                    </div>
+
+
+                    <div class="mg-t-10" align="center">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgovroraima%2F&amp;tabs=timeline&amp;width=340&amp;height=500&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+
+
+
+                    <!--
+	
+	<div class="card card-table mg-t-10">
+    <div class="table-responsive" align="center"> 
+    <img src="../img/io2.png" width="230" />
+    </div> 
+    </div>
+	
+    <a href="http://www.portal.rr.gov.br" class="btn btn-outline-primary btn-block mg-t-10" target="_blank">Portal do Governo</a>
+    <a href="http://www.transparencia.rr.gov.br" class="btn btn-warning btn-block mg-t-10" target="_blank">PORTAL DA TRANSPARÊNCIA</a>
+    <a href="http://www.servidor.rr.gov.br" class="btn btn-primary btn-block mg-t-10" target="_blank">SERVIDORWEB</a>-->
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slim-footer">
+        <div class="container">
+            <p>Copyright 2026 © Todos os direitos reservados. Governo do Estado de Roraima</p>
+            <p>V 2.1 - <a href="http://www.sefaz.rr.gov.br" target="_blank">CETIF/SEFAZ</a></p>
+        </div>
+    </div>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-9YNHL28ERZ&amp;cx=c&amp;gtm=4e68h1"></script><script src="../lib/jquery/js/jquery.js"></script>
+    <script src="../lib/popper.js/js/popper.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../lib/jquery.cookie/js/jquery.cookie.js"></script>
+    <script src="../lib/chartist/js/chartist.js"></script>
+    <script src="../lib/d3/js/d3.js"></script>
+    <script src="../lib/rickshaw/js/rickshaw.min.js"></script>
+    <script src="../lib/jquery.sparkline.bower/js/jquery.sparkline.min.js"></script>
+    <script src="../js/ResizeSensor.js"></script>
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/slim.js"></script>
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118954292-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-118954292-1');
+    </script>
+
+
+
+</body></html>

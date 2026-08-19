@@ -1,0 +1,2325 @@
+TERM=api OFFSET=18840
+<link rel="stylesheet" id="css-fancybox-css" href="https://cdn.sistemas.ro.gov.br/fancybox/css/fancybox.css" type="text/css" media="all">
+<link rel="stylesheet" id="css-fancybox-buttons-css" href="https://cdn.sistemas.ro.gov.br/fancybox/css/fancybox-buttons.css" type="text/css" media="all">
+<link rel="stylesheet" id="css-fancybox-thumbs-css" href="https://cdn.sistemas.ro.gov.br/fancybox/css/fancybox-thumbs.css" type="text/css" media="all">
+<link rel="stylesheet" id="css-main-css" href="https://diof.ro.gov.br/data/themes/governo-ro/css/main.css" type="text/css" media="all">
+<script type="text/javascript" src="https://cdn.sistemas.ro.gov.br/modernizr/modernizr.min.js" id="js-modernizr-js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://diof.ro.gov.br/xmlrpc.php?rsd">
+<link rel="shortcut icon" href="https://cdn.sistemas.ro.gov.br/favicon/favicon.ico"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png">        <style type="text/css">
+            body {
+                background-color: #f6f6f6 !important;
+            }
+            
+            footer #footer-custom-bg{
+                background:url(https://diof.ro.gov.br/data/themes/governo-ro/img/bg-footer-diof.png) top center no-repeat
+            }
+            
+            footer {
+                background-color:#012f5d            }
+
+            footer {
+                position: relative !important;
+            }
+        </style>
+
+        <!-- Roboto fonts CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+
+        <!--Mdi Icons-->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/materialdesignicons/css/materialdesignicons.min.css" rel="stylesheet">
+
+        <!--FontAwesome Icons-->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/fontawesome/v5/css/all.css" rel="stylesheet">
+
+        <!--Bootstrap Core CSS-->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/bootstrap/v5/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Sweet Alert -->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/sweetalert/sweetalert2.min.css" rel="stylesheet">
+
+        <link href="https://portaldocidadao.ro.gov.br/vendor/swiper/css/swiper.min.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/container-swiper.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/container-line_v1.0.css" rel="stylesheet">
+
+        <link href="https://portaldocidadao.ro.gov.br/css/home/swiper.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/buscar-servico_v1.0.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/acesso-ouvidoria.css" rel="stylesheet">
+        <!-- <link href="https://portaldocidadao.ro.gov.br/css/app_v2.2.css" rel="stylesheet"> -->
+    <style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:lucida grande,tahoma,verdana,arial,sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:lucida grande,tahoma,verdana,arial,sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+
+.fb_dialog{background:#525252b3;positi
+
+=====
+
+TERM=buscar OFFSET=19974
+g"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png">        <style type="text/css">
+            body {
+                background-color: #f6f6f6 !important;
+            }
+            
+            footer #footer-custom-bg{
+                background:url(https://diof.ro.gov.br/data/themes/governo-ro/img/bg-footer-diof.png) top center no-repeat
+            }
+            
+            footer {
+                background-color:#012f5d            }
+
+            footer {
+                position: relative !important;
+            }
+        </style>
+
+        <!-- Roboto fonts CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
+
+        <!--Mdi Icons-->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/materialdesignicons/css/materialdesignicons.min.css" rel="stylesheet">
+
+        <!--FontAwesome Icons-->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/fontawesome/v5/css/all.css" rel="stylesheet">
+
+        <!--Bootstrap Core CSS-->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/bootstrap/v5/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Sweet Alert -->
+        <link href="https://cdn.sistemas.ro.gov.br/vendors/sweetalert/sweetalert2.min.css" rel="stylesheet">
+
+        <link href="https://portaldocidadao.ro.gov.br/vendor/swiper/css/swiper.min.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/container-swiper.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/container-line_v1.0.css" rel="stylesheet">
+
+        <link href="https://portaldocidadao.ro.gov.br/css/home/swiper.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/buscar-servico_v1.0.css" rel="stylesheet">
+        <link href="https://portaldocidadao.ro.gov.br/css/home/acesso-ouvidoria.css" rel="stylesheet">
+        <!-- <link href="https://portaldocidadao.ro.gov.br/css/app_v2.2.css" rel="stylesheet"> -->
+    <style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:lucida grande,tahoma,verdana,arial,sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:lucida grande,tahoma,verdana,arial,sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+
+.fb_dialog{background:#525252b3;position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:700;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}bo
+
+=====
+
+TERM=diario OFFSET=27763
+0)}to{transform:rotate(360deg)}}
+
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+</style></head>
+    <body>
+        <!-- INICIO sidebar -->
+        <div class="sidebar">
+            <div class="mt-4 mb-3">
+                <div class="row">
+                    <div class="col pl-0 align-self-center">
+                        <a href="/">
+                        <img src="https://diof.ro.gov.br/data/themes/governo-ro/img/logo-diof.png" class="logo-cor" alt="Logotipo Portal do Cidadão">
+                        <img src="https://diof.ro.gov.br/data/themes/governo-ro/img/logo-diof.png" class="logo-branco" alt="Logotipo Portal do Cidadão">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="fw-bold">Serviços e Informações</div>
+                <hr class="text-cinza">
+            </div>
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-action h-16px " href="/">
+                        <em class="mdi mdi-home icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Início</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/historia">
+                        <em class="mdi mdi-office-building icons-raised mdi-custon-color" aria-label="Ícone Serviços"></em>
+                        <span class="sidebar-list-item-color">História</span>
+                    </a>
+                    <a rel="noopener" href="/diarios/equipe" target="_blank" class="list-group-item list-group-item-action">
+                        <em class="mdi mdi-account-group icons-raised mdi-custon-color" aria-label="Ícone Serviços Gov.br"></em>
+                        <span class="sidebar-list-item-color">Equipe</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/missao">
+                        <em class="mdi mdi-animation icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Missão</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/quanto-custa-publicar">
+                        <em class="mdi mdi-currency-usd icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Quanto custa publicar?</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/normas/legislacao">
+                        <em class="mdi mdi-file-document icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Normas</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://ppe.sistemas.ro.gov.br/">
+                        <em class="mdi mdi-comment-question icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Como publicar</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://organograma.ro.gov.br/departamento/110000198">
+                        <em class="mdi mdi-sitemap icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Organograma</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="/contato">
+                        <em class="mdi mdi-phone icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Contato</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="fw-bold">Sites</div>
+                <hr class="text-cinza">
+            </div>
+
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-
+
+=====
+
+TERM=diario OFFSET=28054
+ame_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+</style></head>
+    <body>
+        <!-- INICIO sidebar -->
+        <div class="sidebar">
+            <div class="mt-4 mb-3">
+                <div class="row">
+                    <div class="col pl-0 align-self-center">
+                        <a href="/">
+                        <img src="https://diof.ro.gov.br/data/themes/governo-ro/img/logo-diof.png" class="logo-cor" alt="Logotipo Portal do Cidadão">
+                        <img src="https://diof.ro.gov.br/data/themes/governo-ro/img/logo-diof.png" class="logo-branco" alt="Logotipo Portal do Cidadão">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="fw-bold">Serviços e Informações</div>
+                <hr class="text-cinza">
+            </div>
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-action h-16px " href="/">
+                        <em class="mdi mdi-home icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Início</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/historia">
+                        <em class="mdi mdi-office-building icons-raised mdi-custon-color" aria-label="Ícone Serviços"></em>
+                        <span class="sidebar-list-item-color">História</span>
+                    </a>
+                    <a rel="noopener" href="/diarios/equipe" target="_blank" class="list-group-item list-group-item-action">
+                        <em class="mdi mdi-account-group icons-raised mdi-custon-color" aria-label="Ícone Serviços Gov.br"></em>
+                        <span class="sidebar-list-item-color">Equipe</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/missao">
+                        <em class="mdi mdi-animation icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Missão</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/quanto-custa-publicar">
+                        <em class="mdi mdi-currency-usd icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Quanto custa publicar?</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/normas/legislacao">
+                        <em class="mdi mdi-file-document icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Normas</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://ppe.sistemas.ro.gov.br/">
+                        <em class="mdi mdi-comment-question icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Como publicar</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://organograma.ro.gov.br/departamento/110000198">
+                        <em class="mdi mdi-sitemap icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Organograma</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="/contato">
+                        <em class="mdi mdi-phone icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Contato</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="fw-bold">Sites</div>
+                <hr class="text-cinza">
+            </div>
+
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-action h-16px" target="_blank" href="https://rondonia.ro.gov.br/portal">
+                        <em class="mdi mdi-link icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Governo de Rondônia</span>
+                  
+
+=====
+
+TERM=diario OFFSET=28441
+ow">
+                    <div class="col pl-0 align-self-center">
+                        <a href="/">
+                        <img src="https://diof.ro.gov.br/data/themes/governo-ro/img/logo-diof.png" class="logo-cor" alt="Logotipo Portal do Cidadão">
+                        <img src="https://diof.ro.gov.br/data/themes/governo-ro/img/logo-diof.png" class="logo-branco" alt="Logotipo Portal do Cidadão">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="fw-bold">Serviços e Informações</div>
+                <hr class="text-cinza">
+            </div>
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-action h-16px " href="/">
+                        <em class="mdi mdi-home icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Início</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/historia">
+                        <em class="mdi mdi-office-building icons-raised mdi-custon-color" aria-label="Ícone Serviços"></em>
+                        <span class="sidebar-list-item-color">História</span>
+                    </a>
+                    <a rel="noopener" href="/diarios/equipe" target="_blank" class="list-group-item list-group-item-action">
+                        <em class="mdi mdi-account-group icons-raised mdi-custon-color" aria-label="Ícone Serviços Gov.br"></em>
+                        <span class="sidebar-list-item-color">Equipe</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/missao">
+                        <em class="mdi mdi-animation icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Missão</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/quanto-custa-publicar">
+                        <em class="mdi mdi-currency-usd icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Quanto custa publicar?</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/normas/legislacao">
+                        <em class="mdi mdi-file-document icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Normas</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://ppe.sistemas.ro.gov.br/">
+                        <em class="mdi mdi-comment-question icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Como publicar</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://organograma.ro.gov.br/departamento/110000198">
+                        <em class="mdi mdi-sitemap icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Organograma</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="/contato">
+                        <em class="mdi mdi-phone icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Contato</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="fw-bold">Sites</div>
+                <hr class="text-cinza">
+            </div>
+
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-action h-16px" target="_blank" href="https://rondonia.ro.gov.br/portal">
+                        <em class="mdi mdi-link icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Governo de Rondônia</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action h-16px" target="_blank" href="https://www.ro.gov.br/">
+                        <em class="mdi mdi-link icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Portal de Rondônia</span>
+                    </a>
+                    <a class="li
+
+=====
+
+TERM=diario OFFSET=28761
+s/governo-ro/img/logo-diof.png" class="logo-branco" alt="Logotipo Portal do Cidadão">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="fw-bold">Serviços e Informações</div>
+                <hr class="text-cinza">
+            </div>
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-action h-16px " href="/">
+                        <em class="mdi mdi-home icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Início</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/historia">
+                        <em class="mdi mdi-office-building icons-raised mdi-custon-color" aria-label="Ícone Serviços"></em>
+                        <span class="sidebar-list-item-color">História</span>
+                    </a>
+                    <a rel="noopener" href="/diarios/equipe" target="_blank" class="list-group-item list-group-item-action">
+                        <em class="mdi mdi-account-group icons-raised mdi-custon-color" aria-label="Ícone Serviços Gov.br"></em>
+                        <span class="sidebar-list-item-color">Equipe</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/missao">
+                        <em class="mdi mdi-animation icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Missão</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/diarios/quanto-custa-publicar">
+                        <em class="mdi mdi-currency-usd icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Quanto custa publicar?</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="/normas/legislacao">
+                        <em class="mdi mdi-file-document icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Normas</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://ppe.sistemas.ro.gov.br/">
+                        <em class="mdi mdi-comment-question icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Como publicar</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="https://organograma.ro.gov.br/departamento/110000198">
+                        <em class="mdi mdi-sitemap icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Organograma</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action" target="_blank" href="/contato">
+                        <em class="mdi mdi-phone icons-raised mdi-custon-color" aria-label="Ícone Acompanhamentos"></em>
+                        <span class="sidebar-list-item-color">Contato</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="fw-bold">Sites</div>
+                <hr class="text-cinza">
+            </div>
+
+            <div class="row">
+                <div class="list-group main-menu">
+                    <a class="list-group-item list-group-item-action h-16px" target="_blank" href="https://rondonia.ro.gov.br/portal">
+                        <em class="mdi mdi-link icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Governo de Rondônia</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action h-16px" target="_blank" href="https://www.ro.gov.br/">
+                        <em class="mdi mdi-link icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Portal de Rondônia</span>
+                    </a>
+                    <a class="list-group-item list-group-item-action h-16px" target="_blank" href="https://www.gov.br/imprensanacional/pt-br">
+                        <em class="mdi mdi-link icons-raised mdi-custon-color" aria-label="Ícone Início"></em>
+                        <span class="sidebar-list-item-color">Diário Oficial da União</span>
+     
+
+=====
+
+TERM=diario OFFSET=90803
+carousel-item"><img class="d-block w-100" src="https://diof.ro.gov.br/data/uploads/2019/08/PDF-FULLBANNER-FALE-BEM-DE-RONDONIA.pdf-940x250.png"><div class="carousel-caption hidden-phone" style="background:none;"><p></p></div></div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a></div></div>		<!-- Conteúdo -->
+		<div class="container">
+			<div class="row mt10">
+							</div>
+			<div class="row row-cols-12" style="justify-content: space-between;">
+				<!-- Busca -->
+				<!-- <div class="span12 visible-phone"> -->
+											<!-- <form method="get" action="http://www.google.com/search" target="_blank">
+						<div style="">
+							<table border="0" align="" cellpadding="0">
+								<tr>
+									<td>
+
+										<input type="text" name="q" size="30" maxlength="255" style="width: 242px" placeholder="Buscar no Google" />
+										<button class="btn btn-primary" type="submit" style="margin-top:-10px"><i class="icon-search icon-white"></i></button>
+										<input type="hidden"  name="sitesearch" value="https://diof.ro.gov.br/data/uploads/"/>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</form> -->
+									<!-- </div> -->
+				<div class="col-12 p-2">
+					<!-- Publicações -->
+											<div class="row">
+							    <input id="diariosURL" type="hidden" value="https://diof.ro.gov.br/diarios?cf_time=">
+            <!-- <form action="https://diof.ro.gov.br/busca" method="get">
+        <div id="busca-diarios" class="input-append">
+            <input class="" id="appendedInputButton" type="text" name="diarios" placeholder="Buscar Diários" required>
+            <button class="btn" type="submit"><i class="icon-search"></i></button>
+        </div>
+    </form> -->
+    <div class="span8">
+        <div class="row container-line">
+            <div class="col line"></div>
+            <div class="col text-line spance-text-line">Últimas publicações</div>
+            <div class="col line"></div>
+        </div>
+        <!-- <h4><span class="hidden-phone hidden-tablet">Diário Oficial - </span>Últimas publicações</h4>
+        <div class="divisor azul"></div> -->
+        <div class="row">
+            <!--
+            <div class="col-4">
+                <h5>Buscar Publicações por data</h5>
+            </div>
+            <div class="col-8">
+                <div class="form-group">
+                    <input class="form-control" type="date" style="display: block" id="buscaPorData">
+                </div>
+            </div>
+            -->
+
+            <div class="input-group input-group-lg mb-3 hidden-phone" style="border:none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="border-bottom-right-radius:0px; border-top-right-radius:0px; height:56px;" id="basic-addon3">Buscar Publicações por data</span>
+                </div>
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px;" id="buscaPorData">
+            </div>
+
+            <div class="input-group input-group-lg mb-3 hidden-tablet hidden-desktop" style="border:none;">
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px; border-bottom-left-radius:30px; border-top-left-radius:30px;" id="buscaPorData">
+            </div>
+        </div>
+        <table id="tabela-diarios" class="table table-striped table-bordered table-hover table-condensed m0">
+            <thead>
+                <tr>
+                    <!--
+                    <th>Disponibilizado</th>
+                    -->
+                    <th>Data da publicação</th>
+                    <th>Tamanho</th>
+                    <th style="width:120px">Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <t
+
+=====
+
+TERM=diario OFFSET=90859
+iof.ro.gov.br/data/uploads/2019/08/PDF-FULLBANNER-FALE-BEM-DE-RONDONIA.pdf-940x250.png"><div class="carousel-caption hidden-phone" style="background:none;"><p></p></div></div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a></div></div>		<!-- Conteúdo -->
+		<div class="container">
+			<div class="row mt10">
+							</div>
+			<div class="row row-cols-12" style="justify-content: space-between;">
+				<!-- Busca -->
+				<!-- <div class="span12 visible-phone"> -->
+											<!-- <form method="get" action="http://www.google.com/search" target="_blank">
+						<div style="">
+							<table border="0" align="" cellpadding="0">
+								<tr>
+									<td>
+
+										<input type="text" name="q" size="30" maxlength="255" style="width: 242px" placeholder="Buscar no Google" />
+										<button class="btn btn-primary" type="submit" style="margin-top:-10px"><i class="icon-search icon-white"></i></button>
+										<input type="hidden"  name="sitesearch" value="https://diof.ro.gov.br/data/uploads/"/>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</form> -->
+									<!-- </div> -->
+				<div class="col-12 p-2">
+					<!-- Publicações -->
+											<div class="row">
+							    <input id="diariosURL" type="hidden" value="https://diof.ro.gov.br/diarios?cf_time=">
+            <!-- <form action="https://diof.ro.gov.br/busca" method="get">
+        <div id="busca-diarios" class="input-append">
+            <input class="" id="appendedInputButton" type="text" name="diarios" placeholder="Buscar Diários" required>
+            <button class="btn" type="submit"><i class="icon-search"></i></button>
+        </div>
+    </form> -->
+    <div class="span8">
+        <div class="row container-line">
+            <div class="col line"></div>
+            <div class="col text-line spance-text-line">Últimas publicações</div>
+            <div class="col line"></div>
+        </div>
+        <!-- <h4><span class="hidden-phone hidden-tablet">Diário Oficial - </span>Últimas publicações</h4>
+        <div class="divisor azul"></div> -->
+        <div class="row">
+            <!--
+            <div class="col-4">
+                <h5>Buscar Publicações por data</h5>
+            </div>
+            <div class="col-8">
+                <div class="form-group">
+                    <input class="form-control" type="date" style="display: block" id="buscaPorData">
+                </div>
+            </div>
+            -->
+
+            <div class="input-group input-group-lg mb-3 hidden-phone" style="border:none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="border-bottom-right-radius:0px; border-top-right-radius:0px; height:56px;" id="basic-addon3">Buscar Publicações por data</span>
+                </div>
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px;" id="buscaPorData">
+            </div>
+
+            <div class="input-group input-group-lg mb-3 hidden-tablet hidden-desktop" style="border:none;">
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px; border-bottom-left-radius:30px; border-top-left-radius:30px;" id="buscaPorData">
+            </div>
+        </div>
+        <table id="tabela-diarios" class="table table-striped table-bordered table-hover table-condensed m0">
+            <thead>
+                <tr>
+                    <!--
+                    <th>Disponibilizado</th>
+                    -->
+                    <th>Data da publicação</th>
+                    <th>Tamanho</th>
+                    <th style="width:120px">Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-t
+
+=====
+
+TERM=diario OFFSET=90976
+hidden-phone" style="background:none;"><p></p></div></div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a></div></div>		<!-- Conteúdo -->
+		<div class="container">
+			<div class="row mt10">
+							</div>
+			<div class="row row-cols-12" style="justify-content: space-between;">
+				<!-- Busca -->
+				<!-- <div class="span12 visible-phone"> -->
+											<!-- <form method="get" action="http://www.google.com/search" target="_blank">
+						<div style="">
+							<table border="0" align="" cellpadding="0">
+								<tr>
+									<td>
+
+										<input type="text" name="q" size="30" maxlength="255" style="width: 242px" placeholder="Buscar no Google" />
+										<button class="btn btn-primary" type="submit" style="margin-top:-10px"><i class="icon-search icon-white"></i></button>
+										<input type="hidden"  name="sitesearch" value="https://diof.ro.gov.br/data/uploads/"/>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</form> -->
+									<!-- </div> -->
+				<div class="col-12 p-2">
+					<!-- Publicações -->
+											<div class="row">
+							    <input id="diariosURL" type="hidden" value="https://diof.ro.gov.br/diarios?cf_time=">
+            <!-- <form action="https://diof.ro.gov.br/busca" method="get">
+        <div id="busca-diarios" class="input-append">
+            <input class="" id="appendedInputButton" type="text" name="diarios" placeholder="Buscar Diários" required>
+            <button class="btn" type="submit"><i class="icon-search"></i></button>
+        </div>
+    </form> -->
+    <div class="span8">
+        <div class="row container-line">
+            <div class="col line"></div>
+            <div class="col text-line spance-text-line">Últimas publicações</div>
+            <div class="col line"></div>
+        </div>
+        <!-- <h4><span class="hidden-phone hidden-tablet">Diário Oficial - </span>Últimas publicações</h4>
+        <div class="divisor azul"></div> -->
+        <div class="row">
+            <!--
+            <div class="col-4">
+                <h5>Buscar Publicações por data</h5>
+            </div>
+            <div class="col-8">
+                <div class="form-group">
+                    <input class="form-control" type="date" style="display: block" id="buscaPorData">
+                </div>
+            </div>
+            -->
+
+            <div class="input-group input-group-lg mb-3 hidden-phone" style="border:none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="border-bottom-right-radius:0px; border-top-right-radius:0px; height:56px;" id="basic-addon3">Buscar Publicações por data</span>
+                </div>
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px;" id="buscaPorData">
+            </div>
+
+            <div class="input-group input-group-lg mb-3 hidden-tablet hidden-desktop" style="border:none;">
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px; border-bottom-left-radius:30px; border-top-left-radius:30px;" id="buscaPorData">
+            </div>
+        </div>
+        <table id="tabela-diarios" class="table table-striped table-bordered table-hover table-condensed m0">
+            <thead>
+                <tr>
+                    <!--
+                    <th>Disponibilizado</th>
+                    -->
+                    <th>Data da publicação</th>
+                    <th>Tamanho</th>
+                    <th style="width:120px">Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png"
+
+=====
+
+TERM=diario OFFSET=91078
+rol-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a></div></div>		<!-- Conteúdo -->
+		<div class="container">
+			<div class="row mt10">
+							</div>
+			<div class="row row-cols-12" style="justify-content: space-between;">
+				<!-- Busca -->
+				<!-- <div class="span12 visible-phone"> -->
+											<!-- <form method="get" action="http://www.google.com/search" target="_blank">
+						<div style="">
+							<table border="0" align="" cellpadding="0">
+								<tr>
+									<td>
+
+										<input type="text" name="q" size="30" maxlength="255" style="width: 242px" placeholder="Buscar no Google" />
+										<button class="btn btn-primary" type="submit" style="margin-top:-10px"><i class="icon-search icon-white"></i></button>
+										<input type="hidden"  name="sitesearch" value="https://diof.ro.gov.br/data/uploads/"/>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</form> -->
+									<!-- </div> -->
+				<div class="col-12 p-2">
+					<!-- Publicações -->
+											<div class="row">
+							    <input id="diariosURL" type="hidden" value="https://diof.ro.gov.br/diarios?cf_time=">
+            <!-- <form action="https://diof.ro.gov.br/busca" method="get">
+        <div id="busca-diarios" class="input-append">
+            <input class="" id="appendedInputButton" type="text" name="diarios" placeholder="Buscar Diários" required>
+            <button class="btn" type="submit"><i class="icon-search"></i></button>
+        </div>
+    </form> -->
+    <div class="span8">
+        <div class="row container-line">
+            <div class="col line"></div>
+            <div class="col text-line spance-text-line">Últimas publicações</div>
+            <div class="col line"></div>
+        </div>
+        <!-- <h4><span class="hidden-phone hidden-tablet">Diário Oficial - </span>Últimas publicações</h4>
+        <div class="divisor azul"></div> -->
+        <div class="row">
+            <!--
+            <div class="col-4">
+                <h5>Buscar Publicações por data</h5>
+            </div>
+            <div class="col-8">
+                <div class="form-group">
+                    <input class="form-control" type="date" style="display: block" id="buscaPorData">
+                </div>
+            </div>
+            -->
+
+            <div class="input-group input-group-lg mb-3 hidden-phone" style="border:none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="border-bottom-right-radius:0px; border-top-right-radius:0px; height:56px;" id="basic-addon3">Buscar Publicações por data</span>
+                </div>
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px;" id="buscaPorData">
+            </div>
+
+            <div class="input-group input-group-lg mb-3 hidden-tablet hidden-desktop" style="border:none;">
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px; border-bottom-left-radius:30px; border-top-left-radius:30px;" id="buscaPorData">
+            </div>
+        </div>
+        <table id="tabela-diarios" class="table table-striped table-bordered table-hover table-condensed m0">
+            <thead>
+                <tr>
+                    <!--
+                    <th>Disponibilizado</th>
+                    -->
+                    <th>Data da publicação</th>
+                    <th>Tamanho</th>
+                    <th style="width:120px">Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026<
+
+=====
+
+TERM=diario OFFSET=93071
+ <div class="row container-line">
+            <div class="col line"></div>
+            <div class="col text-line spance-text-line">Últimas publicações</div>
+            <div class="col line"></div>
+        </div>
+        <!-- <h4><span class="hidden-phone hidden-tablet">Diário Oficial - </span>Últimas publicações</h4>
+        <div class="divisor azul"></div> -->
+        <div class="row">
+            <!--
+            <div class="col-4">
+                <h5>Buscar Publicações por data</h5>
+            </div>
+            <div class="col-8">
+                <div class="form-group">
+                    <input class="form-control" type="date" style="display: block" id="buscaPorData">
+                </div>
+            </div>
+            -->
+
+            <div class="input-group input-group-lg mb-3 hidden-phone" style="border:none;">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="border-bottom-right-radius:0px; border-top-right-radius:0px; height:56px;" id="basic-addon3">Buscar Publicações por data</span>
+                </div>
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px;" id="buscaPorData">
+            </div>
+
+            <div class="input-group input-group-lg mb-3 hidden-tablet hidden-desktop" style="border:none;">
+                <input class="form-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px; border-bottom-left-radius:30px; border-top-left-radius:30px;" id="buscaPorData">
+            </div>
+        </div>
+        <table id="tabela-diarios" class="table table-striped table-bordered table-hover table-condensed m0">
+            <thead>
+                <tr>
+                    <!--
+                    <th>Disponibilizado</th>
+                    -->
+                    <th>Data da publicação</th>
+                    <th>Tamanho</th>
+                    <th style="width:120px">Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">4.05 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">219.67 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">17-08-2026</small>
+                 
+
+=====
+
+TERM=diario OFFSET=111134
+              </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">5.18 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                        </tbody>
+        </table>
+    </div>
+     						</div>
+						<div class="clearfix">&nbsp;</div>
+									</div>
+				<div class="col-12 p-2">
+					<!-- Busca -->
+					<!-- <div class="hidden-phone"> -->
+													<!-- <div>
+								<h4>Buscar Publicações por conteúdo</h4>
+								<div class="divisor verde"></div>
+								<form method="get" action="http://www.google.com/search" target="_blank">
+									<div style="">
+										<table border="0" align="" cellpadding="0">
+											<tr>
+												<td>
+
+													<input type="text" name="q" size="30" maxlength="255" style="width: 242px" placeholder="Buscar no Google" />
+													<button class="btn btn-primary" type="submit" style="margin-top:-10px"><i class="icon-search icon-white"></i></button>
+													<input type="hidden"  name="sitesearch" value="https://diof.ro.gov.br/data/uploads/"/>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</form>
+							</div>
+							-->
+							<!-- <div class="">
+						        <h4>Buscar Publicações por data</h4>
+						        <div class="divisor amarelo"></div>
+						        <input id="selectedOnDatePicker" type="hidden">
+						        <div id="busca-diario-data"></div>
+						    </div> -->
+											<!-- </div> -->
+					<!-- Enquete --> 					<!-- Serviços --> 					<!-- Agenda --> 					<!-- Multimídia -->					<!-- Divulgação --><div class="divulgacao external" style="width: 100%;" target="_blank"><div class="row container-line">
+                      <div class="col line"></div>
+                      <div class="col text-line spance-text-line">Divulgação</div>
+                      <div class="col line"></div>
+                  </div><div class="divulgacao-container"><div class="banner-sidebar txtcenter container-img"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe45IAbOZsIq6kV2YWyt5koawB2lElAIYebEz--FyvbCzBrvw/viewform?usp=sf_link" target="_blank"><img width="290" height="100" src="https://diof.ro.gov.br/data/uploads/2013/03/PRECISA-DE-ALGUMA-INFORMACAO-290x100.png" class="img-polaroid wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="https://diof.ro.gov.br/data/uploads/2013/03/PRECISA-DE-ALGUMA-INFORMACAO.png 290w, https://diof.ro.gov.br/data/uploads/2013/03/PRECISA-DE-ALGUMA-INFORMACAO-150x52.png 150w" sizes="auto, (max-width: 290px) 100vw, 290px"></a></div><div class="banner-sidebar txtcenter container-img"><a href="https://chat.whatsapp.com/HaBQbo6UjO0C9qxXT562qe" target="_blank"><img width="290" height="100" src="https://diof.ro.gov.br/data/uploads/2020/09/PRECISA-DE-ALGUMA-INFORMACAO-1-290x100.png" class="img-polaroid wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="https://diof.ro.gov.br/data/uploads/2020/09/PRECISA-DE-ALGUMA-INFORMACAO-1.png 290w, https://diof.ro.gov.br/data/uploads/2020/09/PRECISA-DE-ALGUMA-INFORMACAO-1-150x52.png 150w" sizes="auto, (max-width: 290px) 100vw, 290px"></a></div><div class="banner-sidebar txtcenter container-img"><a href="https://rondonia.ro.gov.br/lgpd/#introducao" target="_blank"><img width="290" height="100" src="https://diof.ro.gov.br/data/uploads/2023/08/PRECISA-DE-ALGUMA-INFORMACAO-3.png" class="img-polaroid wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="https://diof.ro.gov.br/data/uploads/2023/08/PRECISA-DE-ALGUMA-INFORMACAO-3.png 290w, https://diof.ro.gov.br/data/uploads/2023/08/PRECISA-DE-ALGUMA-INFORMACAO-3-150x52.png 150w" sizes="auto, (max-width: 290px) 100vw, 290px"></a></div></div></div>				</div>
+			</div>
+			<div class="row mt10">
+				<!-- Divulgação -->
+							</div>
+		</div>
+		<div class="clearfix"></div>
+                        <!-- Rodapé -->
+            
+            
+            <footer class="footer mt-5" id="footer" style="background: #293F71;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 mt-4">
+                            <div class="row">
+                                <div class="d-flex">
+                                    <div class="d-inline-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                         
+
+=====
+
+TERM=download OFFSET=94557
+-control p-4" placeholder="Clique aqui para selecionar uma data..." type="text" onfocus="(this.type='date')" onblur="(this.type='text')" style="display: block; height:56px; border-bottom-left-radius:30px; border-top-left-radius:30px;" id="buscaPorData">
+            </div>
+        </div>
+        <table id="tabela-diarios" class="table table-striped table-bordered table-hover table-condensed m0">
+            <thead>
+                <tr>
+                    <!--
+                    <th>Disponibilizado</th>
+                    -->
+                    <th>Data da publicação</th>
+                    <th>Tamanho</th>
+                    <th style="width:120px">Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">4.05 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">219.67 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">17-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>17-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.79 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-17-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">14-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+    
+
+=====
+
+TERM=download OFFSET=95740
+n.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">4.05 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">18-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">219.67 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">17-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>17-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.79 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-17-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">14-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>14-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.07 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-14-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">13-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                  
+
+=====
+
+TERM=download OFFSET=96909
+n.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>18-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">219.67 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-18-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">17-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>17-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.79 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-17-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">14-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>14-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.07 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-14-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">13-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>13-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.92 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-13-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">12-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                  
+
+=====
+
+TERM=download OFFSET=98078
+rc="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>17-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.79 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-17-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">14-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>14-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.07 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-14-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">13-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>13-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.92 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-13-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">12-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>12-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.5 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-12-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                   
+
+=====
+
+TERM=download OFFSET=99247
+rc="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>14-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.07 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-14-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">13-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>13-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.92 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-13-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">12-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>12-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.5 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-12-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.52 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                   
+
+=====
+
+TERM=download OFFSET=100415
+src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>13-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.92 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-13-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">12-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>12-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.5 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-12-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.52 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">274.18 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-SUPLEMENTAR-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">10-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+    
+
+=====
+
+TERM=download OFFSET=101584
+src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>12-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.5 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-12-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.52 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">274.18 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-SUPLEMENTAR-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">10-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>10-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.37 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-10-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">07-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+    
+
+=====
+
+TERM=download OFFSET=102767
+n.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.52 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">11-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">274.18 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-SUPLEMENTAR-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">10-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>10-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.37 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-10-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">07-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>07-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.53 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-07-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                  
+
+=====
+
+TERM=download OFFSET=103936
+n.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>11-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">274.18 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-SUPLEMENTAR-11-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">10-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>10-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.37 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-10-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">07-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>07-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.53 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-07-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.45 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                  
+
+=====
+
+TERM=download OFFSET=105105
+rc="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>10-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.37 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-10-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">07-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>07-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.53 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-07-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.45 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">180.51 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">05-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+    
+
+=====
+
+TERM=download OFFSET=106274
+rc="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>07-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.53 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-07-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.45 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">180.51 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">05-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>05-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.04 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-05-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">04-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+    
+
+=====
+
+TERM=download OFFSET=107457
+n.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">2.45 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">06-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">180.51 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">05-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>05-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.04 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-05-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">04-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>04-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">5.18 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                        </tbody>
+        </table>
+    </div>
+     						</div>
+						<div class="clearfix">&nbsp;</div>
+									</div>
+				<div class="col-12 p-2">
+					<!-- Busca -->
+					<!-- <div class="hidden-phone"> -->
+													<!-- <div>
+								<h4>Buscar Publicações por conteúdo</h4>
+								<div class="divisor verde"></div>
+								<form method="get" action="http://www.google.com/search" target="_blank">
+									<div style="">
+										<table border="0" align="" cellpadding="0">
+											<tr>
+												<td>
+
+							
+
+=====
+
+TERM=download OFFSET=108626
+n.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>06-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">180.51 KB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-06-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">05-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>05-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.04 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-05-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">04-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>04-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">5.18 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                        </tbody>
+        </table>
+    </div>
+     						</div>
+						<div class="clearfix">&nbsp;</div>
+									</div>
+				<div class="col-12 p-2">
+					<!-- Busca -->
+					<!-- <div class="hidden-phone"> -->
+													<!-- <div>
+								<h4>Buscar Publicações por conteúdo</h4>
+								<div class="divisor verde"></div>
+								<form method="get" action="http://www.google.com/search" target="_blank">
+									<div style="">
+										<table border="0" align="" cellpadding="0">
+											<tr>
+												<td>
+
+													<input type="text" name="q" size="30" maxlength="255" style="width: 242px" placeholder="Buscar no Google" />
+													<button class="btn btn-primary" type="submit" style="margin-top:-10px"><i class="icon-search icon-white"></i></button>
+													<input type="hidden"  name="sitesearch" value="https://diof.ro.gov.br/data/uploads/"/>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</form>
+							</div>
+							-->
+							<!-- <div class="">
+						        <h4>Buscar Publicações por data</h4>
+						        <div class="divisor amarelo"></div>
+						        <input id="selectedOnDatePicker" type="hidden">
+						        <div id="busca-diario-data"></div>
+						    </div> -->
+											<!-- </div> -->
+					<!-- Enquete --> 					<!-- Serviços --> 					<!-- Agenda --> 					<!-- Multimídia -->					<!-- Divulgação --><div class="divulgacao external" style="width: 100%;" target="_blank"><div class="row container-line">
+                      <div class="col line"></div>
+                      <div class="col text-line spance-text-line">Divulgação</div>
+                      <div class="col line"></div>
+                  </di
+
+=====
+
+TERM=download OFFSET=109807
+cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>05-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">3.04 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-05-08-2026.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                                            <tr>
+                    <!--
+                    <td>
+                        <p>
+                            <small style="line-height:32px">04-08-2026</small>
+                        </p>
+                    </td>
+                    -->
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <span class="pull-left"><img src="https://cdn.sistemas.ro.gov.br/icones/pdf.png" style="height:20px" alt="Icone de Arquivo pdf"></span>
+                            <small>04-08-2026</small>
+                        </p>
+                    </td>
+                    <td>
+                                                <small class="txtcinza6 m0" style="line-height:32px">5.18 MB</small>
+                    </td>
+                    <td>
+                        <p class="m0" style="margin-top:4px">
+                            <a class="btn btn-sm btn-block" target="_blank" href="https://diof.ro.gov.br/data/uploads/2026/08/DOE-04-08-2026-SUPLEMENTAR.pdf"><i class="icon-download-alt"></i>  Baixar</a>
+                        </p>
+                    </td>
+                </tr>
+                        </tbody>
+        </table>
+    </div>
+     						</div>
+						<div class="clearfix">&nbsp;</div>
+									</div>
+				<div class="col-12 p-2">
+					<!-- Busca -->
+					<!-- <div class="hidden-phone"> -->
+													<!-- <div>
+								<h4>Buscar Publicações por conteúdo</h4>
+								<div class="divisor verde"></div>
+								<form method="get" action="http://www.google.com/search" target="_blank">
+									<div style="">
+										<table border="0" align="" cellpadding="0">
+											<tr>
+												<td>
+
+													<input type="text" name="q" size="30" maxlength="255" style="width: 242px" placeholder="Buscar no Google" />
+													<button class="btn btn-primary" type="submit" style="margin-top:-10px"><i class="icon-search icon-white"></i></button>
+													<input type="hidden"  name="sitesearch" value="https://diof.ro.gov.br/data/uploads/"/>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</form>
+							</div>
+							-->
+							<!-- <div class="">
+						        <h4>Buscar Publicações por data</h4>
+						        <div class="divisor amarelo"></div>
+						        <input id="selectedOnDatePicker" type="hidden">
+						        <div id="busca-diario-data"></div>
+						    </div> -->
+											<!-- </div> -->
+					<!-- Enquete --> 					<!-- Serviços --> 					<!-- Agenda --> 					<!-- Multimídia -->					<!-- Divulgação --><div class="divulgacao external" style="width: 100%;" target="_blank"><div class="row container-line">
+                      <div class="col line"></div>
+                      <div class="col text-line spance-text-line">Divulgação</div>
+                      <div class="col line"></div>
+                  </div><div class="divulgacao-container"><div class="banner-sidebar txtcenter container-img"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe45IAbOZsIq6kV2YWyt5koawB2lElAIYebEz--FyvbCzBrvw/viewform?usp=sf_link" target="_blank"><img width="290" height="100" src="https://diof.ro.gov.br/data/uploads/2013/03/PRECISA-DE-ALGUMA-INFORMACAO-290x100.png" class="img-polaroid wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="https://diof.ro.gov.br/data/uploads/2013/03/PRECISA-DE-ALGUMA-INFORMACAO.png 290w, https://diof.ro.gov.br/data/uploads/2013/03/PRECISA-DE-ALGUMA-INFORMACAO-150x52.png 150w" sizes="auto, (max-width: 290px) 100vw, 290px"></a></div><div class="banner-sidebar txtcenter container-img"><a href="https://chat.whatsapp.com/HaBQbo6UjO0C9qxXT562qe" target="_blank"><img width="290" height="100" src="https://diof.ro.gov.br/data/uploads/2020/09/PRECISA-DE-ALGUMA-INFORMACAO-1-290x100.png" class="img-polaroid wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="https://diof.ro.gov.br/data/uploads/2020/09/PRECISA-DE-ALGUMA-INFORMACAO-1.png 290w, https://diof.ro.gov.br/data/uploads/2020/09/PRECISA-DE-ALGUMA-INFORMACAO-1-150x52.png 15

@@ -1,0 +1,2477 @@
+TERM=ajax OFFSET=1209
+<!DOCTYPE html><html class="no-js"><!--<![endif]--><head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-J0XF9FY0T1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J0XF9FY0T1');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Iose - Imprensa oficial de Sergipe /Diario-oficial</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="/theme/Iose/favicon.ico" type="image/x-icon" rel="icon"><link href="/theme/Iose/favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/../js/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/ecommerce.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/segrase.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/jquery-ui/jquery-ui.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/util/js/clock.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var PLUGIN_URL = '/portal/display';
+        var CURRENT_URL = '/portal/pages/display';
+        var CDN_URL = '';
+        var SUBTEMA = false;
+    </script>
+</head>
+
+<body id="page-top">
+
+    <!-- Cabecalho -->
+    <header>
+        <div class="px-3 py-1">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="text-center text-lg-start col-md-1 col-lg-7 my-2 ms-lg-4"></div>
+                    <!-- Icones lado direito topo -->
+                    <div class="col-lg-5 col-12 redes-sociais row align-items-center row-cols-2 row-cols-lg-3">
+                        <!-- Icones Redes sociais -->
+                        <div class="col d-flex align-items-start">
+                            <div class="px-5">
+                                <a href="https://instagram.com/_imprensaoficial/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                  
+
+=====
+
+TERM=ajax OFFSET=1229
+<!DOCTYPE html><html class="no-js"><!--<![endif]--><head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-J0XF9FY0T1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J0XF9FY0T1');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Iose - Imprensa oficial de Sergipe /Diario-oficial</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="/theme/Iose/favicon.ico" type="image/x-icon" rel="icon"><link href="/theme/Iose/favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/../js/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/ecommerce.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/segrase.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/jquery-ui/jquery-ui.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/util/js/clock.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var PLUGIN_URL = '/portal/display';
+        var CURRENT_URL = '/portal/pages/display';
+        var CDN_URL = '';
+        var SUBTEMA = false;
+    </script>
+</head>
+
+<body id="page-top">
+
+    <!-- Cabecalho -->
+    <header>
+        <div class="px-3 py-1">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="text-center text-lg-start col-md-1 col-lg-7 my-2 ms-lg-4"></div>
+                    <!-- Icones lado direito topo -->
+                    <div class="col-lg-5 col-12 redes-sociais row align-items-center row-cols-2 row-cols-lg-3">
+                        <!-- Icones Redes sociais -->
+                        <div class="col d-flex align-items-start">
+                            <div class="px-5">
+                                <a href="https://instagram.com/_imprensaoficial/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                    </svg>
+           
+
+=====
+
+TERM=api OFFSET=1220
+<!DOCTYPE html><html class="no-js"><!--<![endif]--><head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-J0XF9FY0T1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J0XF9FY0T1');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Iose - Imprensa oficial de Sergipe /Diario-oficial</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="/theme/Iose/favicon.ico" type="image/x-icon" rel="icon"><link href="/theme/Iose/favicon.ico" type="image/x-icon" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/../js/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/ecommerce.css">
+	<link rel="stylesheet" type="text/css" href="/theme/Iose/css/segrase.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/jquery-ui/jquery-ui.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/util/js/clock.js"></script>
+    <script type="text/javascript">
+        var BASE_URL = '';
+        var PLUGIN_URL = '/portal/display';
+        var CURRENT_URL = '/portal/pages/display';
+        var CDN_URL = '';
+        var SUBTEMA = false;
+    </script>
+</head>
+
+<body id="page-top">
+
+    <!-- Cabecalho -->
+    <header>
+        <div class="px-3 py-1">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="text-center text-lg-start col-md-1 col-lg-7 my-2 ms-lg-4"></div>
+                    <!-- Icones lado direito topo -->
+                    <div class="col-lg-5 col-12 redes-sociais row align-items-center row-cols-2 row-cols-lg-3">
+                        <!-- Icones Redes sociais -->
+                        <div class="col d-flex align-items-start">
+                            <div class="px-5">
+                                <a href="https://instagram.com/_imprensaoficial/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                    </svg>
+  
+
+=====
+
+TERM=api OFFSET=13621
+               <option value="https://www.sefaz.se.gov.br/SitePages/default.aspx" label="Fazenda">Fazenda</option>
+                                <option value="https://sedurbi.se.gov.br/" label="Habitação e Desenvolvimento Urbano">Habitação e Desenvolvimento Urbano</option>
+                                <option value="https://assistenciasocial.se.gov.br/" label="Inclusão, Assistência e Desenv. Social">Inclusão, Assistência e Desenv. Social</option>
+                                <option value="http://www.seinfra.se.gov.br/" label="Infra-Estrutura">Infra-Estrutura</option>
+                                <option value="http://www.sejuc.se.gov.br/" label="Justiça e Cidadania">Justiça e Cidadania</option>
+                                <option value="http://www.semarh.se.gov.br" label="Meio-Ambiente">Meio-Ambiente</option>
+                                <option value="http://www.sepmulheres.se.gov.br/" label="Mulheres">Mulheres</option>
+                                <option value="http://www.seplag.se.gov.br/" label="Planejamento, Orçamento e Gestão">Planejamento, Orçamento e Gestão</option>
+                                <option value="http://www.ssp.se.gov.br/" label="Portal da Segurança Pública">Portal da Segurança Pública</option>
+                                <option value="http://www.pge.se.gov.br/" label="Procuradoria Geral">Procuradoria Geral</option>
+                                <option value="https://saude.se.gov.br/" label="Saúde">Saúde</option>
+                                <option value="http://www.seapri.se.gov.br/" label="Seapri">Seapri</option>
+                                <option value="http://www.segov.se.gov.br/" label="Secretaria de Governo">Secretaria de Governo</option>
+                                <option value="http://www.setrapis.se.gov.br/" label="Setrapis">Setrapis</option>
+                                <option value="http://www.setram.se.gov.br" label="Transportes e Integração Metropolitana">Transportes e Integração Metropolitana</option>
+                                <option value="https://www.se.gov.br/setur/setur_home" label="Turismo">Turismo</option>
+                                <option value="https://www.se.gov.br/semac/semac_home" label="SEMAC">SEMAC</option>
+                                <option value="https://www.se.gov.br/setc/setc_home" label="SETC">SETC</option>
+                                <option value="https://www.se.gov.br/seteem/seteem_home" label="SETEEM">SETEEM</option>
+                            </optgroup>
+                            <optgroup label="Órgãos">
+                                <option value="https://www.adema.se.gov.br/" label="ADEMA">ADEMA</option>
+                                <option value="https://agrese.se.gov.br/" label="ADEMA">AGRESE</option>
+                                <option value="https://www.banese.com.br/" label="Banese">Banese</option>
+                                <option value="https://www.cehop.se.gov.br/" label="Cehop">Cehop</option>
+                                <option value="https://coderse.se.gov.br/" label="Cehop">CODERSE</option>
+                                <option value="https://www.codise.se.gov.br/" label="Codise">Codise</option>
+                                <option value="https://www.cbm.se.gov.br/" label="Corpo de Bombeiros">Corpo de Bombeiros</option>
+                                <option value="https://www.defesacivil.se.gov.br/" label="Defesa Civil">Defesa Civil</option>
+                                <option value="https://www.der.se.gov.br/" label="Der">Der</option>
+                                <option value="https://www.deso-se.com.br" label="Deso">Deso</option>
+                                <option value="https://www.detran.se.gov.br/" label="Detran">Detran</option>
+                                <option value="https://emdagro.se.gov.br/" label="Emdagro">Emdagro</option>
+                                <option value="https://emgetis.se.gov.br/" label="Emgetis">Emgetis</option>
+                                <option value="https://www.se.gov.br/emsetur/emsetur_home" label="EMSETUR">EMSETUR</option>
+                                <option value="https://www.fapitec.se.gov.br/" label="Fapitec">Fapitec</option>
+                                <option value="https://www.aperipe.se.gov.br/" label="Fundação Aperipê">Fundação Aperipê</option>
+                                <option value="https://www.fhs.se.gov.br/" label="Fundação Hospitalar">Fundação Hospitalar</option>
+                                <option value="https://fsph.se.gov.br/" label="FSPH">FSPH</option>
+                                <option value="https://www.funcap.se.gov.br/" label="FUNCAP">FUNCAP</option>
+                                <option value="https://funesa.se.gov.br/" label="FUNESA">
+
+=====
+
+TERM=api OFFSET=13649
+="https://www.sefaz.se.gov.br/SitePages/default.aspx" label="Fazenda">Fazenda</option>
+                                <option value="https://sedurbi.se.gov.br/" label="Habitação e Desenvolvimento Urbano">Habitação e Desenvolvimento Urbano</option>
+                                <option value="https://assistenciasocial.se.gov.br/" label="Inclusão, Assistência e Desenv. Social">Inclusão, Assistência e Desenv. Social</option>
+                                <option value="http://www.seinfra.se.gov.br/" label="Infra-Estrutura">Infra-Estrutura</option>
+                                <option value="http://www.sejuc.se.gov.br/" label="Justiça e Cidadania">Justiça e Cidadania</option>
+                                <option value="http://www.semarh.se.gov.br" label="Meio-Ambiente">Meio-Ambiente</option>
+                                <option value="http://www.sepmulheres.se.gov.br/" label="Mulheres">Mulheres</option>
+                                <option value="http://www.seplag.se.gov.br/" label="Planejamento, Orçamento e Gestão">Planejamento, Orçamento e Gestão</option>
+                                <option value="http://www.ssp.se.gov.br/" label="Portal da Segurança Pública">Portal da Segurança Pública</option>
+                                <option value="http://www.pge.se.gov.br/" label="Procuradoria Geral">Procuradoria Geral</option>
+                                <option value="https://saude.se.gov.br/" label="Saúde">Saúde</option>
+                                <option value="http://www.seapri.se.gov.br/" label="Seapri">Seapri</option>
+                                <option value="http://www.segov.se.gov.br/" label="Secretaria de Governo">Secretaria de Governo</option>
+                                <option value="http://www.setrapis.se.gov.br/" label="Setrapis">Setrapis</option>
+                                <option value="http://www.setram.se.gov.br" label="Transportes e Integração Metropolitana">Transportes e Integração Metropolitana</option>
+                                <option value="https://www.se.gov.br/setur/setur_home" label="Turismo">Turismo</option>
+                                <option value="https://www.se.gov.br/semac/semac_home" label="SEMAC">SEMAC</option>
+                                <option value="https://www.se.gov.br/setc/setc_home" label="SETC">SETC</option>
+                                <option value="https://www.se.gov.br/seteem/seteem_home" label="SETEEM">SETEEM</option>
+                            </optgroup>
+                            <optgroup label="Órgãos">
+                                <option value="https://www.adema.se.gov.br/" label="ADEMA">ADEMA</option>
+                                <option value="https://agrese.se.gov.br/" label="ADEMA">AGRESE</option>
+                                <option value="https://www.banese.com.br/" label="Banese">Banese</option>
+                                <option value="https://www.cehop.se.gov.br/" label="Cehop">Cehop</option>
+                                <option value="https://coderse.se.gov.br/" label="Cehop">CODERSE</option>
+                                <option value="https://www.codise.se.gov.br/" label="Codise">Codise</option>
+                                <option value="https://www.cbm.se.gov.br/" label="Corpo de Bombeiros">Corpo de Bombeiros</option>
+                                <option value="https://www.defesacivil.se.gov.br/" label="Defesa Civil">Defesa Civil</option>
+                                <option value="https://www.der.se.gov.br/" label="Der">Der</option>
+                                <option value="https://www.deso-se.com.br" label="Deso">Deso</option>
+                                <option value="https://www.detran.se.gov.br/" label="Detran">Detran</option>
+                                <option value="https://emdagro.se.gov.br/" label="Emdagro">Emdagro</option>
+                                <option value="https://emgetis.se.gov.br/" label="Emgetis">Emgetis</option>
+                                <option value="https://www.se.gov.br/emsetur/emsetur_home" label="EMSETUR">EMSETUR</option>
+                                <option value="https://www.fapitec.se.gov.br/" label="Fapitec">Fapitec</option>
+                                <option value="https://www.aperipe.se.gov.br/" label="Fundação Aperipê">Fundação Aperipê</option>
+                                <option value="https://www.fhs.se.gov.br/" label="Fundação Hospitalar">Fundação Hospitalar</option>
+                                <option value="https://fsph.se.gov.br/" label="FSPH">FSPH</option>
+                                <option value="https://www.funcap.se.gov.br/" label="FUNCAP">FUNCAP</option>
+                                <option value="https://funesa.se.gov.br/" label="FUNESA">FUNESA</option>
+            
+
+=====
+
+TERM=api OFFSET=13659
+www.sefaz.se.gov.br/SitePages/default.aspx" label="Fazenda">Fazenda</option>
+                                <option value="https://sedurbi.se.gov.br/" label="Habitação e Desenvolvimento Urbano">Habitação e Desenvolvimento Urbano</option>
+                                <option value="https://assistenciasocial.se.gov.br/" label="Inclusão, Assistência e Desenv. Social">Inclusão, Assistência e Desenv. Social</option>
+                                <option value="http://www.seinfra.se.gov.br/" label="Infra-Estrutura">Infra-Estrutura</option>
+                                <option value="http://www.sejuc.se.gov.br/" label="Justiça e Cidadania">Justiça e Cidadania</option>
+                                <option value="http://www.semarh.se.gov.br" label="Meio-Ambiente">Meio-Ambiente</option>
+                                <option value="http://www.sepmulheres.se.gov.br/" label="Mulheres">Mulheres</option>
+                                <option value="http://www.seplag.se.gov.br/" label="Planejamento, Orçamento e Gestão">Planejamento, Orçamento e Gestão</option>
+                                <option value="http://www.ssp.se.gov.br/" label="Portal da Segurança Pública">Portal da Segurança Pública</option>
+                                <option value="http://www.pge.se.gov.br/" label="Procuradoria Geral">Procuradoria Geral</option>
+                                <option value="https://saude.se.gov.br/" label="Saúde">Saúde</option>
+                                <option value="http://www.seapri.se.gov.br/" label="Seapri">Seapri</option>
+                                <option value="http://www.segov.se.gov.br/" label="Secretaria de Governo">Secretaria de Governo</option>
+                                <option value="http://www.setrapis.se.gov.br/" label="Setrapis">Setrapis</option>
+                                <option value="http://www.setram.se.gov.br" label="Transportes e Integração Metropolitana">Transportes e Integração Metropolitana</option>
+                                <option value="https://www.se.gov.br/setur/setur_home" label="Turismo">Turismo</option>
+                                <option value="https://www.se.gov.br/semac/semac_home" label="SEMAC">SEMAC</option>
+                                <option value="https://www.se.gov.br/setc/setc_home" label="SETC">SETC</option>
+                                <option value="https://www.se.gov.br/seteem/seteem_home" label="SETEEM">SETEEM</option>
+                            </optgroup>
+                            <optgroup label="Órgãos">
+                                <option value="https://www.adema.se.gov.br/" label="ADEMA">ADEMA</option>
+                                <option value="https://agrese.se.gov.br/" label="ADEMA">AGRESE</option>
+                                <option value="https://www.banese.com.br/" label="Banese">Banese</option>
+                                <option value="https://www.cehop.se.gov.br/" label="Cehop">Cehop</option>
+                                <option value="https://coderse.se.gov.br/" label="Cehop">CODERSE</option>
+                                <option value="https://www.codise.se.gov.br/" label="Codise">Codise</option>
+                                <option value="https://www.cbm.se.gov.br/" label="Corpo de Bombeiros">Corpo de Bombeiros</option>
+                                <option value="https://www.defesacivil.se.gov.br/" label="Defesa Civil">Defesa Civil</option>
+                                <option value="https://www.der.se.gov.br/" label="Der">Der</option>
+                                <option value="https://www.deso-se.com.br" label="Deso">Deso</option>
+                                <option value="https://www.detran.se.gov.br/" label="Detran">Detran</option>
+                                <option value="https://emdagro.se.gov.br/" label="Emdagro">Emdagro</option>
+                                <option value="https://emgetis.se.gov.br/" label="Emgetis">Emgetis</option>
+                                <option value="https://www.se.gov.br/emsetur/emsetur_home" label="EMSETUR">EMSETUR</option>
+                                <option value="https://www.fapitec.se.gov.br/" label="Fapitec">Fapitec</option>
+                                <option value="https://www.aperipe.se.gov.br/" label="Fundação Aperipê">Fundação Aperipê</option>
+                                <option value="https://www.fhs.se.gov.br/" label="Fundação Hospitalar">Fundação Hospitalar</option>
+                                <option value="https://fsph.se.gov.br/" label="FSPH">FSPH</option>
+                                <option value="https://www.funcap.se.gov.br/" label="FUNCAP">FUNCAP</option>
+                                <option value="https://funesa.se.gov.br/" label="FUNESA">FUNESA</option>
+                      
+
+=====
+
+TERM=api OFFSET=16010
+              <option value="https://www.se.gov.br/seteem/seteem_home" label="SETEEM">SETEEM</option>
+                            </optgroup>
+                            <optgroup label="Órgãos">
+                                <option value="https://www.adema.se.gov.br/" label="ADEMA">ADEMA</option>
+                                <option value="https://agrese.se.gov.br/" label="ADEMA">AGRESE</option>
+                                <option value="https://www.banese.com.br/" label="Banese">Banese</option>
+                                <option value="https://www.cehop.se.gov.br/" label="Cehop">Cehop</option>
+                                <option value="https://coderse.se.gov.br/" label="Cehop">CODERSE</option>
+                                <option value="https://www.codise.se.gov.br/" label="Codise">Codise</option>
+                                <option value="https://www.cbm.se.gov.br/" label="Corpo de Bombeiros">Corpo de Bombeiros</option>
+                                <option value="https://www.defesacivil.se.gov.br/" label="Defesa Civil">Defesa Civil</option>
+                                <option value="https://www.der.se.gov.br/" label="Der">Der</option>
+                                <option value="https://www.deso-se.com.br" label="Deso">Deso</option>
+                                <option value="https://www.detran.se.gov.br/" label="Detran">Detran</option>
+                                <option value="https://emdagro.se.gov.br/" label="Emdagro">Emdagro</option>
+                                <option value="https://emgetis.se.gov.br/" label="Emgetis">Emgetis</option>
+                                <option value="https://www.se.gov.br/emsetur/emsetur_home" label="EMSETUR">EMSETUR</option>
+                                <option value="https://www.fapitec.se.gov.br/" label="Fapitec">Fapitec</option>
+                                <option value="https://www.aperipe.se.gov.br/" label="Fundação Aperipê">Fundação Aperipê</option>
+                                <option value="https://www.fhs.se.gov.br/" label="Fundação Hospitalar">Fundação Hospitalar</option>
+                                <option value="https://fsph.se.gov.br/" label="FSPH">FSPH</option>
+                                <option value="https://www.funcap.se.gov.br/" label="FUNCAP">FUNCAP</option>
+                                <option value="https://funesa.se.gov.br/" label="FUNESA">FUNESA</option>
+                                <option value="https://www.hemolacen.se.gov.br/homepages/hppadraohemolacen.nsf" label="Hemolacen">Hemolacen</option>
+                                <option value="https://www.hpm.se.gov.br/" label="Hospital da Polícia Militar">Hospital da Polícia Militar</option>
+                                <option value="https://www.ipesaude.se.gov.br/" label="Ipesaúde">Ipesaúde</option>
+                                <option value="https://www.itps.se.gov.br/" label="Itps">Itps</option>
+                                <option value="https://www.jucese.se.gov.br/" label="Junta Comercial">Junta Comercial</option>
+                                <option value="https://www.ouvidoriageral.se.gov.br/" label="Ouvidoria Geral">Ouvidoria Geral</option>
+                                <option value="https://www.pm.se.gov.br/" label="Policia Militar">Policia Militar</option>
+                                <option value="https://www.pronese.se.gov.br/" label="Pronese">Pronese</option>
+                                <option value="https://renascer.se.gov.br/" label="RENASCER">RENASCER</option>
+                                <option value="https://www.sergipegas.com.br/" label="Sergás">Sergás</option>
+                                <option value="https://sergipeprevidencia.se.gov.br/" label="Sergipe Previdência">Sergipe Previdência</option>
+                                <option value="https://sergipetec.org.br/" label="SERGIPETEC">SERGIPETEC</option>
+                            </optgroup>
+                            <optgroup label="Serviços">
+                                <option value="http://www.neapl.sedetec.se.gov.br" label="Arranjos Produtivos Locais">Arranjos Produtivos Locais</option>
+                                <option value="http://www.ceac.se.gov.br/" label="CEAC">CEAC</option>
+                                <option value="http://www.comercioexterior.se.gov.br" label="Comércio Exterior">Comércio Exterior</option>
+                                <option value="http://www.comprasnet.se.gov.br/" label="ComprasNet">ComprasNet</option>
+                                <option value="http://www.escola.se.gov.br/" label="Escola de Governo">Escola de Governo</option>
+                                <option value="http://www.escoladetransito.se.gov.br" label="Escola Pública de Trânsito">Escola Pública de Trâ
+
+=====
+
+TERM=api OFFSET=16037
+="https://www.se.gov.br/seteem/seteem_home" label="SETEEM">SETEEM</option>
+                            </optgroup>
+                            <optgroup label="Órgãos">
+                                <option value="https://www.adema.se.gov.br/" label="ADEMA">ADEMA</option>
+                                <option value="https://agrese.se.gov.br/" label="ADEMA">AGRESE</option>
+                                <option value="https://www.banese.com.br/" label="Banese">Banese</option>
+                                <option value="https://www.cehop.se.gov.br/" label="Cehop">Cehop</option>
+                                <option value="https://coderse.se.gov.br/" label="Cehop">CODERSE</option>
+                                <option value="https://www.codise.se.gov.br/" label="Codise">Codise</option>
+                                <option value="https://www.cbm.se.gov.br/" label="Corpo de Bombeiros">Corpo de Bombeiros</option>
+                                <option value="https://www.defesacivil.se.gov.br/" label="Defesa Civil">Defesa Civil</option>
+                                <option value="https://www.der.se.gov.br/" label="Der">Der</option>
+                                <option value="https://www.deso-se.com.br" label="Deso">Deso</option>
+                                <option value="https://www.detran.se.gov.br/" label="Detran">Detran</option>
+                                <option value="https://emdagro.se.gov.br/" label="Emdagro">Emdagro</option>
+                                <option value="https://emgetis.se.gov.br/" label="Emgetis">Emgetis</option>
+                                <option value="https://www.se.gov.br/emsetur/emsetur_home" label="EMSETUR">EMSETUR</option>
+                                <option value="https://www.fapitec.se.gov.br/" label="Fapitec">Fapitec</option>
+                                <option value="https://www.aperipe.se.gov.br/" label="Fundação Aperipê">Fundação Aperipê</option>
+                                <option value="https://www.fhs.se.gov.br/" label="Fundação Hospitalar">Fundação Hospitalar</option>
+                                <option value="https://fsph.se.gov.br/" label="FSPH">FSPH</option>
+                                <option value="https://www.funcap.se.gov.br/" label="FUNCAP">FUNCAP</option>
+                                <option value="https://funesa.se.gov.br/" label="FUNESA">FUNESA</option>
+                                <option value="https://www.hemolacen.se.gov.br/homepages/hppadraohemolacen.nsf" label="Hemolacen">Hemolacen</option>
+                                <option value="https://www.hpm.se.gov.br/" label="Hospital da Polícia Militar">Hospital da Polícia Militar</option>
+                                <option value="https://www.ipesaude.se.gov.br/" label="Ipesaúde">Ipesaúde</option>
+                                <option value="https://www.itps.se.gov.br/" label="Itps">Itps</option>
+                                <option value="https://www.jucese.se.gov.br/" label="Junta Comercial">Junta Comercial</option>
+                                <option value="https://www.ouvidoriageral.se.gov.br/" label="Ouvidoria Geral">Ouvidoria Geral</option>
+                                <option value="https://www.pm.se.gov.br/" label="Policia Militar">Policia Militar</option>
+                                <option value="https://www.pronese.se.gov.br/" label="Pronese">Pronese</option>
+                                <option value="https://renascer.se.gov.br/" label="RENASCER">RENASCER</option>
+                                <option value="https://www.sergipegas.com.br/" label="Sergás">Sergás</option>
+                                <option value="https://sergipeprevidencia.se.gov.br/" label="Sergipe Previdência">Sergipe Previdência</option>
+                                <option value="https://sergipetec.org.br/" label="SERGIPETEC">SERGIPETEC</option>
+                            </optgroup>
+                            <optgroup label="Serviços">
+                                <option value="http://www.neapl.sedetec.se.gov.br" label="Arranjos Produtivos Locais">Arranjos Produtivos Locais</option>
+                                <option value="http://www.ceac.se.gov.br/" label="CEAC">CEAC</option>
+                                <option value="http://www.comercioexterior.se.gov.br" label="Comércio Exterior">Comércio Exterior</option>
+                                <option value="http://www.comprasnet.se.gov.br/" label="ComprasNet">ComprasNet</option>
+                                <option value="http://www.escola.se.gov.br/" label="Escola de Governo">Escola de Governo</option>
+                                <option value="http://www.escoladetransito.se.gov.br" label="Escola Pública de Trânsito">Escola Pública de Trânsito</option>
+            
+
+=====
+
+TERM=api OFFSET=16046
+/www.se.gov.br/seteem/seteem_home" label="SETEEM">SETEEM</option>
+                            </optgroup>
+                            <optgroup label="Órgãos">
+                                <option value="https://www.adema.se.gov.br/" label="ADEMA">ADEMA</option>
+                                <option value="https://agrese.se.gov.br/" label="ADEMA">AGRESE</option>
+                                <option value="https://www.banese.com.br/" label="Banese">Banese</option>
+                                <option value="https://www.cehop.se.gov.br/" label="Cehop">Cehop</option>
+                                <option value="https://coderse.se.gov.br/" label="Cehop">CODERSE</option>
+                                <option value="https://www.codise.se.gov.br/" label="Codise">Codise</option>
+                                <option value="https://www.cbm.se.gov.br/" label="Corpo de Bombeiros">Corpo de Bombeiros</option>
+                                <option value="https://www.defesacivil.se.gov.br/" label="Defesa Civil">Defesa Civil</option>
+                                <option value="https://www.der.se.gov.br/" label="Der">Der</option>
+                                <option value="https://www.deso-se.com.br" label="Deso">Deso</option>
+                                <option value="https://www.detran.se.gov.br/" label="Detran">Detran</option>
+                                <option value="https://emdagro.se.gov.br/" label="Emdagro">Emdagro</option>
+                                <option value="https://emgetis.se.gov.br/" label="Emgetis">Emgetis</option>
+                                <option value="https://www.se.gov.br/emsetur/emsetur_home" label="EMSETUR">EMSETUR</option>
+                                <option value="https://www.fapitec.se.gov.br/" label="Fapitec">Fapitec</option>
+                                <option value="https://www.aperipe.se.gov.br/" label="Fundação Aperipê">Fundação Aperipê</option>
+                                <option value="https://www.fhs.se.gov.br/" label="Fundação Hospitalar">Fundação Hospitalar</option>
+                                <option value="https://fsph.se.gov.br/" label="FSPH">FSPH</option>
+                                <option value="https://www.funcap.se.gov.br/" label="FUNCAP">FUNCAP</option>
+                                <option value="https://funesa.se.gov.br/" label="FUNESA">FUNESA</option>
+                                <option value="https://www.hemolacen.se.gov.br/homepages/hppadraohemolacen.nsf" label="Hemolacen">Hemolacen</option>
+                                <option value="https://www.hpm.se.gov.br/" label="Hospital da Polícia Militar">Hospital da Polícia Militar</option>
+                                <option value="https://www.ipesaude.se.gov.br/" label="Ipesaúde">Ipesaúde</option>
+                                <option value="https://www.itps.se.gov.br/" label="Itps">Itps</option>
+                                <option value="https://www.jucese.se.gov.br/" label="Junta Comercial">Junta Comercial</option>
+                                <option value="https://www.ouvidoriageral.se.gov.br/" label="Ouvidoria Geral">Ouvidoria Geral</option>
+                                <option value="https://www.pm.se.gov.br/" label="Policia Militar">Policia Militar</option>
+                                <option value="https://www.pronese.se.gov.br/" label="Pronese">Pronese</option>
+                                <option value="https://renascer.se.gov.br/" label="RENASCER">RENASCER</option>
+                                <option value="https://www.sergipegas.com.br/" label="Sergás">Sergás</option>
+                                <option value="https://sergipeprevidencia.se.gov.br/" label="Sergipe Previdência">Sergipe Previdência</option>
+                                <option value="https://sergipetec.org.br/" label="SERGIPETEC">SERGIPETEC</option>
+                            </optgroup>
+                            <optgroup label="Serviços">
+                                <option value="http://www.neapl.sedetec.se.gov.br" label="Arranjos Produtivos Locais">Arranjos Produtivos Locais</option>
+                                <option value="http://www.ceac.se.gov.br/" label="CEAC">CEAC</option>
+                                <option value="http://www.comercioexterior.se.gov.br" label="Comércio Exterior">Comércio Exterior</option>
+                                <option value="http://www.comprasnet.se.gov.br/" label="ComprasNet">ComprasNet</option>
+                                <option value="http://www.escola.se.gov.br/" label="Escola de Governo">Escola de Governo</option>
+                                <option value="http://www.escoladetransito.se.gov.br" label="Escola Pública de Trânsito">Escola Pública de Trânsito</option>
+                     
+
+=====
+
+TERM=api OFFSET=24907
+               <li><a class="dropdown-item" href="/certificado-documentos">DOCUMENTOS NECESSÁRIOS</a></li>
+                                <li><a class="dropdown-item" href="/certificado-suporte">SUPORTE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">EDISE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/historia-edise">A EDISE</a></li>
+                                <li><a class="dropdown-item" href="/politica-editorial">Política Editorial</a></li>
+                                <li><a class="dropdown-item" href="/conselho-editorial">Conselho Editorial</a></li>
+                                <li><a class="dropdown-item" href="/e-books">E-book</a></li>
+                                <li><a class="dropdown-item" href="/edise">Livros</a></li>
+                                <!-- <li><a class="dropdown-item" href="/revistas">Revistas</a></li> -->
+                                <li><a class="dropdown-item" href="/contato-edise">Contato</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/transparencia">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/controllers/home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08
+
+=====
+
+TERM=api OFFSET=32364
+e:7890" id="downloadPdf">
+                    <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript"
+
+=====
+
+TERM=buscar OFFSET=9778
+           <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"></path>
+                                    <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="px-0 border-secondary">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>
+                    <form class="col-md-4 ms-lg-4" action="/transparencia/search">
+                        <div class="texto-destacado fw-bold ms-2 fs-4">O que você procura?</div>
+                        <div class="d-flex flex-column flex-sm-row gap-2">
+                            <input type="text" name="q" class="form-control" placeholder="Pesquisar (Ex: nome, licitação, contrato)" autocomplete="">
+                            <input type="submit" value="BUSCAR" class="btn btn-primary botao-buscar">
+                        </div>
+                    </form>
+
+                    <div class="col-md-3">
+                        <div class="texto-destacado fw-bold ms-2 fs-4">Sites do governo</div>
+                        <select name="opcoes" onchange="window.location=this.value" class="select-topo form-select">
+                            <option value="#" selected="selected">Sites do Governo</option>
+                            <optgroup label="Geral">
+                                <option value="http://www.agencia.se.gov.br/" label="Agência de Notícias">Agência de Notícias</option>
+                                <option value="http://www.escoladetransito.se.gov.br" label="Escola Pública de Trânsito">Escola Pública de Trânsito</option>
+                            </optgroup>
+                            <optgroup label="Secretarias">
+                                <option value="http://www.sead.se.gov.br/" label="Administração">Administração</option>
+                                <option value="https://seagri.se.gov.br/" label="Agricultura">Agricultura</option>
+                                <option value="https://www.se.gov.br/casacivil/casacivil_home" label="Casa Civil">Casa Civil</option>
+                                <option value="http://www.cge.se.gov.br/" label="Controladoria Geral">Controladoria Geral</option>
+                                <option value="https://www.seduc.se.gov.br/oficial.asp" label="Cultura">Cultura</option>
+                                <option value="https://www.defensoria.se.def.br/" label="Defensoria Pública">Defensoria Pública</option>
+                                <option value="http://www.sedetec.se.gov.br/" label="Desenv. Econômico, Ciência e Tecnologia">Desenv. Econômico, Ciência e Tecnologia</option>
+                                <option value="http://www.seed.se.gov.br/" label="Educação">Educação</option>
+                                <option value="https://esporte.se.gov.br/" label="Esporte e Lazer">Esporte e Lazer</option>
+                                <option value="https://www.sefaz.se.gov.br/SitePages/default.aspx" label="Fazenda">Fazenda</option>
+                                <option value="https://sedurbi.se.gov.br/" label="Habitação e Desenvolvimento Urbano">Habitação e Desenvolvimento Urbano</option>
+                                <option value="https://assistenciasocial.se.gov.br/" label="Inclusão, Assistência e Desenv. Social">Inclusão, Assistência e Desenv. Social</option>
+                                <option value="http://www.seinfra.se.gov.br/" label="Infra-Estrutura">Infra-Estrutura</option>
+                                <option value="http://www.sejuc.se.gov.br/" label="Justiça e Cidadania">Justiça e Cidadania</option>
+                                <option value="http://www.semarh.se.gov.br" label="Meio-Ambiente">Meio-Ambiente</option>
+                                <option value="http://www.sepmulheres.se.gov.br/" label="Mulheres">Mulheres</option>
+  
+
+=====
+
+TERM=buscar OFFSET=26369
+               <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/controllers/home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="05/08/2026"><option value="7858">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="04/08/2026"><option value="7857">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="03/08/2026"><option value="7854">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/20
+
+=====
+
+TERM=buscar OFFSET=26915
+t" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="05/08/2026"><option value="7858">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="04/08/2026"><option value="7857">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="03/08/2026"><option value="7854">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><option value="7838">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="24/07/2026"><option value="7837">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="22/07/2026"><option value="7829">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="21/07/2026"><option value="7825">Diário Oficial do Estado 
+
+=====
+
+TERM=buscar OFFSET=30491
+tion><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><option value="7838">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="24/07/2026"><option value="7837">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="22/07/2026"><option value="7829">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="21/07/2026"><option value="7825">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7823">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="20/07/2026"><option value="7820">Diário Oficial do Estado de Sergipe</option></optgroup></select>
+                </div>
+            </div>
+
+            <p class="fonte-suporte">
+                Leia ou adquira o Diário Oficial publicado em <span class="data-edicao">19/08/2026</span>, contendo <span id="paginas-edicao">22</span> páginas
+            </p>
+
+            <div class="row">
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/pdf/7890/#e:7890" id="downloadPdf">
+                    <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publi
+
+=====
+
+TERM=buscar OFFSET=30780
+"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><option value="7838">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="24/07/2026"><option value="7837">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="22/07/2026"><option value="7829">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="21/07/2026"><option value="7825">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7823">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="20/07/2026"><option value="7820">Diário Oficial do Estado de Sergipe</option></optgroup></select>
+                </div>
+            </div>
+
+            <p class="fonte-suporte">
+                Leia ou adquira o Diário Oficial publicado em <span class="data-edicao">19/08/2026</span>, contendo <span id="paginas-edicao">22</span> páginas
+            </p>
+
+            <div class="row">
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/pdf/7890/#e:7890" id="downloadPdf">
+                    <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+             
+
+=====
+
+TERM=buscar OFFSET=32744
+ class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/custom.js"></script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
+
+=====
+
+TERM=buscar OFFSET=33289
+/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/custom.js"></script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
+
+=====
+
+TERM=buscar OFFSET=33534
+     <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/custom.js"></script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
+
+=====
+
+TERM=diario OFFSET=21903
+llapse" data-bs-target="#navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">A IOSE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/estatuto">Estatuto</a></li>
+                                <li><a class="dropdown-item" href="/historia">História</a></li>
+                                <li><a class="dropdown-item" href="/missao">Missão</a></li>
+                                <li><a class="dropdown-item" href="/competencia">Competência</a></li>
+                                <li><a class="dropdown-item" href="/organograma">Organograma</a></li>
+                                <li><a class="dropdown-item" href="/diretoria">Diretoria</a></li>
+                                <li><a class="dropdown-item" href="/expresidentes">Galeria de Ex-Presidentes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Diário Oficial</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/diario-oficial">Diário Oficial do Estado</a></li>
+                                <li><a class="dropdown-item" href="/outros-diarios">Outros diários</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown drop-certificado-pai">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Certificado Digital</a>
+                            <ul class="dropdown-menu drop-certificado">
+                                <li><a class="dropdown-item" href="/certificado-apresentacao">APRESENTAÇÃO</a></li>
+                                <li><a class="dropdown-item" href="/certificado-renovar">COMO RENOVAR</a></li>
+                                <li><a class="dropdown-item" href="/certificado-revogar">COMO REVOGAR</a></li>
+                                <li><a class="dropdown-item" href="/certificado-quandorevogar">QUANDO REVOGAR</a></li>
+                                <li><a class="dropdown-item" href="/certificado-custa">QUANTO CUSTA</a></li>
+                                <li><a class="dropdown-item" href="/certificado-compatibilidade">COMPATIBILIDADE</a></li>
+                                <li><a class="dropdown-item" href="/certificado-documentos">DOCUMENTOS NECESSÁRIOS</a></li>
+                                <li><a class="dropdown-item" href="/certificado-suporte">SUPORTE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">EDISE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/historia-edise">A EDISE</a></li>
+                                <li><a class="dropdown-item" href="/politica-editorial">Política Editorial</a></li>
+                                <li><a class="dropdown-item" href="/conselho-editorial">Conselho Editorial</a></li>
+                                <li><a class="dropdown-item" href="/e-books">E-book</a></li>
+                                <li><a class="dropdown-item" href="/edise">Livros</a></li>
+                                <!-- <li><a class="dropdown-item" href="/revistas">Revistas</a></li> -->
+                                <li><a class="dropdown-item" href="/contato-edise">Contato</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/transparencia">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.co
+
+=====
+
+TERM=diario OFFSET=22028
+ass="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Início</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">A IOSE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/estatuto">Estatuto</a></li>
+                                <li><a class="dropdown-item" href="/historia">História</a></li>
+                                <li><a class="dropdown-item" href="/missao">Missão</a></li>
+                                <li><a class="dropdown-item" href="/competencia">Competência</a></li>
+                                <li><a class="dropdown-item" href="/organograma">Organograma</a></li>
+                                <li><a class="dropdown-item" href="/diretoria">Diretoria</a></li>
+                                <li><a class="dropdown-item" href="/expresidentes">Galeria de Ex-Presidentes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Diário Oficial</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/diario-oficial">Diário Oficial do Estado</a></li>
+                                <li><a class="dropdown-item" href="/outros-diarios">Outros diários</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown drop-certificado-pai">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Certificado Digital</a>
+                            <ul class="dropdown-menu drop-certificado">
+                                <li><a class="dropdown-item" href="/certificado-apresentacao">APRESENTAÇÃO</a></li>
+                                <li><a class="dropdown-item" href="/certificado-renovar">COMO RENOVAR</a></li>
+                                <li><a class="dropdown-item" href="/certificado-revogar">COMO REVOGAR</a></li>
+                                <li><a class="dropdown-item" href="/certificado-quandorevogar">QUANDO REVOGAR</a></li>
+                                <li><a class="dropdown-item" href="/certificado-custa">QUANTO CUSTA</a></li>
+                                <li><a class="dropdown-item" href="/certificado-compatibilidade">COMPATIBILIDADE</a></li>
+                                <li><a class="dropdown-item" href="/certificado-documentos">DOCUMENTOS NECESSÁRIOS</a></li>
+                                <li><a class="dropdown-item" href="/certificado-suporte">SUPORTE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">EDISE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/historia-edise">A EDISE</a></li>
+                                <li><a class="dropdown-item" href="/politica-editorial">Política Editorial</a></li>
+                                <li><a class="dropdown-item" href="/conselho-editorial">Conselho Editorial</a></li>
+                                <li><a class="dropdown-item" href="/e-books">E-book</a></li>
+                                <li><a class="dropdown-item" href="/edise">Livros</a></li>
+                                <!-- <li><a class="dropdown-item" href="/revistas">Revistas</a></li> -->
+                                <li><a class="dropdown-item" href="/contato-edise">Contato</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/transparencia">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="tex
+
+=====
+
+TERM=diario OFFSET=25393
+dropdown-menu">
+                                <li><a class="dropdown-item" href="/historia-edise">A EDISE</a></li>
+                                <li><a class="dropdown-item" href="/politica-editorial">Política Editorial</a></li>
+                                <li><a class="dropdown-item" href="/conselho-editorial">Conselho Editorial</a></li>
+                                <li><a class="dropdown-item" href="/e-books">E-book</a></li>
+                                <li><a class="dropdown-item" href="/edise">Livros</a></li>
+                                <!-- <li><a class="dropdown-item" href="/revistas">Revistas</a></li> -->
+                                <li><a class="dropdown-item" href="/contato-edise">Contato</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/transparencia">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/controllers/home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup la
+
+=====
+
+TERM=diario OFFSET=25771
+   <li><a class="dropdown-item" href="/e-books">E-book</a></li>
+                                <li><a class="dropdown-item" href="/edise">Livros</a></li>
+                                <!-- <li><a class="dropdown-item" href="/revistas">Revistas</a></li> -->
+                                <li><a class="dropdown-item" href="/contato-edise">Contato</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/transparencia">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/controllers/home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="05/08/2026"><option value="7858">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="04/08/2026"><option value="7857">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="03/08/2026"><option value="7854">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup
+
+=====
+
+TERM=diario OFFSET=26164
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/transparencia">Transparência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/controllers/home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="05/08/2026"><option value="7858">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="04/08/2026"><option value="7857">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="03/08/2026"><option value="7854">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><
+
+=====
+
+TERM=diario OFFSET=26376
+        <li class="nav-item">
+                            <a class="nav-link" href="/site/fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/controllers/home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="05/08/2026"><option value="7858">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="04/08/2026"><option value="7857">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="03/08/2026"><option value="7854">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><op
+
+=====
+
+TERM=diario OFFSET=26731
+type="text/javascript" src="/js/../vendor/blockui/jquery.blockUI.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/controllers/home.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="05/08/2026"><option value="7858">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="04/08/2026"><option value="7857">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="03/08/2026"><option value="7854">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><option value="7838">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="24/07/2026"><option value="7837">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgr
+
+=====
+
+TERM=diario OFFSET=26922
+="text/css" href="/admin/assets/bootstrap-datepicker/css/datepicker.css">
+
+
+
+<div class="container px-0">
+    <div class="row">
+            </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text-center py-3"><img src="/theme/Iose/img/logodiariooficial.png" width="200px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="texto-destacado text-left fw-bold py-1">DIÁRIO OFICIAL N<span>º</span> <span id="numero-edicao">29.951</span></h2>
+            <h3 class="data-edicao fonte-suporte">19/08/2026</h3>
+        </div>
+    </div>
+
+    <!-- Colunas com filtro e diario -->
+    <div class="row">
+        <div class="col-xs-12 col-md-6 buscas">
+                        
+            <form class="busca-data py-2" onsubmit="return changeFace()" action="/buscanova" method="post">
+                <h5 class="fonte-suporte">Buscar por data:</h5>
+                <div>
+                    <input type="text" class="databusca data col-md-8 col-xs-12 form-control-diario hasDatepicker" id="dataEdicaoPortal" placeholder="Selecionar a data" value="">
+                    <input type="submit" value="BUSCAR" id="sbmt1" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                </div>
+            </form>
+
+            <div class="form2 py-2">
+                <h5 class="fonte-suporte">Buscar por nome:</h5>
+                <form class="busca-palavra" action="/buscanova" method="post">
+                    <div>
+                        <input type="text" class="col-md-6 col-xs-12 q form-control-diario" id="input2" name="q" placeholder="Digite o assunto">
+                        <input type="submit" value="BUSCAR" id="smbt2" class="btn col-md-3 col-xs-12 col-md-offset-1 botao-buscar-diario btn-primary">
+                    </div>
+                </form>
+            </div>
+
+            <div class="form2 busca-edicao py-2">
+                <h5 class="fonte-suporte">Últimas Edições:</h5>
+                <div>
+                    <select id="selectEdicaoPortal" name="edicao" class="col-md-8 col-xs-12 form-select"><optgroup label="19/08/2026"><option value="7890">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="18/08/2026"><option value="7888">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="17/08/2026"><option value="7885">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="14/08/2026"><option value="7883">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="13/08/2026"><option value="7879">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="12/08/2026"><option value="7877">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="11/08/2026"><option value="7873">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="10/08/2026"><option value="7867">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="07/08/2026"><option value="7866">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7863">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="06/08/2026"><option value="7861">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="05/08/2026"><option value="7858">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="04/08/2026"><option value="7857">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="03/08/2026"><option value="7854">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7852">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><option value="7838">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="24/07/2026"><option value="7837">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="22/07/2026"><option value="7829">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="21/07/2026"><option value="7825">Diário Oficial do Estado de Serg
+
+=====
+
+TERM=diario OFFSET=31295
+37">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="22/07/2026"><option value="7829">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="21/07/2026"><option value="7825">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7823">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="20/07/2026"><option value="7820">Diário Oficial do Estado de Sergipe</option></optgroup></select>
+                </div>
+            </div>
+
+            <p class="fonte-suporte">
+                Leia ou adquira o Diário Oficial publicado em <span class="data-edicao">19/08/2026</span>, contendo <span id="paginas-edicao">22</span> páginas
+            </p>
+
+            <div class="row">
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/pdf/7890/#e:7890" id="downloadPdf">
+                    <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Gov
+
+=====
+
+TERM=diario OFFSET=32213
+lass="row">
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/pdf/7890/#e:7890" id="downloadPdf">
+                    <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+             
+
+=====
+
+TERM=diario OFFSET=32395
+               <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.
+
+=====
+
+TERM=diario OFFSET=32751
+"img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/custom.js"></script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
+
+=====
+
+TERM=diario OFFSET=33017
+</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/custom.js"></script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
+
+=====
+
+TERM=diario OFFSET=33541
+iv class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/custom.js"></script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
+
+=====
+
+TERM=diario OFFSET=34889
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container -->
+
+    <footer>
+        <!-- Rodape -->
+        <div class="rodape">
+            <div class="container">
+
+                <div class="row py-3">
+              <a href="/" class="col-12 col-md-2 logo-iose" ignoreacl="1"><img src="/theme/Iose/img/iose.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a><a href="/" class="col-12 col-md-3  mt-4 logo-se" ignoreacl="1"><img src="/theme/Iose/img/se.png" title="Governo de Sergipe" width="300px" alt="logo_iose"></a>                    <div class="col-12 col-md-6 mt-5">
+                        <p class="texto-rodape pt-4 text-end">Rua Propriá, 227, Centro, Aracaju/SE CEP: 49.010-020 Tel.: (79) 3205-7400 <br>
+                            Certificação Digital: (79) 3205-7439 |  ZAP (79) 99933-7758 - E-mail: certificado.digital@iose.se.gov.br<br>
+                            Ouvidoria: (79) 3205-7440 - E-mail: ouvidoria@iose.se.gov.br<br>
+                            Publicação: (79) 3205-7436 | (79) 3205-7435  | ZAP (79) 99935-0949 - E-mail.: publicacao.diario@iose.se.gov.br<br>
+                            Gabinete Presidência: (79) 3205-7405 | (79) 3205-7406- E-mail.: gabinete.iose@iose.se.gov.br
+                            <br><br>
+                            Horário de funcionamento: 07h às 13h.<br><br>
+                            CNPJ: 13.085.519/0001-61
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+	<script type="text/javascript" src="/theme/Iose/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="/theme/Iose/js/custom.js"></script>
+
+
+
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div></body></html>
+
+=====
+
+TERM=download OFFSET=30576
+group label="31/07/2026"><option value="7851">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7850">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="30/07/2026"><option value="7847">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><option value="7838">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="24/07/2026"><option value="7837">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="22/07/2026"><option value="7829">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="21/07/2026"><option value="7825">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7823">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="20/07/2026"><option value="7820">Diário Oficial do Estado de Sergipe</option></optgroup></select>
+                </div>
+            </div>
+
+            <p class="fonte-suporte">
+                Leia ou adquira o Diário Oficial publicado em <span class="data-edicao">19/08/2026</span>, contendo <span id="paginas-edicao">22</span> páginas
+            </p>
+
+            <div class="row">
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/pdf/7890/#e:7890" id="downloadPdf">
+                    <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_b
+
+=====
+
+TERM=download OFFSET=30868
+lue="7845">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="29/07/2026"><option value="7843">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="28/07/2026"><option value="7840">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="27/07/2026"><option value="7838">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="24/07/2026"><option value="7837">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="23/07/2026"><option value="7835">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7830">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="22/07/2026"><option value="7829">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="21/07/2026"><option value="7825">Diário Oficial do Estado de Sergipe SUPLEMENTO</option><option value="7823">Diário Oficial do Estado de Sergipe</option></optgroup><optgroup label="20/07/2026"><option value="7820">Diário Oficial do Estado de Sergipe</option></optgroup></select>
+                </div>
+            </div>
+
+            <p class="fonte-suporte">
+                Leia ou adquira o Diário Oficial publicado em <span class="data-edicao">19/08/2026</span>, contendo <span id="paginas-edicao">22</span> páginas
+            </p>
+
+            <div class="row">
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/pdf/7890/#e:7890" id="downloadPdf">
+                    <img src="/theme/Iose/img/pdfin.png" class="img-fluid text-start"> Adquirir Edição
+                </a>
+                <a class="col-md-5 col-xs-12 button-preview botao-buscar float-start px-5 mx-4 my-2" href="/portal/visualizacoes/jornal/7890/#e:7890" id="downloadJornal">
+                    <img src="/theme/Iose/img/jornalin.png" class="img-fluid text-start"> Ler Edição
+                </a>
+            </div>
+
+                            <div class="form2 busca-edicao">
+                    <h2 class="texto-destacado">OUTROS DIÁRIOS OFICIAIS</h2>
+                    <label for="">Selecione a Edição</label>
+                    <div>
+                        <select id="outros-diarios" class="col-md-8 col-xs-12 form-select">
+                            <option value="-1">Selecione</option>
+                                                                <option value="/prefeitura-sao-cristovao">PREFEITURA MUNICIPAL DE SÃO CRISTÓVÃO</option>
+                                                    </select>
+                    </div>
+                </div>
+                    </div>
+
+        <!-- Capa doese -->
+        <div class="col-xs-12 col-md-6 capa-doese">
+            <div id="boxabas" style="display: none;">
+                <ul id="abas_suplemento" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="javascript:void(0)">Diário Oficial</a></li>
+                    <li><a href="javascript:void(0)">Diário Oficial - Suplemento</a></li>
+                </ul>
+            </div>
+
+            <a href="/portal/visualizacoes/jornal/7890/#e:7890" id="baixar-diario-completo">
+                <span class="visualizar">
+                    <h1>VISUALIZAR</h1>
+                </span>
+                <img src="/apifront/portal/edicoes/imagem_diario/7890/1/imagem" id="imagemCapa" style="display: inline;">
+            </a>
+        </div>
+    </div>
+</div>
+
+    <div class="container px-0">
+        <div class="row">
+            <div class="col-md-6 loggedin">
+                <div class="row">
+                    <div class="col-md-6 float-start">
+                        <div class="botao-buscar-diario py-4 px-4 my-2 text-center">
+                            <img src="/theme/iose/img/certificado_digital.png" class="img-fluid text-start" style="width:50px;float:left;">
+                            <a href="/logincertificado/?go=https%3A%2F%2Fiose.se.gov.br%2Fdiario-oficial">
+                                ÁREA DO PUBLICADOR
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                                                    <div class="botao-buscar px-4 mx-2 my-2 text-center">Efetue login utilizando um certificado digital</div>
+                                            </div>
+
+                    <a href="/theme/iose/img/tutorial_de_publicacao.pdf" class="col-md-6 col-xs-12 botao-buscar-diario text-center my-2" target="_blank">
+                        <img src="/theme/iose/img/BRANCO_acesso_informacao.svg" width="50" class="img-fluid text-start">
+                        COMO PUBLICAR
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </main> <!-- #main-container

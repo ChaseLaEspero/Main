@@ -1,0 +1,99 @@
+TERM=download.php OFFSET=4019
+ao"><img src="https://diario.ac.gov.br/novo_layout/img/brasao.png" width="132" height="133" alt="Brasão Estado do Acre"></div>
+      <div class="orgtitulo">
+          <div class="titulo" id="titulomenor">Estado do Acre</div>
+        <div class="titulo">Diário Oficial</div>
+      </div>
+    </header><!-- Fim organizador cabeÃ§alho -->
+        <div id="menu"><!-- Menu -->
+          <div class="menuop">
+          <a href="https://diario.ac.gov.br/" class="menuop ativo">Inicio</a></div>
+          <div class="menuop">
+          <a href="https://diario.ac.gov.br/normas.php" class="menuop ">Normas para publicação</a></div>
+          <div class="menuop">
+          <a href="https://diario.ac.gov.br/recebimento/" class="menuop">Enviar arquivo</a></div>
+          <div class="menuop">
+          <a href="https://diario.ac.gov.br/ajuda.php" class="menuop ">Ajuda</a></div>
+     	</div><!-- Fim Menu -->
+      <div id="submenu"> <!-- Organizador SubMenu -->
+            <div class="submenuop">
+            	<a href="https://diario.ac.gov.br/contato.php">
+                	<span class="icon"><img src="https://diario.ac.gov.br/novo_layout/img/tel_icon.png" width="17" height="18" alt=""></span>
+                	<span class="subop">Fale Conosco</span>
+                </a>
+            </div>
+            <div class="submenuop">
+            	<a href="https://webmail.ac.gov.br" target="_new">
+                	<span class="icon"><img src="https://diario.ac.gov.br/novo_layout/img/mail_icon.png" width="26" height="18" alt=""></span>
+                	<span class="subop">Webmail</span>
+                </a>
+            </div>
+      </div><!-- Fim organizador SubMenu -->
+      
+    <div id="conteudo"><!-- Organizador conteudo -->  
+
+  
+
+
+    <div class="edhoje">
+        <a href="https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xNzg3MTM4ODg4MTIyNy5wZGY=" class="edhoje">
+            <span class="pdficon">
+                <img src="https://diario.ac.gov.br/novo_layout/img/pdf_icon.png" width="90" height="119" alt="">
+            </span>
+            <span class="txthj">
+                <span class="txt-hj-grande">Última edição</span>
+                <span class="txt-hj-pequeno">Diario Oficial nº 14332</span>
+                <span class="txt-hj-pequeno">19 de Agosto de 2026</span>
+            </span>
+        </a>		
+    </div>
+
+
+<div class="outras-ed">
+    <div class="outras-ed-esquerda">
+        <div class="outras-ed-titulo">Busque por outras edições</div>
+        <div class="ed-caixa">
+            <form class="form-wrapper cf" method="post">
+                <label for="numero">Número</label>
+                <input type="text" name="numero" id="numero" onkeyup="return mascaraCampoNumerico(this)" value="" placeholder="12000..." required="">
+                <button type="submit"><img src="https://diario.ac.gov.br/novo_layout/img/busca.png" width="12" height="11" alt=""></button>
+            </form>
+        </div>
+        <div class="ed-caixa">
+            <form class="form-wrapper cf" method="post" id="buscaPorPalavra" name="buscaPorPalavra">
+                <input type="hidden" name="paginaIni" id="paginaIni" value="0">
+                <input type="hidden" name="palavraTipo" id="palavraTipo" value="">
+                
+                <label for="palavra">Palavra-Chave</label>
+				
+				<div style="display: flex;">
+					<select id="ano_palavra" name="ano_palavra" class="select-form">
+					    <option value="2026">2026</option>
+					    <option value="2025">2025</option>
+						<option value="2024">2024</option>
+						<option value="2023">2023</option>
+						<option value="2022">2022</option>
+						<option value="2021">2021</option>
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>
+						<option value="2018">2018</option>
+						<option value="2017">2017</option>
+						<option value="2016">2016</option>
+						<option value="2015">2015</option>
+						<option value="2014">2014</option>
+						<option value="2013">2013</option>
+						<option value="2012">2012</option>
+						<option value="2011">2011</option>
+						<option value="2010">2010</option>
+					</select>
+
+					<input minlength="10" style="width: 164px;" type="text" name="palavra" id="palavra" value="" placeholder="Pesquisa..." required="" onchange="document.getElementById('paginaIni').value = 0;">
+
+					<button type="submit"><img src="https://diario.ac.gov.br/novo_layout/img/busca.png" width="12" height="11" alt=""></button>
+				</div>
+            </form>
+        </div>
+        <div class="ed-caixa">
+            <form class="form-wrapper cf" method="post">
+                <label for="mesano">Mês/ano</label>
+                <input type="text" name="mesano" id="mesano" value="" maxlength="7" onkeyup="mascaraCampoMesAno(this)" placeholder="08/2026..." required=

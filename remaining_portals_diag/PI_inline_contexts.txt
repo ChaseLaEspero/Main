@@ -1,0 +1,525 @@
+TERM=listardiarios OFFSET=311634
+1f-eda6357426b2/DOEPI_151_2026.pdf" target="_blank" class="controles-btn"><img src="img/icone-diario.png" alt="imagem abrir pasta" style="margin-right: 0;"></a></td><td>151/2026  </td><td>07/08/2026</td></tr></tbody>
+    </table><div class="dataTables_info" id="tbl-diario_info" role="status" aria-live="polite">Mostrando de 1 até 10 de 1.189 registros</div><div class="dataTables_paginate paging_simple_numbers" id="tbl-diario_paginate"><a class="paginate_button previous disabled" aria-controls="tbl-diario" data-dt-idx="0" tabindex="0" id="tbl-diario_previous">Anterior</a><span><a class="paginate_button current" aria-controls="tbl-diario" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="6" tabindex="0">119</a></span><a class="paginate_button next" aria-controls="tbl-diario" data-dt-idx="7" tabindex="0" id="tbl-diario_next">Próximo</a></div></div>
+</div>
+
+<script>
+    //Resolve o problema das múltiplas modal
+    $(document).on('hidden.bs.modal', '.modal', function() {
+        $('.modal:visible').length && $(document.body).addClass('modal-open');
+    });
+    var dataTable;
+    $(document).ready(function() {
+        dataTable = $('#tbl-diario').DataTable({
+            searching: false,
+            bProcessing: true,
+            serverSide: true,
+            autoWidth: false,
+            ajax: {
+                url: "www.diario.pi.gov.br/../Api/listardiarios.json", // json datasource
+                type: "post",
+                data: function(data) {
+                    // Read values
+                    var numero = $('#filter_numero').val();
+                    var dia = $('#filter_data').val();
+
+                    // Append to data
+                    data.filter_numero = numero;
+                    data.filter_data = dia;
+
+                },
+                error: function(response) {
+                    $(".tbl-veiculo-error").html("");
+                    $("#tbl-veiculo").append('<tbody class="tbl-veiculo-error"><tr><th colspan="12">Nenhum registro foi encontrado com essa combinação no servidor.</th></tr></tbody>');
+                    $("#tbl-veiculoprocessing").css("display", "none");
+                }
+            },
+            "language": {
+                "sEmptyTable": "Nenhum registro encontrado",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
+                "sInfoFiltered": "(Filtrados de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sInfoThousands": ".",
+                "sLengthMenu": "_MENU_ resultados por página",
+                "sLoadingRecords": "Carregando...",
+                "sProcessing": '<tbody class="div-centro"><tr><th colspan="2"><img src="/doe/img/loading.gif" alt=""/></th></tr></tbody>',
+                "sZeroRecords": "Nenhum registro encontrado",
+                "sSearch": "Pesquisar",
+                "oPaginate": {
+                    "sNext": "Próximo",
+                    "sPrevious": "Anterior",
+                    "sFirst": "Primeiro",
+                    "sLast": "Último"
+                },
+                "oAria": {
+                    "sSortAscending": ": Ordenar colunas de forma ascendente",
+                    "sSortDescending": ": Ordenar colunas de forma descendente"
+                },
+                "select": {
+                    "rows": {
+                        "_": "Selecionado %d linhas",
+                        "0": "Nenhuma linha selecionada",
+                        "1": "Selecionado 1 linha"
+                    }
+                },
+                buttons: {
+                    pageLength: {
+                        _: "Mostrar %d",
+                        '-1': "Todos"
+                    }
+                    ///pageLength: 'Mostrar %d'
+                }
+            },
+
+            bFilter: true, // to display datatable search
+        });
+        $('#filter_numero').keyup(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').change(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').keyup(function() {
+            dataTable.draw();
+        });
+    });
+</script>            </div>
+        </div>
+    </div>
+    <!-- xxxx -->
+    <div class="MuiBox-root gov-xodm68">
+        <div class="MuiStack-root gov-14pqm8c">
+            <div class="MuiBox-root gov-d
+
+=====
+
+TERM=Api/ OFFSET=311630
+0-bf1f-eda6357426b2/DOEPI_151_2026.pdf" target="_blank" class="controles-btn"><img src="img/icone-diario.png" alt="imagem abrir pasta" style="margin-right: 0;"></a></td><td>151/2026  </td><td>07/08/2026</td></tr></tbody>
+    </table><div class="dataTables_info" id="tbl-diario_info" role="status" aria-live="polite">Mostrando de 1 até 10 de 1.189 registros</div><div class="dataTables_paginate paging_simple_numbers" id="tbl-diario_paginate"><a class="paginate_button previous disabled" aria-controls="tbl-diario" data-dt-idx="0" tabindex="0" id="tbl-diario_previous">Anterior</a><span><a class="paginate_button current" aria-controls="tbl-diario" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="6" tabindex="0">119</a></span><a class="paginate_button next" aria-controls="tbl-diario" data-dt-idx="7" tabindex="0" id="tbl-diario_next">Próximo</a></div></div>
+</div>
+
+<script>
+    //Resolve o problema das múltiplas modal
+    $(document).on('hidden.bs.modal', '.modal', function() {
+        $('.modal:visible').length && $(document.body).addClass('modal-open');
+    });
+    var dataTable;
+    $(document).ready(function() {
+        dataTable = $('#tbl-diario').DataTable({
+            searching: false,
+            bProcessing: true,
+            serverSide: true,
+            autoWidth: false,
+            ajax: {
+                url: "www.diario.pi.gov.br/../Api/listardiarios.json", // json datasource
+                type: "post",
+                data: function(data) {
+                    // Read values
+                    var numero = $('#filter_numero').val();
+                    var dia = $('#filter_data').val();
+
+                    // Append to data
+                    data.filter_numero = numero;
+                    data.filter_data = dia;
+
+                },
+                error: function(response) {
+                    $(".tbl-veiculo-error").html("");
+                    $("#tbl-veiculo").append('<tbody class="tbl-veiculo-error"><tr><th colspan="12">Nenhum registro foi encontrado com essa combinação no servidor.</th></tr></tbody>');
+                    $("#tbl-veiculoprocessing").css("display", "none");
+                }
+            },
+            "language": {
+                "sEmptyTable": "Nenhum registro encontrado",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
+                "sInfoFiltered": "(Filtrados de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sInfoThousands": ".",
+                "sLengthMenu": "_MENU_ resultados por página",
+                "sLoadingRecords": "Carregando...",
+                "sProcessing": '<tbody class="div-centro"><tr><th colspan="2"><img src="/doe/img/loading.gif" alt=""/></th></tr></tbody>',
+                "sZeroRecords": "Nenhum registro encontrado",
+                "sSearch": "Pesquisar",
+                "oPaginate": {
+                    "sNext": "Próximo",
+                    "sPrevious": "Anterior",
+                    "sFirst": "Primeiro",
+                    "sLast": "Último"
+                },
+                "oAria": {
+                    "sSortAscending": ": Ordenar colunas de forma ascendente",
+                    "sSortDescending": ": Ordenar colunas de forma descendente"
+                },
+                "select": {
+                    "rows": {
+                        "_": "Selecionado %d linhas",
+                        "0": "Nenhuma linha selecionada",
+                        "1": "Selecionado 1 linha"
+                    }
+                },
+                buttons: {
+                    pageLength: {
+                        _: "Mostrar %d",
+                        '-1': "Todos"
+                    }
+                    ///pageLength: 'Mostrar %d'
+                }
+            },
+
+            bFilter: true, // to display datatable search
+        });
+        $('#filter_numero').keyup(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').change(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').keyup(function() {
+            dataTable.draw();
+        });
+    });
+</script>            </div>
+        </div>
+    </div>
+    <!-- xxxx -->
+    <div class="MuiBox-root gov-xodm68">
+        <div class="MuiStack-root gov-14pqm8c">
+            <div class="MuiBox-root g
+
+=====
+
+TERM=ajax OFFSET=288128
+0.9 * 300px);
+            height: 100%;
+            width: 100%;
+            -webkit-filter: blur(0px);
+            -moz-filter: blur(0px);
+            -ms-filter: blur(0px);
+            -o-filter: blur(0px);
+            filter: blur(0px);
+        }
+    </style>
+    
+    <meta charset="utf-8">
+    <title>Governo do Piauí - Site Oficial do Governo do Estado do Piauí</title>
+    <meta name="description" content="Governo do Piauí - Site Oficial do Governo do Estado do Piauí">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Governo do Piauí - Site Oficial do Governo do Estado do Piauí">
+    <meta property="og:description" content="Site Oficial do Governo do Estado do Piauí">
+    <meta property="og:url" content="https://dev.pi.gov.br/">
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://dev.pi.gov.br/">
+    <meta name="twitter:title" content="Governo do Piauí - Site Oficial do Governo do Estado do Piauí">
+    <meta name="twitter:description" content="Site Oficial do Governo do Estado do Piauí">
+    <meta name="twitter:image" content="https://metatags.io/images/meta-tags.png">
+    <meta name="next-size-adjust">
+    <!--javascript datatable -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+    <!-- bootstrap-daterangepicker -->
+    <link rel="stylesheet" href="/doe/vendors/bootstrap-daterangepicker/daterangepicker.css">    <!-- jQuery v2.2.3-->
+    <script src="/doe/vendors/jquery/dist/jquery.js"></script>    <!-- Mascara input -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+    <style>
+        /*config datatable */
+        table.dataTable tbody tr {
+            background-color: #f4f4f4
+        }
+
+        /*rodapé*/
+        .gov-t5ta31 {
+            margin: 0px;
+            font-family: var(--font-montserrat);
+            line-height: 1.5;
+            color: rgb(255, 255, 255);
+            font-weight: 700;
+            font-size: 12px;
+        }
+
+        .gov-2fyxt2 {
+            margin: 0px;
+            letter-spacing: inherit;
+            color: rgb(255, 255, 255);
+            font-family: var(--font-montserrat);
+            font-weight: 300;
+            font-size: 0.765rem;
+            line-height: 1.43;
+            text-decoration: none;
+        }
+
+        .gov-18zsr3k {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gov-18zsr3k> :not(style)~ :not(style) {
+            margin-top: 8px;
+        }
+
+        .gov-ojm3i3 {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            position: relative;
+            -webkit-tap-highlight-color: transparent;
+            background-color: transparent;
+            outline: 0px;
+            border-width: 0px 0px 0.3rem;
+            border-top-style: initial;
+            border-right-style: initial;
+            border-left-style: initial;
+            border-top-color: initial;
+            border-right-color: initial;
+            border-left-color: initial;
+            border-image: initial;
+            margin: 0px;
+            cursor: pointer;
+            user-select: none;
+            vertical-align: middle;
+            appearance: none;
+            text-decoration: none;
+            line-height: 1.75;
+            min-width: 64px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            padding: 0.6rem 1rem;
+            height: 100%;
+            text-transform: none;
+            font-family: inherit;
+            font-weight: initial;
+            font-size: 1rem;
+            box-sizing: border-box;
+            border-bottom-style: solid;
+            border-bottom-color: rgb(3, 78, 162);
+            border-radius: 0px;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+    <style>[vw] [vw-access-button]{display:none;flex-direction:row-reverse;width:40px;height:40px;cursor:pointer;overflow:hidden;position:absolute;border-radius:8px;transition:all 0.5s ease;right:0;left:auto}[vw] [vw-access-button] img{max-height:40px;transition:all 0.5s ease;border-radius:8px;opacity:1 !important;visibility:visible !important}[vw] [vw-access-button] .vp-access-button{width:40px;height:40px;z-index:1}[vw] [vw-access-button] .vp-pop-up{position:absolute;height:40px;min-width:150px;z
+
+=====
+
+TERM=ajax OFFSET=311576
+><a href="../doe/files/diarios/anexo/89f04f03-c2ea-4150-bf1f-eda6357426b2/DOEPI_151_2026.pdf" target="_blank" class="controles-btn"><img src="img/icone-diario.png" alt="imagem abrir pasta" style="margin-right: 0;"></a></td><td>151/2026  </td><td>07/08/2026</td></tr></tbody>
+    </table><div class="dataTables_info" id="tbl-diario_info" role="status" aria-live="polite">Mostrando de 1 até 10 de 1.189 registros</div><div class="dataTables_paginate paging_simple_numbers" id="tbl-diario_paginate"><a class="paginate_button previous disabled" aria-controls="tbl-diario" data-dt-idx="0" tabindex="0" id="tbl-diario_previous">Anterior</a><span><a class="paginate_button current" aria-controls="tbl-diario" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="6" tabindex="0">119</a></span><a class="paginate_button next" aria-controls="tbl-diario" data-dt-idx="7" tabindex="0" id="tbl-diario_next">Próximo</a></div></div>
+</div>
+
+<script>
+    //Resolve o problema das múltiplas modal
+    $(document).on('hidden.bs.modal', '.modal', function() {
+        $('.modal:visible').length && $(document.body).addClass('modal-open');
+    });
+    var dataTable;
+    $(document).ready(function() {
+        dataTable = $('#tbl-diario').DataTable({
+            searching: false,
+            bProcessing: true,
+            serverSide: true,
+            autoWidth: false,
+            ajax: {
+                url: "www.diario.pi.gov.br/../Api/listardiarios.json", // json datasource
+                type: "post",
+                data: function(data) {
+                    // Read values
+                    var numero = $('#filter_numero').val();
+                    var dia = $('#filter_data').val();
+
+                    // Append to data
+                    data.filter_numero = numero;
+                    data.filter_data = dia;
+
+                },
+                error: function(response) {
+                    $(".tbl-veiculo-error").html("");
+                    $("#tbl-veiculo").append('<tbody class="tbl-veiculo-error"><tr><th colspan="12">Nenhum registro foi encontrado com essa combinação no servidor.</th></tr></tbody>');
+                    $("#tbl-veiculoprocessing").css("display", "none");
+                }
+            },
+            "language": {
+                "sEmptyTable": "Nenhum registro encontrado",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
+                "sInfoFiltered": "(Filtrados de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sInfoThousands": ".",
+                "sLengthMenu": "_MENU_ resultados por página",
+                "sLoadingRecords": "Carregando...",
+                "sProcessing": '<tbody class="div-centro"><tr><th colspan="2"><img src="/doe/img/loading.gif" alt=""/></th></tr></tbody>',
+                "sZeroRecords": "Nenhum registro encontrado",
+                "sSearch": "Pesquisar",
+                "oPaginate": {
+                    "sNext": "Próximo",
+                    "sPrevious": "Anterior",
+                    "sFirst": "Primeiro",
+                    "sLast": "Último"
+                },
+                "oAria": {
+                    "sSortAscending": ": Ordenar colunas de forma ascendente",
+                    "sSortDescending": ": Ordenar colunas de forma descendente"
+                },
+                "select": {
+                    "rows": {
+                        "_": "Selecionado %d linhas",
+                        "0": "Nenhuma linha selecionada",
+                        "1": "Selecionado 1 linha"
+                    }
+                },
+                buttons: {
+                    pageLength: {
+                        _: "Mostrar %d",
+                        '-1': "Todos"
+                    }
+                    ///pageLength: 'Mostrar %d'
+                }
+            },
+
+            bFilter: true, // to display datatable search
+        });
+        $('#filter_numero').keyup(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').change(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').keyup(function() {
+            dataTable.draw();
+        });
+    });
+</script>            </div>
+        </div>
+    </div>
+    <!-- xxxx -->
+    <div class="MuiBox-root gov-xodm68">
+        <div class="MuiStack-ro
+
+=====
+
+TERM=ajax OFFSET=341760
+" title="Share on Twitter"> <img id="TwitterImg" /></a> <a-- id="FacebookLink" title="Share on Facebook"> <img id="FacebookImg" /></a--> <a id="EmailLink" title="Email this translation"> <img id="EmailImg"></a> </div>
+            <div id="ShareFooter"> <span id="ShareHelpSpan"><a id="ShareHelpLink"> <img id="ShareHelpImg"></a></span> <span id="ShareBackSpan"><a id="ShareBack" href="javascript:Microsoft.Translator.FloaterOnShareBackClick()" title="Back To Translation"> Back</a></span> </div> <input name="EmailSubject" type="hidden" id="EmailSubject" value="Check out this page in {0} translated from {1}"> <input name="EmailBody" type="hidden" id="EmailBody" value="Translated: {0}%0d%0aOriginal: {1}%0d%0a%0d%0aAutomatic translation powered by Microsoft® Translator%0d%0ahttp://www.bing.com/translator?ref=MSTWidget"> <input type="hidden" id="ShareHelpText" value="This link allows visitors to launch this page and automatically translate it to {0}.">
+        </div>
+        <div id="FloaterEmbed" style="display: none">
+            <div id="EmbedTextDiv"> <span id="EmbedTextSpan">EMBED THE SNIPPET BELOW IN YOUR SITE</span> <a id="EmbedHelpLink" title="Copy this code and place it into your HTML."> <img id="EmbedHelpImg"></a> </div>
+            <div id="EmbedTextboxDiv"> <input name="EmbedSnippetTextBox" type="text" id="EmbedSnippetTextBox" readonly="readonly" value="&lt;div id='MicrosoftTranslatorWidget' class='Dark' style='color:white;background-color:#555555'&gt;&lt;/div&gt;&lt;script type='text/javascript'&gt;setTimeout(function(){var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location &amp;&amp; location.href &amp;&amp; location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&amp;ctf=true&amp;ui=true&amp;settings=manual&amp;from=en';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); },0);&lt;/script&gt;" onclick="this.select()"> </div>
+            <div id="EmbedNoticeDiv"><span id="EmbedNoticeSpan">Enable collaborative features and customize widget: <a href="http://www.bing.com/widget/translator" target="_blank">Bing Webmaster Portal</a></span></div>
+            <div id="EmbedFooterDiv"><span id="EmbedBackSpan"><a href="javascript:Microsoft.Translator.FloaterOnEmbedBackClick()" title="Back To Translation">Back</a></span></div>
+        </div>
+        
+    </div>
+    <script src="https://www.googletagmanager.com/gtag/js?id=GTM-MNBRHWNB" data-nscript="afterInteractive"></script>
+    <script id="google-analytics" data-nscript="afterInteractive">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'GTM-MNBRHWNB');
+    </script><next-route-announcer style="position: absolute;"></next-route-announcer>
+    <!-- DateJS -->
+    <script src="/doe/vendors/DateJS/build/date.js"></script>    <!-- bootstrap-daterangepicker -->
+    <script src="/doe/vendors/moment/min/moment.min.js"></script>    <script src="/doe/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>    <!-- Datatables -->
+    <script src="https://markcell.github.io/jquery-tabledit/assets/js/tabledit.min.js"></script>
+    <script src="/doe/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+        
+
+</body></html>
+
+=====
+
+TERM=serverSide OFFSET=311516
+6</td></tr><tr role="row" class="even"><td class="sorting_1"><a href="../doe/files/diarios/anexo/89f04f03-c2ea-4150-bf1f-eda6357426b2/DOEPI_151_2026.pdf" target="_blank" class="controles-btn"><img src="img/icone-diario.png" alt="imagem abrir pasta" style="margin-right: 0;"></a></td><td>151/2026  </td><td>07/08/2026</td></tr></tbody>
+    </table><div class="dataTables_info" id="tbl-diario_info" role="status" aria-live="polite">Mostrando de 1 até 10 de 1.189 registros</div><div class="dataTables_paginate paging_simple_numbers" id="tbl-diario_paginate"><a class="paginate_button previous disabled" aria-controls="tbl-diario" data-dt-idx="0" tabindex="0" id="tbl-diario_previous">Anterior</a><span><a class="paginate_button current" aria-controls="tbl-diario" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="tbl-diario" data-dt-idx="6" tabindex="0">119</a></span><a class="paginate_button next" aria-controls="tbl-diario" data-dt-idx="7" tabindex="0" id="tbl-diario_next">Próximo</a></div></div>
+</div>
+
+<script>
+    //Resolve o problema das múltiplas modal
+    $(document).on('hidden.bs.modal', '.modal', function() {
+        $('.modal:visible').length && $(document.body).addClass('modal-open');
+    });
+    var dataTable;
+    $(document).ready(function() {
+        dataTable = $('#tbl-diario').DataTable({
+            searching: false,
+            bProcessing: true,
+            serverSide: true,
+            autoWidth: false,
+            ajax: {
+                url: "www.diario.pi.gov.br/../Api/listardiarios.json", // json datasource
+                type: "post",
+                data: function(data) {
+                    // Read values
+                    var numero = $('#filter_numero').val();
+                    var dia = $('#filter_data').val();
+
+                    // Append to data
+                    data.filter_numero = numero;
+                    data.filter_data = dia;
+
+                },
+                error: function(response) {
+                    $(".tbl-veiculo-error").html("");
+                    $("#tbl-veiculo").append('<tbody class="tbl-veiculo-error"><tr><th colspan="12">Nenhum registro foi encontrado com essa combinação no servidor.</th></tr></tbody>');
+                    $("#tbl-veiculoprocessing").css("display", "none");
+                }
+            },
+            "language": {
+                "sEmptyTable": "Nenhum registro encontrado",
+                "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
+                "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
+                "sInfoFiltered": "(Filtrados de _MAX_ registros)",
+                "sInfoPostFix": "",
+                "sInfoThousands": ".",
+                "sLengthMenu": "_MENU_ resultados por página",
+                "sLoadingRecords": "Carregando...",
+                "sProcessing": '<tbody class="div-centro"><tr><th colspan="2"><img src="/doe/img/loading.gif" alt=""/></th></tr></tbody>',
+                "sZeroRecords": "Nenhum registro encontrado",
+                "sSearch": "Pesquisar",
+                "oPaginate": {
+                    "sNext": "Próximo",
+                    "sPrevious": "Anterior",
+                    "sFirst": "Primeiro",
+                    "sLast": "Último"
+                },
+                "oAria": {
+                    "sSortAscending": ": Ordenar colunas de forma ascendente",
+                    "sSortDescending": ": Ordenar colunas de forma descendente"
+                },
+                "select": {
+                    "rows": {
+                        "_": "Selecionado %d linhas",
+                        "0": "Nenhuma linha selecionada",
+                        "1": "Selecionado 1 linha"
+                    }
+                },
+                buttons: {
+                    pageLength: {
+                        _: "Mostrar %d",
+                        '-1': "Todos"
+                    }
+                    ///pageLength: 'Mostrar %d'
+                }
+            },
+
+            bFilter: true, // to display datatable search
+        });
+        $('#filter_numero').keyup(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').change(function() {
+            dataTable.draw();
+        });
+        $('#filter_data').keyup(function() {
+            dataTable.draw();
+        });
+    });
+</script>            </div>
+        </div>
+    </div>
+    <!-- xxxx -->
+    <div cla
