@@ -1,5 +1,11 @@
 FILE=RR_script_00.txt TERM=api OFFSET=112331
-= elemData.events) ) {
+a unique ID, used to find/remove it later
+		if ( !handler.guid ) {
+			handler.guid = jQuery.guid++;
+		}
+
+		// Init the element's event structure and main handler, if this is the first
+		if ( !(events = elemData.events) ) {
 			events = elemData.events = {};
 		}
 		if ( !(eventHandle = elemData.handle) ) {
@@ -87,90 +93,32 @@ FILE=RR_script_00.txt TERM=api OFFSET=112331
 			special, handlers, type, namespaces, origType,
 			elemData = data_priv.hasData( elem ) && data_priv.get( elem );
 
-		if ( !elemData || !(events = elemD
+		if ( !elemData || !(events = elemData.events) ) {
+			return;
+		}
+
+		// Once for each type.namespace in types; type may be omitted
+		types = ( types || "" ).match( rnotwhite ) || [ "" ];
+		t = types.length;
+		while ( t-- ) {
+			tmp = rtypenamespace.exec( types[t] ) || [];
+			type = origType = tmp[1];
+			namespaces = ( tmp[2] || "" ).split( "." ).sort();
+
+			// Unbind all events (on this namespace, if provided) for the element
+			if
 
 =====
 
 FILE=RR_script_01.txt TERM=api OFFSET=41316
-equired(data.instance.modifiers, 'arrow', 'keepTogether')) {
-    return data;
-  }
+d options
+ * @returns {Object} The data object, properly modified
+ */
+function arrow(data, options) {
+  var _data$offsets$arrow;
 
-  var arrowElement = options.element;
-
-  // if arrowElement is a string, suppose it's a CSS selector
-  if (typeof arrowElement === 'string') {
-    arrowElement = data.instance.popper.querySelector(arrowElement);
-
-    // if arrowElement is not found, don't run the modifier
-    if (!arrowElement) {
-      return data;
-    }
-  } else {
-    // if the arrowElement isn't a query selector we must check that the
-    // provided DOM node is child of its popper node
-    if (!data.instance.popper.contains(arrowElement)) {
-      console.warn('WARNING: `arrow.element` must be child of its popper element!');
-      return data;
-    }
-  }
-
-  var placement = data.placement.split('-')[0];
-  var _data$offsets = data.offsets,
-      popper = _data$offsets.popper,
-      reference = _data$offsets.reference;
-
-  var isVertical = ['left', 'right'].indexOf(placement) !== -1;
-
-  var len = isVertical ? 'height' : 'width';
-  var sideCapitalized = isVertical ? 'Top' : 'Left';
-  var side = sideCapitalized.toLowerCase();
-  var altSide = isVertical ? 'left' : 'top';
-  var opSide = isVertical ? 'bottom' : 'right';
-  var arrowElementSize = getOuterSizes(arrowElement)[len];
-
-  //
-  // extends keepTogether behavior making sure the popper and its
-  // reference have enough pixels in conjuction
-  //
-
-  // top/left side
-  if (reference[opSide] - arrowElementSize < popper[side]) {
-    data.offsets.popper[side] -= popper[side] - (reference[opSide] - arrowElementSize);
-  }
-  // bottom/right side
-  if (reference[side] + arrowElementSize > popper[opSide]) {
-    data.offsets.popper[side] += reference[side] + arrowElementSize - popper[opSide];
-  }
-  data.offsets.popper = getClientRect(data.offsets.popper);
-
-  // compute center of the popper
-  var center = reference[side] + reference[len] / 2 - arrowElementSize / 2;
-
-  // Compute the sideValue using the updated popper offsets
-  // take popper margin in account because we don't have this info available
-  var css = getStyleComputedProperty(data.instance.popper);
-  var popperMarginSide = parseFloat(css['margin' + sideCapitalized], 10);
-  var popperBorderSide = parseFloat(css['border' + sideCapitalized + 'Width'], 10);
-  var sideValue = center - data.offsets.popper[side] - popperMarginSide - popperBorderSide;
-
-  // prevent arrowElement from being placed not contiguously to its popper
-  sideValue = Math.max(Math.min(popper[len] - arrowElementSize, sideValue), 0);
-
-  data.arrowElement = arrowElement;
-  data.offsets.arrow = (_data$offsets$arrow = {}, defineProperty(_data$offsets$arrow, side, Math.round(sideValue)), defineProperty(_data$offsets$arrow, altSide, ''), _data$offsets$arrow);
-
-  return data;
-}
-
-/**
- * Get the opposite placement variation of the given one
- * @method
-
-=====
-
-FILE=RR_script_01.txt TERM=api OFFSET=41376
-
+  // arrow depends on keepTogether in order to work
+  if (!isModifierRequired(data.instance.modifiers, 'arrow', 'keepTogether')) {
     return data;
   }
 
@@ -245,12 +193,66 @@ FILE=RR_script_01.txt TERM=api OFFSET=41376
  * Get the opposite placement variation of the given one
  * @method
  * @memberof Popper.Utils
- * @argument {String} placement v
+ * @argument {String} placement variation
+ * @returns {String} flipped placement variation
+ */
+function getOppositeVariation(variation) {
+  if (variation === 'end') {
+    return 'start';
+  } else if (variation === 'start') {
+    return 'end';
+  }
+  return variation;
+}
+
+/**
+ * List of accepted placements to use as values of the `placement` option.<br />
+ * Valid placement
 
 =====
 
-FILE=RR_script_01.txt TERM=api OFFSET=42451
-r opSide = isVertical ? 'bottom' : 'right';
+FILE=RR_script_01.txt TERM=api OFFSET=41376
+ified
+ */
+function arrow(data, options) {
+  var _data$offsets$arrow;
+
+  // arrow depends on keepTogether in order to work
+  if (!isModifierRequired(data.instance.modifiers, 'arrow', 'keepTogether')) {
+    return data;
+  }
+
+  var arrowElement = options.element;
+
+  // if arrowElement is a string, suppose it's a CSS selector
+  if (typeof arrowElement === 'string') {
+    arrowElement = data.instance.popper.querySelector(arrowElement);
+
+    // if arrowElement is not found, don't run the modifier
+    if (!arrowElement) {
+      return data;
+    }
+  } else {
+    // if the arrowElement isn't a query selector we must check that the
+    // provided DOM node is child of its popper node
+    if (!data.instance.popper.contains(arrowElement)) {
+      console.warn('WARNING: `arrow.element` must be child of its popper element!');
+      return data;
+    }
+  }
+
+  var placement = data.placement.split('-')[0];
+  var _data$offsets = data.offsets,
+      popper = _data$offsets.popper,
+      reference = _data$offsets.reference;
+
+  var isVertical = ['left', 'right'].indexOf(placement) !== -1;
+
+  var len = isVertical ? 'height' : 'width';
+  var sideCapitalized = isVertical ? 'Top' : 'Left';
+  var side = sideCapitalized.toLowerCase();
+  var altSide = isVertical ? 'left' : 'top';
+  var opSide = isVertical ? 'bottom' : 'right';
   var arrowElementSize = getOuterSizes(arrowElement)[len];
 
   //
@@ -310,32 +312,19 @@ function getOppositeVariation(variation) {
  * - `top`
  * - `right`
  * - `bottom`
- * - `left`
- *
- * Each placement can have a variation from this list:
- * - `-start`
- * - `-end`
- *
- * Variations are interpreted easily if you think of them as the left to right
- * written languages. Horizontally (`top` and `bottom`), `start` is left and `end`
- * is right.<br />
- * Vertically (`left` and `right`), `start` is top and `end` is bottom.
- *
- * Some valid examples are:
- * - `top-end` (on top of reference, right aligned)
- * - `right-start` (on right of reference, top aligned)
- * - `bottom` (on bottom, centered)
- * - `auto-right` (on the side with more space available, alignment depends by placement)
- *
- * @static
- * @type {Array}
- * @enum {String}
- * @readonly
+ * 
 
 =====
 
-FILE=RR_script_01.txt TERM=api OFFSET=42525
-terSizes(arrowElement)[len];
+FILE=RR_script_01.txt TERM=api OFFSET=42451
+!== -1;
+
+  var len = isVertical ? 'height' : 'width';
+  var sideCapitalized = isVertical ? 'Top' : 'Left';
+  var side = sideCapitalized.toLowerCase();
+  var altSide = isVertical ? 'left' : 'top';
+  var opSide = isVertical ? 'bottom' : 'right';
+  var arrowElementSize = getOuterSizes(arrowElement)[len];
 
   //
   // extends keepTogether behavior making sure the popper and its
@@ -418,12 +407,124 @@ function getOppositeVariation(variation) {
  * @method placements
  * @memberof Popper
  */
-var placements = ['auto-sta
+var placements = ['auto-start', 'auto', 'auto-end', 'top-start', 'top', 'top-end', 'right-start', 'right', 'right-end', 'bottom-end', 'bottom', 'bottom-start', 'left-end', 'left', 'left-start'];
+
+// Get rid of `auto` `auto-start` and `auto-end`
+var validPlacements = placements.slice(3);
+
+/**
+ * Given an initial placement, returns all the subsequent pl
+
+=====
+
+FILE=RR_script_01.txt TERM=api OFFSET=42525
+d = isVertical ? 'Top' : 'Left';
+  var side = sideCapitalized.toLowerCase();
+  var altSide = isVertical ? 'left' : 'top';
+  var opSide = isVertical ? 'bottom' : 'right';
+  var arrowElementSize = getOuterSizes(arrowElement)[len];
+
+  //
+  // extends keepTogether behavior making sure the popper and its
+  // reference have enough pixels in conjuction
+  //
+
+  // top/left side
+  if (reference[opSide] - arrowElementSize < popper[side]) {
+    data.offsets.popper[side] -= popper[side] - (reference[opSide] - arrowElementSize);
+  }
+  // bottom/right side
+  if (reference[side] + arrowElementSize > popper[opSide]) {
+    data.offsets.popper[side] += reference[side] + arrowElementSize - popper[opSide];
+  }
+  data.offsets.popper = getClientRect(data.offsets.popper);
+
+  // compute center of the popper
+  var center = reference[side] + reference[len] / 2 - arrowElementSize / 2;
+
+  // Compute the sideValue using the updated popper offsets
+  // take popper margin in account because we don't have this info available
+  var css = getStyleComputedProperty(data.instance.popper);
+  var popperMarginSide = parseFloat(css['margin' + sideCapitalized], 10);
+  var popperBorderSide = parseFloat(css['border' + sideCapitalized + 'Width'], 10);
+  var sideValue = center - data.offsets.popper[side] - popperMarginSide - popperBorderSide;
+
+  // prevent arrowElement from being placed not contiguously to its popper
+  sideValue = Math.max(Math.min(popper[len] - arrowElementSize, sideValue), 0);
+
+  data.arrowElement = arrowElement;
+  data.offsets.arrow = (_data$offsets$arrow = {}, defineProperty(_data$offsets$arrow, side, Math.round(sideValue)), defineProperty(_data$offsets$arrow, altSide, ''), _data$offsets$arrow);
+
+  return data;
+}
+
+/**
+ * Get the opposite placement variation of the given one
+ * @method
+ * @memberof Popper.Utils
+ * @argument {String} placement variation
+ * @returns {String} flipped placement variation
+ */
+function getOppositeVariation(variation) {
+  if (variation === 'end') {
+    return 'start';
+  } else if (variation === 'start') {
+    return 'end';
+  }
+  return variation;
+}
+
+/**
+ * List of accepted placements to use as values of the `placement` option.<br />
+ * Valid placements are:
+ * - `auto`
+ * - `top`
+ * - `right`
+ * - `bottom`
+ * - `left`
+ *
+ * Each placement can have a variation from this list:
+ * - `-start`
+ * - `-end`
+ *
+ * Variations are interpreted easily if you think of them as the left to right
+ * written languages. Horizontally (`top` and `bottom`), `start` is left and `end`
+ * is right.<br />
+ * Vertically (`left` and `right`), `start` is top and `end` is bottom.
+ *
+ * Some valid examples are:
+ * - `top-end` (on top of reference, right aligned)
+ * - `right-start` (on right of reference, top aligned)
+ * - `bottom` (on bottom, centered)
+ * - `auto-right` (on the side with more space available, alignment depends by placement)
+ *
+ * @static
+ * @type {Array}
+ * @enum {String}
+ * @readonly
+ * @method placements
+ * @memberof Popper
+ */
+var placements = ['auto-start', 'auto', 'auto-end', 'top-start', 'top', 'top-end', 'right-start', 'right', 'right-end', 'bottom-end', 'bottom', 'bottom-start', 'left-end', 'left', 'left-start'];
+
+// Get rid of `auto` `auto-start` and `auto-end`
+var validPlacements = placements.slice(3);
+
+/**
+ * Given an initial placement, returns all the subsequent placements
+ * clockwise (or counter-clockwise).
+ *
+ * @method
+ * @memberof P
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=7670
-w RegExp(expectedTypes).test(valueType)) {
+       var expectedTypes = configTypes[property];
+            var value = config[property];
+            var valueType = value && Util.isElement(value) ? 'element' : toType(value);
+
+            if (!new RegExp(expectedTypes).test(valueType)) {
               throw new Error(componentName.toUpperCase() + ": " + ("Option \"" + property + "\" provided type \"" + valueType + "\" ") + ("but expected type \"" + expectedTypes + "\"."));
             }
           }
@@ -523,12 +624,34 @@ w RegExp(expectedTypes).test(valueType)) {
 
       _proto._triggerCloseEvent = function _triggerCloseEvent(element) {
         var closeEvent = $$$1.Event(Event.CLOSE);
-        $$$1(element).trigger(c
+        $$$1(element).trigger(closeEvent);
+        return closeEvent;
+      };
+
+      _proto._removeElement = function _removeElement(element) {
+        var _this = this;
+
+        $$$1(element).removeClass(ClassName.SHOW);
+
+        if (!$$$1(element).hasClass(ClassName.FADE)) {
+          this._destroyElement(element);
+
+          return;
+        }
+
+        var transitionDuration = Util.getTransitionDurationFromElement(element);
+
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=12418
-ery
+/
+
+
+    $$$1(document).on(Event.CLICK_DATA_API, Selector.DISMISS, Alert._handleDismiss(new Alert()));
+    /**
+     * ------------------------------------------------------------------------
+     * jQuery
      * ------------------------------------------------------------------------
      */
 
@@ -618,12 +741,31 @@ ery
             }
 
             if (triggerChangeEvent) {
-              if (input.hasAttribute('disabled') || rootElement.hasAttribute('disa
+              if (input.hasAttribute('disabled') || rootElement.hasAttribute('disabled') || input.classList.contains('disabled') || rootElement.classList.contains('disabled')) {
+                return;
+              }
+
+              input.checked = !$$$1(this._element).hasClass(ClassName.ACTIVE);
+              $$$1(input).trigger('change');
+            }
+
+            input.focus();
+            addAriaPressed = false;
+          }
+        }
+
+        if (addAriaPressed) {
+        
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=17421
------------------------------------------------------------------------
+      $$$1(button).toggleClass(ClassName.FOCUS, /^focus(in)?$/.test(event.type));
+    });
+    /**
+     * ------------------------------------------------------------------------
+     * jQuery
+     * ------------------------------------------------------------------------
      */
 
     $$$1.fn[NAME] = Button._jQueryInterface;
@@ -712,12 +854,34 @@ FILE=RR_script_02.txt TERM=api OFFSET=17421
       DATA_RIDE: '[data-ride="carousel"]'
       /**
        * ------------------------------------------------------------------------
-       * Class Definitio
+       * Class Definition
+       * ------------------------------------------------------------------------
+       */
+
+    };
+
+    var Carousel =
+    /*#__PURE__*/
+    function () {
+      function Carousel(element, config) {
+        this._items = null;
+        this._interval = null;
+        this._activeElement = null;
+        this._isPaused = false;
+        this._isSliding = false;
+        this.touchTimeout = null;
+     
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=33078
----------------------------------------------------------------
+   Carousel._jQueryInterface.call($carousel, $carousel.data());
+      });
+    });
+    /**
+     * ------------------------------------------------------------------------
+     * jQuery
+     * ------------------------------------------------------------------------
      */
 
     $$$1.fn[NAME] = Carousel._jQueryInterface;
@@ -807,12 +971,37 @@ FILE=RR_script_02.txt TERM=api OFFSET=33078
           }
         }
 
-        this._parent = this._config.parent ? this._getP
+        this._parent = this._config.parent ? this._getParent() : null;
+
+        if (!this._config.parent) {
+          this._addAriaAndCollapsedClass(this._element, this._triggerArray);
+        }
+
+        if (this._config.toggle) {
+          this.toggle();
+        }
+      } // Getters
+
+
+      var _proto = Collapse.prototype;
+
+      // Public
+      _proto.toggle = function toggle() {
+        if ($$$1(this._element).hasClass(ClassName.SHOW)) {
+          
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=37126
-t);
+
+
+          if (activesData && activesData._isTransitioning) {
+            return;
+          }
+        }
+
+        var startEvent = $$$1.Event(Event.SHOW);
+        $$$1(this._element).trigger(startEvent);
 
         if (startEvent.isDefaultPrevented()) {
           return;
@@ -893,12 +1082,30 @@ t);
         var complete = function complete() {
           _this2.setTransitioning(false);
 
-          $$$1(_this2._element).removeClass(ClassName.COLLAPSING).addClass(ClassName.COLLAPSE).trigger(Event.H
+          $$$1(_this2._element).removeClass(ClassName.COLLAPSING).addClass(ClassName.COLLAPSE).trigger(Event.HIDDEN);
+        };
+
+        this._element.style[dimension] = '';
+        var transitionDuration = Util.getTransitionDurationFromElement(this._element);
+        $$$1(this._element).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
+      };
+
+      _proto.setTransitioning = function setTransitioning(isTransitioning) {
+        this._isTransitioning = isTransitioning;
+      }
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=37234
-      Collapse._jQueryInterface.call($$$1(actives).not(this._selector), 'hide');
+      var startEvent = $$$1.Event(Event.SHOW);
+        $$$1(this._element).trigger(startEvent);
+
+        if (startEvent.isDefaultPrevented()) {
+          return;
+        }
+
+        if (actives) {
+          Collapse._jQueryInterface.call($$$1(actives).not(this._selector), 'hide');
 
           if (!activesData) {
             $$$1(actives).data(DATA_KEY, null);
@@ -976,12 +1183,30 @@ FILE=RR_script_02.txt TERM=api OFFSET=37234
         };
 
         this._element.style[dimension] = '';
-        var transitionDuration = Util.getTr
+        var transitionDuration = Util.getTransitionDurationFromElement(this._element);
+        $$$1(this._element).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
+      };
+
+      _proto.setTransitioning = function setTransitioning(isTransitioning) {
+        this._isTransitioning = isTransitioning;
+      };
+
+      _proto.dispose = function dispose() {
+        $$$1.removeData(this._element, DATA_KEY);
+        thi
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=44397
----------------------------------------------------------------
+ta();
+
+        Collapse._jQueryInterface.call($target, config);
+      });
+    });
+    /**
+     * ------------------------------------------------------------------------
+     * jQuery
+     * ------------------------------------------------------------------------
      */
 
     $$$1.fn[NAME] = Collapse._jQueryInterface;
@@ -1062,12 +1287,34 @@ FILE=RR_script_02.txt TERM=api OFFSET=44397
       RIGHT: 'right-start',
       RIGHTEND: 'right-end',
       LEFT: 'left-start',
-      LEFTEND: 'left-end
+      LEFTEND: 'left-end'
+    };
+    var Default = {
+      offset: 0,
+      flip: true,
+      boundary: 'scrollParent',
+      reference: 'toggle',
+      display: 'dynamic'
+    };
+    var DefaultType = {
+      offset: '(number|string|function)',
+      flip: 'boolean',
+      boundary: '(string|element)',
+      reference: '(string|element)',
+      display: 'string'
+      /**
+       * ----------------------------------------
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=59875
--------------------------------------------------------------------
+LICK_DATA_API, Selector.FORM_CHILD, function (e) {
+      e.stopPropagation();
+    });
+    /**
+     * ------------------------------------------------------------------------
+     * jQuery
+     * ------------------------------------------------------------------------
      */
 
     $$$1.fn[NAME] = Dropdown._jQueryInterface;
@@ -1155,12 +1402,35 @@ FILE=RR_script_02.txt TERM=api OFFSET=59875
       function Modal(element, config) {
         this._config = this._getConfig(config);
         this._element = element;
-        this._dialog = $$$1(element).find(Selector.
+        this._dialog = $$$1(element).find(Selector.DIALOG)[0];
+        this._backdrop = null;
+        this._isShown = false;
+        this._isBodyOverflowing = false;
+        this._ignoreBackdropClick = false;
+        this._scrollbarWidth = 0;
+      } // Getters
+
+
+      var _proto = Modal.prototype;
+
+      // Public
+      _proto.toggle = function toggle(relatedTarget) {
+        return this._isShown ? this.hide() : this.show(relatedTarget);
+      };
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=104496
---------------------------------------------------------------
+ return DefaultType;
+        }
+      }]);
+
+      return Popover;
+    }(Tooltip);
+    /**
+     * ------------------------------------------------------------------------
+     * jQuery
+     * ------------------------------------------------------------------------
      */
 
 
@@ -1250,11 +1520,34 @@ FILE=RR_script_02.txt TERM=api OFFSET=104496
         this._targets = [];
         this._activeTarget = null;
         this._scrollHeight = 0;
-        $$$1(this._scrollEleme
+        $$$1(this._scrollElement).on(Event.SCROLL, function (event) {
+          return _this._process(event);
+        });
+        this.refresh();
+
+        this._process();
+      } // Getters
+
+
+      var _proto = ScrollSpy.prototype;
+
+      // Public
+      _proto.refresh = function refresh() {
+        var _this2 = this;
+
+        var autoMethod = this._scrollElement === this._scrollElement.window ? OffsetMethod.OFFSET : OffsetMe
 
 =====
 
 FILE=RR_script_02.txt TERM=api OFFSET=114457
+$$$1(scrollSpys[i]);
+
+        ScrollSpy._jQueryInterface.call($spy, $spy.data());
+      }
+    });
+    /**
+     * ------------------------------------------------------------------------
+     * jQuery
      * ------------------------------------------------------------------------
      */
 
@@ -1343,12 +1636,36 @@ FILE=RR_script_02.txt TERM=api OFFSET=114457
 
         if (listElement) {
           var itemSelector = listElement.nodeName === 'UL' ? Selector.ACTIVE_UL : Selector.ACTIVE;
-          previous =
+          previous = $$$1.makeArray($$$1(listElement).find(itemSelector));
+          previous = previous[previous.length - 1];
+        }
+
+        var hideEvent = $$$1.Event(Event.HIDE, {
+          relatedTarget: this._element
+        });
+        var showEvent = $$$1.Event(Event.SHOW, {
+          relatedTarget: previous
+        });
+
+        if (previous) {
+          $$$1(previous).trigger(hideEvent);
+        }
+
+      
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=7813
-lt;
+
+    Chartist.times(length).forEach(function(e, index) {
+      var args = arr.map(function(e) {
+        return e[index];
+      });
+
+      result[index] = cb.apply(null, args);
+    });
+
+    return result;
   };
 
   /**
@@ -1425,12 +1742,28 @@ lt;
     }, data);
 
     try {
+      data = JSON.parse(data);
+      data = data.data !== undefined ? data.data : data;
+    } catch(e) {}
 
+    return data;
+  };
+
+  /**
+   * Create or reinitialize the SVG element for the chart
+   *
+   * @memberof Chartist.Core
+   * @param {Node} container The containing DOM Node object that will be used to plant the SVG element
+   * @param {String} width Set the width of the SVG element. Default 
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=8196
-ng
+mit.
+   *
+   * @memberof Chartist.Core
+   * @param {Number} value The value that should be rounded with precision
+   * @param {Number} [digits] The number of digits after decimal used to do the rounding
    * @returns {number} Rounded value
    */
   Chartist.roundWithPrecision = function(value, digits) {
@@ -1511,12 +1844,31 @@ ng
    *
    * @memberof Chartist.Core
    * @param {Node} container The containing DOM Node object that will be used to plant the SVG element
-   * @param {String} width Set the width of the SVG 
+   * @param {String} width Set the width of the SVG element. Default is 100%
+   * @param {String} height Set the height of the SVG element. Default is 100%
+   * @param {String} className Specify a class to be added to the SVG element
+   * @return {Object} The created/reinitialized SVG element
+   */
+  Chartist.createSvg = function (container, width, height, className) {
+    var svg;
+
+    width = width || '100%';
+    height = height || '100%';
+
+    /
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=8703
-be safely used as attribute values.
+uire more decimal places you can increase this number.
+   *
+   * @memberof Chartist.Core
+   * @type {number}
+   */
+  Chartist.precision = 8;
+
+  /**
+   * A map with characters to escape for strings to be safely used as attribute values.
    *
    * @memberof Chartist.Core
    * @type {Object}
@@ -1591,12 +1943,27 @@ be safely used as attribute values.
     width = width || '100%';
     height = height || '100%';
 
-    // Check if there is a previous SVG element in the container that contains the Chartist XML namespace and re
+    // Check if there is a previous SVG element in the container that contains the Chartist XML namespace and remove it
+    // Since the DOM API does not support namespaces we need to manually search the returned list http://www.w3.org/TR/selectors-api/
+    Array.prototype.slice.call(container.querySelectorAll('svg')).filter(function filterChartistSvgObjects(svg) {
+      return svg.getAttributeNS(Chartist.namespaces.xmlns, 'ct');
+    }).forEach(function removePreviousElement(svg) {
+      container.removeChi
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=8802
-hartist.escapingMap = {
+ {number}
+   */
+  Chartist.precision = 8;
+
+  /**
+   * A map with characters to escape for strings to be safely used as attribute values.
+   *
+   * @memberof Chartist.Core
+   * @type {Object}
+   */
+  Chartist.escapingMap = {
     '&': '&amp;',
     '<': '&lt;',
     '>': '&gt;',
@@ -1667,12 +2034,31 @@ hartist.escapingMap = {
     height = height || '100%';
 
     // Check if there is a previous SVG element in the container that contains the Chartist XML namespace and remove it
-    // Since the DOM API does not support namespaces we need to manually search the returne
+    // Since the DOM API does not support namespaces we need to manually search the returned list http://www.w3.org/TR/selectors-api/
+    Array.prototype.slice.call(container.querySelectorAll('svg')).filter(function filterChartistSvgObjects(svg) {
+      return svg.getAttributeNS(Chartist.namespaces.xmlns, 'ct');
+    }).forEach(function removePreviousElement(svg) {
+      container.removeChild(svg);
+    });
+
+    // Create svg object with width and height or use 100% as default
+    svg = n
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=8987
-n case of data that can't be easily converted to a string, this function will create a wrapper object and serialize the data using JSON.stringify. The outcoming string will always be escaped using Chartist.escapingMap.
+ject}
+   */
+  Chartist.escapingMap = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    '\'': '&#039;'
+  };
+
+  /**
+   * This function serializes arbitrary data to a string. In case of data that can't be easily converted to a string, this function will create a wrapper object and serialize the data using JSON.stringify. The outcoming string will always be escaped using Chartist.escapingMap.
    * If called with null or undefined the function will return immediately with null or undefined.
    *
    * @memberof Chartist.Core
@@ -1736,12 +2122,33 @@ n case of data that can't be easily converted to a string, this function will cr
     // Check if there is a previous SVG element in the container that contains the Chartist XML namespace and remove it
     // Since the DOM API does not support namespaces we need to manually search the returned list http://www.w3.org/TR/selectors-api/
     Array.prototype.slice.call(container.querySelectorAll('svg')).filter(function filterChartistSvgObjects(svg) {
-      return svg.getAttribut
+      return svg.getAttributeNS(Chartist.namespaces.xmlns, 'ct');
+    }).forEach(function removePreviousElement(svg) {
+      container.removeChild(svg);
+    });
+
+    // Create svg object with width and height or use 100% as default
+    svg = new Chartist.Svg('svg').attr({
+      width: width,
+      height: height
+    }).addClass(className);
+
+    svg._node.style.width = width;
+    svg._node.style.height = height;
+
+    // Add t
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=9473
-ta === undefined) {
+diately with null or undefined.
+   *
+   * @memberof Chartist.Core
+   * @param {Number|String|Object} data
+   * @return {String}
+   */
+  Chartist.serialize = function(data) {
+    if(data === null || data === undefined) {
       return data;
     } else if(typeof data === 'number') {
       data = ''+data;
@@ -1815,12 +2222,31 @@ ta === undefined) {
     container.appendChild(svg._node);
 
     return svg;
-  
+  };
+
+  /**
+   * Ensures that the data object passed as second argument to the charts is present and correctly initialized.
+   *
+   * @param  {Object} data The data object that is passed as second argument to the charts
+   * @return {Object} The normalized data object
+   */
+  Chartist.normalizeData = function(data, reverse, multi) {
+    var labelCount;
+    var output = {
+      raw: data,
+      norma
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=9567
-''+data;
+bject} data
+   * @return {String}
+   */
+  Chartist.serialize = function(data) {
+    if(data === null || data === undefined) {
+      return data;
+    } else if(typeof data === 'number') {
+      data = ''+data;
     } else if(typeof data === 'object') {
       data = JSON.stringify({data: data});
     }
@@ -1894,12 +2320,29 @@ FILE=RR_script_04.txt TERM=api OFFSET=9567
   };
 
   /**
-   * Ensures that the data object passed as second argument to the charts is present
+   * Ensures that the data object passed as second argument to the charts is present and correctly initialized.
+   *
+   * @param  {Object} data The data object that is passed as second argument to the charts
+   * @return {Object} The normalized data object
+   */
+  Chartist.normalizeData = function(data, reverse, multi) {
+    var labelCount;
+    var output = {
+      raw: data,
+      normalized: {}
+    };
+
+    // Check if we should generate some labels based on existing series data
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=10640
-a);
+  data = Object.keys(Chartist.escapingMap).reduce(function(result, key) {
+      return Chartist.replaceAll(result, Chartist.escapingMap[key], key);
+    }, data);
+
+    try {
+      data = JSON.parse(data);
       data = data.data !== undefined ? data.data : data;
     } catch(e) {}
 
@@ -1974,12 +2417,30 @@ a);
       }));
     } else {
       // We're dealing with Pie data so we just take the normalized array length
-      la
+      labelCount = output.normalized.series.length;
+    }
+
+    output.normalized.labels = (data.labels || []).slice();
+    // Padding the labels to labelCount with empty strings
+    Array.prototype.push.apply(
+      output.normalized.labels,
+      Chartist.times(Math.max(0, labelCount - output.normalized.labels.length)).map(function() {
+        return '';
+      })
+    );
+
+    if(reverse) {
+      Chartist.
 
 =====
 
 FILE=RR_script_04.txt TERM=api OFFSET=45890
-;
+Coordinates, valueData) {
+      var path = new Chartist.Svg.Path();
+      var prevX, prevY, prevData;
+
+      for(var i = 0; i < pathCoordinates.length; i += 2) {
+        var currX = pathCoordinates[i];
         var currY = pathCoordinates[i + 1];
         var length = (currX - prevX) * d;
         var currData = valueData[i / 2];
@@ -2057,113 +2518,131 @@ FILE=RR_script_04.txt TERM=api OFFSET=45890
         // If there were no segments return 'Chartist.Interpolation.none'
         return Chartist.Interpolation.none()([]);
       } else if(segments.length > 1) {
-        // If the split resulted in more that one segment we ne
+        // If the split resulted in more that one segment we need to interpolate each segment individually and join them
+        // afterwards together into a single path.
+          var paths = [];
+        // For each segment we will recurse the cardinal function
+        segments.forEach(function(segment) {
+          paths.push(cardinal(segment.pathCoordinates, segment.valueData));
+        });
+        // Join the segment path data into a single path and retur
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=7645
-[46],[52,"b","ad_personalization"],[52,"c","ad_storage"],[52,"d","ad_user_data"],[52,"e","consent_updated"],[52,"f","app_remove"],[52,"g","app_store_refund"],[52,"h","app_store_subscription_cancel"],[52,"i","app_store_subscription_convert"],[52,"j","app_store_subscription_renew"],[52,"k","conversion"],[52,"l","purchase"],[52,"m","first_open"],[52,"n","first_visit"],[52,"o","gtag.config"],[52,"p","in_app_purchase"],[52,"q","page_view"],[52,"r","session_start"],[52,"s","user_engagement"],[52,"t","ads_data_redaction"],[52,"u","allow_ad_personalization_signals"],[52,"v","allow_custom_scripts"],[52,"w","allow_enhanced_conversions"],[52,"x","allow_google_signals"],[52,"y","auid"],[52,"z","aw_remarketing_only"],[52,"aA","discount"],[52,"aB","aw_feed_country"],[52,"aC","aw_feed_language"],[52,"aD","items"],[52,"aE","aw_merchant_id"],[52,"aF","aw_basket_type"],[52,"aG","client_id"],[52,"aH","conversion_cookie_prefix"],[52,"aI","conversion_id"],[52,"aJ","conversion_linker"],[52,"aK","conversion_api"],[52,"aL","cookie_deprecation"],[52,"aM","cookie_expires"],[52,"aN","cookie_prefix"],[52,"aO","cookie_update"],[52,"aP","country"],[52,"aQ","currency"],[52,"aR","customer_lifetime_value"],[52,"aS","customer_type"],[52,"aT","debug_mode"],[52,"aU","shipping"],[52,"aV","engagement_time_msec"],[52,"aW","estimated_delivery_date"],[52,"aX","event_developer_id_string"],[52,"aY","event_id"],[52,"aZ","event"],[52,"bA","event_timeout"],[52,"bB","ext_client_id"],[52,"bC","first_party_collection"],[52,"bD","match_id"],[52,"bE","gdpr_applies"],[52,"bF","_gt_metadata"],[52,"bG","google_analysis_params"],[52,"bH","_google_ng"],[52,"bI","_ono"],[52,"bJ","gpp_sid"],[52,"bK","gpp_string"],[52,"bL","gsa_experiment_id"],[52,"bM","gtag_event_feature_usage"],[52,"bN","iframe_state"],[52,"bO","ignore_referrer"],[52,"bP","is_passthrough"],[52,"bQ","language"],[52,"bR","merchant_feed_label"],[52,"bS","merchant_feed_language"],[52,"bT","merchant_id"],[52,"bU","new_customer"],[52,"bV","page_hostname"],[52,"bW","page_path"],[52,"bX","page_referrer"],[52,"bY","page_title"],[52,"bZ","_platinum_request_status"],[52,"cA","quantity"],[52,"cB","restricted_data_processing"],[52,"cC","screen_resolution"],[52,"cD","send_page_view"],[52,"cE","server_container_3p_enrichment"],[52,"cF","server_container_url"],[52,"cG","session_duration"],[52,"cH","session_engaged_time"],[52,"cI","session_id"],[52,"cJ","_shared_user_id"],[52,"cK","delivery_postal_code"],[52,"cL","testonly"],[52,"cM","topmost_url"],[52,"cN","transaction_id"],[52,"cO","transaction_id_source"],[52,"cP","transport_url"],[52,"cQ","update"],[52,"cR","user_data"],[52,"cS","user_data_auto_latency"],[52,"cT","user_data_auto_meta"],[52,"cU","user_data_auto_multi"],[52,"cV","user_data_auto_selectors"],[52,"cW","user_data_auto_status"],[52,"cX","user
+a"],"containerId"],[17,[15,"a"],"remoteConfig"]]],[46,[53,[2,[15,"a"],"gtmOnFailure",[7]],[36]]]],[2,[15,"a"],"gtmOnSuccess",[7]]]
+ ,[52,"__module_gtagSchema",[13,[41,"$0"],[3,"$0",[51,"",[7],[50,"a",[46],[52,"b","ad_personalization"],[52,"c","ad_storage"],[52,"d","ad_user_data"],[52,"e","consent_updated"],[52,"f","app_remove"],[52,"g","app_store_refund"],[52,"h","app_store_subscription_cancel"],[52,"i","app_store_subscription_convert"],[52,"j","app_store_subscription_renew"],[52,"k","conversion"],[52,"l","purchase"],[52,"m","first_open"],[52,"n","first_visit"],[52,"o","gtag.config"],[52,"p","in_app_purchase"],[52,"q","page_view"],[52,"r","session_start"],[52,"s","user_engagement"],[52,"t","ads_data_redaction"],[52,"u","allow_ad_personalization_signals"],[52,"v","allow_custom_scripts"],[52,"w","allow_enhanced_conversions"],[52,"x","allow_google_signals"],[52,"y","auid"],[52,"z","aw_remarketing_only"],[52,"aA","discount"],[52,"aB","aw_feed_country"],[52,"aC","aw_feed_language"],[52,"aD","items"],[52,"aE","aw_merchant_id"],[52,"aF","aw_basket_type"],[52,"aG","client_id"],[52,"aH","conversion_cookie_prefix"],[52,"aI","conversion_id"],[52,"aJ","conversion_linker"],[52,"aK","conversion_api"],[52,"aL","cookie_deprecation"],[52,"aM","cookie_expires"],[52,"aN","cookie_prefix"],[52,"aO","cookie_update"],[52,"aP","country"],[52,"aQ","currency"],[52,"aR","customer_lifetime_value"],[52,"aS","customer_type"],[52,"aT","debug_mode"],[52,"aU","shipping"],[52,"aV","engagement_time_msec"],[52,"aW","estimated_delivery_date"],[52,"aX","event_developer_id_string"],[52,"aY","event_id"],[52,"aZ","event"],[52,"bA","event_timeout"],[52,"bB","ext_client_id"],[52,"bC","first_party_collection"],[52,"bD","match_id"],[52,"bE","gdpr_applies"],[52,"bF","_gt_metadata"],[52,"bG","google_analysis_params"],[52,"bH","_google_ng"],[52,"bI","_ono"],[52,"bJ","gpp_sid"],[52,"bK","gpp_string"],[52,"bL","gsa_experiment_id"],[52,"bM","gtag_event_feature_usage"],[52,"bN","iframe_state"],[52,"bO","ignore_referrer"],[52,"bP","is_passthrough"],[52,"bQ","language"],[52,"bR","merchant_feed_label"],[52,"bS","merchant_feed_language"],[52,"bT","merchant_id"],[52,"bU","new_customer"],[52,"bV","page_hostname"],[52,"bW","page_path"],[52,"bX","page_referrer"],[52,"bY","page_title"],[52,"bZ","_platinum_request_status"],[52,"cA","quantity"],[52,"cB","restricted_data_processing"],[52,"cC","screen_resolution"],[52,"cD","send_page_view"],[52,"cE","server_container_3p_enrichment"],[52,"cF","server_container_url"],[52,"cG","session_duration"],[52,"cH","session_engaged_time"],[52,"cI","session_id"],[52,"cJ","_shared_user_id"],[52,"cK","delivery_postal_code"],[52,"cL","testonly"],[52,"cM","topmost_url"],[52,"cN","transaction_id"],[52,"cO","transaction_id_source"],[52,"cP","transport_url"],[52,"cQ","update"],[52,"cR","user_data"],[52,"cS","user_data_auto_latency"],[52,"cT","user_data_auto_meta"],[52,"cU","user_data_auto_multi"],[52,"cV","user_data_auto_selectors"],[52,"cW","user_data_auto_status"],[52,"cX","user_data_mode"],[52,"cY","user_id"],[52,"cZ","user_properties"],[52,"dA","us_privacy_string"],[52,"dB","value"],[52,"dC","_fpm_parameters"],[52,"dD","_host_name"],[52,"dE","_in_page_command"],[52,"dF","_measurement_type"],[52,"dG","non_personalized_ads"],[52,"dH","conversion_label"],[52,"dI","page_location"],[52,"dJ","_extracted_data"],[52,"dK","global_developer_id_string"],[52,"dL","tc_privacy_strin
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=82784
-ce",Fd:"gclid_storage_source",Vb:"gclgb",ob:"gclid",nl:"gclid_len",
+ion_start",Bp:"source_update",Cp:"timing_complete",Dp:"track_social",rf:"user_engagement",Ep:"user_id_update",Zg:"braid_link_decoration_source",ah:"braid_storage_source",Ed:"gclid_link_decoration_source",Fd:"gclid_storage_source",Vb:"gclgb",ob:"gclid",nl:"gclid_len",
 ye:"gclgs",ze:"gcllp",Ae:"gclst",pb:"ads_data_redaction",tf:"gad_source",uf:"gad_source_src",Gd:"gclid_url",ol:"gclsrc",vf:"gbraid",Be:"wbraid",Vc:"allow_ad_personalization_signals",mi:"allow_custom_scripts",bh:"allow_display_features",ni:"allow_enhanced_conversions",Wc:"allow_google_signals",oi:"allow_interest_groups",Fp:"app_id",Gp:"app_installer_id",Hp:"app_name",Ip:"app_version",Hd:"auid",Lu:"auto_detection_enabled",pl:"auto_event",ql:"aw_remarketing",eh:"aw_remarketing_only",wf:"discount",xf:"aw_feed_country",
 yf:"aw_feed_language",Ja:"items",zf:"aw_merchant_id",ri:"aw_basket_type",Af:"campaign_content",Bf:"campaign_id",Cf:"campaign_medium",Df:"campaign_name",Ef:"campaign",Ff:"campaign_source",Gf:"campaign_term",Mb:"client_id",rl:"rnd",si:"consent_update_type",Jp:"content_group",Kp:"content_type",Id:"conversion_cookie_prefix",ui:"conversion_id",wc:"conversion_linker",fh:"conversion_linker_disabled",Ce:"conversion_api",wi:"_&rcb",gh:"cookie_deprecation",Nb:"cookie_domain",Fb:"cookie_expires",Wb:"cookie_flags",
 Kd:"cookie_name",xc:"cookie_path",qb:"cookie_prefix",Ld:"cookie_update",Xc:"country",hb:"currency",De:"customer_lifetime_value",hh:"customer_type",Ee:"custom_map",xi:"gcldc_link_decoration_source",yi:"gcldc_storage_source",Hf:"gcldc",Md:"dclid",sl:"debug_mode",Ra:"developer_id",Lp:"disable_merchant_reported_purchases",Yc:"dc_custom_params",Mp:"dc_natural_search",Np:"dynamic_event_settings",tl:"affiliation",ih:"checkout_option",zi:"checkout_step",wl:"coupon",If:"item_list_name",Ai:"list_name",Op:"promotions",
 Nd:"shipping",xl:"tax",jh:"engagement_time_msec",kh:"enhanced_client_id",Pp:"enhanced_conversions",Mu:"enhanced_conversions_automatic_settings",Fe:"estimated_delivery_date",Jf:"event_callback",Qp:"event_category",Zc:"event_developer_id_string",Kf:"event_id",Bi:"_event_join_id",Rp:"event_label",Xb:"event",yl:"_&ae",Ci:"event_settings",mh:"event_timeout",Sp:"description",Tp:"fatal",Up:"experiments",Lf:"ext_client_id",Di:"firebase_id",Mf:"first_party_collection",Nf:"_x_20",Yb:"_x_19",Vp:"flight_error_code",
 Wp:"flight_error_message",Ei:"fl_activity_category",Fi:"fl_activity_group",nh:"fl_advertiser_id",Gi:"match_id",zl:"fl_random_number",Al:"tran",Bl:"u",oh:"gac_gclid",Ge:"gac_wbraid",Cl:"gac_wbraid_multiple_conversions",Xp:"ga_restrict_domain",Dl:"ga_temp_client_id",Yp:"ga_temp_ecid",He:"gdpr_applies",ph:"_gt_metadata",El:"geo_granularity",Of:"value_callback",Pf:"value_key",Wa:"google_analysis_params",Ie:"_google_ng",Zp:"_ono",Qf:"google_signals",aq:"google_tld",qh:"gpp_sid",rh:"gpp_string",Od:"groups",
-Fl:"gsa_experiment_id",Rf:"gtag_event_feature_usage",Gl:"gtm_up",Je:"iframe_state",Sf:"ignore_referrer",Hl:"internal_traffic_results",Il:"_is_fpm",dd:"is_legacy_converted"
+Fl:"gsa_experiment_id",Rf:"gtag_event_feature_usage",Gl:"gtm_up",Je:"iframe_state",Sf:"ignore_referrer",Hl:"internal_traffic_results",Il:"_is_fpm",dd:"is_legacy_converted",ed:"is_legacy_loaded",Hi:"is_passthrough",Tf:"_lps",wb:"language",Ii:"legacy_developer_id_string",Gb:"linker",Uf:"accept_incoming",yc:"decorate_forms",Ca:"domains",gd:"url_position",Pd:"merchant_feed_label",Qd:"merchant_feed_language",Rd:"merchant_id",Jl:"method",bq:"name",Kl:"navigation_type",Ke:"new_customer",Ji:"non_interaction",
+cq:"optimize_id",Ll:"page_hostname",Vf:"page_path",Xa:"page_refe
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=101331
-pply(null,[b].concat(w(c)))}catch(e){throw sb("TAGGING",21),e;}return}d.Hn.apply(null,[b].concat(w(c)))};var bi=function(){this.K={};this.H={};this.R=!0;};bi.prototype.get=function(a,b){var c=this.contains(a)?this.K[a]:void 0;return c};bi.prototype.contains=function(a){return this.K.hasOwnProperty(a)};
+.delete=function(a,b){if(a instanceof kb&&!a.Jb())return a.remove(b),!0;return!1};function O(a,b){var c=Pa.apply(2,arguments),d=a.U.Bb();if(!d)throw Error("Missing program state.");if(d.bi){try{d.Hn.apply(null,[b].concat(w(c)))}catch(e){throw sb("TAGGING",21),e;}return}d.Hn.apply(null,[b].concat(w(c)))};var bi=function(){this.K={};this.H={};this.R=!0;};bi.prototype.get=function(a,b){var c=this.contains(a)?this.K[a]:void 0;return c};bi.prototype.contains=function(a){return this.K.hasOwnProperty(a)};
 bi.prototype.add=function(a,b,c){if(this.contains(a))throw Error("Attempting to add a function which already exists: "+a+".");if(this.H.hasOwnProperty(a))throw Error("Attempting to add an API with an existing private API name: "+a+".");this.K[a]=c?void 0:zb(b)?oh(a,b):ph(a,b)};function ci(a,b){var c=void 0;return c};function di(){var a={};
 return a};var ei={},fi=(ei[I.D.xa]="gcu",ei[I.D.Yg]="ept",ei[I.D.Vb]="gclgb",ei[I.D.ob]="gclaw",ei[I.D.nl]="gclid_len",ei[I.D.ye]="gclgs",ei[I.D.ze]="gcllp",ei[I.D.Ae]="gclst",ei[I.D.Hd]="auid",ei[I.D.pl]="ae",ei[I.D.wf]="dscnt",ei[I.D.xf]="fcntr",ei[I.D.yf]="flng",ei[I.D.zf]="mid",ei[I.D.ri]="bttype",ei[I.D.Mb]="gacid",ei[I.D.Jd]="label",ei[I.D.Ce]="capi",ei[I.D.gh]="pscdl",ei[I.D.hb]="currency_code",ei[I.D.De]="vdltv",ei[I.D.hh]="cloct",ei[I.D.sl]="_dbg",ei[I.D.Fe]="oedeld",ei[I.D.Zc]="edid",ei[I.D.Kf]="evnid",
 ei[I.D.Bi]="evjid",ei[I.D.Lf]="excid",ei[I.D.oh]="gac",ei[I.D.Ge]="gacgb",ei[I.D.Cl]="gacmcov",ei[I.D.He]="gdpr",ei[I.D.bd]="gdid",ei[I.D.Ie]="_ng",ei[I.D.Zp]="_ono",ei[I.D.qh]="gpp_sid",ei[I.D.rh]="gpp",ei[I.D.Fl]="gsaexp",ei[I.D.Rf]="_tu",ei[I.D.Je]="frm",ei[I.D.Hi]="gtm_up",ei[I.D.Tf]="lps",ei[I.D.Ii]="did",ei[I.D.Pd]="fcntr",ei[I.D.Qd]="flng",ei[I.D.Rd]="mid",ei[I.D.Ke]=void 0,ei[I.D.Ob]="tiba",ei[I.D.Zb]="rdp",ei[I.D.zc]="ecsid",ei[I.D.Wf]="ga_uid",ei[I.D.Td]="delopc",ei[I.D.Le]="gdpr_consent",
 ei[I.D.Sa]="oid",ei[I.D.Sl]="oidsrc",ei[I.D.Tl]="uptgs",ei[I.D.Yf]="uaa",ei[I.D.Zf]="uab",ei[I.D.cg]="uafvl",ei[I.D.dg]="uamb",ei[I.D.eg]="uam",ei[I.D.fg]="uap",ei[I.D.gg]="uapv",ei[I.D.hg]="uaw",ei[I.D.Ul]="ec_lat",ei[I.D.Vl]="ec_meta",ei[I.D.Wl]="ec_m",ei[I.D.Xl]="ec_sel",ei[I.D.Yl]="ec_s",ei[I.D.Dc]="ec_mode",ei[I.D.ib]="userId",ei[I.D.ig]="us_privacy",ei[I.D.Ta]="value",ei[I.D.bm]="mcov",ei[I.D.Ti]="hn",ei[I.D.Mm]="gtm_ee",ei[I.D.Vi]="uip",ei[I.D.Fh]="mt",ei[I.D.ae]="npa",ei[I.D.Yq]="sg_uc",ei[I.D.ui]=
 null,ei[I.D.jd]=null,ei[I.D.wb]=null,ei[I.D.Ja]=null,ei[I.D.Ba]=null,ei[I.D.Xa]=null,ei[I.D.Me]=null,ei[I.D.ld]=null,ei[I.D.ph]=null,ei[I.D.Ed]=null,ei[I.D.Fd]=null,ei[I.D.Zg]=null,ei[I.D.ah]=null,ei[I.D.Wa]=null,ei[I.D.ad]=null,ei);function gi(a,b){if(a){var c=a.split("x");c.length===2&&(hi(b,"u_w",c[0]),hi(b,"u_h",c[1]))}}function ii(a){var b=ji;b=b===void 0?ki:b;return li(mi(a,b))}function li(a){return(a||[]).filter(function(b){return!!b}).map(function(b){return"("+[ni(b.value),ni(b.quantity),ni(b.item_id),ni(b.start_date),ni(b.end_date)].join("*")+")"}).join("")}
-function mi(a,b){return(a||[]).filter(functi
+function mi(a,b){return(a||[]).filter(function(c){return!!c}).map(function(c){return{item_id:b(c),quantity:c.quantity,value:c.price,start_date:c.start_date,end_date:c.end_date}})}function ki(a){return[a.item_id,a.id,a.item_name].find(function(b){return b!=null})}function oi(a){if(a&&a.length)return a.map(function(b){return b&&b.estimated_delivery_date?b.estimated_delivery_date:""}).join(",")}function hi(a,b,c){c===void 0||c===null||c===""&&
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=191020
-ispose=function(){this.ka||(this.ka=!0,this.R())};Ot.prototype[Symbol.dispose]=function(){this.dispose()};Ot.prototype.addOnDisposeCallback=function(a,b){this.ka?b!==void 0?a.call(b):a():(this.V||(this.V=[]),b&&(a=a.bind(b)),this.V.push(a))};Ot.prototype.R=function(){if(this.V)for(;this.V.length;)this.V.shift()()};function Pt(a){a.addtlConsent===void 0||uf(a.addtlConsent)||(a.addtlConsent=void 0);a.gdprApplies===void 0||vf(a.gdprApplies)||(a.gdprApplies=void 0);return a.tcString!==void 0&&!uf(a.tcString)||a.listenerId!==void 0&&!tf(a.listenerId)?2:a.cmpStatus&&a.cmpStatus!=="error"?0:3}var Qt=function(a,b){b=b===void 0?{}:b;Ot.call(this);this.H=null;this.la={};this.Aa=0;this.ba=null;this.K=a;var c;this.timeoutMs=(c=b.timeoutMs)!=null?c:500;var d;this.xj=(d=b.xj)!=null?d:!1};wa(Qt,Ot);
+"}:e.headers={"Attribution-Reporting-Eligible":"event-source"});c.fetch(a,e)}else Lt(c,a,b===void 0?!1:b,d===void 0?!1:d)};function Ot(){this.ka=this.ka;this.V=this.V}Ot.prototype.ka=!1;Ot.prototype.dispose=function(){this.ka||(this.ka=!0,this.R())};Ot.prototype[Symbol.dispose]=function(){this.dispose()};Ot.prototype.addOnDisposeCallback=function(a,b){this.ka?b!==void 0?a.call(b):a():(this.V||(this.V=[]),b&&(a=a.bind(b)),this.V.push(a))};Ot.prototype.R=function(){if(this.V)for(;this.V.length;)this.V.shift()()};function Pt(a){a.addtlConsent===void 0||uf(a.addtlConsent)||(a.addtlConsent=void 0);a.gdprApplies===void 0||vf(a.gdprApplies)||(a.gdprApplies=void 0);return a.tcString!==void 0&&!uf(a.tcString)||a.listenerId!==void 0&&!tf(a.listenerId)?2:a.cmpStatus&&a.cmpStatus!=="error"?0:3}var Qt=function(a,b){b=b===void 0?{}:b;Ot.call(this);this.H=null;this.la={};this.Aa=0;this.ba=null;this.K=a;var c;this.timeoutMs=(c=b.timeoutMs)!=null?c:500;var d;this.xj=(d=b.xj)!=null?d:!1};wa(Qt,Ot);
 Qt.prototype.R=function(){this.la={};this.ba&&(Kt(this.K,"message",this.ba),delete this.ba);delete this.la;delete this.K;delete this.H;Ot.prototype.R.call(this)};var St=function(a){return typeof a.K.__tcfapi==="function"||Rt(a)!=null};
 Qt.prototype.addEventListener=function(a){var b=this,c={internalBlockOnErrors:this.xj},d=aq(function(){a(c)}),e=0;this.timeoutMs!==-1&&(e=setTimeout(function(){c.tcString="tcunavailable";c.internalErrorState=1;d()},this.timeoutMs));var f=function(g,h){clearTimeout(e);g?(c=g,c.internalErrorState=Pt(c),c.internalBlockOnErrors=b.xj,h&&c.internalErrorState===0||(c.tcString="tcunavailable",h||(c.internalErrorState=3))):(c.tcString="tcunavailable",c.internalErrorState=3);a(c)};try{Tt(this,"addEventListener",
 f)}catch(g){c.tcString="tcunavailable",c.internalErrorState=3,e&&(clearTimeout(e),e=0),d()}};Qt.prototype.removeEventListener=function(a){a&&a.listenerId&&Tt(this,"removeEventListener",null,a.listenerId)};
 var Vt=function(a,b,c){var d;d=d===void 0?"755":d;var e;a:{if(a.publisher&&a.publisher.restrictions){var f=a.publisher.restrictions[b];if(f!==void 0){e=f[d===void 0?"755":d];break a}}e=void 0}var g=e;if(g===0)return!1;var h=c;c===2?(h=0,g===2&&(h=1)):c===3&&(h=1,g===1&&(h=0));var k;if(h===0)if(a.purpose&&a.vendor){var m=Ut(a.vendor.consents,d===void 0?"755":d);k=m&&b==="1"&&a.purposeOneTreatment&&a.publisherCC==="CH"?!0:m&&Ut(a.purpose.consents,b)}else k=!0;else k=h===1?a.purpose&&a.vendor?Ut(a.purpose.legitimateInterests,
 b)&&Ut(a.vendor.legitimateInterests,d===void 0?"755":d):!0:!0;return k},Ut=function(a,b){return!(!a||!a[b])},Tt=function(a,b,c,d){c||(c=function(){});var e=a.K;if(typeof e.__tcfapi==="function"){var f=e.__tcfapi;f(b,2,c,d)}else if(Rt(a)){Wt(a);var g=++a.Aa;a.la[g]=c;if(a.H){var h={};a.H.postMessage((h.__tcfapiCall={command:b,version:2,callId:g,parameter:d},h),"*")}}else c({},!1)},Rt=function(a){if(a.H)return a.H;a.H=gq(a.K,"__tcfapiLocator");return a.H},Wt=function(a){if(!a.ba){var b=function(c){if(c.source===
-a.H)try{v
+a.H)try{var d;d=(uf(c.data)?JSON.parse(c.data):c.data).__tcfapiReturn;a.la[d.callId](d.returnValue,d.success)}catch(e){}};a.ba=b;Jt(a.K,"message",b)}},Xt=function(a){if(a.gdprApplies===!1)return!0;a.internalErrorState===void 0&&(a.internalErrorState=Pt(a));return a.cmpStatus==="error"||a.internalErrorState!==0?a.internalBlockOnErrors?(Mt({e:String(a.internalErrorState)}),!1):!0:a.cmpStatus!=="loaded"||a.ev
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=192472
-.tcString="tcunavailable",c.internalErrorState=3);a(c)};try{Tt(this,"addEventListener",
+timeoutMs));var f=function(g,h){clearTimeout(e);g?(c=g,c.internalErrorState=Pt(c),c.internalBlockOnErrors=b.xj,h&&c.internalErrorState===0||(c.tcString="tcunavailable",h||(c.internalErrorState=3))):(c.tcString="tcunavailable",c.internalErrorState=3);a(c)};try{Tt(this,"addEventListener",
 f)}catch(g){c.tcString="tcunavailable",c.internalErrorState=3,e&&(clearTimeout(e),e=0),d()}};Qt.prototype.removeEventListener=function(a){a&&a.listenerId&&Tt(this,"removeEventListener",null,a.listenerId)};
 var Vt=function(a,b,c){var d;d=d===void 0?"755":d;var e;a:{if(a.publisher&&a.publisher.restrictions){var f=a.publisher.restrictions[b];if(f!==void 0){e=f[d===void 0?"755":d];break a}}e=void 0}var g=e;if(g===0)return!1;var h=c;c===2?(h=0,g===2&&(h=1)):c===3&&(h=1,g===1&&(h=0));var k;if(h===0)if(a.purpose&&a.vendor){var m=Ut(a.vendor.consents,d===void 0?"755":d);k=m&&b==="1"&&a.purposeOneTreatment&&a.publisherCC==="CH"?!0:m&&Ut(a.purpose.consents,b)}else k=!0;else k=h===1?a.purpose&&a.vendor?Ut(a.purpose.legitimateInterests,
 b)&&Ut(a.vendor.legitimateInterests,d===void 0?"755":d):!0:!0;return k},Ut=function(a,b){return!(!a||!a[b])},Tt=function(a,b,c,d){c||(c=function(){});var e=a.K;if(typeof e.__tcfapi==="function"){var f=e.__tcfapi;f(b,2,c,d)}else if(Rt(a)){Wt(a);var g=++a.Aa;a.la[g]=c;if(a.H){var h={};a.H.postMessage((h.__tcfapiCall={command:b,version:2,callId:g,parameter:d},h),"*")}}else c({},!1)},Rt=function(a){if(a.H)return a.H;a.H=gq(a.K,"__tcfapiLocator");return a.H},Wt=function(a){if(!a.ba){var b=function(c){if(c.source===
 a.H)try{var d;d=(uf(c.data)?JSON.parse(c.data):c.data).__tcfapiReturn;a.la[d.callId](d.returnValue,d.success)}catch(e){}};a.ba=b;Jt(a.K,"message",b)}},Xt=function(a){if(a.gdprApplies===!1)return!0;a.internalErrorState===void 0&&(a.internalErrorState=Pt(a));return a.cmpStatus==="error"||a.internalErrorState!==0?a.internalBlockOnErrors?(Mt({e:String(a.internalErrorState)}),!1):!0:a.cmpStatus!=="loaded"||a.eventStatus!=="tcloaded"&&a.eventStatus!=="useractioncomplete"?!1:!0};var Yt={1:0,3:0,4:0,7:3,9:3,10:3};function Zt(){return Gn("tcf",function(){return{}})}var $t=function(){return new Qt(A,{timeoutMs:-1})};
 function au(){var a=Zt(),b=$t();St(b)&&!bu()&&!cu()&&S(124);if(!a.active&&St(b)){bu()&&(a.active=!0,a.purposes={},a.cmpId=0,a.tcfPolicyVersion=0,Kl().active=!0,a.tcString="tcunavailable");Lo();try{b.addEventListener(function(c){if(c.internalErrorState!==0)du(a),Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0;else if(a.gdprApplies=c.gdprApplies,a.cmpId=c.cmpId,a.enableAdvertiserConsentMode=c.enableAdvertiserConsentMode,cu()&&(a.active=!0),!eu(c)||bu()||cu()){a.tcfPolicyVersion=c.tcfPolicyVersion;var d;if(c.gdprApplies===
-!1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.id
+!1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.idpcApplies||uf(m.tcString)&&m.tcString.length)?Vt(m,"1",0):!0:!1;g["1"]=k}else g[h]=Vt(c,h,Yt[h]);d=g}if(d){a.tcString=c.tcString||"tcempty";a.purposes=d;var q={},r=(q[I.D.ma]=
+a.purposes["1"]?"granted":"denied",q);a.gdprApplies!==!0?(Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0):(r[I.D.Za]=a.purposes["3"]&&a.purposes["4"]?"granted":"denied",typeof a.tcfPolicyVersion==="number"&&a.tcfPolicyVersion>=4?
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=192503
-ernalErrorState=3);a(c)};try{Tt(this,"addEventListener",
+{clearTimeout(e);g?(c=g,c.internalErrorState=Pt(c),c.internalBlockOnErrors=b.xj,h&&c.internalErrorState===0||(c.tcString="tcunavailable",h||(c.internalErrorState=3))):(c.tcString="tcunavailable",c.internalErrorState=3);a(c)};try{Tt(this,"addEventListener",
 f)}catch(g){c.tcString="tcunavailable",c.internalErrorState=3,e&&(clearTimeout(e),e=0),d()}};Qt.prototype.removeEventListener=function(a){a&&a.listenerId&&Tt(this,"removeEventListener",null,a.listenerId)};
 var Vt=function(a,b,c){var d;d=d===void 0?"755":d;var e;a:{if(a.publisher&&a.publisher.restrictions){var f=a.publisher.restrictions[b];if(f!==void 0){e=f[d===void 0?"755":d];break a}}e=void 0}var g=e;if(g===0)return!1;var h=c;c===2?(h=0,g===2&&(h=1)):c===3&&(h=1,g===1&&(h=0));var k;if(h===0)if(a.purpose&&a.vendor){var m=Ut(a.vendor.consents,d===void 0?"755":d);k=m&&b==="1"&&a.purposeOneTreatment&&a.publisherCC==="CH"?!0:m&&Ut(a.purpose.consents,b)}else k=!0;else k=h===1?a.purpose&&a.vendor?Ut(a.purpose.legitimateInterests,
 b)&&Ut(a.vendor.legitimateInterests,d===void 0?"755":d):!0:!0;return k},Ut=function(a,b){return!(!a||!a[b])},Tt=function(a,b,c,d){c||(c=function(){});var e=a.K;if(typeof e.__tcfapi==="function"){var f=e.__tcfapi;f(b,2,c,d)}else if(Rt(a)){Wt(a);var g=++a.Aa;a.la[g]=c;if(a.H){var h={};a.H.postMessage((h.__tcfapiCall={command:b,version:2,callId:g,parameter:d},h),"*")}}else c({},!1)},Rt=function(a){if(a.H)return a.H;a.H=gq(a.K,"__tcfapiLocator");return a.H},Wt=function(a){if(!a.ba){var b=function(c){if(c.source===
 a.H)try{var d;d=(uf(c.data)?JSON.parse(c.data):c.data).__tcfapiReturn;a.la[d.callId](d.returnValue,d.success)}catch(e){}};a.ba=b;Jt(a.K,"message",b)}},Xt=function(a){if(a.gdprApplies===!1)return!0;a.internalErrorState===void 0&&(a.internalErrorState=Pt(a));return a.cmpStatus==="error"||a.internalErrorState!==0?a.internalBlockOnErrors?(Mt({e:String(a.internalErrorState)}),!1):!0:a.cmpStatus!=="loaded"||a.eventStatus!=="tcloaded"&&a.eventStatus!=="useractioncomplete"?!1:!0};var Yt={1:0,3:0,4:0,7:3,9:3,10:3};function Zt(){return Gn("tcf",function(){return{}})}var $t=function(){return new Qt(A,{timeoutMs:-1})};
 function au(){var a=Zt(),b=$t();St(b)&&!bu()&&!cu()&&S(124);if(!a.active&&St(b)){bu()&&(a.active=!0,a.purposes={},a.cmpId=0,a.tcfPolicyVersion=0,Kl().active=!0,a.tcString="tcunavailable");Lo();try{b.addEventListener(function(c){if(c.internalErrorState!==0)du(a),Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0;else if(a.gdprApplies=c.gdprApplies,a.cmpId=c.cmpId,a.enableAdvertiserConsentMode=c.enableAdvertiserConsentMode,cu()&&(a.active=!0),!eu(c)||bu()||cu()){a.tcfPolicyVersion=c.tcfPolicyVersion;var d;if(c.gdprApplies===
-!1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.idpcApplies||uf(m.tcString)&&m.tc
+!1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.idpcApplies||uf(m.tcString)&&m.tcString.length)?Vt(m,"1",0):!0:!1;g["1"]=k}else g[h]=Vt(c,h,Yt[h]);d=g}if(d){a.tcString=c.tcString||"tcempty";a.purposes=d;var q={},r=(q[I.D.ma]=
+a.purposes["1"]?"granted":"denied",q);a.gdprApplies!==!0?(Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0):(r[I.D.Za]=a.purposes["3"]&&a.purposes["4"]?"granted":"denied",typeof a.tcfPolicyVersion==="number"&&a.tcfPolicyVersion>=4?r[I.D.oa]=a.purposes["1"]&&a.pu
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=192603
-ternalErrorState=3,e&&(clearTimeout(e),e=0),d()}};Qt.prototype.removeEventListener=function(a){a&&a.listenerId&&Tt(this,"removeEventListener",null,a.listenerId)};
+ate===0||(c.tcString="tcunavailable",h||(c.internalErrorState=3))):(c.tcString="tcunavailable",c.internalErrorState=3);a(c)};try{Tt(this,"addEventListener",
+f)}catch(g){c.tcString="tcunavailable",c.internalErrorState=3,e&&(clearTimeout(e),e=0),d()}};Qt.prototype.removeEventListener=function(a){a&&a.listenerId&&Tt(this,"removeEventListener",null,a.listenerId)};
 var Vt=function(a,b,c){var d;d=d===void 0?"755":d;var e;a:{if(a.publisher&&a.publisher.restrictions){var f=a.publisher.restrictions[b];if(f!==void 0){e=f[d===void 0?"755":d];break a}}e=void 0}var g=e;if(g===0)return!1;var h=c;c===2?(h=0,g===2&&(h=1)):c===3&&(h=1,g===1&&(h=0));var k;if(h===0)if(a.purpose&&a.vendor){var m=Ut(a.vendor.consents,d===void 0?"755":d);k=m&&b==="1"&&a.purposeOneTreatment&&a.publisherCC==="CH"?!0:m&&Ut(a.purpose.consents,b)}else k=!0;else k=h===1?a.purpose&&a.vendor?Ut(a.purpose.legitimateInterests,
 b)&&Ut(a.vendor.legitimateInterests,d===void 0?"755":d):!0:!0;return k},Ut=function(a,b){return!(!a||!a[b])},Tt=function(a,b,c,d){c||(c=function(){});var e=a.K;if(typeof e.__tcfapi==="function"){var f=e.__tcfapi;f(b,2,c,d)}else if(Rt(a)){Wt(a);var g=++a.Aa;a.la[g]=c;if(a.H){var h={};a.H.postMessage((h.__tcfapiCall={command:b,version:2,callId:g,parameter:d},h),"*")}}else c({},!1)},Rt=function(a){if(a.H)return a.H;a.H=gq(a.K,"__tcfapiLocator");return a.H},Wt=function(a){if(!a.ba){var b=function(c){if(c.source===
 a.H)try{var d;d=(uf(c.data)?JSON.parse(c.data):c.data).__tcfapiReturn;a.la[d.callId](d.returnValue,d.success)}catch(e){}};a.ba=b;Jt(a.K,"message",b)}},Xt=function(a){if(a.gdprApplies===!1)return!0;a.internalErrorState===void 0&&(a.internalErrorState=Pt(a));return a.cmpStatus==="error"||a.internalErrorState!==0?a.internalBlockOnErrors?(Mt({e:String(a.internalErrorState)}),!1):!0:a.cmpStatus!=="loaded"||a.eventStatus!=="tcloaded"&&a.eventStatus!=="useractioncomplete"?!1:!0};var Yt={1:0,3:0,4:0,7:3,9:3,10:3};function Zt(){return Gn("tcf",function(){return{}})}var $t=function(){return new Qt(A,{timeoutMs:-1})};
 function au(){var a=Zt(),b=$t();St(b)&&!bu()&&!cu()&&S(124);if(!a.active&&St(b)){bu()&&(a.active=!0,a.purposes={},a.cmpId=0,a.tcfPolicyVersion=0,Kl().active=!0,a.tcString="tcunavailable");Lo();try{b.addEventListener(function(c){if(c.internalErrorState!==0)du(a),Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0;else if(a.gdprApplies=c.gdprApplies,a.cmpId=c.cmpId,a.enableAdvertiserConsentMode=c.enableAdvertiserConsentMode,cu()&&(a.active=!0),!eu(c)||bu()||cu()){a.tcfPolicyVersion=c.tcfPolicyVersion;var d;if(c.gdprApplies===
-!1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.idpcApplies||uf(m.tcString)&&m.tcString.length)?Vt(m,"1",0):!0:!1;g["1"]=k}else g[h]=Vt(c,h,Yt[h]);d=g}if(d){a.tcString=c.tcString||"
+!1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.idpcApplies||uf(m.tcString)&&m.tcString.length)?Vt(m,"1",0):!0:!1;g["1"]=k}else g[h]=Vt(c,h,Yt[h]);d=g}if(d){a.tcString=c.tcString||"tcempty";a.purposes=d;var q={},r=(q[I.D.ma]=
+a.purposes["1"]?"granted":"denied",q);a.gdprApplies!==!0?(Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0):(r[I.D.Za]=a.purposes["3"]&&a.purposes["4"]?"granted":"denied",typeof a.tcfPolicyVersion==="number"&&a.tcfPolicyVersion>=4?r[I.D.oa]=a.purposes["1"]&&a.purposes["7"]?"granted":"denied":Mo([I.D.oa]),Do(r,{eventId:0},{gdprApplies:a?a.gdprApplies:void 0,tcS
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=192728
-veEventListener",null,a.listenerId)};
+try{Tt(this,"addEventListener",
+f)}catch(g){c.tcString="tcunavailable",c.internalErrorState=3,e&&(clearTimeout(e),e=0),d()}};Qt.prototype.removeEventListener=function(a){a&&a.listenerId&&Tt(this,"removeEventListener",null,a.listenerId)};
 var Vt=function(a,b,c){var d;d=d===void 0?"755":d;var e;a:{if(a.publisher&&a.publisher.restrictions){var f=a.publisher.restrictions[b];if(f!==void 0){e=f[d===void 0?"755":d];break a}}e=void 0}var g=e;if(g===0)return!1;var h=c;c===2?(h=0,g===2&&(h=1)):c===3&&(h=1,g===1&&(h=0));var k;if(h===0)if(a.purpose&&a.vendor){var m=Ut(a.vendor.consents,d===void 0?"755":d);k=m&&b==="1"&&a.purposeOneTreatment&&a.publisherCC==="CH"?!0:m&&Ut(a.purpose.consents,b)}else k=!0;else k=h===1?a.purpose&&a.vendor?Ut(a.purpose.legitimateInterests,
 b)&&Ut(a.vendor.legitimateInterests,d===void 0?"755":d):!0:!0;return k},Ut=function(a,b){return!(!a||!a[b])},Tt=function(a,b,c,d){c||(c=function(){});var e=a.K;if(typeof e.__tcfapi==="function"){var f=e.__tcfapi;f(b,2,c,d)}else if(Rt(a)){Wt(a);var g=++a.Aa;a.la[g]=c;if(a.H){var h={};a.H.postMessage((h.__tcfapiCall={command:b,version:2,callId:g,parameter:d},h),"*")}}else c({},!1)},Rt=function(a){if(a.H)return a.H;a.H=gq(a.K,"__tcfapiLocator");return a.H},Wt=function(a){if(!a.ba){var b=function(c){if(c.source===
 a.H)try{var d;d=(uf(c.data)?JSON.parse(c.data):c.data).__tcfapiReturn;a.la[d.callId](d.returnValue,d.success)}catch(e){}};a.ba=b;Jt(a.K,"message",b)}},Xt=function(a){if(a.gdprApplies===!1)return!0;a.internalErrorState===void 0&&(a.internalErrorState=Pt(a));return a.cmpStatus==="error"||a.internalErrorState!==0?a.internalBlockOnErrors?(Mt({e:String(a.internalErrorState)}),!1):!0:a.cmpStatus!=="loaded"||a.eventStatus!=="tcloaded"&&a.eventStatus!=="useractioncomplete"?!1:!0};var Yt={1:0,3:0,4:0,7:3,9:3,10:3};function Zt(){return Gn("tcf",function(){return{}})}var $t=function(){return new Qt(A,{timeoutMs:-1})};
 function au(){var a=Zt(),b=$t();St(b)&&!bu()&&!cu()&&S(124);if(!a.active&&St(b)){bu()&&(a.active=!0,a.purposes={},a.cmpId=0,a.tcfPolicyVersion=0,Kl().active=!0,a.tcString="tcunavailable");Lo();try{b.addEventListener(function(c){if(c.internalErrorState!==0)du(a),Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0;else if(a.gdprApplies=c.gdprApplies,a.cmpId=c.cmpId,a.enableAdvertiserConsentMode=c.enableAdvertiserConsentMode,cu()&&(a.active=!0),!eu(c)||bu()||cu()){a.tcfPolicyVersion=c.tcfPolicyVersion;var d;if(c.gdprApplies===
 !1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.idpcApplies||uf(m.tcString)&&m.tcString.length)?Vt(m,"1",0):!0:!1;g["1"]=k}else g[h]=Vt(c,h,Yt[h]);d=g}if(d){a.tcString=c.tcString||"tcempty";a.purposes=d;var q={},r=(q[I.D.ma]=
-a.purposes["1"]?"granted":"denied",q);a.gdprApplies!==!0?(Mo([I.D.ma,I.D.Za,I.D.
+a.purposes["1"]?"granted":"denied",q);a.gdprApplies!==!0?(Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0):(r[I.D.Za]=a.purposes["3"]&&a.purposes["4"]?"granted":"denied",typeof a.tcfPolicyVersion==="number"&&a.tcfPolicyVersion>=4?r[I.D.oa]=a.purposes["1"]&&a.purposes["7"]?"granted":"denied":Mo([I.D.oa]),Do(r,{eventId:0},{gdprApplies:a?a.gdprApplies:void 0,tcString:fu()||""}))}}else Mo([I.D.ma,I.D.Za,I.D.oa])})}catch(c){du(a),Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0}}}
+function du(
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=192871
-f=a.publisher.restrictions[b];if(f!==void 0){e=f[d===void 0?"755":d];break a}}e=void 0}var g=e;if(g===0)return!1;var h=c;c===2?(h=0,g===2&&(h=1)):c===3&&(h=1,g===1&&(h=0));var k;if(h===0)if(a.purpose&&a.vendor){var m=Ut(a.vendor.consents,d===void 0?"755":d);k=m&&b==="1"&&a.purposeOneTreatment&&a.publisherCC==="CH"?!0:m&&Ut(a.purpose.consents,b)}else k=!0;else k=h===1?a.purpose&&a.vendor?Ut(a.purpose.legitimateInterests,
+eEventListener=function(a){a&&a.listenerId&&Tt(this,"removeEventListener",null,a.listenerId)};
+var Vt=function(a,b,c){var d;d=d===void 0?"755":d;var e;a:{if(a.publisher&&a.publisher.restrictions){var f=a.publisher.restrictions[b];if(f!==void 0){e=f[d===void 0?"755":d];break a}}e=void 0}var g=e;if(g===0)return!1;var h=c;c===2?(h=0,g===2&&(h=1)):c===3&&(h=1,g===1&&(h=0));var k;if(h===0)if(a.purpose&&a.vendor){var m=Ut(a.vendor.consents,d===void 0?"755":d);k=m&&b==="1"&&a.purposeOneTreatment&&a.publisherCC==="CH"?!0:m&&Ut(a.purpose.consents,b)}else k=!0;else k=h===1?a.purpose&&a.vendor?Ut(a.purpose.legitimateInterests,
 b)&&Ut(a.vendor.legitimateInterests,d===void 0?"755":d):!0:!0;return k},Ut=function(a,b){return!(!a||!a[b])},Tt=function(a,b,c,d){c||(c=function(){});var e=a.K;if(typeof e.__tcfapi==="function"){var f=e.__tcfapi;f(b,2,c,d)}else if(Rt(a)){Wt(a);var g=++a.Aa;a.la[g]=c;if(a.H){var h={};a.H.postMessage((h.__tcfapiCall={command:b,version:2,callId:g,parameter:d},h),"*")}}else c({},!1)},Rt=function(a){if(a.H)return a.H;a.H=gq(a.K,"__tcfapiLocator");return a.H},Wt=function(a){if(!a.ba){var b=function(c){if(c.source===
 a.H)try{var d;d=(uf(c.data)?JSON.parse(c.data):c.data).__tcfapiReturn;a.la[d.callId](d.returnValue,d.success)}catch(e){}};a.ba=b;Jt(a.K,"message",b)}},Xt=function(a){if(a.gdprApplies===!1)return!0;a.internalErrorState===void 0&&(a.internalErrorState=Pt(a));return a.cmpStatus==="error"||a.internalErrorState!==0?a.internalBlockOnErrors?(Mt({e:String(a.internalErrorState)}),!1):!0:a.cmpStatus!=="loaded"||a.eventStatus!=="tcloaded"&&a.eventStatus!=="useractioncomplete"?!1:!0};var Yt={1:0,3:0,4:0,7:3,9:3,10:3};function Zt(){return Gn("tcf",function(){return{}})}var $t=function(){return new Qt(A,{timeoutMs:-1})};
 function au(){var a=Zt(),b=$t();St(b)&&!bu()&&!cu()&&S(124);if(!a.active&&St(b)){bu()&&(a.active=!0,a.purposes={},a.cmpId=0,a.tcfPolicyVersion=0,Kl().active=!0,a.tcString="tcunavailable");Lo();try{b.addEventListener(function(c){if(c.internalErrorState!==0)du(a),Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0;else if(a.gdprApplies=c.gdprApplies,a.cmpId=c.cmpId,a.enableAdvertiserConsentMode=c.enableAdvertiserConsentMode,cu()&&(a.active=!0),!eu(c)||bu()||cu()){a.tcfPolicyVersion=c.tcfPolicyVersion;var d;if(c.gdprApplies===
 !1){var e={},f;for(f in Yt)Yt.hasOwnProperty(f)&&(e[f]=!0);d=e;b.removeEventListener(c)}else if(eu(c)){var g={},h;for(h in Yt)if(Yt.hasOwnProperty(h))if(h==="1"){var k,m=c,p={Hs:!0};p=p===void 0?{}:p;k=Xt(m)?m.gdprApplies===!1?!0:m.tcString==="tcunavailable"?!p.idpcApplies:(p.idpcApplies||m.gdprApplies!==void 0||p.Hs)&&(p.idpcApplies||uf(m.tcString)&&m.tcString.length)?Vt(m,"1",0):!0:!1;g["1"]=k}else g[h]=Vt(c,h,Yt[h]);d=g}if(d){a.tcString=c.tcString||"tcempty";a.purposes=d;var q={},r=(q[I.D.ma]=
-a.purposes["1"]?"granted":"denied",q);a.gdprApplies!==!0?(Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0):(r[I.D.Za]=a.purposes["3"]&&a.purposes["4"]?"granted":"denied",typeof a.tcfPolicyVersion==="number"&&a.tcfPolicyVersion>=4
+a.purposes["1"]?"granted":"denied",q);a.gdprApplies!==!0?(Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0):(r[I.D.Za]=a.purposes["3"]&&a.purposes["4"]?"granted":"denied",typeof a.tcfPolicyVersion==="number"&&a.tcfPolicyVersion>=4?r[I.D.oa]=a.purposes["1"]&&a.purposes["7"]?"granted":"denied":Mo([I.D.oa]),Do(r,{eventId:0},{gdprApplies:a?a.gdprApplies:void 0,tcString:fu()||""}))}}else Mo([I.D.ma,I.D.Za,I.D.oa])})}catch(c){du(a),Mo([I.D.ma,I.D.Za,I.D.oa]),Kl().active=!0}}}
+function du(a){a.type="e";a.tcString="tcunavailable"}function eu(a){return a.eventStatus==="tcloaded"||a.eventStatus==="useractioncomplete"||a.eventStatus=
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=244030
-status};(c==null?void 0:c.delay)!==void 0&&(e.delay=c.delay);return e}return IB()}}function MB(a,b){var c=Gn("gth",function(){return{}});c.s=a;b!==void 0&&(c.dl=b)}
+id 0?!1:a;if(Pj()){var b=Hr("gtg_load_status"),c=b.value,d=a&&Bb(c==null?void 0:c.expires)&&(c==null?void 0:c.expires)<Date.now()+36E5;if(b.error===0&&Bb(c==null?void 0:c.status)&&!d){var e={status:c.status};(c==null?void 0:c.delay)!==void 0&&(e.delay=c.delay);return e}return IB()}}function MB(a,b){var c=Gn("gth",function(){return{}});c.s=a;b!==void 0&&(c.dl=b)}
 function IB(){var a=In("gth");if(a!=null&&a.s){var b={status:a.s};a.dl!==void 0&&(b.delay=a.dl);return b}}function NB(){var a;((a=IB())==null?void 0:a.status)===1&&HB(3)}function OB(){if(KB()){var a=Date.now();Jn("gth",{l:function(){HB(2,Date.now()-a)},s:1});var b=G(5),c=Tb(b,"GTM-")?"/gtm.js":"/gtag/js",d="https://"+G(3)+c+"?id="+b+"&gtg_health=1";Vc(d,NB,NB);A.setTimeout(NB,FB)}};function PB(){zB().addListener("gtm.init",function(a,b){Yi(14,!0);P(556)&&Pj()&&!Hf(45)&&(am.H[Jl.ja.fc]=Il.Pa.Gh);if(Pj()){var c;c=gm(Jl.ja.fc);bm(c)?dm(c,OB):OB()}om(!1,!0);b()})};function QB(){if(In("pscdl")!==void 0)Cm(ym.fa.li)===void 0&&Bm(ym.fa.li,In("pscdl"));else{var a=function(c){Jn("pscdl",c);Bm(ym.fa.li,c)},b=function(){a("error")};try{Ic.cookieDeprecationLabel?(a("pending"),Ic.cookieDeprecationLabel.getValue().then(a).catch(b)):a("noapi")}catch(c){b(c)}}};var SB=function(){var a=this;this.ready=!1;this.H=0;this.listeners=[];var b=A;if(B.readyState==="interactive"&&!B.createEventObject||B.readyState==="complete")this.onReady();else{$c(B,"DOMContentLoaded",function(d){return void a.onReady(d)});$c(B,"readystatechange",function(d){return void a.onReady(d)});if(B.createEventObject&&B.documentElement.doScroll){var c=!0;try{c=!b.frameElement}catch(d){}c&&RB(this)}$c(b,"load",function(d){return void a.onReady(d)})}};SB.prototype.isReady=function(){return this.ready};
 SB.prototype.onReady=function(a){if(!this.ready){var b=B.createEventObject,c=B.readyState==="complete",d=B.readyState==="interactive";if(!a||a.type!=="readystatechange"||c||!b&&d){this.ready=!0;for(var e=0;e<this.listeners.length;e++)bd(this.listeners[e])}this.listeners.push=function(){for(var f=Pa.apply(0,arguments),g=0;g<f.length;g++)bd(f[g]);return 0}}};
 var RB=function(a){if(!a.ready&&a.H<140){a.H++;try{var b,c;(c=(b=B.documentElement).doScroll)==null||c.call(b,"left");a.onReady()}catch(d){A.setTimeout(function(){return void RB(a)},50)}}},TB;function UB(){TB||(TB=new SB)}function VB(){UB();var a;return(a=TB)==null?void 0:a.isReady()}function WB(a){UB();var b;(b=TB)!=null&&(b.ready?bd(a):b.listeners.push(a))};var YB=function(a,b,c){var d=XB,e;if((e=d.H)==null||!e.Bs){var f=Object.keys(b).length>0?2:1,g,h,k=(c==null?void 0:(h=c.originatingEntity)==null?void 0:h.originContainerId)||"";g=k?Tb(k,"GTM-")?3:2:1;if(!a)d.H={type:f,source:g,params:b};else if(d.H){S(184);var m=!1;d.H.source===g||d.H.source!==3&&g!==3||(gj("idcs","1"),m=!0);d.H.type!==2&&f!==2||S(186);var p;if(p=d.H.type===2&&f===2)a:{var q=d.H.params,r=Object.keys(q),t=Object.keys(b);if(r.length!==t.length)p=!0;else{for(var u=n(r),v=u.next();!v.done;v=
-u.next()){var x=v.value;if(!b.
+u.next()){var x=v.value;if(!b.hasOwnProperty(x)||q[x]!==b[x]){p=!0;break a}}p=!1}}p&&(gj("idcc","1"),m=!0);m&&(om(),d.H.Bs=!0)}}},XB=new function(){this.H=void 0};var $B=function(a){var b=ZB;(!hk.K||Tb(G(5),"GTM-")?0:a===void 0)&&b.H===0&&(gj("mcc","1"),b.H=1)},ZB=new function(){var a=this;this.H=0;gj("ncc",function(){if(Hf(45)&&a.H!==2)return"1"})};var aC={Z:{xk:1,ij:2,sk:3,Uk:4,uk:5,Bd:6,Tk:7,Jq:8,hn:9,vk:10,wk:11,Bh:12,tm:1
 
 =====
 
 FILE=RR_script_11.txt TERM=api OFFSET=330917
-?U(a,J.J.fi)&&a.accept():a.isAborted=!0}else a.isAborted=!0}};var aN=function(a,b){$M.R(a,b)},bN=function(){this.H={}};bN.prototype.R=function(a,b){var c=this.H[a];c||(c=this.H[a]=[]);c.push(b)};bN.prototype.K=function(a){var b=this.H[a.target.destinationId];if(!a.isAborted&&b)for(var c=GI(a),d=0;d<b.length;++d){try{b[d](c)}catch(e){a.isAborted=!0}if(a.isAborted)break}};var $M=new bN;function fN(){return Gn("dedupe_gclid",function(){return sv()})};var gN=/^(www\.)?google(\.com?)?(\.[a-z]{2}t?)?$/,hN=/^www.googleadservices.com$/;function iN(a){a||(a=jN());return a.su?!1:a.Ts||a.Us||a.Ys||a.Vs||a.Ag||a.Oh||a.Gs||a.Qh==="aw.ds"||P(235)&&a.Qh==="aw.dv"||a.Ls?!0:!1}
+!1),d||(a.isAborted=!0));if(a.canBeAccepted()){var g=ol().indexOf(a.target.destinationId)>=0,h=!1;if(!g){var k,m=(k=hl(a.target.destinationId))==null?void 0:k.canonicalContainerId;m&&(h=pl()===m)}g||h?U(a,J.J.fi)&&a.accept():a.isAborted=!0}else a.isAborted=!0}};var aN=function(a,b){$M.R(a,b)},bN=function(){this.H={}};bN.prototype.R=function(a,b){var c=this.H[a];c||(c=this.H[a]=[]);c.push(b)};bN.prototype.K=function(a){var b=this.H[a.target.destinationId];if(!a.isAborted&&b)for(var c=GI(a),d=0;d<b.length;++d){try{b[d](c)}catch(e){a.isAborted=!0}if(a.isAborted)break}};var $M=new bN;function fN(){return Gn("dedupe_gclid",function(){return sv()})};var gN=/^(www\.)?google(\.com?)?(\.[a-z]{2}t?)?$/,hN=/^www.googleadservices.com$/;function iN(a){a||(a=jN());return a.su?!1:a.Ts||a.Us||a.Ys||a.Vs||a.Ag||a.Oh||a.Gs||a.Qh==="aw.ds"||P(235)&&a.Qh==="aw.dv"||a.Ls?!0:!1}
 function jN(){var a={},b=nr(!0);a.su=!!b._up;var c=As(),d=wt();a.Ts=c.aw!==void 0;a.Us=c.dc!==void 0;a.Ys=c.wbraid!==void 0;a.Vs=c.gbraid!==void 0;a.Qh=typeof c.gclsrc==="string"?c.gclsrc:void 0;a.Ag=d.Ag;a.Oh=d.Oh;var e=B.referrer?Aj(Gj(B.referrer),"host"):"";a.Ls=gN.test(e);a.Gs=hN.test(e);return a};function kN(){var a=A.__uspapi;if(zb(a)){var b="";try{a("getUSPData",1,function(c,d){if(d&&c){var e=c.uspString;e&&RegExp("^[\\da-zA-Z-]{1,20}$").test(e)&&(b=e)}})}catch(c){}return b}};function oN(a){if(hk.K)if(rm.H=!0,a.eventName===I.D.ya)wm(a.M,a.target.id);else{U(a,J.J.Tc)||(rm.K[a.target.id]=!0);var b=U(a,J.J.Pb);$B(b)}};function rN(a,b){return Er("gsid_dc",{value:{joinId:a,lastJoinedTimeMs:b},expires:b+3E5})===0?!0:!1};var uN={wq:{zu:"cd",Xo:"ce",Au:"cf",Bu:"cpf",Cu:"cu"}};function wN(a,b){b=b===void 0?!0:b;var c=wb(rb.GTAG_EVENT_FEATURE_CHANNEL||[]);c&&(X(a,I.D.Rf,c),b&&ub())};
 var hO=function(a,b){if(!b.isGtmEvent){var c=R(b,I.D.Pf),d=R(b,I.D.Of),e=R(b,c);if(e===void 0){var f=void 0;eO.hasOwnProperty(c)?f=eO[c]:fO.hasOwnProperty(c)&&(f=fO[c]);f===1&&(f=gO(c));Ab(f)?TA()(function(){var g,h,k,m=(k=(g=TA())==null?void 0:(h=g.getByName)==null?void 0:h.call(g,a))==null?void 0:k.get(f);d(m)}):d(void 0)}else d(e)}},iO=function(a,b){var c=a[I.D.gd],d=b+".",e=a[I.D.Ca]||"",f=c===void 0?!!a.use_anchor:c==="fragment",g=!!a[I.D.yc];e=String(e).replace(/\s+/g,"").split(",");var h=TA();
 h(d+"require","linker");h(d+"linker:autoLink",e,f,g)},lO=function(a,b,c){var d=$i(28,function(){return{}});if(!c.isGtmEvent||!d[a]){var e=!Fo(I.D.wa),f=function(g){var h="gtm"+String(Nn()),k,m=TA(),p=jO(b,"",c),q,r=p.createOnlyFields._useUp;if(c.isGtmEvent||kO(b,p.createOnlyFields)){c.isGtmEvent&&(k=p.createOnlyFields,p.gtmTrackerName&&(k.name=h));m(function(){var u,v=m==null?void 0:(u=m.getByName)==null?void 0:u.call(m,b);v&&(q=v.get("clientId"));if(!c.isGtmEvent){var x;m==null||(x=m.remove)==null||
-x.call(m,b)}});m("create",a,c.isGtmEvent?k:p.createOnlyFields);e&&Fo(I.D.wa)&&(e=!1,m(function(){var u,v,x=(u=TA())==null?void 0:(v=u.getByName)==null?void 0:v.call(u,c.isGtmEvent?h:b);!x||x.get("clientId")==q&&r||(c.isGtmEv
+x.call(m,b)}});m("create",a,c.isGtmEvent?k:p.createOnlyFields);e&&Fo(I.D.wa)&&(e=!1,m(function(){var u,v,x=(u=TA())==null?void 0:(v=u.getByName)==null?void 0:v.call(u,c.isGtmEvent?h:b);!x||x.get("clientId")==q&&r||(c.isGtmEvent?(p.fieldsToSet["&gcu"]="1",p.fieldsToSet["&sst.gcut"]=cn[g]):(p.fieldsToSend["&gcu"]="1",p.fieldsToSend["&sst.gcut"]=
+cn[g]),x.set(p.fieldsToSet),c.isGtmEvent?x.send("pageview"):x.send("pageview",p.fieldsToSend))}));c.isGtmEvent&&m(function(){var u;m==null||(u=m.remove)==null||u.call(m,h)})}};Jo(function(){return void f(I.D.wa)},I.D.wa);Jo(function(){return void f(I.D.ma)},I.D.ma);Jo(function(
