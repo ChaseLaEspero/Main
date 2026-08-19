@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+# Diagnostic run trigger: 2026-08-19
 import asyncio
 import json
 import re
@@ -155,7 +156,6 @@ async def inspect(browser, state: str, start_url: str) -> dict:
         result["errors"].append(f"scripts: {type(exc).__name__}: {exc}")
         result["scripts"] = []
 
-    # Test shared AutoPage-style endpoints against the final origin and start origin.
     origins = []
     for candidate in [page.url, start_url]:
         p = urlparse(candidate)
