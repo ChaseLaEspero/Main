@@ -1,0 +1,1186 @@
+{
+  "AL": {
+    "published": {
+      "status": "success",
+      "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/published?page=1",
+      "content_type": "application/json",
+      "length": 967,
+      "json_keys": [
+        "status",
+        "editions"
+      ],
+      "editions_len": 5,
+      "editions_first": [
+        {
+          "id": 51777,
+          "number": 2867,
+          "edition_type_name": "Diário Oficial do Estado de Alagoas",
+          "suplement": false,
+          "publication_date": "2026-08-19T03:00:00.000000Z",
+          "downloads": 815,
+          "views": 3048
+        },
+        {
+          "id": 51776,
+          "number": 2866,
+          "edition_type_name": "Diário Oficial do Estado de Alagoas",
+          "suplement": false,
+          "publication_date": "2026-08-18T03:00:00.000000Z",
+          "downloads": 1273,
+          "views": 4891
+        }
+      ],
+      "editions_last": [
+        {
+          "id": 51774,
+          "number": 2864,
+          "edition_type_name": "Diário Oficial do Estado de Alagoas",
+          "suplement": false,
+          "publication_date": "2026-08-14T03:00:00.000000Z",
+          "downloads": 2051,
+          "views": 8408
+        },
+        {
+          "id": 51773,
+          "number": 2863,
+          "edition_type_name": "Diário Oficial do Estado de Alagoas",
+          "suplement": false,
+          "publication_date": "2026-08-13T03:00:00.000000Z",
+          "downloads": 1658,
+          "views": 6629
+        }
+      ],
+      "json": {
+        "status": "success",
+        "editions": [
+          {
+            "id": 51777,
+            "number": 2867,
+            "edition_type_name": "Diário Oficial do Estado de Alagoas",
+            "suplement": false,
+            "publication_date": "2026-08-19T03:00:00.000000Z",
+            "downloads": 815,
+            "views": 3048
+          },
+          {
+            "id": 51776,
+            "number": 2866,
+            "edition_type_name": "Diário Oficial do Estado de Alagoas",
+            "suplement": false,
+            "publication_date": "2026-08-18T03:00:00.000000Z",
+            "downloads": 1273,
+            "views": 4891
+          },
+          {
+            "id": 51775,
+            "number": 2865,
+            "edition_type_name": "Diário Oficial do Estado de Alagoas",
+            "suplement": false,
+            "publication_date": "2026-08-17T03:00:00.000000Z",
+            "downloads": 1544,
+            "views": 6143
+          },
+          {
+            "id": 51774,
+            "number": 2864,
+            "edition_type_name": "Diário Oficial do Estado de Alagoas",
+            "suplement": false,
+            "publication_date": "2026-08-14T03:00:00.000000Z",
+            "downloads": 2051,
+            "views": 8408
+          },
+          {
+            "id": 51773,
+            "number": 2863,
+            "edition_type_name": "Diário Oficial do Estado de Alagoas",
+            "suplement": false,
+            "publication_date": "2026-08-13T03:00:00.000000Z",
+            "downloads": 1658,
+            "views": 6629
+          }
+        ]
+      }
+    },
+    "search_empty": {
+      "error": "RuntimeError: POST https://diario.imprensaoficial.al.gov.br/apinova/api/editions/searchES?page=1&bucket_size=10: HTTP 500"
+    },
+    "search_wide": {
+      "error": "RuntimeError: POST https://diario.imprensaoficial.al.gov.br/apinova/api/editions/searchES?page=1&bucket_size=100: HTTP 500"
+    }
+  },
+  "PE": {
+    "dates_1930": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=1930",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_1940": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=1940",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_1950": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=1950",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_1960": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=1960",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_1970": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=1970",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_1980": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=1980",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_1990": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=1990",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_2000": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=2000",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_2010": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=2010",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "dates_2020": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/datas?startDecade=2020",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 2,
+      "preview": "[]"
+    },
+    "diarios": {
+      "status": 404,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/diarios-public",
+      "content_type": "text/html;charset=ISO-8859-1",
+      "length": 791,
+      "preview": "<!doctype html><html lang=\"en\"><head><title>HTTP Status 404 ? Not Found</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 ? Not Found</h1><hr class=\"line\" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;diariooficial&#47;public&#47;diarios-public] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class=\"line\" /><h3>Apache Tomcat/8.5.100</h3></body></html>"
+    },
+    "categorias": {
+      "status": 200,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/busca-avancada/consultarCategoriasPai?codigoDiario=1",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 1205247
+    },
+    "anos": {
+      "status": 404,
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/consultarAnosMateriasPublicacoes",
+      "content_type": "text/html;charset=ISO-8859-1",
+      "length": 809,
+      "preview": "<!doctype html><html lang=\"en\"><head><title>HTTP Status 404 ? Not Found</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 ? Not Found</h1><hr class=\"line\" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;diariooficial&#47;public&#47;consultarAnosMateriasPublicacoes] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class=\"line\" /><h3>Apache Tomcat/8.5.100</h3></body></html>"
+    },
+    "search_0": {
+      "status": "BAD_REQUEST",
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/search",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 92,
+      "json_keys": [
+        "code",
+        "status",
+        "errors"
+      ],
+      "json": {
+        "code": "BUSINESS_EXCEPTION",
+        "status": "BAD_REQUEST",
+        "errors": [
+          "Palavra inserida inválida"
+        ]
+      }
+    },
+    "search_1": {
+      "status": "BAD_REQUEST",
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/search",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 112,
+      "json_keys": [
+        "code",
+        "status",
+        "errors"
+      ],
+      "json": {
+        "code": "UNEXPECTED_EXCEPTION",
+        "status": "BAD_REQUEST",
+        "errors": [
+          "Não foi possível processar a requisição."
+        ]
+      }
+    },
+    "search_2": {
+      "status": "BAD_REQUEST",
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/search",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 92,
+      "json_keys": [
+        "code",
+        "status",
+        "errors"
+      ],
+      "json": {
+        "code": "BUSINESS_EXCEPTION",
+        "status": "BAD_REQUEST",
+        "errors": [
+          "Palavra inserida inválida"
+        ]
+      }
+    },
+    "search_3": {
+      "status": "BAD_REQUEST",
+      "url": "https://diariooficial.cepe.com.br/diariooficial/public/search",
+      "content_type": "application/json;charset=UTF-8",
+      "length": 92,
+      "json_keys": [
+        "code",
+        "status",
+        "errors"
+      ],
+      "json": {
+        "code": "BUSINESS_EXCEPTION",
+        "status": "BAD_REQUEST",
+        "errors": [
+          "Palavra inserida inválida"
+        ]
+      }
+    }
+  },
+  "PI": {
+    "get": {
+      "error": "RuntimeError: GET https://www.diario.pi.gov.br/doe/Api/listardiarios.json: HTTP 500"
+    },
+    "post_0": {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/Api/listardiarios.json",
+      "content_type": "text/html; charset=UTF-8",
+      "length": 29788,
+      "json_keys": [
+        "draw",
+        "recordsTotal",
+        "recordsFiltered",
+        "data"
+      ],
+      "recordsTotal": 1189,
+      "recordsFiltered": 1189,
+      "data_len": 100,
+      "data_first": [
+        [
+          "<a href=\"../doe/files/diarios/anexo/5e111773-ff42-4622-9e74-8cbbcacc2e8f/DOEPI_158_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "158/2026  ",
+          "18/08/2026",
+          "18/08/2026 18:01:00"
+        ],
+        [
+          "<a href=\"../doe/files/diarios/anexo/c03e4447-279b-4d5a-b041-d089f88d51eb/DOEPI_157_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "157/2026  ",
+          "17/08/2026",
+          "17/08/2026 18:10:32"
+        ]
+      ],
+      "data_last": [
+        [
+          "<a href=\"../doe/files/diarios/anexo/11739971-78d1-418f-b687-74130eafebfc/DOEPI_84_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "84/2026  ",
+          "05/05/2026",
+          "05/05/2026 12:22:38"
+        ],
+        [
+          "<a href=\"../doe/files/diarios/anexo/696bf808-e7f0-4a01-a866-6dd8507ca9de/DOEPI_83_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "83/2026  ",
+          "04/05/2026",
+          "04/05/2026 18:02:06"
+        ]
+      ]
+    },
+    "post_1": {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/Api/listardiarios.json",
+      "content_type": "text/html; charset=UTF-8",
+      "length": 29788,
+      "json_keys": [
+        "draw",
+        "recordsTotal",
+        "recordsFiltered",
+        "data"
+      ],
+      "recordsTotal": 1189,
+      "recordsFiltered": 1189,
+      "data_len": 100,
+      "data_first": [
+        [
+          "<a href=\"../doe/files/diarios/anexo/5e111773-ff42-4622-9e74-8cbbcacc2e8f/DOEPI_158_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "158/2026  ",
+          "18/08/2026",
+          "18/08/2026 18:01:00"
+        ],
+        [
+          "<a href=\"../doe/files/diarios/anexo/c03e4447-279b-4d5a-b041-d089f88d51eb/DOEPI_157_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "157/2026  ",
+          "17/08/2026",
+          "17/08/2026 18:10:32"
+        ]
+      ],
+      "data_last": [
+        [
+          "<a href=\"../doe/files/diarios/anexo/11739971-78d1-418f-b687-74130eafebfc/DOEPI_84_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "84/2026  ",
+          "05/05/2026",
+          "05/05/2026 12:22:38"
+        ],
+        [
+          "<a href=\"../doe/files/diarios/anexo/696bf808-e7f0-4a01-a866-6dd8507ca9de/DOEPI_83_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "83/2026  ",
+          "04/05/2026",
+          "04/05/2026 18:02:06"
+        ]
+      ]
+    },
+    "post_2": {
+      "status": 200,
+      "url": "https://www.diario.pi.gov.br/doe/Api/listardiarios.json",
+      "content_type": "text/html; charset=UTF-8",
+      "length": 29788,
+      "json_keys": [
+        "draw",
+        "recordsTotal",
+        "recordsFiltered",
+        "data"
+      ],
+      "recordsTotal": 1189,
+      "recordsFiltered": 1189,
+      "data_len": 100,
+      "data_first": [
+        [
+          "<a href=\"../doe/files/diarios/anexo/5e111773-ff42-4622-9e74-8cbbcacc2e8f/DOEPI_158_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "158/2026  ",
+          "18/08/2026",
+          "18/08/2026 18:01:00"
+        ],
+        [
+          "<a href=\"../doe/files/diarios/anexo/c03e4447-279b-4d5a-b041-d089f88d51eb/DOEPI_157_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "157/2026  ",
+          "17/08/2026",
+          "17/08/2026 18:10:32"
+        ]
+      ],
+      "data_last": [
+        [
+          "<a href=\"../doe/files/diarios/anexo/11739971-78d1-418f-b687-74130eafebfc/DOEPI_84_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "84/2026  ",
+          "05/05/2026",
+          "05/05/2026 12:22:38"
+        ],
+        [
+          "<a href=\"../doe/files/diarios/anexo/696bf808-e7f0-4a01-a866-6dd8507ca9de/DOEPI_83_2026.pdf\" target=\"_blank\" class=\"controles-btn\"><img src=\"img/icone-diario.png\" alt=\"imagem abrir pasta\" style=\"margin-right: 0;\"></a>",
+          "83/2026  ",
+          "04/05/2026",
+          "04/05/2026 18:02:06"
+        ]
+      ]
+    }
+  },
+  "SC": {
+    "wide_page1": {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=100&dtStart=1900-01-01%2000:00:00&dtEnd=2026-12-31%2023:59:59",
+      "content_type": "application/json; charset=utf-8",
+      "length": 47008,
+      "json_keys": [
+        "error",
+        "records"
+      ],
+      "error": false,
+      "records_keys": [
+        "meta",
+        "data"
+      ],
+      "records_meta": {
+        "total": 4173,
+        "per_page": 100,
+        "current_page": 1,
+        "last_page": 42,
+        "first_page": 1,
+        "first_page_url": "/?page=1",
+        "last_page_url": "/?page=42",
+        "next_page_url": "/?page=2",
+        "previous_page_url": null
+      },
+      "records_data_len": 100,
+      "records_data_first": [
+        {
+          "cdJornal": 4629,
+          "qtdMaterias": 495,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-08-18T00:00:00.000Z",
+          "dtAprovacao": "2026-08-18T16:48:18.910Z",
+          "dtFechado": "2026-08-18T16:48:00.000Z",
+          "dsAno": "xcii",
+          "vlNumero": "22821",
+          "vlNumeropaginas": null,
+          "vlDownloads": 2121,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2026/20260818/Jornal/22821.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        },
+        {
+          "cdJornal": 4628,
+          "qtdMaterias": 6,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-08-17T00:00:00.000Z",
+          "dtAprovacao": "2026-08-17T19:57:49.957Z",
+          "dtFechado": "2026-08-18T01:41:00.000Z",
+          "dsAno": "xcii",
+          "vlNumero": "22820-A",
+          "vlNumeropaginas": null,
+          "vlDownloads": 2103,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "1",
+          "dsArquivo": "/2026/20260817/Jornal/22820-A.pdf",
+          "dsSolicitante": "KAROL - SGG",
+          "dsMotivosolicitacao": "Publicação de atos."
+        }
+      ],
+      "records_data_last": [
+        {
+          "cdJornal": 4529,
+          "qtdMaterias": 389,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-05-18T00:00:00.000Z",
+          "dtAprovacao": "2026-05-18T16:26:11.173Z",
+          "dtFechado": "2026-05-18T16:41:00.000Z",
+          "dsAno": "XCII",
+          "vlNumero": "22755",
+          "vlNumeropaginas": null,
+          "vlDownloads": 4215,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2026/20260518/Jornal/22755.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        },
+        {
+          "cdJornal": 4528,
+          "qtdMaterias": 6,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-05-15T00:00:00.000Z",
+          "dtAprovacao": "2026-05-15T19:01:26.043Z",
+          "dtFechado": "2026-05-16T00:14:00.000Z",
+          "dsAno": "XCII",
+          "vlNumero": "22754-A",
+          "vlNumeropaginas": null,
+          "vlDownloads": 3631,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "1",
+          "dsArquivo": "/2026/20260515/Jornal/22754-A.pdf",
+          "dsSolicitante": "CHEILA - SEF",
+          "dsMotivosolicitacao": "Publicação de portarias conjuntas SEF/SGG."
+        }
+      ]
+    },
+    "pre_2011": {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=100&dtStart=1900-01-01%2000:00:00&dtEnd=2011-10-02%2023:59:59",
+      "content_type": "application/json; charset=utf-8",
+      "length": 332,
+      "json_keys": [
+        "error",
+        "records",
+        "cards"
+      ],
+      "error": false,
+      "records_keys": [
+        "meta",
+        "data"
+      ],
+      "records_meta": {
+        "total": 0,
+        "per_page": 100,
+        "current_page": 1,
+        "last_page": 1,
+        "first_page": 1,
+        "first_page_url": "/?page=1",
+        "last_page_url": "/?page=1",
+        "next_page_url": null,
+        "previous_page_url": null
+      },
+      "records_data_len": 0,
+      "records_data_first": [],
+      "records_data_last": [],
+      "json": {
+        "error": false,
+        "records": {
+          "meta": {
+            "total": 0,
+            "per_page": 100,
+            "current_page": 1,
+            "last_page": 1,
+            "first_page": 1,
+            "first_page_url": "/?page=1",
+            "last_page_url": "/?page=1",
+            "next_page_url": null,
+            "previous_page_url": null
+          },
+          "data": []
+        },
+        "cards": {
+          "total": 4174,
+          "qtdEdicaoOrdinaria": 3615,
+          "qtdEdicaoExtra": 543,
+          "qtdEdicaoExtraLoa": 14,
+          "qtdEdicaoCaderno": 2
+        }
+      }
+    },
+    "boundary": {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=100&dtStart=2011-09-01%2000:00:00&dtEnd=2011-11-01%2023:59:59",
+      "content_type": "application/json; charset=utf-8",
+      "length": 8338,
+      "json_keys": [
+        "error",
+        "records"
+      ],
+      "error": false,
+      "records_keys": [
+        "meta",
+        "data"
+      ],
+      "records_meta": {
+        "total": 20,
+        "per_page": 100,
+        "current_page": 1,
+        "last_page": 1,
+        "first_page": 1,
+        "first_page_url": "/?page=1",
+        "last_page_url": "/?page=1",
+        "next_page_url": null,
+        "previous_page_url": null
+      },
+      "records_data_len": 20,
+      "records_data_first": [
+        {
+          "cdJornal": 286,
+          "qtdMaterias": 181,
+          "cdUsuarioaprovacao": null,
+          "dsUsuarioaprovacao": null,
+          "dtPublicacao": "2011-11-01T00:00:00.000Z",
+          "dtAprovacao": null,
+          "dtFechado": "2011-11-01T00:18:39.523Z",
+          "dsAno": "LXXVII",
+          "vlNumero": "19204",
+          "vlNumeropaginas": 64,
+          "vlDownloads": 27,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2011/20111101/Jornal/286.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        },
+        {
+          "cdJornal": 285,
+          "qtdMaterias": 143,
+          "cdUsuarioaprovacao": null,
+          "dsUsuarioaprovacao": null,
+          "dtPublicacao": "2011-10-31T00:00:00.000Z",
+          "dtAprovacao": null,
+          "dtFechado": "2011-10-30T21:55:32.120Z",
+          "dsAno": "LXXVII",
+          "vlNumero": "19203",
+          "vlNumeropaginas": 32,
+          "vlDownloads": 19,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2011/20111031/Jornal/285.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        }
+      ],
+      "records_data_last": [
+        {
+          "cdJornal": 266,
+          "qtdMaterias": 89,
+          "cdUsuarioaprovacao": null,
+          "dsUsuarioaprovacao": null,
+          "dtPublicacao": "2011-10-04T00:00:00.000Z",
+          "dtAprovacao": null,
+          "dtFechado": "2011-10-03T20:15:15.337Z",
+          "dsAno": "LXXVII",
+          "vlNumero": "19186",
+          "vlNumeropaginas": 42,
+          "vlDownloads": 97,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2011/20111004/Jornal/266.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        },
+        {
+          "cdJornal": 264,
+          "qtdMaterias": 0,
+          "cdUsuarioaprovacao": null,
+          "dsUsuarioaprovacao": null,
+          "dtPublicacao": "2011-10-03T00:00:00.000Z",
+          "dtAprovacao": null,
+          "dtFechado": "2011-09-30T19:57:41.000Z",
+          "dsAno": "LXXVII",
+          "vlNumero": "19185",
+          "vlNumeropaginas": 38,
+          "vlDownloads": 334,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2011/20111003/Jornal/264.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        }
+      ],
+      "json": {
+        "error": false,
+        "records": {
+          "meta": {
+            "total": 20,
+            "per_page": 100,
+            "current_page": 1,
+            "last_page": 1,
+            "first_page": 1,
+            "first_page_url": "/?page=1",
+            "last_page_url": "/?page=1",
+            "next_page_url": null,
+            "previous_page_url": null
+          },
+          "data": [
+            {
+              "cdJornal": 286,
+              "qtdMaterias": 181,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-11-01T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-11-01T00:18:39.523Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19204",
+              "vlNumeropaginas": 64,
+              "vlDownloads": 27,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111101/Jornal/286.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 285,
+              "qtdMaterias": 143,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-31T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-30T21:55:32.120Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19203",
+              "vlNumeropaginas": 32,
+              "vlDownloads": 19,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111031/Jornal/285.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 284,
+              "qtdMaterias": 228,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-27T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-27T13:21:31.733Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19202",
+              "vlNumeropaginas": 56,
+              "vlDownloads": 29,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111027/Jornal/284.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 283,
+              "qtdMaterias": 165,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-26T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-27T06:51:18.250Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19201",
+              "vlNumeropaginas": 32,
+              "vlDownloads": 23,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111026/Jornal/283.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 282,
+              "qtdMaterias": 223,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-25T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-25T14:07:45.707Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19200",
+              "vlNumeropaginas": 176,
+              "vlDownloads": 32,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111025/Jornal/282.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 281,
+              "qtdMaterias": 220,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-24T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-24T15:15:18.780Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19199",
+              "vlNumeropaginas": 40,
+              "vlDownloads": 28,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111024/Jornal/281.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 280,
+              "qtdMaterias": 162,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-21T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-20T21:09:58.117Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19198",
+              "vlNumeropaginas": 32,
+              "vlDownloads": 23,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111021/Jornal/280.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 279,
+              "qtdMaterias": 170,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-20T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-19T21:03:10.660Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19197",
+              "vlNumeropaginas": 64,
+              "vlDownloads": 28,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111020/Jornal/279.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 278,
+              "qtdMaterias": 199,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-19T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-19T08:09:05.110Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19196",
+              "vlNumeropaginas": 46,
+              "vlDownloads": 26,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111019/Jornal/278.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 277,
+              "qtdMaterias": 169,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-18T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-18T09:22:36.373Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19195",
+              "vlNumeropaginas": 104,
+              "vlDownloads": 35,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111018/Jornal/277.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 276,
+              "qtdMaterias": 189,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-17T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-17T14:16:54.830Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19194",
+              "vlNumeropaginas": 67,
+              "vlDownloads": 34,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111017/Jornal/276.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 275,
+              "qtdMaterias": 170,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-14T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-14T08:53:20.497Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19193",
+              "vlNumeropaginas": 56,
+              "vlDownloads": 40,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111014/Jornal/275.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 274,
+              "qtdMaterias": 180,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-13T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-13T13:07:50.863Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19192",
+              "vlNumeropaginas": 52,
+              "vlDownloads": 49,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111013/Jornal/274.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 273,
+              "qtdMaterias": 184,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-11T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-11T14:31:45.500Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19191",
+              "vlNumeropaginas": 48,
+              "vlDownloads": 43,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111011/Jornal/273.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 272,
+              "qtdMaterias": 181,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-10T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-10T10:47:14.187Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19190",
+              "vlNumeropaginas": 40,
+              "vlDownloads": 55,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111010/Jornal/272.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 271,
+              "qtdMaterias": 168,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-07T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-07T09:44:10.063Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19189",
+              "vlNumeropaginas": 33,
+              "vlDownloads": 48,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111007/Jornal/271.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 268,
+              "qtdMaterias": 198,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-06T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-06T12:43:11.710Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19188",
+              "vlNumeropaginas": 46,
+              "vlDownloads": 66,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111006/Jornal/268.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 267,
+              "qtdMaterias": 181,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-05T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-04T21:02:19.363Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19187",
+              "vlNumeropaginas": 58,
+              "vlDownloads": 66,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111005/Jornal/267.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 266,
+              "qtdMaterias": 89,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-04T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-10-03T20:15:15.337Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19186",
+              "vlNumeropaginas": 42,
+              "vlDownloads": 97,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111004/Jornal/266.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            },
+            {
+              "cdJornal": 264,
+              "qtdMaterias": 0,
+              "cdUsuarioaprovacao": null,
+              "dsUsuarioaprovacao": null,
+              "dtPublicacao": "2011-10-03T00:00:00.000Z",
+              "dtAprovacao": null,
+              "dtFechado": "2011-09-30T19:57:41.000Z",
+              "dsAno": "LXXVII",
+              "vlNumero": "19185",
+              "vlNumeropaginas": 38,
+              "vlDownloads": 334,
+              "stCancelado": false,
+              "stAprovado": true,
+              "tpJornal": "0",
+              "dsArquivo": "/2011/20111003/Jornal/264.pdf",
+              "dsSolicitante": null,
+              "dsMotivosolicitacao": null
+            }
+          ]
+        }
+      }
+    },
+    "total": 0,
+    "last_page_num": 1,
+    "wide_last": {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=100&dtStart=1900-01-01%2000:00:00&dtEnd=2026-12-31%2023:59:59",
+      "content_type": "application/json; charset=utf-8",
+      "length": 47008,
+      "json_keys": [
+        "error",
+        "records"
+      ],
+      "error": false,
+      "records_keys": [
+        "meta",
+        "data"
+      ],
+      "records_meta": {
+        "total": 4173,
+        "per_page": 100,
+        "current_page": 1,
+        "last_page": 42,
+        "first_page": 1,
+        "first_page_url": "/?page=1",
+        "last_page_url": "/?page=42",
+        "next_page_url": "/?page=2",
+        "previous_page_url": null
+      },
+      "records_data_len": 100,
+      "records_data_first": [
+        {
+          "cdJornal": 4629,
+          "qtdMaterias": 495,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-08-18T00:00:00.000Z",
+          "dtAprovacao": "2026-08-18T16:48:18.910Z",
+          "dtFechado": "2026-08-18T16:48:00.000Z",
+          "dsAno": "xcii",
+          "vlNumero": "22821",
+          "vlNumeropaginas": null,
+          "vlDownloads": 2121,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2026/20260818/Jornal/22821.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        },
+        {
+          "cdJornal": 4628,
+          "qtdMaterias": 6,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-08-17T00:00:00.000Z",
+          "dtAprovacao": "2026-08-17T19:57:49.957Z",
+          "dtFechado": "2026-08-18T01:41:00.000Z",
+          "dsAno": "xcii",
+          "vlNumero": "22820-A",
+          "vlNumeropaginas": null,
+          "vlDownloads": 2103,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "1",
+          "dsArquivo": "/2026/20260817/Jornal/22820-A.pdf",
+          "dsSolicitante": "KAROL - SGG",
+          "dsMotivosolicitacao": "Publicação de atos."
+        }
+      ],
+      "records_data_last": [
+        {
+          "cdJornal": 4529,
+          "qtdMaterias": 389,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-05-18T00:00:00.000Z",
+          "dtAprovacao": "2026-05-18T16:26:11.173Z",
+          "dtFechado": "2026-05-18T16:41:00.000Z",
+          "dsAno": "XCII",
+          "vlNumero": "22755",
+          "vlNumeropaginas": null,
+          "vlDownloads": 4215,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "0",
+          "dsArquivo": "/2026/20260518/Jornal/22755.pdf",
+          "dsSolicitante": null,
+          "dsMotivosolicitacao": null
+        },
+        {
+          "cdJornal": 4528,
+          "qtdMaterias": 6,
+          "cdUsuarioaprovacao": 181,
+          "dsUsuarioaprovacao": "ARLENE NATALIA CORDEIRO",
+          "dtPublicacao": "2026-05-15T00:00:00.000Z",
+          "dtAprovacao": "2026-05-15T19:01:26.043Z",
+          "dtFechado": "2026-05-16T00:14:00.000Z",
+          "dsAno": "XCII",
+          "vlNumero": "22754-A",
+          "vlNumeropaginas": null,
+          "vlDownloads": 3631,
+          "stCancelado": false,
+          "stAprovado": true,
+          "tpJornal": "1",
+          "dsArquivo": "/2026/20260515/Jornal/22754-A.pdf",
+          "dsSolicitante": "CHEILA - SEF",
+          "dsMotivosolicitacao": "Publicação de portarias conjuntas SEF/SGG."
+        }
+      ]
+    }
+  }
+}
