@@ -2,6 +2,11 @@ name: Manual review browser probe
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - manual_browser_probe.py
+      - .github/workflows/manual_browser_probe.yml
   issues:
     types: [opened]
 
@@ -10,7 +15,7 @@ permissions:
 
 jobs:
   probe:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.title, 'Run AC MA PE browser probe')
+    if: github.event_name != 'issues' || contains(github.event.issue.title, 'Run AC MA PE browser probe')
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
