@@ -1,0 +1,129 @@
+{
+  "state": "RR",
+  "base": "https://www.imprensaoficial.rr.gov.br/app/_inicial/",
+  "errors": [],
+  "known": [],
+  "scripts": [
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/jquery/js/jquery.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 247597,
+      "found": [
+        "http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier",
+        "http://www.w3.org/TR/CSS21/syndata.html#escaped-characters",
+        "http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html"
+      ]
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/popper.js/js/popper.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 81224,
+      "found": []
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/bootstrap/js/bootstrap.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 122579,
+      "found": [
+        "https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html"
+      ]
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/jquery.cookie/js/jquery.cookie.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 3121,
+      "found": []
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/chartist/js/chartist.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 178221,
+      "found": [
+        "http://www.w3.org/2000/xmlns/",
+        "http://www.w3.org/1999/xhtml",
+        "http://www.w3.org/TR/selectors-api/",
+        "http://mozilla.6506.n7.nabble.com/Specyfing-paths-with-percentages-unit-td247474.html",
+        "http://www.w3.org/TR/SVG/extend.html#ForeignObjectElement",
+        "http://www.w3.org/TR/SVG/animate.html",
+        "http://lists.w3.org/Archives/Public/www-svg/2003Oct/0000.html"
+      ]
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/d3/js/d3.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 337945,
+      "found": [
+        "http://www.w3.org/1999/xhtml",
+        "http://www.w3.org/XML/1998/namespace",
+        "http://www.w3.org/2000/xmlns/"
+      ]
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/rickshaw/js/rickshaw.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 80766,
+      "found": []
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/lib/jquery.sparkline.bower/js/jquery.sparkline.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 43248,
+      "found": []
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/js/ResizeSensor.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 7116,
+      "found": []
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/js/dashboard.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 2890,
+      "found": []
+    },
+    {
+      "url": "https://www.imprensaoficial.rr.gov.br/app/js/slim.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 7565,
+      "found": []
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-118954292-1",
+      "status": 200,
+      "ct": "application/javascript; charset=UTF-8",
+      "len": 373400,
+      "found": []
+    }
+  ],
+  "discovered": [
+    "http://lists.w3.org/Archives/Public/www-svg/2003Oct/0000.html",
+    "http://mozilla.6506.n7.nabble.com/Specyfing-paths-with-percentages-unit-td247474.html",
+    "http://www.w3.org/1999/xhtml",
+    "http://www.w3.org/2000/xmlns/",
+    "http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html",
+    "http://www.w3.org/TR/CSS21/syndata.html#escaped-characters",
+    "http://www.w3.org/TR/CSS21/syndata.html#value-def-identifier",
+    "http://www.w3.org/TR/SVG/animate.html",
+    "http://www.w3.org/TR/SVG/extend.html#ForeignObjectElement",
+    "http://www.w3.org/TR/selectors-api/",
+    "http://www.w3.org/XML/1998/namespace",
+    "https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html"
+  ],
+  "home_status": 200,
+  "home_url": "https://www.imprensaoficial.rr.gov.br/app/_inicial/",
+  "home_ct": "text/html; charset=UTF-8",
+  "home_len": 38888,
+  "home_extract": []
+}

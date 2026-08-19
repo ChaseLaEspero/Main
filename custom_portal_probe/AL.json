@@ -1,0 +1,94 @@
+{
+  "state": "AL",
+  "base": "https://diario.imprensaoficial.al.gov.br/",
+  "errors": [],
+  "known": [
+    {
+      "url": "https://diario.imprensaoficial.al.gov.br/apinova/api/editions/published?page=1",
+      "status": 200,
+      "ct": "application/json",
+      "len": 967,
+      "preview": "{\"status\":\"success\",\"editions\":[{\"id\":51777,\"number\":2867,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-19T03:00:00.000000Z\",\"downloads\":782,\"views\":2913},{\"id\":51776,\"number\":2866,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-18T03:00:00.000000Z\",\"downloads\":1267,\"views\":4869},{\"id\":51775,\"number\":2865,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-17T03:00:00.000000Z\",\"downloads\":1542,\"views\":6133},{\"id\":51774,\"number\":2864,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-14T03:00:00.000000Z\",\"downloads\":2050,\"views\":8386},{\"id\":51773,\"number\":2863,\"edition_type_name\":\"Di\\u00e1rio Oficial do Estado de Alagoas\",\"suplement\":false,\"publication_date\":\"2026-08-13T03:00:00.000000Z\",\"downloads\":1656,\"views\":6620}]}",
+      "json_summary": {
+        "type": "dict",
+        "keys": [
+          "status",
+          "editions"
+        ],
+        "status": "success",
+        "list_editions_len": 5,
+        "list_editions_sample": [
+          {
+            "id": 51777,
+            "number": 2867,
+            "edition_type_name": "Diário Oficial do Estado de Alagoas",
+            "suplement": false,
+            "publication_date": "2026-08-19T03:00:00.000000Z",
+            "downloads": 782,
+            "views": 2913
+          },
+          {
+            "id": 51776,
+            "number": 2866,
+            "edition_type_name": "Diário Oficial do Estado de Alagoas",
+            "suplement": false,
+            "publication_date": "2026-08-18T03:00:00.000000Z",
+            "downloads": 1267,
+            "views": 4869
+          }
+        ]
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "url": "https://diario.imprensaoficial.al.gov.br/assets/index-344f66e8.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 820849,
+      "found": [
+        "https://www.pdftron.com/kb_same_context",
+        "http://r.pdftron.com/guides/quick-start",
+        "http://r.pdftron.com/api/options_anchor",
+        "http://r.pdftron.com/kb_cross_origin",
+        "https://pdfjs.express/documentation",
+        "https://www.pdftron.com/kb_cross_origin",
+        "https://diario.imprensaoficial.al.gov.br/apinova/api",
+        "/busca",
+        "/edicoes",
+        "/editions/downloadPdf/",
+        "/editions/viewPdf/",
+        "/api/options_anchor",
+        "/busca-legislacoes",
+        "/diario.imprensaoficial.al.gov.br/apinova/api",
+        "/diario/envio/statics/login",
+        "api/options_anchor",
+        "apinova/api"
+      ]
+    }
+  ],
+  "discovered": [
+    "/api/options_anchor",
+    "/busca",
+    "/busca-legislacoes",
+    "/diario.imprensaoficial.al.gov.br/apinova/api",
+    "/diario/envio/statics/login",
+    "/edicoes",
+    "/editions/downloadPdf/",
+    "/editions/viewPdf/",
+    "api/options_anchor",
+    "apinova/api",
+    "http://r.pdftron.com/api/options_anchor",
+    "http://r.pdftron.com/guides/quick-start",
+    "http://r.pdftron.com/kb_cross_origin",
+    "https://diario.imprensaoficial.al.gov.br/apinova/api",
+    "https://pdfjs.express/documentation",
+    "https://www.pdftron.com/kb_cross_origin",
+    "https://www.pdftron.com/kb_same_context"
+  ],
+  "home_status": 200,
+  "home_url": "https://diario.imprensaoficial.al.gov.br/",
+  "home_ct": "text/html",
+  "home_len": 964,
+  "home_extract": []
+}

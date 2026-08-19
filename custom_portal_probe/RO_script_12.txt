@@ -1,0 +1,474 @@
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function noop() {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+
+// Place any jQuery/helper plugins in here.
+/*! Copyright (c) 2011 Brandon Aaron (http://brandonaaron.net)
+ * Licensed under the MIT License (LICENSE.txt).
+ *
+ * Thanks to: http://adomas.org/javascript-mouse-wheel/ for some pointers.
+ * Thanks to: Mathias Bank(http://www.mathias-bank.de) for a scope bug fix.
+ * Thanks to: Seamus Leahy for adding deltaX and deltaY
+ *
+ * Version: 3.0.6
+ *
+ * Requires: 1.2.2+
+ */
+(function($) {
+
+var types = ['DOMMouseScroll', 'mousewheel'];
+
+if ($.event.fixHooks) {
+    for ( var i=types.length; i; ) {
+        $.event.fixHooks[ types[--i] ] = $.event.mouseHooks;
+    }
+}
+
+$.event.special.mousewheel = {
+    setup: function() {
+        if ( this.addEventListener ) {
+            for ( var i=types.length; i; ) {
+                this.addEventListener( types[--i], handler, false );
+            }
+        } else {
+            this.onmousewheel = handler;
+        }
+    },
+
+    teardown: function() {
+        if ( this.removeEventListener ) {
+            for ( var i=types.length; i; ) {
+                this.removeEventListener( types[--i], handler, false );
+            }
+        } else {
+            this.onmousewheel = null;
+        }
+    }
+};
+
+$.fn.extend({
+    mousewheel: function(fn) {
+        return fn ? this.bind("mousewheel", fn) : this.trigger("mousewheel");
+    },
+
+    unmousewheel: function(fn) {
+        return this.unbind("mousewheel", fn);
+    }
+});
+
+
+function handler(event) {
+    var orgEvent = event || window.event, args = [].slice.call( arguments, 1 ), delta = 0, returnValue = true, deltaX = 0, deltaY = 0;
+    event = $.event.fix(orgEvent);
+    event.type = "mousewheel";
+
+    // Old school scrollwheel delta
+    if ( orgEvent.wheelDelta ) { delta = orgEvent.wheelDelta/120; }
+    if ( orgEvent.detail     ) { delta = -orgEvent.detail/3; }
+
+    // New school multidimensional scroll (touchpads) deltas
+    deltaY = delta;
+
+    // Gecko
+    if ( orgEvent.axis !== undefined && orgEvent.axis === orgEvent.HORIZONTAL_AXIS ) {
+        deltaY = 0;
+        deltaX = -1*delta;
+    }
+
+    // Webkit
+    if ( orgEvent.wheelDeltaY !== undefined ) { deltaY = orgEvent.wheelDeltaY/120; }
+    if ( orgEvent.wheelDeltaX !== undefined ) { deltaX = -1*orgEvent.wheelDeltaX/120; }
+
+    // Add event and delta to the front of the arguments
+    args.unshift(event, delta, deltaX, deltaY);
+
+    return ($.event.dispatch || $.event.handle).apply(this, args);
+}
+
+})(jQuery);
+
+$(document).ready(function() {
+
+    $('.menu-btn').on('click', function (e) {
+        e.stopPropagation();
+        if ($('body').hasClass('sidemenu-open')) {
+            $('body, html').removeClass('sidemenu-open');
+            setTimeout(function () {
+                $('body, html').removeClass('menuactive');
+            }, 500);
+        } else {
+            $('body, html').addClass('sidemenu-open menuactive');
+        }
+    });
+
+    $('.wrapper, .closesidemenu').on('click', function () {
+
+        if ($('body').hasClass('sidemenu-open')) {
+
+            $('body, html').removeClass('sidemenu-open');
+            setTimeout(function () {
+                $('body, html').removeClass('menuactive');
+            }, 500);
+        }
+    });
+
+    function organizaMenuVertical(menu) {
+        menu.children("li").children("ul.children").parent().children("a").append("&nbsp;&raquo;");
+        menu.children("li").children("ul.children").children("li").each( function() {
+            $(this).children("a").prepend("&raquo;&nbsp;");
+        });
+        menu.children("li").children("ul.children").children("li").children("ul.children").children("li").each( function() {
+            $(this).children("a").prepend("&mdash;&nbsp;&nbsp;");
+        });
+        menu.children("li").children("ul.children").children("li").children("ul.children").children("li").children("ul.children").children("li").each( function() {
+            $(this).children("a").prepend("&mdash;&nbsp;&mdash;&nbsp;&nbsp;");
+        });
+        menu.children("li").children("ul.children").children("li").children("ul.children").children("li").children("ul.children").children("li").children("ul.children").children("li").each( function() {
+            $(this).children("a").prepend("&mdash;&nbsp;&mdash;&nbsp;&mdash;&nbsp;");
+        });
+        menu.find("li").mouseenter(function() {
+            $(this).children("ul.children").stop(true, true).delay("fast").slideDown("slow", "easeOutBack");
+        });
+        menu.children("li").mouseleave(function() {
+            $(this).children("ul.children").stop(true, true).delay(2000).slideUp("slow", "easeOutBack");
+        });
+        menu.children("li").find("li").mouseleave(function() {
+            $(this).children("ul.children").stop(true, true).delay(500).slideUp("slow", "easeOutBack");
+        });
+    }
+    organizaMenuVertical($("#menu-paginas > ul.nav"));
+
+    $(".pergunta-faq").click( function() {
+        var _url = $(this).data("url");
+        var _title = $(this).data("title");
+        $("#modal-faq .modal-header h3").html(_title);
+        $("#modal-faq .modal-body").load(_url);
+    } );
+    $("#modal-faq").on("hidden", function() {
+        $("#modal-faq .modal-header h3 *").remove();
+        $("#modal-faq .modal-body *").remove();
+    });
+
+
+    $(".noticia.destaque.home .container-img").hover(
+        function(){ $(this).children(".img-mask").stop(true,true).fadeIn("slow"); },
+        function(){ $(this).children(".img-mask").stop(true,true).fadeOut("slow"); }
+    );
+
+    $(".pop-over").popover();
+
+    $('#menu-institucional ul.children').each(function(){
+        var _href = $(this).parent().children("a").attr("href");
+        $(this).addClass("dropdown-menu").parent().addClass("dropdown").children("a").attr("data-toggle","dropdown").addClass("dropdown-toggle").attr("data-target",_href).append(" <b class='caret'></b>");
+    });
+
+    $("#drop-global-nav, #drop-portal-nav").change(function(){
+      if ($(this).val()!='') {
+        // window.location.href = $(this).val();
+        window.open($(this).val(), '_blank');
+      }
+    });
+
+    $(".video-overlay").prepend("<div class='video-mask'></div>");
+
+    $("#menu-global > li > a:contains('A SEAE')").addClass("item-especial-1");
+    $("#menu-global > li > a:contains('EGPP'), #menu-global > li > a:contains('DETIC'), #menu-global > li > a:contains('PIDISE'), #menu-global > li > a:contains('GETS')").addClass("item-especial-2");
+
+    $(".destaque-bloco").hover(
+        function() {
+            $(this).children(".caption").stop(true,true).fadeIn("slow");
+        }, function() {
+            $(this).children(".caption").stop(true,true).fadeOut("slow");
+        }
+    );
+
+    //Diário Oficial
+    $("#busca-diario-data").datepicker({
+        dateFormat: 'dd-mm-yy',
+        dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
+        dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+        dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+        monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+        monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
+        nextText: 'Próximo',
+        prevText: 'Anterior',
+        maxDate: new Date,
+        minDate: new Date(1980, 01, 01),
+        showAnim: "fadeIn",
+        changeMonth: true,
+        changeYear: true,
+        altField: "#selectedOnDatePicker",
+        onSelect: function() {
+            var data = $("#selectedOnDatePicker").val();
+            var _href = $("#diariosURL").val()+data;
+            $("#tabela-diarios tbody").load(_href);
+        }
+    });
+
+    $("#buscaPorData").on("change", function() {
+        // let date = new Date($("#buscaPorData").val());
+
+        let date = $("#buscaPorData").val();
+        let splitDate = date.split('-')
+
+        // let day = String(date.getDate()).padStart(2, '0');
+        // let month = String(date.getMonth() + 1).padStart(2, '0'); // January is 0!
+        // let year = date.getFullYear();
+
+        // Combine them into the desired format
+        let formattedDate = `${splitDate[2]}-${splitDate[1]}-${splitDate[0]}`;
+        console.log(formattedDate);
+
+        var _href = $("#diariosURL").val()+formattedDate;
+
+        console.log(_href);
+        $("#tabela-diarios tbody").load(_href);
+    })
+    
+
+    $('li[class*="current"]').addClass("active");
+    $('ul.dropdown-menu li.active').removeClass("active");
+
+    $('.dropdown-menu').on('touchstart.dropdown.data-api', function(e) { e.stopPropagation() });
+
+    $('.nav>li, .btn-group').hover(
+        function() {
+            $(this).closest('.dropdown-menu').stop(true, true).show()
+            $(this).addClass('open') }
+        ,function() {
+            $(this).closest('.dropdown-menu').stop(true, true).hide()
+            $(this).removeClass('open')
+    });
+
+    $('#busca-telefones').keyup(function()
+    {
+        searchTable($(this).val());
+    });
+
+    function searchTable(inputVal)
+    {
+        var table = $('#table-telefones-governo');
+        table.find('tr').each(function(index, row)
+        {
+            var allCells = $(row).find('td');
+            if(allCells.length > 0)
+            {
+                var found = false;
+                allCells.each(function(index, td)
+                {
+                    var regExp = new RegExp(inputVal, 'i');
+                    if(regExp.test($(td).text()))
+                    {
+                        found = true;
+                        return false;
+                    }
+                });
+                if(found == true)$(row).show();else $(row).hide();
+            }
+        });
+    }
+
+    /*
+    var myTableArray = [];
+
+    $("table#table-telefones-governo tr").each(function() {
+        var arrayOfThisRow = [];
+        var tableData = $(this).find('td');
+        if (tableData.length > 0) {
+            tableData.each(function() { arrayOfThisRow.push($(this).text()); });
+            myTableArray.push(arrayOfThisRow);
+        }
+    });
+
+    function dump(arr,level) {
+        var dumped_text = "";
+        if(!level) level = 0;
+
+        //The padding given at the beginning of the line.
+        var level_padding = "";
+        for(var j=0;j<level+1;j++) level_padding += "    ";
+
+        if(typeof(arr) == 'object') { //Array/Hashes/Objects
+            for(var item in arr) {
+                var value = arr[item];
+
+                if(typeof(value) == 'object') { //If it is an array,
+                    dumped_text += level_padding + "'" + item + "' ...\n";
+                    dumped_text += dump(value,level+1);
+                } else {
+                    dumped_text += level_padding + "'" + item + "' => \"" + value + "\"\n";
+                }
+            }
+        } else { //Stings/Chars/Numbers etc.
+            dumped_text = "===>"+arr+"<===("+typeof(arr)+")";
+        }
+        return dumped_text;
+    }
+
+    $("body").html(dump(myTableArray));*/
+
+    $('*[rel="tooltip"]').tooltip();
+
+    /* Conteúdo - Single */
+    $(".entry img").addClass("img-polaroid").parent("a").addClass("img-modal").attr("data-fancybox-group","entry-gallery");
+    $(".img-modal").fancybox({
+        openEffect  : 'elastic',
+        closeEffect : 'elastic',
+        helpers : {
+            title : {
+                type : 'inside'
+            }
+        }
+    });
+    $(".gallery .img-modal").attr("rel","imagens_galeria").removeAttr("title");
+    $(".gallery").addClass("row");
+    $(".gallery br, .container style").remove();
+    $(".gallery dl dt a img").removeAttr("width").removeAttr("height");
+    $(".gallery dl dt a").each(function(){
+        $(this).addClass("gallery-item").clone().appendTo($(this).closest(".gallery"));
+    });
+    $(".gallery dl").remove();
+    $(".gallery-item img").each(function() {
+        $(this).removeClass("attachment-thumbnail").removeClass("img-polaroid").parent("a");
+    });
+
+    $(".gallery-item").each(function() {
+        $(this).parent().append("<div class=\"span2 mb10\"><div class=\"thumbnail\"></div></div>");
+        var _container = $(this).parent().find(".span2:last .thumbnail");
+        var _content   = $(this).clone().appendTo(_container);
+        $(this).remove();
+    });
+
+    var _countImgs = 0;
+    $(".gallery img").each(function() {
+        _countImgs++;
+        if(_countImgs == 4) {
+            $(this).parents(".span2.mb10").after("<div class=\"clearfix m0\"></div>");
+            _countImgs = 0;
+        }
+    });
+
+    $(".entry .wp-caption-text").addClass("txtleft").addClass("fs12").addClass("mt10").addClass("txtcinza6").addClass("txtcenter").parent().addClass('thumbnail').addClass('mb10').animate({width: '-=10px'},0);
+    $(".entry .thumbnail img").removeClass("thumbnail").removeClass("img-rounded");
+
+    // Modal Projetos
+    /*
+    $("#modal-projetos").on("hide",function(){
+        $(this).children(".modal-body").html("");
+    });
+    $(".projeto a").click(function(){
+        var _href = $(this).attr("href");
+        $("#modal-projetos .modal-body").load(_href);
+    }); */
+
+    // Menu Links Úteis
+    $(".external a, .external").each(function(){
+        $(this).attr("target","_blank");
+    });
+
+    // Bootstrap Carousel
+    $(".carousel").carousel({
+        interval: 6000,
+        pause: "hover"
+    });
+
+    // bind change event to select
+    $('#portal-rondonia').bind('change', function () {
+        var url = $(this).val(); // get selected value
+        if (url) { // require a URL
+            window.open(url, "_blank"); // redirect
+        }
+      return false;
+    });
+
+    // Agenda Sidebar
+    $("#tabAgenda a:first").tab("show");
+    $("#tabMultimidia a:first").tab("show");
+    $("#tabAvisos a:first").tab("show");
+    $("#tabNoticias a:first").tab("show");
+    $("#tabPerguntas a:first").tab("show");
+
+
+    /* Montando pré-formulário ouvidoria */
+    $("#parametrosEntidade ul#assuntos li").each(function() {
+        $("select[name=idAssunto]").append("<option value='"+$(this).data('id')+"' data-parametro='"+$(this).data('parametro')+"'>"+$(this).html()+"</option>");
+    });
+    $("#parametrosEntidade ul#tipomensagem li").each(function() {
+        $("select[name=idTipoMensagem]").append("<option value='"+$(this).data('id')+"'>"+$(this).html()+"</option>");
+    });
+    $("#parametrosEntidade ul#tipousuario li").each(function() {
+        $("select[name=IdTipoUsuario]").append("<option value='"+$(this).data('id')+"'>"+$(this).html()+"</option>");
+    });
+    //Ouvidoria >> continuar_manifestacao_ouvidoria
+    $("#abreModalOuvidoria").click(function() {
+        var $_profissao = $('#preformOuvidoria select[name="IdTipoUsuario"]').val();
+        var $_tipoMensagem = $('#preformOuvidoria select[name="idTipoMensagem"]').val();
+        var $_tipoResposta = $('#preformOuvidoria select[name="idTipoResposta"]').val();
+        var $_assunto = $('#preformOuvidoria select[name="idAssunto"] option:selected').html();
+        var $_id_assunto = $('#preformOuvidoria select[name="idAssunto"] option:selected').val();
+        var $_parametro_assunto = $('#preformOuvidoria select[name="idAssunto"] option:selected').data('parametro');
+        var $_anonimo = $('#preformOuvidoria input[name="Anonimo"]:checked').val();
+        var $_entidade = $('#preformOuvidoria input[name="idEntidade"]').val();
+        //Passa parametros pré selecionados
+        $("#modalOuvidoria input[name='idEntidade']").val($_entidade);
+        $("#modalOuvidoria input[name='IdTipoUsuario']").val($_profissao);
+        $("#modalOuvidoria input[name='idTipoMensagem']").val($_tipoMensagem);
+        $("#modalOuvidoria input[name='idTipoResposta']").val($_tipoResposta);
+        $("#modalOuvidoria input[name='idAssunto']").val($_id_assunto);
+        $("#modalOuvidoria input[name='Anonimo']").val($_anonimo);
+        //Define Assunto Selecionado
+        if ($_assunto != "Geral") {
+            $("#modalOuvidoriaAssunto").show();
+            $("#modalOuvidoriaAssunto h4").html($_assunto);
+            $("#modalOuvidoriaAssunto input[type='text']").attr('placeholder',$_parametro_assunto).attr('required', 'required');
+        } else {
+            $("#modalOuvidoriaAssunto input[type='text']").removeAttr('required');
+            $("#modalOuvidoriaAssunto").hide();
+        }
+        //Verifica se é anônimo
+        $("#modalOuvidoria .anonimo").hide();
+        $("#modalOuvidoria .anonimo input, #modalOuvidoria .anonimo select").removeAttr("required");
+        if ($_anonimo == 0) {
+            $("#modalOuvidoria .anonimo").show();
+            $("#modalOuvidoria .anonimo input, #modalOuvidoria .anonimo select").attr("required", "required");
+        }
+        //Verifica Tipo de Resposta
+        $("#modalOuvidoria .email").hide();
+        $("#modalOuvidoria .telefone").hide();
+        $("#modalOuvidoria .carta-registrada").hide();
+        $("#modalOuvidoria .email input, #modalOuvidoria .email select").removeAttr("required");
+        $("#modalOuvidoria .telefone input, #modalOuvidoria .telefone select").removeAttr("required");
+        $("#modalOuvidoria .carta-registrada input, #modalOuvidoria .carta-registrada select").removeAttr("required");
+        $("#modalOuvidoria input[name='idTipoResposta']").val($_tipoResposta);
+        if ($_tipoResposta == 1) {
+            $("#modalOuvidoria .email").show();
+            $("#modalOuvidoria .email input, #modalOuvidoria .email select").attr("required", "required");
+        } else if ($_tipoResposta == 2) {
+            $("#modalOuvidoria .telefone").show();
+            $("#modalOuvidoria .telefone input[name='fone1'], #modalOuvidoria .telefone select").attr("required", "required");
+        } else if ($_tipoResposta == 3) {
+            $("#modalOuvidoria .carta-registrada").show();
+            $("#modalOuvidoria .carta-registrada input, #modalOuvidoria .carta-registrada select").attr("required", "required");
+        }
+    });
+
+});

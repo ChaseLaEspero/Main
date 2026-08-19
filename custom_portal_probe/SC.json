@@ -1,0 +1,29 @@
+{
+  "state": "SC",
+  "base": "https://portal.doe.sea.sc.gov.br/",
+  "errors": [],
+  "known": [
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=12&dtStart=2011-10-03%2000:00:00&dtEnd=2026-08-19%2023:59:59",
+      "status": 200,
+      "ct": "application/json; charset=utf-8",
+      "len": 5683,
+      "preview": "{\"error\":false,\"records\":{\"meta\":{\"total\":4173,\"per_page\":12,\"current_page\":1,\"last_page\":348,\"first_page\":1,\"first_page_url\":\"/?page=1\",\"last_page_url\":\"/?page=348\",\"next_page_url\":\"/?page=2\",\"previous_page_url\":null},\"data\":[{\"cdJornal\":4629,\"qtdMaterias\":495,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-18T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-18T16:48:18.910Z\",\"dtFechado\":\"2026-08-18T16:48:00.000Z\",\"dsAno\":\"xcii\",\"vlNumero\":\"22821\",\"vlNumeropaginas\":null,\"vlDownloads\":2090,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260818/Jornal/22821.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4628,\"qtdMaterias\":6,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-17T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-17T19:57:49.957Z\",\"dtFechado\":\"2026-08-18T01:41:00.000Z\",\"dsAno\":\"xcii\",\"vlNumero\":\"22820-A\",\"vlNumeropaginas\":null,\"vlDownloads\":2095,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"1\",\"dsArquivo\":\"/2026/20260817/Jornal/22820-A.pdf\",\"dsSolicitante\":\"KAROL - SGG\",\"dsMotivosolicitacao\":\"Publicação de atos.\"},{\"cdJornal\":4627,\"qtdMaterias\":357,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-17T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-17T16:14:54.790Z\",\"dtFechado\":\"2026-08-17T16:55:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22820\",\"vlNumeropaginas\":null,\"vlDownloads\":2859,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260817/Jornal/22820.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4626,\"qtdMaterias\":422,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-14T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-14T17:55:27.017Z\",\"dtFechado\":\"2026-08-14T16:53:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22819\",\"vlNumeropaginas\":null,\"vlDownloads\":3560,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260814/Jornal/22819.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4625,\"qtdMaterias\":383,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-13T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-13T16:51:07.833Z\",\"dtFechado\":\"2026-08-13T16:27:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22818\",\"vlNumeropaginas\":null,\"vlDownloads\":3367,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260813/Jornal/22818.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4624,\"qtdMaterias\":305,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-12T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-12T16:46:47.523Z\",\"dtFechado\":\"2026-08-12T17:16:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22817\",\"vlNumeropaginas\":null,\"vlDownloads\":3358,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260812/Jornal/22817.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4623,\"qtdMateri",
+      "json_summary": {
+        "type": "dict",
+        "keys": [
+          "error",
+          "records"
+        ],
+        "error": false
+      }
+    }
+  ],
+  "scripts": [],
+  "discovered": [],
+  "home_status": 200,
+  "home_url": "https://portal.doe.sea.sc.gov.br/",
+  "home_ct": "text/html",
+  "home_len": 2419,
+  "home_extract": []
+}

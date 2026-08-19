@@ -1,0 +1,130 @@
+{
+  "state": "PI",
+  "base": "https://www.diario.pi.gov.br/doe/",
+  "errors": [],
+  "known": [
+    {
+      "url": "https://www.diario.pi.gov.br/doe/Api/listardiarios.json",
+      "error": "RuntimeError: https://www.diario.pi.gov.br/doe/Api/listardiarios.json: 500"
+    }
+  ],
+  "scripts": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
+      "status": 200,
+      "ct": "application/javascript; charset=UTF-8",
+      "len": 509755,
+      "found": [
+        "https://www.youtube.com/iframe_api"
+      ]
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
+      "status": 200,
+      "ct": "application/javascript; charset=UTF-8",
+      "len": 509764,
+      "found": [
+        "https://www.youtube.com/iframe_api"
+      ]
+    },
+    {
+      "url": "https://www.pi.gov.br/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "error": "RuntimeError: https://www.pi.gov.br/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js: HTTPSConnectionPool(host='www.pi.gov.br', port=443): Read timed out. (read timeout=90)"
+    },
+    {
+      "url": "https://vlibras.gov.br/app/vlibras-plugin.js",
+      "status": 200,
+      "ct": "application/javascript; charset=utf-8",
+      "len": 17202,
+      "found": []
+    },
+    {
+      "url": "https://www.diario.pi.gov.br/doe/vendors/jquery/dist/jquery.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 85658,
+      "found": []
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js",
+      "status": 200,
+      "ct": "application/javascript; charset=utf-8",
+      "len": 20120,
+      "found": []
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=GTM-MNBRHWNB",
+      "status": 200,
+      "ct": "application/javascript; charset=UTF-8",
+      "len": 354324,
+      "found": []
+    },
+    {
+      "url": "https://www.diario.pi.gov.br/doe/vendors/DateJS/build/date.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 129966,
+      "found": []
+    },
+    {
+      "url": "https://www.diario.pi.gov.br/doe/vendors/moment/min/moment.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 46645,
+      "found": []
+    },
+    {
+      "url": "https://www.diario.pi.gov.br/doe/vendors/bootstrap-daterangepicker/daterangepicker.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 63906,
+      "found": []
+    },
+    {
+      "url": "https://markcell.github.io/jquery-tabledit/assets/js/tabledit.min.js",
+      "status": 200,
+      "ct": "application/javascript; charset=utf-8",
+      "len": 9484,
+      "found": [
+        "https://github.com/markcell/jQuery-Tabledit",
+        "https://github.com/markcell/jQuery-Tabledit/blob/master/LICENSE"
+      ]
+    },
+    {
+      "url": "https://www.diario.pi.gov.br/doe/vendors/datatables.net/js/jquery.dataTables.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 82638,
+      "found": []
+    }
+  ],
+  "discovered": [
+    "/Api/listardiarios.json",
+    "/busca",
+    "Api/listardiarios.json",
+    "https://fonts.googleapis.com/css?family=Montserrat",
+    "https://github.com/markcell/jQuery-Tabledit",
+    "https://github.com/markcell/jQuery-Tabledit/blob/master/LICENSE",
+    "https://login.pi.gov.br/auth/realms/pi/protocol/openid-connect/auth?client_id=portal-web&amp;redirect_uri=https%3A%2F%2Fpidigital.pi.gov.br%2Fapp%2Fdashboard&amp;state=ebe27033-34d9-4327-8ab8-d3e27256c4ca&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=c883077e-b43c-4789-8f19-534df516027f",
+    "https://markcell.github.io/jquery-tabledit/assets/js/tabledit.min.js",
+    "https://www.diario.pi.gov.br/doe/",
+    "https://www.diario.pi.gov.br/doe/img/governo_logo.png",
+    "https://www.diario.pi.gov.br/doe/img/logo-eleicoes-white.png",
+    "https://www.youtube.com/iframe_api"
+  ],
+  "home_status": 200,
+  "home_url": "https://www.diario.pi.gov.br/doe/",
+  "home_ct": "text/html; charset=UTF-8",
+  "home_len": 336525,
+  "home_extract": [
+    "https://fonts.googleapis.com/css?family=Montserrat",
+    "https://www.diario.pi.gov.br/doe/img/governo_logo.png",
+    "https://login.pi.gov.br/auth/realms/pi/protocol/openid-connect/auth?client_id=portal-web&amp;redirect_uri=https%3A%2F%2Fpidigital.pi.gov.br%2Fapp%2Fdashboard&amp;state=ebe27033-34d9-4327-8ab8-d3e27256c4ca&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=c883077e-b43c-4789-8f19-534df516027f",
+    "https://www.diario.pi.gov.br/doe/img/logo-eleicoes-white.png",
+    "https://www.diario.pi.gov.br/doe/",
+    "https://markcell.github.io/jquery-tabledit/assets/js/tabledit.min.js",
+    "/busca",
+    "/Api/listardiarios.json",
+    "Api/listardiarios.json"
+  ]
+}
