@@ -1,11 +1,9 @@
 name: Probe AutoPage coverage
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - probe_autopage.py
   workflow_dispatch:
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
