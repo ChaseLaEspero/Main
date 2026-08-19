@@ -1,0 +1,30 @@
+name: Summarize boundary probe results
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - summarize_boundary_probe.py
+      - .github/workflows/summarize_boundary_probe.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python summarize_boundary_probe.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add boundary_probe/compact_summary.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Store compact boundary probe summary"
+            git push
+          fi
