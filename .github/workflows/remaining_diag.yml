@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   issues:
     types: [opened]
+  push:
+    branches: [main]
+    paths:
+      - remaining_portals_diag.py
 
 permissions:
   contents: write
