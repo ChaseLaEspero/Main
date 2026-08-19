@@ -1,0 +1,33 @@
+name: Resolve PE exact machine-readable coverage
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - resolve_pe_quick.py
+      - .github/workflows/resolve_pe_quick.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python resolve_pe_quick.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manual_review_results/PE.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Store PE exact machine-readable coverage result"
+            git pull --rebase
+            git push
+          fi
