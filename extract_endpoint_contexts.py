@@ -1,4 +1,4 @@
-# Trigger endpoint context extraction: 2026-08-19 v2
+# Trigger endpoint context extraction: 2026-08-19 v3
 from pathlib import Path
 import json
 
@@ -7,6 +7,7 @@ TERMS={
  'PE':['consultarMateriaBuscaAvancada','consultarPublicacaoElastic','consultarAnosMateriasPublicacoes','diarios-public','consultarDiarioOficialConsultaDTO','buscarJornalPorEdicao','serverUrl','vm.filtro=','intervaloAno','/public/search','consultarDatasDisponiveis'],
  'AL':['editions/published','apinova/api','search','publication_date','published?page','inputPeriodoInicial'],
  'PI':['listardiarios.json','Api/listardiarios','dataInicio','dataFim','listarDiarios'],
+ 'SC':['/apis/jornal','/apis/materia','materias','Materia','repositorio','dsArquivo','cdJornal','qtdMaterias'],
  'TO':['pesquisar','buscar','diario','api'],
  'RO':['api','diario','jornal','pesquisa'],
  'RR':['api','diario','pesquisa'],
