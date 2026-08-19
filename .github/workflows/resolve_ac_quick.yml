@@ -1,0 +1,35 @@
+name: Resolve AC exact archive
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - resolve_ac_quick.py
+      - .github/workflows/resolve_ac_quick.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - run: python resolve_ac_quick.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manual_review_results/AC.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Store AC exact archive result"
+            git pull --rebase
+            git push
+          fi
