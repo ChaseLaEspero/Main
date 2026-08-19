@@ -1,0 +1,44 @@
+name: Manual review browser probe
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.title, 'Run AC MA PE browser probe')
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Run browser probe
+        run: python manual_browser_probe.py
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manual_browser_probe_results/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Store AC MA PE browser probe results"
+            git pull --rebase
+            git push
+          fi
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manual-browser-probe-results
+          path: manual_browser_probe_results/
+          if-no-files-found: warn
