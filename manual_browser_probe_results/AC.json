@@ -205,22 +205,22 @@
     },
     {
       "status": 200,
-      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_flat_75_ffffff_40x100.png",
-      "content_type": "image/png"
-    },
-    {
-      "status": 200,
       "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_highlight-soft_15_ffffff_1x100.png",
       "content_type": "image/png"
     },
     {
       "status": 200,
-      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-icons_999_256x240.png",
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_flat_75_ffffff_40x100.png",
       "content_type": "image/png"
     },
     {
       "status": 200,
       "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-bg_highlight-hard_100_eeeeee_1x100.png",
+      "content_type": "image/png"
+    },
+    {
+      "status": 200,
+      "url": "https://diario.ac.gov.br/novo_layout/jquery/images/ui-icons_999_256x240.png",
       "content_type": "image/png"
     },
     {
