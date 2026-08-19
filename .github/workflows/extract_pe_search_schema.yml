@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - extract_pe_search_schema.py
+      - .github/workflows/extract_pe_search_schema.yml
   workflow_dispatch:
 
 permissions:
