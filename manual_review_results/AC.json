@@ -1,0 +1,55 @@
+{
+  "state": "AC",
+  "main_url": "https://diario.ac.gov.br/",
+  "search_method": "POST mesano=06/2009",
+  "earliest_online_issue": {
+    "date": "2009-06-22",
+    "text": "22/06/2009 Diário Oficial N° 10072 - Caderno único 0.69 MB",
+    "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3Ml8yMjA2MjAwOS5wZGY="
+  },
+  "all_june_2009_issues": [
+    {
+      "date": "2009-06-22",
+      "text": "22/06/2009 Diário Oficial N° 10072 - Caderno único 0.69 MB",
+      "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3Ml8yMjA2MjAwOS5wZGY="
+    },
+    {
+      "date": "2009-06-23",
+      "text": "23/06/2009 Diário Oficial N° 10073 - Caderno único 0.87 MB",
+      "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3M18yMzA2MjAwOS5wZGY="
+    },
+    {
+      "date": "2009-06-24",
+      "text": "24/06/2009 Diário Oficial N° 10074 - Caderno único 0.83 MB",
+      "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3NF8yNDA2MjAwOS5wZGY="
+    },
+    {
+      "date": "2009-06-25",
+      "text": "25/06/2009 Diário Oficial N° 10075 - Caderno único 1.35 MB",
+      "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3NV8yNTA2MjAwOS5wZGY="
+    },
+    {
+      "date": "2009-06-26",
+      "text": "26/06/2009 Diário Oficial N° 10076 - Caderno único 0.97 MB",
+      "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3Nl8yNjA2MjAwOS5wZGY="
+    },
+    {
+      "date": "2009-06-29",
+      "text": "29/06/2009 Diário Oficial N° 10077 - Caderno único 1.68 MB",
+      "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3N18yOTA2MjAwOS5wZGY="
+    },
+    {
+      "date": "2009-06-30",
+      "text": "30/06/2009 Diário Oficial N° 10078 - Caderno único 0.83 MB",
+      "download_url": "https://diario.ac.gov.br/download.php?arquivo=KEQxQHI3IyEpRE8xMDA3OF8zMDA2MjAwOS5wZGY="
+    }
+  ],
+  "earliest_pdf_verification": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "content_length": "720856",
+    "is_pdf": true,
+    "bytes_received": 720856
+  },
+  "covers_2010_2021": true
+}
