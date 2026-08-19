@@ -39,7 +39,6 @@ def verify_pdf(url):
     except Exception as e:return {'url':url,'error':f'{type(e).__name__}: {e}','is_pdf':False}
 
 candidates={}
-# Parse monthly archive pages around and before the electronic transition.
 for y in range(2017,2020):
     for m in range(1,13):
         url=BASE+f'diarios?cf_time={y:04d}-{m:02d}'
@@ -56,7 +55,7 @@ for y in range(2017,2020):
                 candidates[u]={'pdf_url':u,'effective_date':d,'source_page':r.url,'link_text':a.get_text(' ',strip=True)}
         except Exception:
             pass
-# Test the predictable daily path from the legal transition through end-2019.
+
 d=date(2019,8,8)
 while d<=date(2019,12,31):
     for name in [f'DOE-{d:%d-%m-%Y}.pdf',f'DOE-{d:%d-%m-%Y}-SUPLEMENTAR.pdf',f'DOE-SUPLEMENTAR-{d:%d-%m-%Y}.pdf']:
@@ -65,14 +64,13 @@ while d<=date(2019,12,31):
     d+=timedelta(days=1)
 
 ordered=sorted(candidates.values(),key=lambda x:(x.get('effective_date') or '9999-99-99',x['pdf_url']))
-verified=[]
+earliest=None;tests=[]
 for c in ordered:
     v=verify_pdf(c['pdf_url'])
+    tests.append({'effective_date':c.get('effective_date'),'pdf_url':c['pdf_url'],'is_pdf':v.get('is_pdf'), 'status':v.get('status'), 'content_type':v.get('content_type')})
     if v.get('is_pdf'):
-        row=dict(c);row['verification']=v;verified.append(row)
-# Determine first valid file, prioritizing dated full-issue DOE filenames.
-verified.sort(key=lambda x:(x.get('effective_date') or '9999-99-99',x['pdf_url']))
-earliest=verified[0] if verified else None
-res={'state':'RO','main_url':BASE+'diarios','download_page':BASE+'downloads/','legal_electronic_start':'2019-08-08','candidate_count':len(candidates),'verified_pdf_count':len(verified),'earliest_valid_issue_pdf':earliest,'first_valid_issue_pdfs':verified[:30],'covers_2010_2021_in_current_electronic_archive':False,'conclusion':'The current official electronic full-issue archive begins in August 2019 and does not cover 2010-2018. The Diário itself existed in print before then, but no official online full-issue source for 2010-2018 was verified.'}
+        earliest=dict(c);earliest['verification']=v;break
+
+res={'state':'RO','main_url':BASE+'diarios','download_page':BASE+'downloads/','legal_electronic_start':'2019-08-08','candidate_count':len(candidates),'tested_until_first_valid':len(tests),'earliest_valid_issue_pdf':earliest,'boundary_tests':tests,'covers_2010_2021_in_current_electronic_archive':False,'conclusion':'The current official electronic full-issue archive begins in August 2019 and does not cover 2010-2018. The Diário itself existed in print before then, but no official online full-issue source for 2010-2018 was verified.'}
 (OUT/'RO.json').write_text(json.dumps(res,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(res,ensure_ascii=False,indent=2))
