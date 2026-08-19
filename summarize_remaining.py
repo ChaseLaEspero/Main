@@ -1,8 +1,8 @@
 from __future__ import annotations
 
+# Trigger compact report generation: 2026-08-19
 import json
 from pathlib import Path
-from urllib.parse import urlparse
 
 ROOT = Path('remaining_portals_diag')
 OUT = ROOT / 'compact.json'
