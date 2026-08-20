@@ -7,12 +7,15 @@ on:
       - probe_df_sc_exact.py
       - .github/workflows/probe_df_sc_exact.yml
   workflow_dispatch:
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
 
 jobs:
   probe:
+    if: github.event_name != 'issues' || contains(github.event.issue.title, 'Run DF SC exact probe')
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
