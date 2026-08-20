@@ -1,0 +1,852 @@
+{
+  "start_url": "https://portal.doe.sea.sc.gov.br/",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://portal.doe.sea.sc.gov.br/apis/status",
+      "resource_type": "xhr",
+      "post_data": null
+    },
+    {
+      "method": "GET",
+      "url": "https://portal.doe.sea.sc.gov.br/apis/home/slide/68",
+      "resource_type": "xhr",
+      "post_data": null
+    },
+    {
+      "method": "GET",
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=12&dtStart=2011-10-03%2000:00:00&dtEnd=2026-08-20%2023:59:59",
+      "resource_type": "xhr",
+      "post_data": null
+    },
+    {
+      "method": "GET",
+      "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/assets/layout/images/banner/bg-banner-materia.png",
+      "resource_type": "image",
+      "post_data": null
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/apis/status",
+      "content_type": "application/json; charset=utf-8",
+      "body_preview": "{\"code\":1,\"data\":[{\"object\":\"Database\",\"state\":\"Connected\",\"active\":1}]}",
+      "body_length": 72
+    },
+    {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=12&dtStart=2011-10-03%2000:00:00&dtEnd=2026-08-20%2023:59:59",
+      "content_type": "application/json; charset=utf-8",
+      "body_preview": "{\"error\":false,\"records\":{\"meta\":{\"total\":4174,\"per_page\":12,\"current_page\":1,\"last_page\":348,\"first_page\":1,\"first_page_url\":\"/?page=1\",\"last_page_url\":\"/?page=348\",\"next_page_url\":\"/?page=2\",\"previous_page_url\":null},\"data\":[{\"cdJornal\":4630,\"qtdMaterias\":370,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-19T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-19T17:28:22.427Z\",\"dtFechado\":\"2026-08-19T19:59:00.000Z\",\"dsAno\":\"xcii\",\"vlNumero\":\"22822\",\"vlNumeropaginas\":null,\"vlDownloads\":1016,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260819/Jornal/22822.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4629,\"qtdMaterias\":495,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-18T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-18T16:48:18.910Z\",\"dtFechado\":\"2026-08-18T16:48:00.000Z\",\"dsAno\":\"xcii\",\"vlNumero\":\"22821\",\"vlNumeropaginas\":null,\"vlDownloads\":2721,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260818/Jornal/22821.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4628,\"qtdMaterias\":6,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-17T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-17T19:57:49.957Z\",\"dtFechado\":\"2026-08-18T01:41:00.000Z\",\"dsAno\":\"xcii\",\"vlNumero\":\"22820-A\",\"vlNumeropaginas\":null,\"vlDownloads\":2293,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"1\",\"dsArquivo\":\"/2026/20260817/Jornal/22820-A.pdf\",\"dsSolicitante\":\"KAROL - SGG\",\"dsMotivosolicitacao\":\"Publicação de atos.\"},{\"cdJornal\":4627,\"qtdMaterias\":357,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-17T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-17T16:14:54.790Z\",\"dtFechado\":\"2026-08-17T16:55:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22820\",\"vlNumeropaginas\":null,\"vlDownloads\":3011,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260817/Jornal/22820.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4626,\"qtdMaterias\":422,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-14T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-14T17:55:27.017Z\",\"dtFechado\":\"2026-08-14T16:53:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22819\",\"vlNumeropaginas\":null,\"vlDownloads\":3640,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260814/Jornal/22819.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4625,\"qtdMaterias\":383,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-13T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-13T16:51:07.833Z\",\"dtFechado\":\"2026-08-13T16:27:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22818\",\"vlNumeropaginas\":null,\"vlDownloads\":3396,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260813/Jornal/22818.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4624,\"qtdMaterias\":305,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-12T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-12T16:46:47.523Z\",\"dtFechado\":\"2026-08-12T17:16:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22817\",\"vlNumeropaginas\":null,\"vlDownloads\":3378,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260812/Jornal/22817.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4623,\"qtdMaterias\":552,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-11T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-11T17:08:56.333Z\",\"dtFechado\":\"2026-08-11T17:15:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22816\",\"vlNumeropaginas\":null,\"vlDownloads\":3631,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260811/Jornal/22816.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4622,\"qtdMaterias\":354,\"cdUsuarioaprovacao\":181,\"dsUsuarioaprovacao\":\"ARLENE NATALIA CORDEIRO\",\"dtPublicacao\":\"2026-08-10T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-10T16:48:18.787Z\",\"dtFechado\":\"2026-08-10T16:58:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22815\",\"vlNumeropaginas\":null,\"vlDownloads\":3682,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260810/Jornal/22815.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4621,\"qtdMaterias\":357,\"cdUsuarioaprovacao\":10697,\"dsUsuarioaprovacao\":\"ALEXANDRE BALDANCA\",\"dtPublicacao\":\"2026-08-07T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-07T17:11:00.907Z\",\"dtFechado\":\"2026-08-07T16:40:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22814\",\"vlNumeropaginas\":null,\"vlDownloads\":3688,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2026/20260807/Jornal/22814.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":4620,\"qtdMaterias\":322,\"cdUsuarioaprovacao\":10697,\"dsUsuarioaprovacao\":\"ALEXANDRE BALDANCA\",\"dtPublicacao\":\"2026-08-06T00:00:00.000Z\",\"dtAprovacao\":\"2026-08-06T17:09:46.047Z\",\"dtFechado\":\"2026-08-06T16:49:0",
+      "body_length": 5684
+    },
+    {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/apis/home/slide/68",
+      "content_type": "application/json; charset=utf-8",
+      "body_preview": "{\"error\":false,\"banner\":[{\"dsTitulo\":\"Diário Oficial de Santa Catarina\",\"dsResumo\":\"92 anos de história e transparência\",\"dsNoticia\":\"Em 1° de março de 2026, o Diário Oficial de Santa Catarina completa quase um século de existência. \",\"dsUrl\":\"https://www.sea.sc.gov.br/blog/diario-oficial-de-santa-catarina-92-anos-de-historia-e-transparencia/\",\"dsUrlcapa\":null,\"dsPalavrachave\":null,\"dsImagem\":\"20262271618-Gemini_Generated_Image_lp3y47lp3y47lp3y.png\",\"imagem\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAF+CAYAAAD0uKLWAAA66WNhQlgAADrpanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAAGvdqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3VybjpjMnBhOjdhYzE5MmJlLTg0N2MtNWYwZS04ZmI2LTQ4ODIyZTFiZjRmYwAAABMAanVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABLQY2JvctKEWQYrogEmGCGCWQM/MIIDOzCCAsCgAwIBAgIUAJ6vFWKBqUkCFltI/1ipbSSYHs4wCgYIKoZIzj0EAwMwUTELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkdvb2dsZSBMTEMxLTArBgNVBAMMJEdvb2dsZSBDMlBBIE1lZGlhIFNlcnZpY2VzIDFQIElDQSBHMzAeFw0yNjAyMTcxNTE3MTJaFw0yNzAyMTIxNTE3MTFaMGsxCzAJBgNVBAYTAlVTMRMwEQYDVQQKEwpHb29nbGUgTExDMRwwGgYDVQQLExNHb29nbGUgU3lzdGVtIDYwMDMyMSkwJwYDVQQDEyBHb29nbGUgTWVkaWEgUHJvY2Vzc2luZyBTZXJ2aWNlczBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLBjir7O78duFgwA85LMipPVJpwNGfPRe9uLhP2QbYYvWYLwkqIuwXGpMdIYJ5OtG6kKVtfi3xS50maSO0eJywCjggFaMIIBVjAOBgNVHQ8BAf8EBAMCBsAwHwYDVR0lBBgwFgYIKwYBBQUHAwQGCisGAQQBg+heAgEwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUkG/QOXwhnfJG44eVEH4Wr2aQ5O4wHwYDVR0jBBgwFoAU2nvhvbQsioXgENZrmsdK8frf9jcwbAYIKwYBBQUHAQEEYDBeMCYGCCsGAQUFBzABhhpodHRwOi8vYzJwYS1vY3NwLnBraS5nb29nLzA0BggrBgEFBQcwAoYoaHR0cDovL3BraS5nb29nL2MycGEvbWVkaWEtMXAtaWNhLWczLmNydDAXBgNVHSAEEDAOMAwGCisGAQQBg+heAQEwGQYJKwYBBAGD6F4DBAwGCisGAQQBg+heAwowMwYJKwYBBAGD6F4EBCYMJDAxOWMzNGQzLTczM2YtN2E0Ny1iOTE3LTUwZGQzOGY0MWVjZTAKBggqhkjOPQQDAwNpADBmAjEAk41aMTcCgSsA+aAKV0GYPGVAUzMSnab02y1JhvXYZraq9fLZxPw8G8NcdJnCEndyAjEAvrBQu9UmLza4dENTmz+o32xGSkRJXRQgjFfWVLanodD/bGcbObPJxEvCR0JMirQCWQLgMIIC3DCCAmOgAwIBAgIUQfqlIUd2IVjaf5ss/439Fgke7j4wCgYIKoZIzj0EAwMwQzELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkdvb2dsZSBMTEMxHzAdBgNVBAMMFkdvb2dsZSBDMlBBIFJvb3QgQ0EgRzMwHhcNMjUwNTA4MjIzNjI2WhcNMzAwNTA4MjIzNjI2WjBRMQswCQYDVQQGEwJVUzETMBEGA1UECgwKR29vZ2xlIExMQzEtMCsGA1UEAwwkR29vZ2xlIEMyUEEgTWVkaWEgU2VydmljZXMgMVAgSUNBIEczMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEuCPlUxSiltqnB2lx2ES7FK+TVZWmAxRzzDjTzKZ8umoqyvCqSLOkZBrOieaLqrp+rnzt0EADWWH3X62NqzEXRewW6rb/lS7VXkVCM02gC0ZgJW7+PCsZgLoUBUQ+nkN5o4IBCDCCAQQwFwYDVR0gBBAwDjAMBgorBgEEAYPoXgEBMA4GA1UdDwEB/wQEAwIBBjAfBgNVHSUEGDAWBggrBgEFBQcDBAYKKwYBBAGD6F4CATASBgNVHRMBAf8ECDAGAQH/AgEAMGQGCCsGAQUFBwEBBFgwVjAsBggrBgEFBQcwAoYgaHR0cDovL3BraS5nb29nL2MycGEvcm9vdC1nMy5jcnQwJgYIKwYBBQUHMAGGGmh0dHA6Ly9jMnBhLW9jc3AucGtpLmdvb2cvMB8GA1UdIwQYMBaAFJxc2IlTQ+da1YHbA94ZfwQqKi2qMB0GA1UdDgQWBBTae+G9tCyKheAQ1muax0rx+t/2NzAKBggqhkjOPQQDAwNnADBkAjACxtEE3NW13bwN1u/51ericNF6rkEhYVESDO6Jqb5cX37Hwg0X9S2rH+vXaoFZIHsCMC03wCKKomDHgqV47UtyyHpZlo5IZACW72Xdc4gipdWMEmhvPk88dvxbYtn+LVd9zKRnc2lnVHN0MqFpdHN0VG9rZW5zgaFjdmFsWQfhMIIH3QYJKoZIhvcNAQcCoIIHzjCCB8oCAQMxDTALBglghkgBZQMEAgEwgZEGCyqGSIb3DQEJEAEEoIGBBH8wfQIBAQYKKwYBBAHWeQIKATAxMA0GCWCGSAFlAwQCAQUABCC0fE/LRm7uAe3o8GON6s6rVLRLCyV6F3Va3N0lNM9C1wIVAPLWTCtIbYgkzCFV3SGrRTL1O6GXGA8yMDI2MDIyMzE3NDY0MVowBgIBAYABCgIJAJJpxDnaHKxtoIIFoDCCAskwggJPoAMCAQICFACy1dUfIWdeE7xBMKqIvDvk4LoeMAoGCCqGSM49BAMDMFIxCzAJBgNVBAYTAlVTMRMwEQYDVQQKDApHb29nbGUgTExDMS4wLAYDVQQDDCVHb29nbGUgQzJQQSBDb3JlIFRpbWUtU3RhbXBpbmcgSUNBIEczMB4XDTI1MDkwODEzNDg1NVoXDTMxMDkwOTAxNDg1NFowUzELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkdvb2dsZSBMTEMxLzAtBgNVBAMTJkdvb2dsZSBDb3JlIFRpbWUgU3RhbXBpbmcgQXV0aG9yaXR5IFQ5MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1Af1CI0WrI5ooiRXmqW7/7HDsr8E+movv/TM6OFbSNnzLLEj75bHe1V5sEMiSjxpvAHs5EDTVcU2rlekCiU8s6OCAQAwgf0wDgYDVR0PAQH/BAQDAgbAMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFDuxPDki1qaJ6sBTqbUrLieAWMcJMB8GA1UdIwQYMBaAFN5Vl4xgdDsD4mq0RAZll2HK5fiOMGwGCCsGAQUFBwEBBGAwXjAmBggrBgEFBQcwAYYaaHR0cDovL2MycGEtb2NzcC5wa2kuZ29vZy8wNAYIKwYBBQUHMAKGKGh0dHA6Ly9wa2kuZ29vZy9jMnBhL2NvcmUtdHNhLWljYS1nMy5jcnQwFwYDVR0gBBAwDjAMBgorBgEEAYPoXgEBMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMAoGCCqGSM49BAMDA2gAMGUCMQCzqa3oVRmfXsvBWKjk8A9tf1vOqqVZUztTnC0an4pl25XNL3dykNrSeKB0brBO/Q8CMDrMQoWii1c1EeHx6Gr/G0YD9vgvDzVMagds2GswnGrsKD2ur3Mk3j8jgNkAN2zgXjCCAs8wggJWoAMCAQICFEUAg25yEwLFZKSeZDN2+o8Jt2T0MAoGCCqGSM49BAMDMEMxCzAJBgNVBAYTAlVTMRMwEQYDVQQKDApHb29nbGUgTExDMR8wHQYDVQQDDBZHb29nbGUgQzJQQSBSb290IENBIEczMB4XDTI1MDUwODIyMzYyNloXDTQwMDUwODIyMzYyNlowUjELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkdvb2dsZSBMTEMxLjAsBgNVBAMMJUdvb2dsZSBDMlBBIENvcmUgVGltZS1TdGFtcGluZyBJQ0EgRzMwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASjfffxvQgqH0VZJeBS+akg3/7bLo9FIdhPCtXNA3HdZyosWW7AnCQyciJ5uQKRX7mmykefp8U0cxN+XsUlROkxIo401bgW/hrBqzPqxiEsI0//AeTgwX/wOGvFcq0lSwqjgfswgfgwFwYDVR0gBBAwDjAMBgorBgEEAYPoXgEBMA4GA1UdDwEB/wQEAwIBBjATBgNVHSUEDDAKBggrBgEFBQcDCDASBgNVHRMBAf8ECDAGAQH/AgEAMGQGCCsGAQUFBwEBBFgwVjAsBggrBgEFBQcwAoYgaHR0cDovL3BraS5nb29nL2MycGEvcm9vdC1nMy5jcnQwJgYIKwYBBQUHMAGGGmh0dHA6Ly9jMnBhLW9jc3AucGtpLmdvb2cvMB8GA1UdIwQYMBaAFJxc2IlTQ+da1YHbA94ZfwQqKi2qMB0GA1UdDgQWBBTeVZeMYHQ7A+JqtEQGZZdhyuX4jjAKBggqhkjOPQQDAwNnADBkAjBBxgaNHUp8AZXW5U2BdHxgXcxwQltKEY",
+      "body_length": 530215
+    },
+    {
+      "status": 200,
+      "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/assets/layout/images/banner/bg-banner-materia.png",
+      "content_type": "image/png"
+    }
+  ],
+  "errors": [],
+  "nav_status": 200,
+  "final_url": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/portal",
+  "title": "DOE - Diário Oficial de SC",
+  "html": "<!DOCTYPE html><html><head>\n    <meta charset=\"utf-8\">\n    <title>DOE - Diário Oficial de SC</title>\n    <base href=\"./\">\n\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n    <!-- Layout CSS -->\n    <style>:root{--surface-a:#fdfeff;--surface-b:#f6f9fe;--surface-c:rgba(232, 241, 248, 0.7);--surface-d:#e4e5e5;--surface-e:#fdfeff;--surface-f:#fdfeff;--text-color:#515c66;--text-color-secondary:#657380;--primary-color:#1b74c5;--primary-color-text:#f8fafc;--font-family:Open Sans;--surface-0:#ffffff;--surface-50:#fafafa;--surface-100:#f5f5f5;--surface-200:#eeeeee;--surface-300:#e0e0e0;--surface-400:#bdbdbd;--surface-500:#9e9e9e;--surface-600:#757575;--surface-700:#616161;--surface-800:#424242;--surface-900:#212121;--gray-50:#fafafa;--gray-100:#f5f5f5;--gray-200:#eeeeee;--gray-300:#e0e0e0;--gray-400:#bdbdbd;--gray-500:#9e9e9e;--gray-600:#757575;--gray-700:#616161;--gray-800:#424242;--gray-900:#212121;--content-padding:1rem;--inline-spacing:0.5rem;--border-radius:3px;--surface-ground:#f8f9fa;--surface-section:#ffffff;--surface-card:#ffffff;--surface-overlay:#ffffff;--surface-border:#dee2e6;--surface-hover:#e9ecef;--maskbg:rgba(0, 0, 0, 0.4);--focus-ring:0 0 0 0.2rem #4d9fdc;--font-size-reference:1}*{box-sizing:border-box}:root{--blue-50:#f4fafe;--blue-100:#cae6fc;--blue-200:#a0d2fa;--blue-300:#75bef8;--blue-400:#4baaf5;--blue-500:#2196f3;--blue-600:#1c80cf;--blue-700:#1769aa;--blue-800:#125386;--blue-900:#0d3c61;--green-50:#f6fbf6;--green-100:#d4ecd5;--green-200:#b2ddb4;--green-300:#90cd93;--green-400:#6ebe71;--green-500:#4caf50;--green-600:#419544;--green-700:#357b38;--green-800:#2a602c;--green-900:#1e4620;--yellow-50:#fffcf5;--yellow-100:#fef0cd;--yellow-200:#fde4a5;--yellow-300:#fdd87d;--yellow-400:#fccc55;--yellow-500:#fbc02d;--yellow-600:#d5a326;--yellow-700:#b08620;--yellow-800:#8a6a19;--yellow-900:#644d12;--cyan-50:#f2fcfd;--cyan-100:#c2eff5;--cyan-200:#91e2ed;--cyan-300:#61d5e4;--cyan-400:#30c9dc;--cyan-500:#00bcd4;--cyan-600:#00a0b4;--cyan-700:#008494;--cyan-800:#006775;--cyan-900:#004b55;--pink-50:#fef4f7;--pink-100:#fac9da;--pink-200:#f69ebc;--pink-300:#f1749e;--pink-400:#ed4981;--pink-500:#e91e63;--pink-600:#c61a54;--pink-700:#a31545;--pink-800:#801136;--pink-900:#5d0c28;--indigo-50:#f5f6fb;--indigo-100:#d1d5ed;--indigo-200:#acb4df;--indigo-300:#8893d1;--indigo-400:#6372c3;--indigo-500:#3f51b5;--indigo-600:#36459a;--indigo-700:#2c397f;--indigo-800:#232d64;--indigo-900:#192048;--teal-50:#f2faf9;--teal-100:#c2e6e2;--teal-200:#91d2cc;--teal-300:#61beb5;--teal-400:#30aa9f;--teal-500:#009688;--teal-600:#008074;--teal-700:#00695f;--teal-800:#00534b;--teal-900:#003c36;--orange-50:#fff8f2;--orange-100:#fde0c2;--orange-200:#fbc791;--orange-300:#f9ae61;--orange-400:#f79530;--orange-500:#f57c00;--orange-600:#d06900;--orange-700:#ac5700;--orange-800:#874400;--orange-900:#623200;--bluegray-50:#f7f9f9;--bluegray-100:#d9e0e3;--bluegray-200:#bbc7cd;--bluegray-300:#9caeb7;--bluegray-400:#7e96a1;--bluegray-500:#607d8b;--bluegray-600:#526a76;--bluegray-700:#435861;--bluegray-800:#35454c;--bluegray-900:#263238;--purple-50:#faf4fb;--purple-100:#e7cbec;--purple-200:#d4a2dd;--purple-300:#c279ce;--purple-400:#af50bf;--purple-500:#9c27b0;--purple-600:#852196;--purple-700:#6d1b7b;--purple-800:#561561;--purple-900:#3e1046}</style><link id=\"theme-css\" rel=\"stylesheet\" type=\"text/css\" href=\"./assets/theme/denim/theme-light.css\" media=\"all\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"./assets/theme/denim/theme-light.css\"></noscript>\n    <style>:root{--content-alt-bg-color:#E8F1F8;--font-size-reference:1;--prod-top:50px;--prod-height:56px}.loader{background:#fff;background:radial-gradient(#FFFFFF, #E8F1F8);bottom:0;left:0;overflow:hidden;position:fixed;right:0;top:0;z-index:99999}.loader-inner{bottom:0;height:60px;left:0;margin:auto;position:absolute;right:0;top:0;width:100px}.loader-line-wrap{animation:spin 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;box-sizing:border-box;height:50px;left:0;overflow:hidden;position:absolute;top:0;transform-origin:50% 100%;width:100px}.loader-line{border:4px solid transparent;border-radius:100%;box-sizing:border-box;height:100px;left:0;margin:0 auto;position:absolute;right:0;top:0;width:100px}.loader-line-wrap:nth-child(1){animation-delay:-50ms}.loader-line-wrap:nth-child(2){animation-delay:-100ms}.loader-line-wrap:nth-child(3){animation-delay:-150ms}.loader-line-wrap:nth-child(4){animation-delay:-200ms}.loader-line-wrap:nth-child(5){animation-delay:-250ms}.loader-line-wrap:nth-child(1) .loader-line{border-color:#1B74C5;height:90px;width:90px;top:7px}.loader-line-wrap:nth-child(2) .loader-line{border-color:#448ACB;height:76px;width:76px;top:14px}.loader-line-wrap:nth-child(3) .loader-line{border-color:#6BB0E5;height:62px;width:62px;top:21px}.loader-line-wrap:nth-child(4) .loader-line{border-color:#9ED4F6;height:48px;width:48px;top:28px}.loader-line-wrap:nth-child(5) .loader-line{border-color:#CEEBFA;height:34px;width:34px;top:35px}@keyframes spin{0%,15%{transform:rotate(0)}100%{transform:rotate(360deg)}}@font-face{font-family:\"Open Sans\";font-style:normal;font-weight:300;src:url(\"../fonts/open-sans-v18-latin-ext_latin-300.eot\");src:local(\"\"), url(\"../fonts/open-sans-v18-latin-ext_latin-300.eot?#iefix\") format(\"embedded-opentype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-300.woff2\") format(\"woff2\"), url(\"../fonts/open-sans-v18-latin-ext_latin-300.woff\") format(\"woff\"), url(\"../fonts/open-sans-v18-latin-ext_latin-300.ttf\") format(\"truetype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-300.svg#OpenSans\") format(\"svg\")}@font-face{font-family:\"Open Sans\";font-style:normal;font-weight:400;src:url(\"../fonts/open-sans-v18-latin-ext_latin-regular.eot\");src:local(\"\"), url(\"../fonts/open-sans-v18-latin-ext_latin-regular.eot?#iefix\") format(\"embedded-opentype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-regular.woff2\") format(\"woff2\"), url(\"../fonts/open-sans-v18-latin-ext_latin-regular.woff\") format(\"woff\"), url(\"../fonts/open-sans-v18-latin-ext_latin-regular.ttf\") format(\"truetype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-regular.svg#OpenSans\") format(\"svg\")}@font-face{font-family:\"Open Sans\";font-style:normal;font-weight:600;src:url(\"../fonts/open-sans-v18-latin-ext_latin-600.eot\");src:local(\"\"), url(\"../fonts/open-sans-v18-latin-ext_latin-600.eot?#iefix\") format(\"embedded-opentype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-600.woff2\") format(\"woff2\"), url(\"../fonts/open-sans-v18-latin-ext_latin-600.woff\") format(\"woff\"), url(\"../fonts/open-sans-v18-latin-ext_latin-600.ttf\") format(\"truetype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-600.svg#OpenSans\") format(\"svg\")}@font-face{font-family:\"Open Sans\";font-style:normal;font-weight:700;src:url(\"../fonts/open-sans-v18-latin-ext_latin-700.eot\");src:local(\"\"), url(\"../fonts/open-sans-v18-latin-ext_latin-700.eot?#iefix\") format(\"embedded-opentype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-700.woff2\") format(\"woff2\"), url(\"../fonts/open-sans-v18-latin-ext_latin-700.woff\") format(\"woff\"), url(\"../fonts/open-sans-v18-latin-ext_latin-700.ttf\") format(\"truetype\"), url(\"../fonts/open-sans-v18-latin-ext_latin-700.svg#OpenSans\") format(\"svg\")}html{height:100%;font-size:calc(var(--font-size-reference) * 14px) }body{font-family:\"Open Sans\";font-size:calc(var(--font-size-reference) * 14px) ;color:#515C66;-webkit-font-smoothing:antialiased;padding:0;margin:0;height:100%}body.main-body{background:linear-gradient(99deg, #F6F9FE 0%, #E8F1F8 100%)}@-webkit-keyframes fadeInDown{from{opacity:0;-webkit-transform:translate3d(0, -20px, 0);transform:translate3d(0, -20px, 0)}to{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes fadeOutUp{from{opacity:1}to{opacity:0;-webkit-transform:translate3d(0, -20px, 0);transform:translate3d(0, -20px, 0)}}@-webkit-keyframes modal-in{from{background-color:transparent}to{background-color:rgba(0, 0, 0, 0.6)}}</style><link id=\"layout-css\" rel=\"stylesheet\" type=\"text/css\" href=\"./assets/layout/css/layout-light.css\" media=\"all\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"./assets/layout/css/layout-light.css\"></noscript>\n    <style>@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale, 1.25));transform:scale(var(--fa-beat-scale, 1.25))}}@-webkit-keyframes fa-bounce{0%{-webkit-transform:scale(1, 1) translateY(0);transform:scale(1, 1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));transform:scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0)}57%{-webkit-transform:scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));transform:scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em))}64%{-webkit-transform:scale(1, 1) translateY(0);transform:scale(1, 1) translateY(0)}100%{-webkit-transform:scale(1, 1) translateY(0);transform:scale(1, 1) translateY(0)}}@-webkit-keyframes fa-fade{50%{opacity:var(--fa-fade-opacity, 0.4)}}@-webkit-keyframes fa-beat-fade{0%,100%{opacity:var(--fa-beat-fade-opacity, 0.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale, 1.125));transform:scale(var(--fa-beat-fade-scale, 1.125))}}@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));transform:rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg))}}@-webkit-keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}8%,24%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}40%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}:root{--fa-style-family-brands:'Font Awesome 6 Brands';--fa-font-brands:normal 400 1em/1 'Font Awesome 6 Brands'}@font-face{font-family:'Font Awesome 6 Brands';font-style:normal;font-weight:400;font-display:block;src:url(\"../webfonts/fa-brands-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-brands-400.ttf\") format(\"truetype\")}:root{--fa-style-family-classic:'Font Awesome 6 Free';--fa-font-regular:normal 400 1em/1 'Font Awesome 6 Free'}@font-face{font-family:'Font Awesome 6 Free';font-style:normal;font-weight:400;font-display:block;src:url(\"../webfonts/fa-regular-400.woff2\") format(\"woff2\"), url(\"../webfonts/fa-regular-400.ttf\") format(\"truetype\")}:root{--fa-style-family-classic:'Font Awesome 6 Free';--fa-font-solid:normal 900 1em/1 'Font Awesome 6 Free'}@font-face{font-family:'Font Awesome 6 Free';font-style:normal;font-weight:900;font-display:block;src:url(\"../webfonts/fa-solid-900.woff2\") format(\"woff2\"), url(\"../webfonts/fa-solid-900.ttf\") format(\"truetype\")}</style><link id=\"font-awesome\" rel=\"stylesheet\" type=\"text/css\" href=\"./assets/fontawesome/css/all.css\" media=\"all\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"./assets/fontawesome/css/all.css\"></noscript>\n    <link id=\"font-awesome\" rel=\"stylesheet\" type=\"text/css\" href=\"./assets/lineicons/icon-font/lineicons.css\" media=\"all\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"./assets/lineicons/icon-font/lineicons.css\"></noscript>\n\n<style>@charset \"UTF-8\";:root{--fc-daygrid-event-dot-width:8px}:root{--default-green:#8fb13a}</style><link rel=\"stylesheet\" href=\"styles.2f82906a6e262429.css\" media=\"all\" onload=\"this.media='all'\"><noscript><link rel=\"stylesheet\" href=\"styles.2f82906a6e262429.css\"></noscript><style></style><style>@media only screen and (min-width: 1199px){.container-menu[_ngcontent-rph-c172]{width:1200px;padding:10px}.menu-sm[_ngcontent-rph-c172]{display:none!important}.menu-md[_ngcontent-rph-c172]{display:block!important}}@media only screen and (max-width: 1198px){.menu-sm[_ngcontent-rph-c172]{display:block!important}.menu-md[_ngcontent-rph-c172]{display:none!important}}@media only screen and (max-width: 1198px){.container-menu[_ngcontent-rph-c172]{width:100%;padding:10px}}.logo[_ngcontent-rph-c172]{max-width:180px;min-width:160}.logo[_ngcontent-rph-c172]   img[_ngcontent-rph-c172]{max-width:168px;min-width:129.6px;max-height:41px}.menu-sc[_ngcontent-rph-c172]{max-width:1018px;min-width:814.4px}ul[_ngcontent-rph-c172]{list-style-type:none;margin:0;overflow:hidden}li[_ngcontent-rph-c172]{float:left;padding:3px}li[_ngcontent-rph-c172]   a[_ngcontent-rph-c172]{display:block;text-align:center;text-decoration:none;color:#333;font-family:\"Montserrat\",Sans-serif;font-size:12px;font-weight:500}li[_ngcontent-rph-c172]:not(:last-child){border-right:1px solid #ddd}a[_ngcontent-rph-c172]{color:#333;font-size:12px;font-weight:500}li[_ngcontent-rph-c172]   a[_ngcontent-rph-c172]:hover, a[_ngcontent-rph-c172]:hover{color:#c4000b}.shadow-bottom[_ngcontent-rph-c172]{box-shadow:0 10px 8px #00000017}</style><style>.header-content[_ngcontent-rph-c173]{font-size:1.6rem;color:#000;font-family:\"Montserrat\",Sans-serif;display:flex;align-items:center;justify-content:center;border-bottom:2px solid #525151;padding-bottom:15px;height:50px}.header-content[_ngcontent-rph-c173]   h3[_ngcontent-rph-c173]{padding-right:.7rem;padding-left:.4rem}.header-content[_ngcontent-rph-c173]   i[_ngcontent-rph-c173]{font-size:1.7rem;padding-top:18px;color:#1b74c5}.accessibility-button[_ngcontent-rph-c173]{box-shadow:0 5px 5px -3px #0003,0 8px 10px 1px #00000024,0 3px 14px 2px #0000001f;z-index:1000;background-color:#1b74c5!important;border-color:#1b74c5}.accessibility-button[_ngcontent-rph-c173]:hover{border-color:#0f4170}.accessibility-button[_ngcontent-rph-c173]   i[_ngcontent-rph-c173]{font-size:2.7rem;padding:7px;position:absolute;transition:.5s}.accessibility-button[_ngcontent-rph-c173]   i[_ngcontent-rph-c173]:hover{transform:scale(1.2)}.button-container[_ngcontent-rph-c173]   button[_ngcontent-rph-c173]{font-weight:500;font-size:1.2rem;color:#212529;font-family:\"Montserrat\",Sans-serif;display:flex;justify-content:space-around;align-items:center;background:transparent;border:none;border-bottom:1px solid #ccc;width:100%;height:50px;padding-bottom:10px;cursor:pointer}.button-container[_ngcontent-rph-c173]   button[_ngcontent-rph-c173]   i[_ngcontent-rph-c173]{padding-left:10px;font-size:1.4rem}.button-container[_ngcontent-rph-c173]   #button-color[_ngcontent-rph-c173]   i[_ngcontent-rph-c173]{color:#5f9ea0}.button-container[_ngcontent-rph-c173]   #button-color[_ngcontent-rph-c173]:hover   i[_ngcontent-rph-c173], .button-container[_ngcontent-rph-c173]   button[_ngcontent-rph-c173]:hover   i[_ngcontent-rph-c173], .button-container[_ngcontent-rph-c173]   button[_ngcontent-rph-c173]:hover{color:#c4000b;font-weight:700}</style><style>@media only screen and (min-width: 1150px){.container-footer[_ngcontent-rph-c174]{width:1156px;padding:10px 0;margin:10px 0;color:#333;font-family:\"Montserrat\",Sans-serif}}@media only screen and (max-width: 966px){.container-footer[_ngcontent-rph-c174]{width:100%;padding:10px 0;margin:10px 0;color:#333;font-family:\"Montserrat\",Sans-serif}.icons-footer[_ngcontent-rph-c174]{width:56px!important;height:56px!important}.card[_ngcontent-rph-c174]   div[_ngcontent-rph-c174]   div[_ngcontent-rph-c174]   a[_ngcontent-rph-c174], p[_ngcontent-rph-c174]{font-size:14px!important}}h2[_ngcontent-rph-c174]{font-size:17px;font-weight:700;padding-bottom:20px}a[_ngcontent-rph-c174]{text-decoration:none;color:#333}a[_ngcontent-rph-c174]:hover{color:#c4000b}ul[_ngcontent-rph-c174]{list-style-type:none;margin:0;padding:0}li[_ngcontent-rph-c174]{text-decoration:none}li[_ngcontent-rph-c174]   span[_ngcontent-rph-c174]{font-weight:500;font-size:16px}.endereco-container[_ngcontent-rph-c174]{flex:0 0 auto;padding:10px;margin:0;width:33%}.navegacao-container[_ngcontent-rph-c174]{flex:0 0 auto;padding:10px;margin:0 10px;width:24%}.mapa-container[_ngcontent-rph-c174]{flex:0 0 auto;padding:10px;margin:0;width:35%;line-height:30px}.copyright-container[_ngcontent-rph-c174]{width:100%;margin:0;font-size:14px;font-weight:700}.footer-content[_ngcontent-rph-c174]{width:1300px}.icon-container[_ngcontent-rph-c174]{width:20%;flex:0 0 auto;padding:0;margin:0}.icon[_ngcontent-rph-c174]{color:#8fb13a;margin-right:5.5px;font-size:22px}.texto[_ngcontent-rph-c174]{font-size:16px;font-weight:500;line-height:30px;padding-left:5px;align-self:center}.navegacao-container[_ngcontent-rph-c174]   a[_ngcontent-rph-c174]{font-size:14px;font-weight:500;line-height:26.25px;text-align:left}.navegacao-container[_ngcontent-rph-c174]   h2[_ngcontent-rph-c174]{font-size:16px}.icon-container[_ngcontent-rph-c174]   a[_ngcontent-rph-c174]{width:32px;height:32px;background-color:#8fb13a;border-radius:50%;margin-right:5px}.icon-container[_ngcontent-rph-c174]   a[_ngcontent-rph-c174]:hover{background-color:#c4000b;transition:.2s}.icon-container[_ngcontent-rph-c174]   i[_ngcontent-rph-c174]{font-size:16px;color:#fff}</style><style>.p-dialog-mask{position:fixed;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;pointer-events:none}.p-dialog-mask.p-component-overlay{pointer-events:auto}.p-dialog{display:flex;flex-direction:column;pointer-events:auto;max-height:90%;transform:scale(1);position:relative}.p-dialog-content{overflow-y:auto;flex-grow:1}.p-dialog-header{display:flex;align-items:center;justify-content:space-between;flex-shrink:0}.p-dialog-footer{flex-shrink:0}.p-dialog .p-dialog-header-icons{display:flex;align-items:center}.p-dialog .p-dialog-header-icon{display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.p-fluid .p-dialog-footer .p-button{width:auto}.p-dialog-top .p-dialog,.p-dialog-bottom .p-dialog,.p-dialog-left .p-dialog,.p-dialog-right .p-dialog,.p-dialog-top-left .p-dialog,.p-dialog-top-right .p-dialog,.p-dialog-bottom-left .p-dialog,.p-dialog-bottom-right .p-dialog{margin:.75rem;transform:translate(0)}.p-dialog-maximized{transition:none;transform:none;width:100vw!important;height:100vh!important;top:0px!important;left:0px!important;max-height:100%;height:100%}.p-dialog-maximized .p-dialog-content{flex-grow:1}.p-dialog-left{justify-content:flex-start}.p-dialog-right{justify-content:flex-end}.p-dialog-top{align-items:flex-start}.p-dialog-top-left{justify-content:flex-start;align-items:flex-start}.p-dialog-top-right{justify-content:flex-end;align-items:flex-start}.p-dialog-bottom{align-items:flex-end}.p-dialog-bottom-left{justify-content:flex-start;align-items:flex-end}.p-dialog-bottom-right{justify-content:flex-end;align-items:flex-end}.p-dialog .p-resizable-handle{position:absolute;font-size:.1px;display:block;cursor:se-resize;width:12px;height:12px;right:1px;bottom:1px}.p-confirm-dialog .p-dialog-content{display:flex;align-items:center}\n</style><style>.p-toast{position:fixed;width:25rem}.p-toast-message{overflow:hidden}.p-toast-message-content{display:flex;align-items:flex-start}.p-toast-message-text{flex:1 1 auto}.p-toast-top-right{top:20px;right:20px}.p-toast-top-left{top:20px;left:20px}.p-toast-bottom-left{bottom:20px;left:20px}.p-toast-bottom-right{bottom:20px;right:20px}.p-toast-top-center{top:20px;left:50%;transform:translate(-50%)}.p-toast-bottom-center{bottom:20px;left:50%;transform:translate(-50%)}.p-toast-center{left:50%;top:50%;min-width:20vw;transform:translate(-50%,-50%)}.p-toast-icon-close{display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.p-toast-icon-close.p-link{cursor:pointer}\n</style><style>.p-sidebar{position:fixed;transition:transform .3s;display:flex;flex-direction:column}.p-sidebar-content{position:relative;overflow-y:auto}.p-sidebar-header{display:flex;align-items:center;justify-content:flex-end}.p-sidebar-icon{display:flex;align-items:center;justify-content:center}.p-sidebar-left{top:0;left:0;width:20rem;height:100%}.p-sidebar-right{top:0;right:0;width:20rem;height:100%}.p-sidebar-top{top:0;left:0;width:100%;height:10rem}.p-sidebar-bottom{bottom:0;left:0;width:100%;height:10rem}.p-sidebar-full{width:100%;height:100%;top:0;left:0;transition:none}.p-sidebar-left.p-sidebar-sm,.p-sidebar-right.p-sidebar-sm{width:20rem}.p-sidebar-left.p-sidebar-md,.p-sidebar-right.p-sidebar-md{width:40rem}.p-sidebar-left.p-sidebar-lg,.p-sidebar-right.p-sidebar-lg{width:60rem}.p-sidebar-top.p-sidebar-sm,.p-sidebar-bottom.p-sidebar-sm{height:10rem}.p-sidebar-top.p-sidebar-md,.p-sidebar-bottom.p-sidebar-md{height:20rem}.p-sidebar-top.p-sidebar-lg,.p-sidebar-bottom.p-sidebar-lg{height:30rem}@media screen and (max-width: 64em){.p-sidebar-left.p-sidebar-lg,.p-sidebar-left.p-sidebar-md,.p-sidebar-right.p-sidebar-lg,.p-sidebar-right.p-sidebar-md{width:20rem}}\n</style><style>ul[_ngcontent-rph-c171]{list-style:none;text-transform:uppercase}li[_ngcontent-rph-c171]{font-size:calc(var(--font-size-reference) * 1rem);font-weight:500;padding:15px;cursor:pointer}li[_ngcontent-rph-c171]   a[_ngcontent-rph-c171]{text-align:center;text-decoration:none;color:#333;font-family:\"Montserrat\",Sans-serif;font-size:calc(var(--font-size-reference) * .85rem);font-weight:500}li[_ngcontent-rph-c171]   a[_ngcontent-rph-c171]:hover{color:#c4000b}.titulo[_ngcontent-rph-c171]{font-family:\"Montserrat\",Sans-serif;color:#333;font-size:calc(var(--font-size-reference) * 1.71rem);font-weight:400}a[_ngcontent-rph-c171]{color:#263238}a[_ngcontent-rph-c171]:hover{color:#c4000b}.titulo[_ngcontent-rph-c171]   a[_ngcontent-rph-c171]:hover{color:#263238}i[_ngcontent-rph-c171]{font-family:FontAwesome!important;color:#c4000b}.status-img[_ngcontent-rph-c171]{height:20px;width:37px;object-fit:contain}.disabled-link[_ngcontent-rph-c171]{pointer-events:none;opacity:.5;cursor:not-allowed}@media only screen and (min-width: 996px){.w-sc[_ngcontent-rph-c171]{width:8.3333%}}@media only screen and (max-width: 995px){.w-sc[_ngcontent-rph-c171]{width:16.6667%}.titulo[_ngcontent-rph-c171]{font-size:calc(var(--font-size-reference) * 1.5rem)}}</style><style>@media only screen and (min-width: 900px){.div-content[_ngcontent-rph-c234]{width:72rem;margin:0 auto}}@media only screen and (max-width: 540px){.bg-sc[_ngcontent-rph-c234], .bg-white[_ngcontent-rph-c234]{width:100%!important}.div-content[_ngcontent-rph-c234]{width:21rem;margin:0 auto}}</style><style>.full-width-container[_ngcontent-rph-c228]{margin:0!important;padding:0!important;width:100%;max-width:100%;overflow-x:hidden}.banner-wrapper[_ngcontent-rph-c228]{width:100%;max-width:100%;margin:0;padding:0;background:#74B574;background-size:cover;background-position:center center;background-repeat:no-repeat;position:relative;overflow-x:hidden;transition:background-image .5s ease-in-out}.full-width-carousel[_ngcontent-rph-c228]{width:100%;margin:0!important;padding:0!important}.banner-slide[_ngcontent-rph-c228]{width:100%;max-width:100%;height:350px;background:transparent;margin:0;padding:0;position:relative;overflow:hidden}.banner-overlay[_ngcontent-rph-c228]{position:absolute;inset:0;z-index:1}.banner-content-wrapper[_ngcontent-rph-c228]{width:100%;height:100%;max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 40px;box-sizing:border-box;position:relative;z-index:2}.text-content[_ngcontent-rph-c228]{flex:1;z-index:3}.content-section[_ngcontent-rph-c228]{max-width:800px}.portal[_ngcontent-rph-c228], .titulo[_ngcontent-rph-c228]{display:block;margin-bottom:8px;font-weight:700;line-height:1.2;text-shadow:2px 2px 4px rgba(0,0,0,.5)}.banner-description[_ngcontent-rph-c228]{margin:16px 0 24px;line-height:1.4;text-shadow:1px 1px 2px rgba(0,0,0,.5)}.banner-btn[_ngcontent-rph-c228]{background:rgba(255,255,255,.9)!important;border:2px solid #ffffff!important;color:#74b574!important;padding:12px 28px!important;font-weight:700!important;border-radius:6px!important;font-size:14px!important;cursor:pointer!important;transition:all .3s ease!important;position:relative;z-index:4}.banner-btn[_ngcontent-rph-c228]:hover{background:#ffffff!important;color:#74b574!important;border-color:#74b574!important;transform:translateY(-2px)!important;box-shadow:0 4px 8px #0003!important}.image-content[_ngcontent-rph-c228]{justify-content:flex-end;align-items:center;position:relative;z-index:3;opacity:0;transition:opacity .6s ease-in-out;pointer-events:none}.image-content.show-image[_ngcontent-rph-c228]{opacity:1;pointer-events:auto}.banner-main-image[_ngcontent-rph-c228]{max-width:400px;max-height:280px;width:auto;height:auto;border-radius:8px}  .p-carousel{margin:0!important;padding:0!important;background:transparent!important}  .p-carousel .p-carousel-content{margin:0!important;padding:0!important;background:transparent!important}  .p-carousel .p-carousel-container{margin:0!important;padding:0!important;background:transparent!important}  .p-carousel .p-carousel-items-content{margin:0!important;padding:0!important}  .p-carousel .p-carousel-item{margin:0!important;padding:0!important}  .p-carousel .p-carousel-indicators{padding:16px 0!important;margin:0!important}  .p-carousel .p-carousel-indicator button{background:rgba(255,255,255,.5)!important;width:12px!important;height:12px!important;border-radius:50%!important;margin:0 6px!important}  .p-carousel .p-carousel-indicator.p-highlight button{background:#ffffff!important}  .p-carousel .p-carousel-prev,   .p-carousel .p-carousel-next{color:#fff!important;background:rgba(255,255,255,.2)!important;border:1px solid rgba(255,255,255,.3)!important;width:40px!important;height:40px!important;border-radius:50%!important;z-index:5}  .p-carousel .p-carousel-prev:hover,   .p-carousel .p-carousel-next:hover{background:rgba(255,255,255,.3)!important}@media (max-width: 768px){  .p-carousel .p-carousel-items-content{pointer-events:none!important}.banner-slide[_ngcontent-rph-c228]{pointer-events:auto!important}  .p-carousel .p-carousel-prev,   .p-carousel .p-carousel-next,   .p-carousel .p-carousel-indicators{pointer-events:auto!important}}@media (max-width: 768px){.banner-slide[_ngcontent-rph-c228]{height:auto;min-height:400px;padding:30px 0}.banner-content-wrapper[_ngcontent-rph-c228]{flex-direction:column;text-align:center;padding:20px;justify-content:center;align-items:center}.text-content[_ngcontent-rph-c228]{width:100%}.content-section[_ngcontent-rph-c228]{margin-bottom:0;max-width:100%;width:100%}.portal[_ngcontent-rph-c228], .titulo[_ngcontent-rph-c228]{font-size:1.8rem!important;line-height:1.3!important;margin-bottom:10px!important;word-wrap:break-word}.banner-description[_ngcontent-rph-c228]{font-size:14px!important;line-height:1.5!important;margin:15px 0 25px!important;word-wrap:break-word;max-width:100%;text-align:left}.image-content[_ngcontent-rph-c228]{display:none!important}}@media (max-width: 480px){.banner-slide[_ngcontent-rph-c228]{min-height:350px;padding:25px 0}.banner-content-wrapper[_ngcontent-rph-c228]{padding:15px}.portal[_ngcontent-rph-c228], .titulo[_ngcontent-rph-c228]{font-size:1.5rem!important;line-height:1.2!important;margin-bottom:8px!important;text-align:left}.banner-description[_ngcontent-rph-c228]{font-size:13px!important;margin:12px 0 20px!important;text-align:left}.banner-btn[_ngcontent-rph-c228]{padding:12px 24px!important;font-size:13px!important;margin:10px 0}.image-content[_ngcontent-rph-c228]{display:none!important}}</style><style>.card-container[_ngcontent-rph-c230]{display:flex;flex-wrap:wrap}.text-widget[_ngcontent-rph-c230]{color:#333;font-family:\"Montserrat\",Sans-serif;font-size:14px;font-weight:600}.mini-cards[_ngcontent-rph-c230]{transition:.3s;cursor:pointer;background-color:#fff}.mini-cards[_ngcontent-rph-c230]:hover{transform:scale(1.1)}.input-field[_ngcontent-rph-c230]{margin-bottom:1.5rem}.input-field[_ngcontent-rph-c230]   #button-add-keyword[_ngcontent-rph-c230]{width:35px;height:35px;margin-left:.5rem;border:none;border-radius:3px;background-color:#8fb13a;color:#fff;cursor:pointer}.input-field[_ngcontent-rph-c230]   #button-add-keyword[_ngcontent-rph-c230]:hover{background-color:#739421}.link-a[_ngcontent-rph-c230]:hover{color:#333!important}.disabled-link[_ngcontent-rph-c230]{pointer-events:none;opacity:.5;cursor:not-allowed}@media only screen and (min-width: 541px){.container-ouvidoria[_ngcontent-rph-c230]{width:100vw;padding:10px}}@media only screen and (max-width: 540px){.container-ouvidoria[_ngcontent-rph-c230]{padding:10px}.cards-grid[_ngcontent-rph-c230]{display:grid!important;grid-template-columns:180px 180px!important}.cards-grid[_ngcontent-rph-c230]   span[_ngcontent-rph-c230]{max-width:152px!important;height:180px!important;font-size:14px!important;display:flex;align-items:center;justify-content:center;flex-direction:column}.content-service[_ngcontent-rph-c230]{margin:0 auto!important}}@media only screen and (min-width: 1024px){.card-container[_ngcontent-rph-c230]{flex-wrap:nowrap!important;justify-content:space-between}.mini-cards[_ngcontent-rph-c230]{margin-bottom:0!important}}</style><style>.custom-horizontal-timeline[_ngcontent-rph-c231]{width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-ms-overflow-style:none;background-color:#fff;height:420px;position:relative;scroll-behavior:smooth}.custom-horizontal-timeline[_ngcontent-rph-c231]::-webkit-scrollbar{display:none}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]{position:relative;left:5%;right:5%;min-width:100%;width:max-content;height:580px}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-line[_ngcontent-rph-c231]{position:absolute;top:35%;left:0rem;right:0rem;height:3px;background:#dee2e6;z-index:1;transform:translateY(-50%)}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]{display:flex;justify-content:space-between;position:relative;z-index:2;padding:0 6rem 0 3rem;height:66%;align-items:center}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]   .timeline-event[_ngcontent-rph-c231]{display:flex;flex-direction:column;align-items:center;flex:1;min-width:250px;height:70%;position:relative}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]   .timeline-event[_ngcontent-rph-c231]   .event-marker[_ngcontent-rph-c231]{width:3.5rem;height:3.5rem;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 8px #00000026;border:1px solid white;position:absolute;top:54%;transform:translateY(-50%);cursor:pointer;transition:transform .2s}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]   .timeline-event[_ngcontent-rph-c231]   .event-marker[_ngcontent-rph-c231]:hover{transform:translateY(-50%) scale(1.1)}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]   .timeline-event[_ngcontent-rph-c231]   .event-marker[_ngcontent-rph-c231]   .year-text[_ngcontent-rph-c231]{font-size:1.1rem;font-weight:700;color:#fff}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]   .timeline-event[_ngcontent-rph-c231]   .event-content[_ngcontent-rph-c231]{max-width:280px;width:100%;position:absolute}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]   .timeline-event[_ngcontent-rph-c231]   .event-content.event-content-top[_ngcontent-rph-c231]{bottom:55%}.custom-horizontal-timeline[_ngcontent-rph-c231]   .timeline-container[_ngcontent-rph-c231]   .timeline-events[_ngcontent-rph-c231]   .timeline-event[_ngcontent-rph-c231]   .event-content.event-content-bottom[_ngcontent-rph-c231]{top:55%}.nav-arrow[_ngcontent-rph-c231]{position:fixed;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.2);border:1px solid #dee2e6;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:1000;opacity:1;visibility:hidden;transition:all .3s ease;box-shadow:0 4px 12px #0003;-webkit-user-select:none;user-select:none}.nav-arrow.visible[_ngcontent-rph-c231]{opacity:1;visibility:visible}.nav-arrow[_ngcontent-rph-c231]:hover{background:#363;border-color:#363;transform:translateY(-50%) scale(1.15)}.nav-arrow[_ngcontent-rph-c231]:hover   i[_ngcontent-rph-c231]{color:#fff}.nav-arrow[_ngcontent-rph-c231]:active{transform:translateY(-50%) scale(1)}.nav-arrow[_ngcontent-rph-c231]   i[_ngcontent-rph-c231]{font-size:1.5rem;color:#6c757d;transition:color .3s ease}.nav-arrow.nav-arrow-left[_ngcontent-rph-c231]{left:16px}.nav-arrow.nav-arrow-right[_ngcontent-rph-c231]{right:16px}.flip-container[_ngcontent-rph-c231]{width:100%;height:100%;perspective:1000px}.flipper[_ngcontent-rph-c231]{width:100%;height:100%;position:relative;transform-style:preserve-3d;animation:flip 6s infinite}.front[_ngcontent-rph-c231], .back[_ngcontent-rph-c231]{position:absolute;width:100%;height:100%;backface-visibility:hidden;display:flex;align-items:center;justify-content:center}.front[_ngcontent-rph-c231]{transform:rotateY(0)}.back[_ngcontent-rph-c231]{transform:rotateY(180deg)}.thumb[_ngcontent-rph-c231]{width:2rem;height:2rem;border-radius:50%;object-fit:cover}@keyframes flip{0%,45%{transform:rotateY(0)}50%,95%{transform:rotateY(180deg)}to{transform:rotateY(0)}}.fullscreen-modal[_ngcontent-rph-c231]{position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;z-index:999;cursor:pointer}.fullscreen-image[_ngcontent-rph-c231]{max-width:90vw;max-height:90vh;border-radius:8px;box-shadow:0 0 30px #00000080;object-fit:contain}</style><style>.mini-cards[_ngcontent-rph-c232]{transition:.3s;cursor:pointer;background-color:#fff}.mini-cards[_ngcontent-rph-c232]:hover{transform:scale(1.1)}@media only screen and (min-width: 541px){.container-ouvidoria[_ngcontent-rph-c232]{width:100vw;padding:10px}}@media only screen and (max-width: 540px){.container-ouvidoria[_ngcontent-rph-c232]{padding:10px}.cards-grid[_ngcontent-rph-c232]{display:grid!important;grid-template-columns:180px 180px!important}.cards-grid[_ngcontent-rph-c232]   span[_ngcontent-rph-c232]{max-width:152px!important;max-height:180px!important;font-size:14px!important;display:flex;align-items:center;justify-content:center;flex-direction:column}.content-document[_ngcontent-rph-c232]{margin:0 auto!important}}</style><style>@media only screen and (min-width: 541px){.container-ouvidoria[_ngcontent-rph-c233]{width:100vw;max-width:996px;padding:10px}}@media all and (min-width: 768px){.card-ouvidoria[_ngcontent-rph-c233]{flex:0 0 auto;padding:1rem;width:20%}}@media only screen and (max-width: 540px){.container-ouvidoria[_ngcontent-rph-c233]{padding:10px}.cards-grid[_ngcontent-rph-c233]{display:grid!important;grid-template-columns:180px 180px!important}.cards-grid[_ngcontent-rph-c233]   span[_ngcontent-rph-c233]{max-width:152px!important;max-height:180px!important;font-size:14px!important;display:flex;align-items:center;justify-content:center;flex-direction:column}.card-ouvidoria[_ngcontent-rph-c233]{flex:0 0 auto;padding:1rem;width:100%}}i[_ngcontent-rph-c233]{text-decoration:none!important}</style><style>@media only screen and (min-width: 501px) and (max-width: 1200px){.journal-div-content[_ngcontent-rph-c229]{display:flex;flex-wrap:wrap}.card-container[_ngcontent-rph-c229]{width:300px!important}}@media only screen and (max-width: 500px){.journal-div-content[_ngcontent-rph-c229]{margin:0 auto;overflow-x:hidden;display:flex;flex-wrap:wrap}.edition-cards[_ngcontent-rph-c229]{max-width:10rem;display:flex;flex-wrap:wrap;padding:0;margin:0}.card-container[_ngcontent-rph-c229]{padding:6px!important;margin:0!important;box-sizing:border-box!important;min-width:250px!important}.card-container[_ngcontent-rph-c229]   p[_ngcontent-rph-c229]{white-space:nowrap;padding:6px!important;font-size:14px!important}}.button-journal[_ngcontent-rph-c229]{justify-self:flex-end!important}.jornal-badge[_ngcontent-rph-c229]{border-radius:var(--border-radius);padding:.5rem;text-transform:uppercase;font-weight:700;font-size:12px;letter-spacing:.3px}.jornal-badge.status-3[_ngcontent-rph-c229]{background:#4caf50;color:#fff}.jornal-badge.status-2[_ngcontent-rph-c229]{background:#FFCDD2;color:#555450}.jornal-badge.status-1[_ngcontent-rph-c229]{background:#f5e143;color:#555450}.jornal-badge.status-0[_ngcontent-rph-c229]{background:#cdeeff;color:#555450}.jornal-badge.status-lowstock[_ngcontent-rph-c229]{background:#FEEDAF;color:#555450}.customer-badge[_ngcontent-rph-c229]{border-radius:var(--border-radius);padding:.25em .5rem;text-transform:uppercase;font-weight:700;font-size:12px;letter-spacing:.3px}.customer-badge.status-qualified[_ngcontent-rph-c229]{background:#C8E6C9;color:#256029}.customer-badge.status-unqualified[_ngcontent-rph-c229]{background:#FFCDD2;color:#c63737}.customer-badge.status-negotiation[_ngcontent-rph-c229]{background:#FEEDAF;color:#8a5340}.customer-badge.status-new[_ngcontent-rph-c229]{background:#B3E5FC;color:#23547b}.customer-badge.status-renewal[_ngcontent-rph-c229]{background:#ECCFFF;color:#694382}.customer-badge.status-proposal[_ngcontent-rph-c229]{background:#FFD8B2;color:#805b36}.jornal-text[_ngcontent-rph-c229]{font-size:16px}.order-badge[_ngcontent-rph-c229]{border-radius:var(--border-radius);padding:.25em .5rem;text-transform:uppercase;font-weight:700;font-size:12px;letter-spacing:.3px}.order-badge.order-delivered[_ngcontent-rph-c229]{background:#C8E6C9;color:#256029}.order-badge.order-cancelled[_ngcontent-rph-c229]{background:#FFCDD2;color:#c63737}.order-badge.order-pending[_ngcontent-rph-c229]{background:#FEEDAF;color:#8a5340}.order-badge.order-returned[_ngcontent-rph-c229]{background:#ECCFFF;color:#694382}</style><style>.p-progressbar{position:relative;overflow:hidden}.p-progressbar-determinate .p-progressbar-value{height:100%;width:0%;position:absolute;display:none;border:0 none;display:flex;align-items:center;justify-content:center;overflow:hidden}.p-progressbar-determinate .p-progressbar-label{display:inline-flex}.p-progressbar-determinate .p-progressbar-value-animate{transition:width 1s ease-in-out}.p-progressbar-indeterminate .p-progressbar-value:before{content:\"\";position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left,right;animation:p-progressbar-indeterminate-anim 2.1s cubic-bezier(.65,.815,.735,.395) infinite}.p-progressbar-indeterminate .p-progressbar-value:after{content:\"\";position:absolute;background-color:inherit;top:0;left:0;bottom:0;will-change:left,right;animation:p-progressbar-indeterminate-anim-short 2.1s cubic-bezier(.165,.84,.44,1) infinite;animation-delay:1.15s}@keyframes p-progressbar-indeterminate-anim{0%{left:-35%;right:100%}60%{left:100%;right:-90%}to{left:100%;right:-90%}}@keyframes p-progressbar-indeterminate-anim-short{0%{left:-200%;right:100%}60%{left:107%;right:-8%}to{left:107%;right:-8%}}\n</style><style type=\"text/css\">\n                    @media screen and (max-width: 960px) {\n                        .p-dialog[pr_id_3] {\n                            width: 75vw !important;\n                        }\n                    }\n                \n                    @media screen and (max-width: 640px) {\n                        .p-dialog[pr_id_3] {\n                            width: 100vw !important;\n                        }\n                    }\n                </style><style>.button-container[_ngcontent-rph-c159]{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}.btn-sc[_ngcontent-rph-c159]{flex:1 1 30%;min-width:180px}@media (max-width: 960px){.btn-extrato[_ngcontent-rph-c159]{flex:1 1 100%;min-width:100%}.btn-secundario[_ngcontent-rph-c159]{flex:1 1 45%;min-width:150px}}@media (max-width: 640px){.btn-sc[_ngcontent-rph-c159]{flex:1 1 100%;min-width:100%}}</style><style type=\"text/css\">\n                    @media screen and (max-width: 960px) {\n                        .p-dialog[pr_id_4] {\n                            width: 80vw !important;\n                        }\n                    }\n                \n                    @media screen and (max-width: 640px) {\n                        .p-dialog[pr_id_4] {\n                            width: 95vw !important;\n                        }\n                    }\n                </style></head>\n\n<body class=\"main-body\">\n    <app-root ng-version=\"13.2.7\"><router-outlet></router-outlet><app-app-home _nghost-rph-c175=\"\" class=\"ng-star-inserted\"><div _ngcontent-rph-c175=\"\" class=\"bg-white accessibility\"><app-header _ngcontent-rph-c175=\"\" _nghost-rph-c172=\"\"><p-toast _ngcontent-rph-c172=\"\" class=\"p-element ng-tns-c106-1 ng-star-inserted\"><div class=\"ng-tns-c106-1 p-toast p-component p-toast-top-right\"><!----></div></p-toast><div _ngcontent-rph-c172=\"\" class=\"fixed w-full top-0 z-5 shadow-bottom bg-white\"><div _ngcontent-rph-c172=\"\" class=\"flex justify-content-center flex-wrap\"><div _ngcontent-rph-c172=\"\" id=\"pai\" class=\"container-menu\"><div _ngcontent-rph-c172=\"\" class=\"p-0 m-0 portal\"><div _ngcontent-rph-c172=\"\" class=\"deskContent\"><div _ngcontent-rph-c172=\"\" id=\"navbarExterno\" class=\"grid m-0\"><div _ngcontent-rph-c172=\"\" class=\"col-12 md:col-12 lg:col-12 p-0\"><div _ngcontent-rph-c172=\"\" class=\"menu-md\"><div _ngcontent-rph-c172=\"\" class=\"flex justify-content-between flex-wrap\"><div _ngcontent-rph-c172=\"\" class=\"flex align-items-center logo\"><a _ngcontent-rph-c172=\"\" href=\"#/home\"><img _ngcontent-rph-c172=\"\" src=\"./assets/layout/images/logo-chapa.png\" alt=\"Logo do governo de Santa Catarina\"></a></div><div _ngcontent-rph-c172=\"\" class=\"p-0 mb-0 mr-0 flex align-items-center align-content-center\"><ul _ngcontent-rph-c172=\"\" class=\"menu-sc flex justify-content-end\"><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" href=\"https://estado.sc.gov.br/noticias/\">PORTAL DE NOTÍCIAS</a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" href=\"https://www.sc.gov.br/\">PORTAL DE SERVIÇOS</a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" href=\"https://doe.sea.sc.gov.br/\">DIÁRIO OFICIAL</a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" href=\"https://estado.sc.gov.br/acesso-a-informacao/\">ACESSO À INFORMAÇÃO</a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" href=\"https://estado.sc.gov.br/orgaos-do-governo/\">ÓRGÃOS DO GOVERNO</a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" href=\"https://estado.sc.gov.br/\">SOBRE SC</a></li><!----><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.facebook.com/governosc/?_rdc=1&amp;_rdr\"><i _ngcontent-rph-c172=\"\" style=\"color: unset;\" class=\"f fa-brands fa-facebook\"></i></a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://twitter.com/GovSC\"><i _ngcontent-rph-c172=\"\" style=\"color: unset;\" class=\"fa-brands fa-twitter\"></i></a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/GovernoSC\"><i _ngcontent-rph-c172=\"\" style=\"color: unset;\" class=\"fa-brands fa-youtube\"></i></a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.instagram.com/GovernoSC/\"><i _ngcontent-rph-c172=\"\" style=\"color: unset;\" class=\"fa-brands fa-instagram\"></i></a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.flickr.com/photos/governosc/\"><i _ngcontent-rph-c172=\"\" style=\"color: unset;\" class=\"fa-brands fa-flickr\"></i></a></li><!----><!----><!----><li _ngcontent-rph-c172=\"\" class=\"ng-star-inserted\"><a _ngcontent-rph-c172=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.tiktok.com/@governosc\"><i _ngcontent-rph-c172=\"\" style=\"color: unset;\" class=\"fa-brands fa-tiktok\"></i></a></li><!----><!----><!----></ul></div></div></div><div _ngcontent-rph-c172=\"\" class=\"menu-sm\"><div _ngcontent-rph-c172=\"\" class=\"flex justify-content-between flex-wrap card-container\"><div _ngcontent-rph-c172=\"\" class=\"flex align-items-center justify-content-center logo\"><a _ngcontent-rph-c172=\"\" href=\"#/home\"><img _ngcontent-rph-c172=\"\" src=\"./assets/layout/images/logo-chapa.png\"></a></div><p-sidebar _ngcontent-rph-c172=\"\" appendto=\"body\" class=\"p-element ng-tns-c170-2 ng-star-inserted\"><!----></p-sidebar><div _ngcontent-rph-c172=\"\" class=\"flex align-items-center justify-content-center\"><button _ngcontent-rph-c172=\"\" pbutton=\"\" pripple=\"\" type=\"button\" icon=\"pi pi-ellipsis-v\" class=\"p-element p-button-secondary p-button-text p-button p-component p-button-icon-only\"><span class=\"p-button-icon pi pi-ellipsis-v\" aria-hidden=\"true\"></span><span aria-hidden=\"true\" class=\"p-button-label\">&nbsp;</span></button></div></div></div></div></div><app-sidebar _ngcontent-rph-c172=\"\" _nghost-rph-c171=\"\"><div _ngcontent-rph-c171=\"\" class=\"grid m-0\"><div _ngcontent-rph-c171=\"\" class=\"col-12 md:col-12 lg:col-12 p-0 m-0\"><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center flex-wrap card-container\"><div _ngcontent-rph-c171=\"\" class=\"flex flex-1 align-items-center justify-content-start ng-star-inserted\"><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center justify-content-start flex-1\"><p-sidebar _ngcontent-rph-c171=\"\" appendto=\"body\" class=\"p-element ng-tns-c170-6 ng-star-inserted\"><!----></p-sidebar><button _ngcontent-rph-c171=\"\" pbutton=\"\" pripple=\"\" type=\"button\" icon=\"fa-solid fa-bars\" class=\"p-element portal p-button-text text-3xl texto-sc-verde p-button p-component p-button-icon-only\"><span class=\"p-button-icon fa-solid fa-bars\" aria-hidden=\"true\"></span><span aria-hidden=\"true\" class=\"p-button-label\">&nbsp;</span></button><div _ngcontent-rph-c171=\"\" class=\"titulo pl-1\"><a _ngcontent-rph-c171=\"\" class=\"deskContent\" href=\"#/home\"> Diário Oficial de SC </a><a _ngcontent-rph-c171=\"\" class=\"phoneContent\" href=\"#/home\"> Diário Oficial SC </a></div></div><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center ml-4 pr-2 border-right-2 border-300\"><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center ng-star-inserted\"><img _ngcontent-rph-c171=\"\" class=\"status-img\" src=\"./assets/layout/images/server-on.png\">Sistema Online </div><!----><!----></div><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center\"><a _ngcontent-rph-c171=\"\" target=\"_self\" class=\"p-2 text-1xl cursor-pointer\" href=\"#/login\"><i _ngcontent-rph-c171=\"\" class=\"fa fa-sign-out mr-1\"></i><span _ngcontent-rph-c171=\"\" class=\"portal font-semibold\">ENTRAR</span></a></div></div><!----></div></div></div></app-sidebar></div><div _ngcontent-rph-c172=\"\" class=\"phoneContent\"><div _ngcontent-rph-c172=\"\" class=\"flex justify-content-between flex-wrap card-container\"><div _ngcontent-rph-c172=\"\" class=\"flex align-items-center justify-content-center logo\"><a _ngcontent-rph-c172=\"\" href=\"#/home\"><img _ngcontent-rph-c172=\"\" src=\"./assets/layout/images/logo-chapa.png\" alt=\"Logo do governo de Santa Catarina\"></a></div><p-sidebar _ngcontent-rph-c172=\"\" appendto=\"body\" class=\"p-element ng-tns-c170-3 ng-star-inserted\"><!----></p-sidebar><div _ngcontent-rph-c172=\"\" class=\"flex align-items-center justify-content-center\"><button _ngcontent-rph-c172=\"\" pbutton=\"\" pripple=\"\" type=\"button\" icon=\"pi pi-ellipsis-v\" class=\"p-element p-button-secondary p-button-text p-button p-component p-button-icon-only\"><span class=\"p-button-icon pi pi-ellipsis-v\" aria-hidden=\"true\"></span><span aria-hidden=\"true\" class=\"p-button-label\">&nbsp;</span></button></div></div><app-sidebar _ngcontent-rph-c172=\"\" _nghost-rph-c171=\"\"><div _ngcontent-rph-c171=\"\" class=\"grid m-0\"><div _ngcontent-rph-c171=\"\" class=\"col-12 md:col-12 lg:col-12 p-0 m-0\"><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center flex-wrap card-container\"><div _ngcontent-rph-c171=\"\" class=\"flex flex-1 align-items-center justify-content-start ng-star-inserted\"><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center justify-content-start flex-1\"><p-sidebar _ngcontent-rph-c171=\"\" appendto=\"body\" class=\"p-element ng-tns-c170-7 ng-star-inserted\"><!----></p-sidebar><button _ngcontent-rph-c171=\"\" pbutton=\"\" pripple=\"\" type=\"button\" icon=\"fa-solid fa-bars\" class=\"p-element portal p-button-text text-3xl texto-sc-verde p-button p-component p-button-icon-only\"><span class=\"p-button-icon fa-solid fa-bars\" aria-hidden=\"true\"></span><span aria-hidden=\"true\" class=\"p-button-label\">&nbsp;</span></button><div _ngcontent-rph-c171=\"\" class=\"titulo pl-1\"><a _ngcontent-rph-c171=\"\" class=\"deskContent\" href=\"#/home\"> Diário Oficial de SC </a><a _ngcontent-rph-c171=\"\" class=\"phoneContent\" href=\"#/home\"> Diário Oficial SC </a></div></div><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center ml-4 pr-2 border-right-2 border-300\"><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center ng-star-inserted\"><img _ngcontent-rph-c171=\"\" class=\"status-img\" src=\"./assets/layout/images/server-on.png\">Sistema Online </div><!----><!----></div><div _ngcontent-rph-c171=\"\" class=\"flex align-items-center\"><a _ngcontent-rph-c171=\"\" target=\"_self\" class=\"p-2 text-1xl cursor-pointer\" href=\"#/login\"><i _ngcontent-rph-c171=\"\" class=\"fa fa-sign-out mr-1\"></i><span _ngcontent-rph-c171=\"\" class=\"portal font-semibold\">ENTRAR</span></a></div></div><!----></div></div></div></app-sidebar></div></div></div></div></div><div _ngcontent-rph-c172=\"\" class=\"bg-white h-8rem md:h-6rem lg:h-8rem\"></div></app-header><!----><!----><app-acessibilidade-config _ngcontent-rph-c175=\"\" _nghost-rph-c173=\"\"><p-sidebar _ngcontent-rph-c173=\"\" position=\"right\" class=\"p-element ng-tns-c170-4 ng-star-inserted\"><!----></p-sidebar><button _ngcontent-rph-c173=\"\" icon=\"fas fa-universal-access\" pbutton=\"\" type=\"button\" class=\"p-element accessibility-button fixed top-50 right-0 p-button-lg p-button p-component p-button-icon-only\"><span class=\"p-button-icon fas fa-universal-access\" aria-hidden=\"true\"></span><span aria-hidden=\"true\" class=\"p-button-label\">&nbsp;</span></button></app-acessibilidade-config><router-outlet _ngcontent-rph-c175=\"\"></router-outlet><app-portal _nghost-rph-c234=\"\" class=\"ng-star-inserted\"><div _ngcontent-rph-c234=\"\" class=\"w-full ng-star-inserted\"><div _ngcontent-rph-c234=\"\" class=\"bg-sc bg-banner-green\"><app-slide-portal _ngcontent-rph-c234=\"\" _nghost-rph-c228=\"\"><div _ngcontent-rph-c228=\"\" class=\"surface-section px-4 py-8 md:px-6 lg:px-8 ng-star-inserted\"><div _ngcontent-rph-c228=\"\" class=\"text-700 text-center\"><div _ngcontent-rph-c228=\"\" class=\"text-blue-600 font-bold mb-3\">Carregando...</div><div _ngcontent-rph-c228=\"\" class=\"text-900 font-bold text-5xl mb-3\"><p-progressbar _ngcontent-rph-c228=\"\" mode=\"indeterminate\" class=\"p-element\"><div role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" class=\"p-progressbar p-component p-progressbar-indeterminate\"><!----><div class=\"p-progressbar-indeterminate-container ng-star-inserted\"><div class=\"p-progressbar-value p-progressbar-value-animate\"></div></div><!----></div></p-progressbar></div></div></div><!----><!----></app-slide-portal></div><div _ngcontent-rph-c234=\"\" class=\"bg-white ng-star-inserted\"><div _ngcontent-rph-c234=\"\" class=\"div-content\"><app-journal-portal _ngcontent-rph-c234=\"\" _nghost-rph-c229=\"\"><div _ngcontent-rph-c229=\"\" class=\"fadein animation-duration-1000 m-0 ng-star-inserted\"><div _ngcontent-rph-c229=\"\" class=\"flex flex-wrap\"><div _ngcontent-rph-c229=\"\" class=\"p-3\"><div _ngcontent-rph-c229=\"\" class=\"titulo-container\"><span _ngcontent-rph-c229=\"\" class=\"titulo\">ÚLTIMAS</span><br _ngcontent-rph-c229=\"\"><span _ngcontent-rph-c229=\"\" class=\"subTitulo\">EDIÇÕES</span></div><div _ngcontent-rph-c229=\"\" class=\"flex flex-row journal-div-content\"><div _ngcontent-rph-c229=\"\" class=\"mx-3 mb-3 ng-star-inserted\"><a _ngcontent-rph-c229=\"\"><div _ngcontent-rph-c229=\"\" class=\"h-full edition-cards item-servico\"><div _ngcontent-rph-c229=\"\" class=\"card-container shadow-2 p-3 flex flex-column surface-card color-dark-theme\" style=\"border-radius: 6px;\"><div _ngcontent-rph-c229=\"\" class=\"flex justify-content-between\"><p _ngcontent-rph-c229=\"\" class=\"flex align-items-center justify-content-center jornal-badge status-0\"> EDIÇÃO ORDINÁRIA</p><i _ngcontent-rph-c229=\"\" class=\"fa-regular fa-file texto-sc-verde hide-icon pt-1\" style=\"font-family: 'FontAwesome' !important; font-size: 20px; color: #515C66;\"></i></div><p _ngcontent-rph-c229=\"\" class=\"text-900 font-bold jornal-text\"> Edição: 22822 - 19/08/2026 </p></div></div></a></div><!----><div _ngcontent-rph-c229=\"\" class=\"mx-3 mb-3 ng-star-inserted\"><a _ngcontent-rph-c229=\"\"><div _ngcontent-rph-c229=\"\" class=\"h-full edition-cards item-servico\"><div _ngcontent-rph-c229=\"\" class=\"card-container shadow-2 p-3 flex flex-column surface-card color-dark-theme\" style=\"border-radius: 6px;\"><div _ngcontent-rph-c229=\"\" class=\"flex justify-content-between\"><p _ngcontent-rph-c229=\"\" class=\"flex align-items-center justify-content-center jornal-badge status-0\"> EDIÇÃO ORDINÁRIA</p><i _ngcontent-rph-c229=\"\" class=\"fa-regular fa-file texto-sc-verde hide-icon pt-1\" style=\"font-family: 'FontAwesome' !important; font-size: 20px; color: #515C66;\"></i></div><p _ngcontent-rph-c229=\"\" class=\"text-900 font-bold jornal-text\"> Edição: 22821 - 18/08/2026 </p></div></div></a></div><!----><div _ngcontent-rph-c229=\"\" class=\"mx-3 mb-3 ng-star-inserted\"><a _ngcontent-rph-c229=\"\"><div _ngcontent-rph-c229=\"\" class=\"h-full edition-cards item-servico\"><div _ngcontent-rph-c229=\"\" class=\"card-container shadow-2 p-3 flex flex-column surface-card color-dark-theme\" style=\"border-radius: 6px;\"><div _ngcontent-rph-c229=\"\" class=\"flex justify-content-between\"><p _ngcontent-rph-c229=\"\" class=\"flex align-items-center justify-content-center jornal-badge status-1\"> EDIÇÃO EXTRA</p><i _ngcontent-rph-c229=\"\" class=\"fa-regular fa-file texto-sc-verde hide-icon pt-1\" style=\"font-family: 'FontAwesome' !important; font-size: 20px; color: #515C66;\"></i></div><p _ngcontent-rph-c229=\"\" class=\"text-900 font-bold jornal-text\"> Edição: 22820-A - 17/08/2026 </p></div></div></a></div><!----><div _ngcontent-rph-c229=\"\" class=\"mx-3 mb-3 ng-star-inserted\"><a _ngcontent-rph-c229=\"\"><div _ngcontent-rph-c229=\"\" class=\"h-full edition-cards item-servico\"><div _ngcontent-rph-c229=\"\" class=\"card-container shadow-2 p-3 flex flex-column surface-card color-dark-theme\" style=\"border-radius: 6px;\"><div _ngcontent-rph-c229=\"\" class=\"flex justify-content-between\"><p _ngcontent-rph-c229=\"\" class=\"flex align-items-center justify-content-center jornal-badge status-0\"> EDIÇÃO ORDINÁRIA</p><i _ngcontent-rph-c229=\"\" class=\"fa-regular fa-file texto-sc-verde hide-icon pt-1\" style=\"font-family: 'FontAwesome' !important; font-size: 20px; color: #515C66;\"></i></div><p _ngcontent-rph-c229=\"\" class=\"text-900 font-bold jornal-text\"> Edição: 22820 - 17/08/2026 </p></div></div></a></div><!----><!----></div><div _ngcontent-rph-c229=\"\" class=\"card-container green-container\"><div _ngcontent-rph-c229=\"\" class=\"flex align-items-center justify-content-end h-4rem font-bold border-round\"><button _ngcontent-rph-c229=\"\" pbutton=\"\" pripple=\"\" type=\"button\" label=\"Ver todas\" class=\"p-element btn-sc p-button p-component\"><span class=\"p-button-label\">Ver todas</span></button></div></div></div></div><app-redirect-journal _ngcontent-rph-c229=\"\" _nghost-rph-c159=\"\"><p-dialog _ngcontent-rph-c159=\"\" class=\"p-element ng-tns-c34-8 ng-star-inserted\"><!----></p-dialog></app-redirect-journal></div><!----></app-journal-portal></div></div><!----><div _ngcontent-rph-c234=\"\" class=\"bg-sc\"><div _ngcontent-rph-c234=\"\" class=\"div-content\"><app-service-portal _ngcontent-rph-c234=\"\" _nghost-rph-c230=\"\"><div _ngcontent-rph-c230=\"\" class=\"m-0\"><div _ngcontent-rph-c230=\"\" class=\"container-servico content-service p-3\"><div _ngcontent-rph-c230=\"\" class=\"titulo-container\"><span _ngcontent-rph-c230=\"\" class=\"titulo\">SERVIÇOS DO</span><br _ngcontent-rph-c230=\"\"><span _ngcontent-rph-c230=\"\" class=\"subTitulo\">DIÁRIO OFICIAL</span></div><div _ngcontent-rph-c230=\"\" class=\"flex flex-row flex-wrap card-container blue-container\"><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><a _ngcontent-rph-c230=\"\" style=\"color: inherit;\" href=\"#/portal/edicao/buscar-edicao\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-newspaper\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">Buscar Edições</a></span></div></a><!----><!----></div><!----></div><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><a _ngcontent-rph-c230=\"\" style=\"color: inherit;\" href=\"#/portal/edicao/buscar-publicacao\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-file-lines\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">Buscar Publicações</a></span></div></a><!----><!----></div><!----></div><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><a _ngcontent-rph-c230=\"\" style=\"color: inherit;\" href=\"#/portal/clipping-eletronico\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-envelope\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">Clipping Eletrônico</a></span></div></a><!----><!----></div><!----></div><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><a _ngcontent-rph-c230=\"\" style=\"color: inherit;\" href=\"#/portal/cadastro-entidade\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-building\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">Cadastro de Empresas e Órgãos</a></span></div></a><!----><!----></div><!----></div><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><a _ngcontent-rph-c230=\"\" style=\"color: inherit;\" href=\"#/portal/cadastro-usuario\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-user-plus\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">Cadastro de Usuário</a></span></div></a><!----><!----></div><!----></div><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><!----><a _ngcontent-rph-c230=\"\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: inherit;\" href=\"https://api.whatsapp.com/send/?phone=554836656269&amp;text=Olá, me envie essa mensagem para ser atendido&amp;type=phone_number&amp;app_absent=0\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-whatsapp\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">Atendimento Whatsapp</a></span></div></a><!----></div><!----></div><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><!----><a _ngcontent-rph-c230=\"\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: inherit;\" href=\"https://play.google.com/store/apps/details?id=br.com.doesc.app\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-brands fa-android\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">APP DOE Android</a></span></div></a><!----></div><!----></div><div _ngcontent-rph-c230=\"\" class=\"mini-cards flex align-items-center justify-content-center w-8rem h-8rem shadow-4 font-bold border-round mr-3 mb-3 ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex align-items-center ng-star-inserted\"><!----><a _ngcontent-rph-c230=\"\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: inherit;\" href=\"https://apps.apple.com/br/app/diário-oficial-de-sc/id6748155675\" class=\"ng-star-inserted\"><div _ngcontent-rph-c230=\"\" class=\"flex flex-column\"><span _ngcontent-rph-c230=\"\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center;\"><i _ngcontent-rph-c230=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-brands fa-apple\" style=\"font-family: 'FontAwesome' !important;\"></i><a _ngcontent-rph-c230=\"\" class=\"text-widget-p text-center pt-3 link-a\">APP DOE iOS</a></span></div></a><!----></div><!----></div><!----></div></div></div></app-service-portal></div></div><div _ngcontent-rph-c234=\"\" class=\"bg-white\"><app-time-line _ngcontent-rph-c234=\"\" _nghost-rph-c231=\"\"><div _ngcontent-rph-c231=\"\" class=\"custom-horizontal-timeline\"><button _ngcontent-rph-c231=\"\" class=\"nav-arrow nav-arrow-left\"><i _ngcontent-rph-c231=\"\" class=\"pi pi-chevron-left\"></i></button><button _ngcontent-rph-c231=\"\" class=\"nav-arrow nav-arrow-right\"><i _ngcontent-rph-c231=\"\" class=\"pi pi-chevron-right\"></i></button><div _ngcontent-rph-c231=\"\" class=\"timeline-container\"><div _ngcontent-rph-c231=\"\" class=\"timeline-line\"></div><div _ngcontent-rph-c231=\"\" class=\"timeline-events\"><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-top ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Fundação\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">Primeira Edição Diário Oficial</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">Lançamento da primeira edição do Diário Oficial do Estado de Santa Catarina, gestão do interventor Aristiliano Ramos. Um marco na comunicação de atos oficiais do governo.</p></p-card></div><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(229, 57, 53);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">1934</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/1934.png\"></div></div></div></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(216, 27, 96);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">1984</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/1984.png\"></div></div></div></div><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-bottom ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Fundação\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">50 Anos da Imprensa Oficial</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">Selo comemorativo dos 50 anos da IOESC.</p></p-card></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-top ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Fundação\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">Vinculação à SEA</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">Passou a ser vinculada à Secretaria de Estado da Administração, para efeito de supervisão, fiscalização e controle.</p></p-card></div><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(142, 36, 170);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">1987</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/1987.png\"></div></div></div></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(94, 53, 177);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">1994</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/1994.png\"></div></div></div></div><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-bottom ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Fundação\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">50 Anos da Imprensa Oficial</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">Selo comemorativo dos 50 anos da IOESC.</p></p-card></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-top ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Fundação\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">Transformação em DGAO</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">Com a reforma administrativa advinda com a Lei Complementar n° 284/2005 a IOESC, à época uma autarquia, foi transformada em Diretoria de Gestão de Atos Oficiais-DGAO, subordinada à SEA.</p></p-card></div><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(57, 73, 171);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">2005</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/2005.png\"></div></div></div></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(30, 136, 229);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">2009</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/2009.png\"></div></div></div></div><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-bottom ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Expansão\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">IOESC para DIOESC</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">Por força da Lei Complementar n° 468/2009 a diretoria passa a ser denominada DIOESC-Diretoria da Imprensa Oficial e Editora de Santa Catarina, igualmente subordinada à SEA. Essa mudança refletiu a ampliação das atribuições da diretoria, que passou a incluir a publicação de livros e materiais gráficos, além da gestão dos atos oficiais do governo.</p></p-card></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-top ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Inovação\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">Digitalização do Diário Oficial de SC</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">A 1ª onda, Inicia-se o processo de informatização, com a publicação do Diário Oficial Eletrônico (DOE). Essa mudança permitiu a consulta de edições de forma digital e marcou o início da transição para um novo modelo de gestão e transparência governamental.</p></p-card></div><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(0, 172, 193);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">2011</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/2011.png\"></div></div></div></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(67, 160, 71);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">2017</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/2017.png\"></div></div></div></div><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-bottom ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Digitalização\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">Diário Oficial 100% digital</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">O Diário Oficial alcança um marco histórico: a publicação passa a ser 100% digital, pondo fim à impressão e distribuição de exemplares em papel. Essa medida resultou em economia de recursos e maior agilidade na divulgação de informações e acesso aos atos do governo.</p></p-card></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-top ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Futuro\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">Modernização Diário Oficial</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">A 2ª onda, o Sistema de Gestão de Publicações Oficiais (SGPO) passa por um processo de modernização e transformação digital, que foram um passo crucial para aprimorar a eficiência e a transparência do processo. Essa atualização visou otimizar o fluxo de trabalho e melhorar a experiência dos usuários.</p></p-card></div><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(253, 216, 53);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">2021</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/2021.png\"></div></div></div></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(251, 140, 0);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">2024</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/2024.png\"></div></div></div></div><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-bottom ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Futuro\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">90 Anos de Diário Oficial</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">O DOE/SC celebra 90 anos de história, consolidando-se como uma das mais importantes ferramentas de transparência e comunicação do Governo de Santa Catarina.</p></p-card></div><!----></div><div _ngcontent-rph-c231=\"\" class=\"timeline-event ng-star-inserted\"><div _ngcontent-rph-c231=\"\" class=\"event-content event-content-top ng-star-inserted\"><p-card _ngcontent-rph-c231=\"\"><img _ngcontent-rph-c231=\"\" width=\"200\" class=\"shadow\" alt=\"Futuro\"><p _ngcontent-rph-c231=\"\"><b _ngcontent-rph-c231=\"\" style=\"font-size: 1.2em;\">Transformação Digital</b></p><p _ngcontent-rph-c231=\"\" style=\"font-size: 0.8em;\">Lançamento APP Andoid/IOS, uso de Chatbots de atendimento, integrações entre sistema, uso de IA para buscar segmentadas, foco no cidadão através de serviços acessiveis.</p></p-card></div><!----><div _ngcontent-rph-c231=\"\" class=\"event-marker\" style=\"background-color: rgb(109, 76, 65);\"><div _ngcontent-rph-c231=\"\" class=\"flip-container\"><div _ngcontent-rph-c231=\"\" class=\"flipper\"><div _ngcontent-rph-c231=\"\" class=\"front\"><span _ngcontent-rph-c231=\"\" class=\"year-text\">2025</span></div><div _ngcontent-rph-c231=\"\" class=\"back\"><img _ngcontent-rph-c231=\"\" alt=\"thumbnail\" class=\"thumb\" src=\"./assets/time-line/2025.png\"></div></div></div></div><!----></div><!----></div></div></div><!----></app-time-line></div><div _ngcontent-rph-c234=\"\" class=\"bg-sc\"><div _ngcontent-rph-c234=\"\" class=\"div-content\"><app-document-portal _ngcontent-rph-c234=\"\" _nghost-rph-c232=\"\"><div _ngcontent-rph-c232=\"\" class=\"container-document content-document p-3\"><div _ngcontent-rph-c232=\"\" class=\"titulo-container change-font\"><span _ngcontent-rph-c232=\"\" class=\"titulo change-font\">DOCUMENTOS DO </span><br _ngcontent-rph-c232=\"\"><span _ngcontent-rph-c232=\"\" class=\"subTitulo change-font\">DIÁRIO OFICIAL</span></div><button _ngcontent-rph-c232=\"\" type=\"button\" class=\"mini-cards shadow-4 w-8rem h-8rem pt-3 mr-3 mb-3 ng-star-inserted\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; opacity: 1;\"><div _ngcontent-rph-c232=\"\" class=\"h-full flex flex-column\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;\"><i _ngcontent-rph-c232=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-sharp fa-regular fa-file-invoice-dollar\" style=\"font-family: 'FontAwesome' !important;\"></i><p _ngcontent-rph-c232=\"\" class=\"text-widget-p text-center pt-3\">CNDS</p></div></button><!----><button _ngcontent-rph-c232=\"\" type=\"button\" class=\"mini-cards shadow-4 w-8rem h-8rem pt-3 mr-3 mb-3 ng-star-inserted\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; opacity: 1;\"><div _ngcontent-rph-c232=\"\" class=\"h-full flex flex-column\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;\"><i _ngcontent-rph-c232=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-regular fa-file-signature\" style=\"font-family: 'FontAwesome' !important;\"></i><p _ngcontent-rph-c232=\"\" class=\"text-widget-p text-center pt-3\">Contratos</p></div></button><!----><button _ngcontent-rph-c232=\"\" type=\"button\" class=\"mini-cards shadow-4 w-8rem h-8rem pt-3 mr-3 mb-3 ng-star-inserted\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; opacity: 1;\"><div _ngcontent-rph-c232=\"\" class=\"h-full flex flex-column\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;\"><i _ngcontent-rph-c232=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-book-open\" style=\"font-family: 'FontAwesome' !important;\"></i><p _ngcontent-rph-c232=\"\" class=\"text-widget-p text-center pt-3\">Manuais</p></div></button><!----><button _ngcontent-rph-c232=\"\" type=\"button\" class=\"mini-cards shadow-4 w-8rem h-8rem pt-3 mr-3 mb-3 ng-star-inserted\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; opacity: 1;\"><div _ngcontent-rph-c232=\"\" class=\"h-full flex flex-column\" style=\"border-radius: 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;\"><i _ngcontent-rph-c232=\"\" class=\"text-4xl align-self-center texto-sc-verde fa-solid fa-book-open\" style=\"font-family: 'FontAwesome' !important;\"></i><p _ngcontent-rph-c232=\"\" class=\"text-widget-p text-center pt-3\">FAQ's</p></div></button><!----></div><p-dialog _ngcontent-rph-c232=\"\" class=\"p-element ng-tns-c34-5 ng-star-inserted\"><!----></p-dialog></app-document-portal></div></div><div _ngcontent-rph-c234=\"\" class=\"bg-white\"><div _ngcontent-rph-c234=\"\" class=\"div-content\"><app-ombudsman-portal _ngcontent-rph-c234=\"\" _nghost-rph-c233=\"\"><div _ngcontent-rph-c233=\"\" class=\"m-0\"><div _ngcontent-rph-c233=\"\" class=\"flex justify-content-center flex-wrap\"><div _ngcontent-rph-c233=\"\" class=\"flex align-items-center justify-content-center\"><div _ngcontent-rph-c233=\"\" class=\"container-ouvidoria\"><div _ngcontent-rph-c233=\"\" class=\"titulo-container\"><span _ngcontent-rph-c233=\"\" class=\"titulo\">CANAIS DE </span><br _ngcontent-rph-c233=\"\"><span _ngcontent-rph-c233=\"\" class=\"subTitulo\">OUVIDORIA</span></div><div _ngcontent-rph-c233=\"\" class=\"flex flex-wrap mb-5\"><div _ngcontent-rph-c233=\"\" class=\"w-8rem h-8rem md:w-12rem md:h-full mr-2 mt-2 md:mr-3 text-center ng-star-inserted\"><a _ngcontent-rph-c233=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://ouvidoria.sc.gov.br/cidadao/\" class=\"ng-star-inserted\"><div _ngcontent-rph-c233=\"\" class=\"h-full flex justify-content-center flex-wrap shadow-4 surface-card text-center item-servico\" style=\"border-radius: 5px;\"><div _ngcontent-rph-c233=\"\" class=\"flex align-items-end justify-content-center w-full\"><i _ngcontent-rph-c233=\"\" class=\"text-3xl md:text-6xl lg:text-6xl texto-sc-verde fas fa-bullhorn\" style=\"font-family: 'FontAwesome' !important;\"></i></div><div _ngcontent-rph-c233=\"\" class=\"flex align-items-start justify-content-center w-full text-widget p-1 pt-2 md:p-3 lg:p-3 text-sm\"> Denúncia</div></div></a><!----></div><!----><div _ngcontent-rph-c233=\"\" class=\"w-8rem h-8rem md:w-12rem md:h-full mr-2 mt-2 md:mr-3 text-center ng-star-inserted\"><a _ngcontent-rph-c233=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://ouvidoria.sc.gov.br/cidadao/\" class=\"ng-star-inserted\"><div _ngcontent-rph-c233=\"\" class=\"h-full flex justify-content-center flex-wrap shadow-4 surface-card text-center item-servico\" style=\"border-radius: 5px;\"><div _ngcontent-rph-c233=\"\" class=\"flex align-items-end justify-content-center w-full\"><i _ngcontent-rph-c233=\"\" class=\"text-3xl md:text-6xl lg:text-6xl texto-sc-verde fa-solid fa-hand-pointer\" style=\"font-family: 'FontAwesome' !important;\"></i></div><div _ngcontent-rph-c233=\"\" class=\"flex align-items-start justify-content-center w-full text-widget p-1 pt-2 md:p-3 lg:p-3 text-sm\"> Solicitação</div></div></a><!----></div><!----><div _ngcontent-rph-c233=\"\" class=\"w-8rem h-8rem md:w-12rem md:h-full mr-2 mt-2 md:mr-3 text-center ng-star-inserted\"><a _ngcontent-rph-c233=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://ouvidoria.sc.gov.br/cidadao/\" class=\"ng-star-inserted\"><div _ngcontent-rph-c233=\"\" class=\"h-full flex justify-content-center flex-wrap shadow-4 surface-card text-center item-servico\" style=\"border-radius: 5px;\"><div _ngcontent-rph-c233=\"\" class=\"flex align-items-end justify-content-center w-full\"><i _ngcontent-rph-c233=\"\" class=\"text-3xl md:text-6xl lg:text-6xl texto-sc-verde fa fa-comments\" style=\"font-family: 'FontAwesome' !important;\"></i></div><div _ngcontent-rph-c233=\"\" class=\"flex align-items-start justify-content-center w-full text-widget p-1 pt-2 md:p-3 lg:p-3 text-sm\"> Sugestão</div></div></a><!----></div><!----><div _ngcontent-rph-c233=\"\" class=\"w-8rem h-8rem md:w-12rem md:h-full mr-2 mt-2 md:mr-3 text-center ng-star-inserted\"><a _ngcontent-rph-c233=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://ouvidoria.sc.gov.br/cidadao/\" class=\"ng-star-inserted\"><div _ngcontent-rph-c233=\"\" class=\"h-full flex justify-content-center flex-wrap shadow-4 surface-card text-center item-servico\" style=\"border-radius: 5px;\"><div _ngcontent-rph-c233=\"\" class=\"flex align-items-end justify-content-center w-full\"><i _ngcontent-rph-c233=\"\" class=\"text-3xl md:text-6xl lg:text-6xl texto-sc-verde fa fa-thumbs-up\" style=\"font-family: 'FontAwesome' !important;\"></i></div><div _ngcontent-rph-c233=\"\" class=\"flex align-items-start justify-content-center w-full text-widget p-1 pt-2 md:p-3 lg:p-3 text-sm\"> Elogio</div></div></a><!----></div><!----><div _ngcontent-rph-c233=\"\" class=\"w-8rem h-8rem md:w-12rem md:h-full mr-2 mt-2 md:mr-3 text-center ng-star-inserted\"><a _ngcontent-rph-c233=\"\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://ouvidoria.sc.gov.br/cidadao/\" class=\"ng-star-inserted\"><div _ngcontent-rph-c233=\"\" class=\"h-full flex justify-content-center flex-wrap shadow-4 surface-card text-center item-servico\" style=\"border-radius: 5px;\"><div _ngcontent-rph-c233=\"\" class=\"flex align-items-end justify-content-center w-full\"><i _ngcontent-rph-c233=\"\" class=\"text-3xl md:text-6xl lg:text-6xl texto-sc-verde fa fa-thumbs-down\" style=\"font-family: 'FontAwesome' !important;\"></i></div><div _ngcontent-rph-c233=\"\" class=\"flex align-items-start justify-content-center w-full text-widget p-1 pt-2 md:p-3 lg:p-3 text-sm\"> Reclamações</div></div></a><!----></div><!----><!----></div></div></div></div></div></app-ombudsman-portal></div></div></div><!----></app-portal><!----><app-footer _ngcontent-rph-c175=\"\" _nghost-rph-c174=\"\"><div _ngcontent-rph-c174=\"\" class=\"deskContent\"><div _ngcontent-rph-c174=\"\" class=\"bg-footer\"><div _ngcontent-rph-c174=\"\" class=\"flex justify-content-center\"><div _ngcontent-rph-c174=\"\" class=\"grid footer-content flex-column justify-content-center p-0 m-0 pt-3 px-7\"><div _ngcontent-rph-c174=\"\" class=\"col-12 pb-3 border-bottom-1 border-400\"><a _ngcontent-rph-c174=\"\" target=\"_blank\" href=\"#/home\" rel=\"noopener noreferrer\"><img _ngcontent-rph-c174=\"\" src=\"./assets/layout/images/logo-chapa.png\" alt=\"Logo do Governo de Santa Catarina\" class=\"h-3rem\"></a></div><div _ngcontent-rph-c174=\"\" class=\"col-12 grid\"><div _ngcontent-rph-c174=\"\" class=\"col-3\"><img _ngcontent-rph-c174=\"\" src=\"./assets/layout/images/Bandeira_de_Santa_Catarina.png\" height=\"175\" alt=\"Bandeira do governo de Santa Catarina\"></div><div _ngcontent-rph-c174=\"\" class=\"col-3\"><h6 _ngcontent-rph-c174=\"\" class=\"font-bold pb-3 text-lg\">LINKS EXTERNOS</h6><div _ngcontent-rph-c174=\"\" class=\"flex flex-column\"><a _ngcontent-rph-c174=\"\" href=\"https://estado.sc.gov.br/noticias/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"pb-1\">Agência de Notícias</a><a _ngcontent-rph-c174=\"\" href=\"https://www.sc.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"pb-1\">Portal de Serviços</a><a _ngcontent-rph-c174=\"\" href=\"https://portal.doe.sea.sc.gov.br/v151/#/portal\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"pb-1\">Diário Oficial</a><a _ngcontent-rph-c174=\"\" href=\"https://estado.sc.gov.br/acesso-a-informacao/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"pb-1\">Acesso à informação</a><a _ngcontent-rph-c174=\"\" href=\"https://estado.sc.gov.br/orgaos-do-governo/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"pb-1\">Orgãos do Governo</a><a _ngcontent-rph-c174=\"\" href=\"https://estado.sc.gov.br/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"pb-1\">Conheça SC</a></div></div><div _ngcontent-rph-c174=\"\" class=\"col-3\"><h6 _ngcontent-rph-c174=\"\" class=\"font-bold pb-3 text-lg\">FALE CONOSCO</h6><div _ngcontent-rph-c174=\"\" class=\"flex flex-column\"><p _ngcontent-rph-c174=\"\">Horário do Expediente: <br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">das 12h às 19h de Segunda a Sexta</span></p><p _ngcontent-rph-c174=\"\">Email: <br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">diariooficial@sea.sc.gov.br</span></p><p _ngcontent-rph-c174=\"\">Telefone da Ouvidoria: <br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">0800-6448500</span></p><p _ngcontent-rph-c174=\"\"> Telefones Da Gerência do Diário Oficial: <br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">+55 (48) 3665-6277 / 3665-6270</span></p></div></div><div _ngcontent-rph-c174=\"\" class=\"col-3\"><h6 _ngcontent-rph-c174=\"\" class=\"font-bold pb-3 text-lg\">ENDEREÇO</h6><div _ngcontent-rph-c174=\"\" class=\"flex flex-column\"><p _ngcontent-rph-c174=\"\">Centro Administrativo Governador Casildo João Maldaner<br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">Rod. SC 401 - Km 15, nº 4.600</span></p><p _ngcontent-rph-c174=\"\">Bairro: <br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">Saco Grande, Florianópolis, SC</span></p><p _ngcontent-rph-c174=\"\">CEP: <br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">88032-900</span></p><p _ngcontent-rph-c174=\"\">Telefone da Recepção do Centro Administrativo: <br _ngcontent-rph-c174=\"\"><span _ngcontent-rph-c174=\"\" class=\"font-bold\">+55 (48) 3665-2022</span></p></div></div></div><div _ngcontent-rph-c174=\"\" class=\"flex justify-content-between align-items-center border-bottom-1 border-400 pb-2\"><a _ngcontent-rph-c174=\"\" href=\"\"><i _ngcontent-rph-c174=\"\" target=\"_blank\" class=\"fa-solid fa-lock\" style=\"color: #8FB13A;\"></i>Política de privacidade</a><img _ngcontent-rph-c174=\"\" src=\"./assets/layout/images/selo-gov-sc.png\" height=\"45\" alt=\"Selo do governo de Santa Catarina\"></div><div _ngcontent-rph-c174=\"\" class=\"col-12 flex justify-content-between m-0 pt-3\"><div _ngcontent-rph-c174=\"\" class=\"copyright-container\"> Copyright © 2026 Todos os Direitos Reservados SC - Governo de Santa Catarina | Desenvolvimento - Lusati Tec. | Gestão de Conteúdo- SEA / DIAP / GEDOF </div><div _ngcontent-rph-c174=\"\" class=\"icon-container text-right\"><div _ngcontent-rph-c174=\"\" class=\"flex flex-row flex-wrap card-container justify-content-center\"><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex justify-content-center flex-wrap ng-star-inserted\" href=\"https://www.facebook.com/governosc/?_rdc=1&amp;_rdr\"><i _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center fa-brands fa-facebook f\"></i></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex justify-content-center flex-wrap ng-star-inserted\" href=\"https://twitter.com/GovSC\"><i _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center fa-brands fa-twitter\"></i></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex justify-content-center flex-wrap ng-star-inserted\" href=\"https://www.youtube.com/GovernoSC\"><i _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center fa-brands fa-youtube\"></i></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex justify-content-center flex-wrap ng-star-inserted\" href=\"https://www.instagram.com/GovernoSC/\"><i _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center fa-brands fa-instagram\"></i></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex justify-content-center flex-wrap ng-star-inserted\" href=\"https://www.flickr.com/photos/governosc/\"><i _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center fa-brands fa-flickr\"></i></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"flex justify-content-center flex-wrap ng-star-inserted\" href=\"https://www.tiktok.com/@governosc\"><i _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center fa-brands fa-tiktok\"></i></a><!----><!----></div></div></div></div></div></div></div><div _ngcontent-rph-c174=\"\" class=\"phoneContent\"><div _ngcontent-rph-c174=\"\" class=\"card\"><div _ngcontent-rph-c174=\"\" class=\"flex flex-row flex-wrap card-container justify-content-center\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center font-bold border-round m-2\"><a _ngcontent-rph-c174=\"\" target=\"_blank\" href=\"https://estado.sc.gov.br/politica-privacidade/\" rel=\"noopener noreferrer\" class=\"texto-sc-verde\"><i _ngcontent-rph-c174=\"\" class=\"pi pi-lock mr-2\"></i> Política de privacidade </a></div></div><div _ngcontent-rph-c174=\"\" class=\"flex flex-row flex-wrap card-container justify-content-center\"><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"icons-footer ng-star-inserted\" href=\"https://www.facebook.com/governosc/?_rdc=1&amp;_rdr\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center w-3rem h-3rem bg-sc-verde-icon-social font-bold text-white border-circle m-2\"><i _ngcontent-rph-c174=\"\" class=\"text-2xl fa-brands fa-facebook f\" style=\"color: unset !important;\"></i></div></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"icons-footer ng-star-inserted\" href=\"https://twitter.com/GovSC\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center w-3rem h-3rem bg-sc-verde-icon-social font-bold text-white border-circle m-2\"><i _ngcontent-rph-c174=\"\" class=\"text-2xl fa-brands fa-twitter\" style=\"color: unset !important;\"></i></div></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"icons-footer ng-star-inserted\" href=\"https://www.youtube.com/GovernoSC\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center w-3rem h-3rem bg-sc-verde-icon-social font-bold text-white border-circle m-2\"><i _ngcontent-rph-c174=\"\" class=\"text-2xl fa-brands fa-youtube\" style=\"color: unset !important;\"></i></div></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"icons-footer ng-star-inserted\" href=\"https://www.instagram.com/GovernoSC/\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center w-3rem h-3rem bg-sc-verde-icon-social font-bold text-white border-circle m-2\"><i _ngcontent-rph-c174=\"\" class=\"text-2xl fa-brands fa-instagram\" style=\"color: unset !important;\"></i></div></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"icons-footer ng-star-inserted\" href=\"https://www.flickr.com/photos/governosc/\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center w-3rem h-3rem bg-sc-verde-icon-social font-bold text-white border-circle m-2\"><i _ngcontent-rph-c174=\"\" class=\"text-2xl fa-brands fa-flickr\" style=\"color: unset !important;\"></i></div></a><!----><a _ngcontent-rph-c174=\"\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"icons-footer ng-star-inserted\" href=\"https://www.tiktok.com/@governosc\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center w-3rem h-3rem bg-sc-verde-icon-social font-bold text-white border-circle m-2\"><i _ngcontent-rph-c174=\"\" class=\"text-2xl fa-brands fa-tiktok\" style=\"color: unset !important;\"></i></div></a><!----><!----></div><div _ngcontent-rph-c174=\"\" class=\"flex flex-row flex-wrap card-container justify-content-center\"><div _ngcontent-rph-c174=\"\" class=\"flex align-items-center justify-content-center font-bold border-round m-2 text-center\"><p _ngcontent-rph-c174=\"\">Copyright © 2026 Todos os Direitos Reservados SC - Governo de Santa Catarina | <b _ngcontent-rph-c174=\"\"> Desenvolvimento - Gestão de Conteúdo- SEA / DIAP / GESIN</b></p></div></div></div></div></app-footer></div><p-confirmdialog _ngcontent-rph-c175=\"\" class=\"p-element ng-tns-c81-0 ng-star-inserted\"><!----></p-confirmdialog></app-app-home><!----></app-root>\n<script src=\"runtime.4ecc72c59a41d917.js\" type=\"module\"></script><script src=\"polyfills.b44e79c5bdd98b7f.js\" type=\"module\"></script><script src=\"scripts.cb69a0cdf47477b0.js\" defer=\"\"></script><script src=\"main.7e3964baade27065.js\" type=\"module\"></script>\n\n</body></html>",
+  "html_length": 95727,
+  "scripts": [
+    "https://portal.doe.sea.sc.gov.br/v2.44.07/runtime.4ecc72c59a41d917.js",
+    "https://portal.doe.sea.sc.gov.br/v2.44.07/polyfills.b44e79c5bdd98b7f.js",
+    "https://portal.doe.sea.sc.gov.br/v2.44.07/scripts.cb69a0cdf47477b0.js",
+    "https://portal.doe.sea.sc.gov.br/v2.44.07/main.7e3964baade27065.js"
+  ],
+  "links": [
+    {
+      "text": "",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "PORTAL DE NOTÍCIAS",
+      "href": "https://estado.sc.gov.br/noticias/"
+    },
+    {
+      "text": "PORTAL DE SERVIÇOS",
+      "href": "https://www.sc.gov.br/"
+    },
+    {
+      "text": "DIÁRIO OFICIAL",
+      "href": "https://doe.sea.sc.gov.br/"
+    },
+    {
+      "text": "ACESSO À INFORMAÇÃO",
+      "href": "https://estado.sc.gov.br/acesso-a-informacao/"
+    },
+    {
+      "text": "ÓRGÃOS DO GOVERNO",
+      "href": "https://estado.sc.gov.br/orgaos-do-governo/"
+    },
+    {
+      "text": "SOBRE SC",
+      "href": "https://estado.sc.gov.br/"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/governosc/?_rdc=1&_rdr"
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/GovSC"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/GovernoSC"
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/GovernoSC/"
+    },
+    {
+      "text": "",
+      "href": "https://www.flickr.com/photos/governosc/"
+    },
+    {
+      "text": "",
+      "href": "https://www.tiktok.com/@governosc"
+    },
+    {
+      "text": "",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "Diário Oficial de SC",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "Diário Oficial SC",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "ENTRAR",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/login"
+    },
+    {
+      "text": "",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "Diário Oficial de SC",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "Diário Oficial SC",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "ENTRAR",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/login"
+    },
+    {
+      "text": "BUSCAR EDIÇÕES",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/portal/edicao/buscar-edicao"
+    },
+    {
+      "text": "BUSCAR PUBLICAÇÕES",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/portal/edicao/buscar-publicacao"
+    },
+    {
+      "text": "CLIPPING ELETRÔNICO",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/portal/clipping-eletronico"
+    },
+    {
+      "text": "CADASTRO DE EMPRESAS E ÓRGÃOS",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/portal/cadastro-entidade"
+    },
+    {
+      "text": "CADASTRO DE USUÁRIO",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/portal/cadastro-usuario"
+    },
+    {
+      "text": "ATENDIMENTO WHATSAPP",
+      "href": "https://api.whatsapp.com/send/?phone=554836656269&text=Ol%C3%A1,%20me%20envie%20essa%20mensagem%20para%20ser%20atendido&type=phone_number&app_absent=0"
+    },
+    {
+      "text": "APP DOE ANDROID",
+      "href": "https://play.google.com/store/apps/details?id=br.com.doesc.app"
+    },
+    {
+      "text": "APP DOE IOS",
+      "href": "https://apps.apple.com/br/app/di%C3%A1rio-oficial-de-sc/id6748155675"
+    },
+    {
+      "text": "DENÚNCIA",
+      "href": "http://ouvidoria.sc.gov.br/cidadao/"
+    },
+    {
+      "text": "SOLICITAÇÃO",
+      "href": "http://ouvidoria.sc.gov.br/cidadao/"
+    },
+    {
+      "text": "SUGESTÃO",
+      "href": "http://ouvidoria.sc.gov.br/cidadao/"
+    },
+    {
+      "text": "ELOGIO",
+      "href": "http://ouvidoria.sc.gov.br/cidadao/"
+    },
+    {
+      "text": "RECLAMAÇÕES",
+      "href": "http://ouvidoria.sc.gov.br/cidadao/"
+    },
+    {
+      "text": "",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/#/home"
+    },
+    {
+      "text": "Agência de Notícias",
+      "href": "https://estado.sc.gov.br/noticias/"
+    },
+    {
+      "text": "Portal de Serviços",
+      "href": "https://www.sc.gov.br/"
+    },
+    {
+      "text": "Diário Oficial",
+      "href": "https://portal.doe.sea.sc.gov.br/v151/#/portal"
+    },
+    {
+      "text": "Acesso à informação",
+      "href": "https://estado.sc.gov.br/acesso-a-informacao/"
+    },
+    {
+      "text": "Orgãos do Governo",
+      "href": "https://estado.sc.gov.br/orgaos-do-governo/"
+    },
+    {
+      "text": "Conheça SC",
+      "href": "https://estado.sc.gov.br/"
+    },
+    {
+      "text": "Política de privacidade",
+      "href": "https://portal.doe.sea.sc.gov.br/v2.44.07/"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/governosc/?_rdc=1&_rdr"
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/GovSC"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/GovernoSC"
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/GovernoSC/"
+    },
+    {
+      "text": "",
+      "href": "https://www.flickr.com/photos/governosc/"
+    },
+    {
+      "text": "",
+      "href": "https://www.tiktok.com/@governosc"
+    },
+    {
+      "text": "Política de privacidade",
+      "href": "https://estado.sc.gov.br/politica-privacidade/"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/governosc/?_rdc=1&_rdr"
+    },
+    {
+      "text": "",
+      "href": "https://twitter.com/GovSC"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/GovernoSC"
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/GovernoSC/"
+    },
+    {
+      "text": "",
+      "href": "https://www.flickr.com/photos/governosc/"
+    },
+    {
+      "text": "",
+      "href": "https://www.tiktok.com/@governosc"
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "Ver todas",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "submit",
+      "text": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "submit",
+      "text": "",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "CNDS",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "CONTRATOS",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "MANUAIS",
+      "value": "",
+      "placeholder": ""
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "name": "",
+      "type": "button",
+      "text": "FAQ'S",
+      "value": "",
+      "placeholder": ""
+    }
+  ],
+  "script_analysis": [
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/runtime.4ecc72c59a41d917.js",
+      "status": 200,
+      "length": 3487,
+      "matches": []
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/polyfills.b44e79c5bdd98b7f.js",
+      "status": 200,
+      "length": 94192,
+      "matches": []
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/scripts.cb69a0cdf47477b0.js",
+      "status": 200,
+      "length": 12146,
+      "matches": []
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/v2.44.07/main.7e3964baade27065.js",
+      "status": 200,
+      "length": 4382039,
+      "matches": [
+        "dsMateria",
+        "),this.getDtCriacaoMateria=()=>this._requestData(this._restPrefix+",
+        "/doe-api/assunto",
+        "/doe-api/negativa",
+        "),gt=n.map(_n=>_n.ds_assunto),qt=n.map(_n=>_n.qtd_materias);this.dataBarAssuntos={labels:gt,datasets:[{label:",
+        ",this.clienteMateriaGeral=[...this.clienteMateriaPosPago],0==this.clienteMateriaPosPago.length&&this.messageService.add({severity:",
+        ":this.filtro.dsMateria,this.aChip.push({label:",
+        "dtPublicacao",
+        ",e.xi3(12,14,n.dtPublicacao,",
+        "s{constructor(n,o,d,Q){this.breadcrumbService=n,this.jornalService=o,this.datePipe=d,this.router=Q,this.aJornal=[],this.sortDate=[],this.filtroOpcao=[],this.oFiltro={dataInicio:null,dataFim:null,sortEdicao:null,sortOrder:null,numeroEdicao:null},this.aTextoFiltro=[],this.sortOrder=",
+        "/gestao/jornal/gerenciar-clipping-eletronico",
+        "),this.materiasDuplicadas=()=>this._requestData(this._restPrefix+",
+        ",s.MATERIA=",
+        "vlPrecopublicacao",
+        ",o),n.materiasNaoEmitidas=o.materiasNaoEmitidas||[],n.usuariosAguardandoAprovacao=o.usuariosAguardandoAprovacao||[],n.entidadesAguardandoAprovacao=o.entidadesAguardandoAprovacao||[])}),n.homeService.getHomeSlide(69).then(o=>{let",
+        "countJornal",
+        "Materia",
+        "/Jornal/",
+        ".materia-price{font-size:1.5rem;font-weight:600;margin-bottom:.5rem;align-self:flex-end}[_nghost-%COMP%]",
+        ",n.totalMaterias,",
+        "idPrecopublicacao",
+        "diariooficial@sea.sc.gov.br",
+        ",n.submitted&&!n.registro.cdPrecopublicacao),e.xp6(5),e.Oqu(n.dsNatureza),e.xp6(1),e.Q6J(",
+        "/doe-api/certificado-digital",
+        "dtPublicacaoDesc",
+        "/doe-api/faq-itens",
+        "n.filter(d=>d.data.tipo===io.MATERIA&&d.data.cdEmpresa===o)}calcularPeriodo(n){let",
+        "d=0;d<this.data.length;d++)if(this.data[d].cdPrecopublicacao===n){o=d;break}return",
+        "),Fe.dataPublicacaoJornal&&(Fe.dataPublicacaoJornal=re(Fe.dataPublicacaoJornal)+",
+        ",e.VKq(4,ub,n.submitted&&!n.registro.dsPrecopublicacao)),e.xp6(1),e.Q6J(",
+        ",n.registro),n.cadastroService.salvar(n.registro,n.registro.cdPrecopublicacao).then(o=>{n.messageService.add({severity:",
+        "/doe-api/estado",
+        "),K.dataPublicacaoJornal&&(K.dataPublicacaoJornal=p(K.dataPublicacaoJornal)+",
+        "/edicao/analisa-materias?",
+        ",Lt),this.wsMateriaProcessada$.next(Lt)}),this.socket.on(Jt.MATERIA_ATUALIZADA,Lt=>{console.log(",
+        "})}this.filtro.dsMateria&&(n=this.filtro.dsMateria.length>22?this.filtro.dsMateria.substring(0,22)+",
+        ",T.ds_precopublicacao,",
+        "/PrecoPublicacao/:${u}",
+        "this.registro.dtPublicacaoDesc;let",
+        "/faturamento/faturar-materias",
+        "this.appService=Q,this.breadcrumbService=We,this.isEdit=!1,this.deleteDialog=!1,this.deleteManyDialog=!1,this.stBloquearpublicacao=!1,this.filterOptions={soEstadual:0,soMunicipal:0,soJuridico:0,soFisica:0,soAguardandoAnalise:0},this.tituloTabela=",
+        ".materia-grid-item-top,",
+        "stBloquearpublicacao",
+        ",loadChildren:()=>Promise.all([G.e(360),G.e(592)]).then(G.bind(G,360)).then(I=>I.BucarMateriaModule)},{path:",
+        "/doe-api/report",
+        "his.clientType=3,this.clienteMateriaGeral=[...gt]):this.clientOption({value:this.clientType},!1),this.firstAccess=!1,this.messageErrors=JSON.parse(localStorage.getItem(",
+        "e.CHM(n),e.oxw().registro.stBloquearpublicacao=d}),e.qZA(),e.TgZ(117,",
+        "https://sigio2.doe.sea.sc.gov.br/sigio/Materias/${M.getFullYear()}${f}${w}/Jornal/${this.jornal.cdJornal}.pdf",
+        "/doe-api/permissoes",
+        "/materia-duplicadas",
+        ",Ct.MATERIA_ATUALIZADA=",
+        ".materia-category-icon{vertical-align:middle;margin-right:.5rem}[_nghost-%COMP%]",
+        ")}generateLinkReportMateriasPublicadas(p){return",
+        "+this.jornal.cdJornal+",
+        ",e.VKq(152,Gs,n.submitted&&!n.registro.cdPrecopublicacao)),e.xp6(1),e.Q6J(",
+        "${n.codigoMateria}",
+        "/doe-api/materia",
+        "qn{constructor(){this.stBloquearpublicacao=!1}}class",
+        ".materia-category{font-weight:600;vertical-align:middle}[_nghost-%COMP%]",
+        "Q[0],Q[1])};this.registro.dtInicio=n(this.registro.dtInicio),this.registro.dtFim=n(this.registro.dtFim),this.registro.dtPublicacao=n(this.registro.dtPublicacao),this.loadCanal()}onChangeCanal(){this.bannerSelected=!!this.registro.cdCanal&&[68,69].includes(this.registro.cdCanal),this.inputConfig.titulo=255,this.bannerSelected&&(this.inputConfig.titu",
+        ",e.xi3(13,3,n.vlPrecopublicacao,",
+        ",amount:n.qtdMateriaPorAno,description:",
+        "/doe-api/Perfil",
+        "Di=[];if(Di=n.chart.chartMateria.filter(qi=>qi.ano==gt.ano).map(qi=>qi.qtd),0==Q){let",
+        "),dtPublicacaoCompare:parseInt(this.datePipe.transform(o(qi.dt_publicacao),",
+        "/doe-api/cidade",
+        "${n.totalMateria}",
+        "n.map(o=>o.data.cdMateria).join(",
+        "+F)}findJornal(F){let",
+        "Jornal:",
+        "+this.sortEdicaoJornal.find(Q=>Q.value==this.oFiltro.sortEdicao).label,this.aTextoFiltro.push({label:n,icon:",
+        ",n.cdMateria,",
+        "+F.cdJornal)}analisaMaterias(F,r){const",
+        "https://ui-avatars.com/api/?background=00B2A9&color=fff&name=$displayName&rounded=false",
+        "o=n.categoriaForm.saveCategoria();n.registro.usuario=n.userSelected?n.userSelected:0,n.registro.cdPrecopublicacao?0!=n.registro.usuario&&n.registro.usuario||n.isEdit?n.registro.stNaturezajuridica||n.registro.stClientegovernomunicipal||n.registro.stClientegovernoestadual||n.empresaDataFormBase.stPessoaFisica?0!=o.length?(n.loading=!",
+        "/PrecoPublicacao",
+        "/gera-pacote-jornal/",
+        "https://sigio2.doe.sea.sc.gov.br/sigio/Materias/",
+        ",n.filtro.dsMateria),e.xp6(4),e.Q6J(",
+        "u=this.generateUrlParam({cdJornal:F,dtFechamento:r});return",
+        "n.chart.chartMateria){let",
+        "/doe-api/user/${E}/change-password/",
+        ",this.rowPerPage=12,this.progress=0,this.statusTpJornal=[",
+        ",this.display=!1}ngOnInit(){}showDialog(v){this.jornal=v,this.display=!0}goToPreview(){this.router.navigate([",
+        "qt=n[gt].data.dtPublicacaoCompare;qt<o&&(o=qt,Q=n[gt].data.dtPublicacao),qt>d&&(d=qt,We=n[gt].data.dtPublicacao)}return{dtInicio:Q,dtFinal:We}}calcularPeriodoPorIndice(n){return{dtFinal:n[0].data.dtPublicacao,dtInicio:n[n.length-1].data.dtPublicacao}}calcularTotais(n){const",
+        ":We.vlPrecopublicacao),Q={...We},d.push(Q);this.aPrecoPublicacao=o.records}).catch(o=>{console.log(",
+        "0;(hi.cdUsuario==this.user.cdUsuario||this.user.stTodasempresas)&&(Di.cdMateria=hi.cdMateria,Di.cdUsuario=hi.cdUsuario,Di.message=ni.message,Di.status=or?",
+        "n=[];this.clienteMateriaGeral.forEach(o=>{let",
+        "nteMateriaGeral]}expandRecursive(n,o){n.expanded=o,n.children&&n.children.forEach(d=>{this.expandRecursive(d,o)})}clientOption(n,o=!0){o&&this.loadList(),1==n.value&&this.clientPrePago(),2==n.value?this.clientPosPago():3==n.value&",
+        ",o.aJornal)(",
+        "/doe-api/logout",
+        ",n.cdPrecopublicacao,",
+        "e.CHM(n),e.oxw().filtro.dsMateria=d}),e.qZA()()(),e.TgZ(15,",
+        "d={...o};d.data.dsObservacao=null,n.push({...d})}),this.clienteMateriaGeral=[...n]}console.log(),this.generateDescriptionNF()}getMateriasPorEmpresa(n,o){return",
+        ",n.sortEdicaoJornal)(",
+        "e.vpe,this.onMateriaAtualizada=new",
+        "/doe-api/assinatura-digital",
+        "buscar-materia",
+        "Ct{constructor(ht){this.authService=ht,this.wsMateriaProcessada$=new",
+        "r=this.generateUrlParam({dtPublicacao:F});return"
+      ]
+    }
+  ],
+  "script_strings": [
+    "!==n.dsCnpj?n.dsCnpj:n.dsCpf})}desbloquearEmpresa(n){this.loading=!0,n.stBloquearpublicacao=!n.stBloquearpublicacao,this.empresaService.salvar(n,null,n.cdEmpresa).then(o=>{console.log(o),this.loading=!1,this.toastService.setMessageSuccess(",
+    "${n.codigoMateria}",
+    "${n.stBloquearpublicacao?",
+    "${n.totalMateria}",
+    "${this.url}/relatorios/materias-faturadas/${p}",
+    ")),M=!1;D&&!D[v.cdJornal]?(M=!0,D[v.cdJornal]=1,sessionStorage.setItem(",
+    ")),d.wsMateriaAtualizada$.subscribe({next:ni=>{if(",
+    ")),vlTotal:qi.vl_total}};try{(0==hi.length||0==hi.filter(Zo=>Zo.data.cdMateria==qi.cd_materia&&Zo.data.vlTotal==qi.vl_total).length)&&hi.push(lo)}catch(fo){console.log(",
+    "),Fe.dataPublicacaoJornal&&(Fe.dataPublicacaoJornal=re(Fe.dataPublicacaoJornal)+",
+    "),K.dataPublicacaoJornal&&(K.dataPublicacaoJornal=p(K.dataPublicacaoJornal)+",
+    "),dtPublicacaoCompare:parseInt(this.datePipe.transform(o(qi.dt_publicacao),",
+    "),gt.push(_n);this.totalRecords=We.records.meta.total,this.rowPerPage=We.records.meta.per_page,this.aJornal=gt,this.loading=!1})}aplicarFiltro(){this.loadData(),this.aplicarDescricaoFiltro(),this.hideDialog()}limparFiltro(n={}){n.filter&&(this.oFiltro[n.filter]=n.default),this.loadData(),this.aplicarDescricaoFiltro(),this.hid",
+    "),gt=n.map(_n=>_n.dsCategoria),qt=n.map(_n=>_n.qtdMaterias);this.dataBarCategorias={labels:gt,datasets:[{label:",
+    "),gt=n.map(_n=>_n.ds_assunto),qt=n.map(_n=>_n.qtd_materias);this.dataBarAssuntos={labels:gt,datasets:[{label:",
+    "),this.faturarMaterias=d=>this._requestData(this._restPrefix+",
+    "),this.getDtCriacaoMateria=()=>this._requestData(this._restPrefix+",
+    "),this.getDtPublicacao=()=>this._requestData(this._restPrefix+",
+    "),this.materiasDuplicadas=()=>this._requestData(this._restPrefix+",
+    ")}generateLinkReportMateriasPublicadas(p){return",
+    ")}generateReportMateriasPublicadas(p){return",
+    ")}}goToEdicaoInterativa(){this.countDownloadJornal(this.jornal),this.router.navigate([",
+    "+(0==We.vlPrecopublicacao?",
+    "+F)}findJornal(F){let",
+    "+F.cdJornal)}analisaMaterias(F,r){const",
+    "+n.tpJornal),e.xp6(1),e.Oqu(o.statusTpJornal[n.tpJornal]),e.xp6(2),e.Q6J(",
+    "+n.tpJornal),e.xp6(1),e.Oqu(o.statusTpJornal[n.tpJornal])}}function",
+    "+this.jornal.cdJornal+",
+    "+this.sortEdicaoJornal.find(Q=>Q.value==this.oFiltro.sortEdicao).label,this.aTextoFiltro.push({label:n,icon:",
+    ",3===o.clientType&&o.clienteMateriaPosPagoMensal.length>0),e.xp6(9),e.Q6J(",
+    ",Ct.MATERIA_ATUALIZADA=",
+    ",JSON.stringify(D))):D||(M=!0,D={},D[v.cdJornal]=1,sessionStorage.setItem(",
+    ",Lt),this.wsMateriaAtualizada$.next(Lt)}),this.socket.on(Jt.RELATORIO_CONTAS,Lt=>{console.log(",
+    ",Lt),this.wsMateriaProcessada$.next(Lt)}),this.socket.on(Jt.MATERIA_ATUALIZADA,Lt=>{console.log(",
+    ",Lt)}),this.socket.on(Jt.MATERIA_PROCESSADA,Lt=>{console.log(",
+    ",T.ds_precopublicacao,",
+    ",amount:n.qtdMateria,description:",
+    ",amount:n.qtdMateriaPorAno,description:",
+    ",cdMateria:0,cdUsuario:0,message:",
+    ",e.VKq(152,Gs,n.submitted&&!n.registro.cdPrecopublicacao)),e.xp6(1),e.Q6J(",
+    ",e.VKq(4,ub,n.submitted&&!n.registro.dsPrecopublicacao)),e.xp6(1),e.Q6J(",
+    ",e.xi3(12,14,n.dtPublicacao,",
+    ",e.xi3(13,3,n.vlPrecopublicacao,",
+    ",e.xi3(26,17,n.dtPublicacao,",
+    ",e.xi3(7,7,n.dtPublicacao,",
+    ",life:1e4})})()}getRecords(){this.precoPublicacaoService.inputSelectPreco().then(o=>{let",
+    ",life:3e3}),this.selectedList=null}confirmDelete(){this.cadastroService.excluir(this.registro.cdPrecopublicacao).then(n=>{this.messageService.add({severity:",
+    ",loadChildren:()=>Promise.all([G.e(360),G.e(592)]).then(G.bind(G,360)).then(I=>I.BucarMateriaModule)},{path:",
+    ",n.aPrecoPublicacao)(",
+    ",n.cdMateria,",
+    ",n.cdPrecopublicacao,",
+    ",n.dsPrecopublicacao,",
+    ",n.filtro.dsMateria),e.xp6(4),e.Q6J(",
+    ",n.materiasNaoEmitidas),e.xp6(6),e.Q6J(",
+    ",n.registro),n.cadastroService.salvar(n.registro,n.registro.cdPrecopublicacao).then(o=>{n.messageService.add({severity:",
+    ",n.registro.cdPrecopublicacao)(",
+    ",n.registro.dsPrecopublicacao)(",
+    ",n.registro.stBloquearpublicacao),e.xp6(4),e.Q6J(",
+    ",n.registro.stMateriaformatada),e.xp6(3),e.Q6J(",
+    ",n.registro.vlPrecopublicacao)}}function",
+    ",n.sortEdicaoJornal)(",
+    ",n.stBloquearpublicacao?",
+    ",n.submitted&&!n.registro.cdPrecopublicacao),e.xp6(5),e.Oqu(n.dsNatureza),e.xp6(1),e.Q6J(",
+    ",n.submitted&&!n.registro.dsPrecopublicacao),e.xp6(4),e.Q6J(",
+    ",n.totalMaterias,",
+    ",o),n.materiasNaoEmitidas=o.materiasNaoEmitidas||[],n.usuariosAguardandoAprovacao=o.usuariosAguardandoAprovacao||[],n.entidadesAguardandoAprovacao=o.entidadesAguardandoAprovacao||[])}),n.homeService.getHomeSlide(69).then(o=>{let",
+    ",o)})}loadMateria(){}nodeExpand(n){",
+    ",o.aJornal)(",
+    ",o.click()}).catch(n=>{console.log(n)})}loadList(){this.loading=!0,this.emissaoFaturamentoService.getClientePorMateria().then(n=>{this.totalSelected=",
+    ",o.clienteMateriaGeral)(",
+    ",o.error.message)})}relatorioNota(n){this.loading=!0,this.reportService.generateLinkReportMateriasPublicadas(n).subscribe({next:o=>{window.open(o.relLink,",
+    ",o.materiaChart)(",
+    ",qt)}this.clienteMateriaPrePago=[...Q],this.clienteMateriaPosPago=[...We],this.clienteMateriaPosPagoMensal=[...gt],this.prevFaturamentoMensal=n.prevFaturamentoMensal,this.firstAccess?Q.length>0?(this.clientType=1,this.clienteMateriaGeral=[...Q]):We.length>0?(this.clientType=2,this.clienteMateriaGeral=[...We]):(t",
+    ",s.MATERIA=",
+    ",t.lcZ(6,2,T.vl_precopublicacao),",
+    ",this.clienteMateriaGeral=[...this.clienteMateriaPosPagoMensal],0==this.clienteMateriaPosPagoMensal.length&&this.messageService.add({severity:",
+    ",this.clienteMateriaGeral=[...this.clienteMateriaPosPago],0==this.clienteMateriaPosPago.length&&this.messageService.add({severity:",
+    ",this.clienteMateriaGeral=[...this.clienteMateriaPrePago],0==this.clienteMateriaPrePago.length&&this.messageService.add({severity:",
+    ",this.descricaoNotaFiscal=[...o],this.clienteMateriaGeral=[...gt]}}return",
+    ",this.display=!1}ngOnInit(){}showDialog(v){this.jornal=v,this.display=!0}goToPreview(){this.router.navigate([",
+    ",this.rowPerPage=12,this.progress=0,this.statusTpJornal=[",
+    ".5rem;text-transform:uppercase;font-weight:700;font-size:12px;letter-spacing:.3px}.jornal-badge.status-3[_ngcontent-%COMP%]{background:#4caf50;color:#fff}.jornal-badge.status-2[_ngcontent-%COMP%]{background:#FFCDD2;color:#c63737}.jornal-badge.status-1[_ngcontent-%COMP%]{background:#f5e143;color:#555450}.jorn",
+    ".5rem;text-transform:uppercase;font-weight:700;font-size:12px;letter-spacing:.3px}.materia-badge.status-1[_ngcontent-%COMP%]{background:#C8E6C9;color:#256029}.materia-badge.status-0[_ngcontent-%COMP%]{background:#FFCDD2;color:#c63737}.materia-badge.status-lowstock[_ngcontent-%COMP%]{background:#FEEDAF;color:#",
+    ".empresaService=n,this.empresaLogService=o,this.estadoService=d,this.cidadeService=Q,this.categoriaService=We,this.precoPublicacaoService=gt,this.usuarioService=qt,this.naturezaOperacaoService=_n,this.toastService=ni,this.domainService=hi,this.brasilApiService=Di,this.utilService=or,this.closeDialog=new",
+    ".materia-category-icon{vertical-align:middle;margin-right:.5rem}[_nghost-%COMP%]",
+    ".materia-category{font-weight:600;vertical-align:middle}[_nghost-%COMP%]",
+    ".materia-description{margin:0",
+    ".materia-grid-item",
+    ".materia-grid-item-bottom{display:flex;align-items:center;justify-content:space-between}[_nghost-%COMP%]",
+    ".materia-grid-item-content{text-align:center}[_nghost-%COMP%]",
+    ".materia-grid-item-top,",
+    ".materia-grid-item{margin:.5em;border:1px",
+    ".materia-list-action{display:flex;flex-direction:column}[_nghost-%COMP%]",
+    ".materia-list-action{margin-top:2rem;flex-direction:row;justify-content:space-between;align-items:center;width:100%}}.alerta[_ngcontent-%COMP%]{padding:2px",
+    ".materia-list-detail{flex:1",
+    ".materia-list-detail{text-align:center}[_nghost-%COMP%]",
+    ".materia-list-item",
+    ".materia-list-item{display:flex;align-items:center;padding:1rem;width:100%}[_nghost-%COMP%]",
+    ".materia-list-item{flex-direction:column;align-items:center}[_nghost-%COMP%]",
+    ".materia-name{font-size:1.5rem;font-weight:700}[_nghost-%COMP%]",
+    ".materia-price{align-self:center}[_nghost-%COMP%]",
+    ".materia-price{font-size:1.5rem;font-weight:600;margin-bottom:.5rem;align-self:flex-end}[_nghost-%COMP%]",
+    ".materia-price{font-size:1.5rem;font-weight:600}.card[_ngcontent-%COMP%]{padding:2rem;box-shadow:0",
+    "/Jornal/",
+    "/PrecoPublicacao",
+    "/PrecoPublicacao/",
+    "/PrecoPublicacao/:${u}",
+    "/PrecoPublicacao/?page=${u}&perPage=${E}",
+    "/PrecoPublicacao/holder",
+    "/admin/buscar-materia",
+    "/admin/precopublicacao",
+    "/admin/relatorios/materias",
+    "/data-criacao-materia",
+    "/data-publicacao",
+    "/doe-api/Perfil",
+    "/doe-api/assinatura-digital",
+    "/doe-api/assunto",
+    "/doe-api/categoria",
+    "/doe-api/certificado-digital",
+    "/doe-api/cidade",
+    "/doe-api/configuracao",
+    "/doe-api/conteudo-duvidoso",
+    "/doe-api/dare",
+    "/doe-api/dashboard",
+    "/doe-api/dashboard-financeiro",
+    "/doe-api/edicao",
+    "/doe-api/empresa",
+    "/doe-api/empresa-log",
+    "/doe-api/empresa-log/?page=${u}&perPage=${E}&cdEmpresa=${i||0}",
+    "/doe-api/empresa/listAll?empresa=",
+    "/doe-api/estado",
+    "/doe-api/faq-itens",
+    "/doe-api/feriado",
+    "/doe-api/logout",
+    "/doe-api/materia",
+    "/doe-api/natureza-operacao",
+    "/doe-api/negativa",
+    "/doe-api/notas",
+    "/doe-api/noticia",
+    "/doe-api/notificacoes",
+    "/doe-api/pais/all",
+    "/doe-api/perfil-acao",
+    "/doe-api/permissoes",
+    "/doe-api/report",
+    "/doe-api/user/${E}/change-password/",
+    "/doe-api/usuario",
+    "/edicao/analisa-materias?",
+    "/edicao/buscar-jornal?",
+    "/faturamento/faturar-materias",
+    "/gera-pacote-jornal/",
+    "/gestao/jornal/gerenciar-clipping-eletronico",
+    "/gestao/jornal/gerenciar-edicao",
+    "/gestao/jornal/gerenciar-materia",
+    "/jornal",
+    "/materia-duplicadas",
+    "/materia/cliente",
+    "/preco-publicacao/list",
+    "0;(hi.cdUsuario==this.user.cdUsuario||this.user.stTodasempresas)&&(Di.cdMateria=hi.cdMateria,Di.cdUsuario=hi.cdUsuario,Di.message=ni.message,Di.status=or?",
+    "5rem}.texto-item[_ngcontent-%COMP%]{font-size:.7rem}.texto-subitem[_ngcontent-%COMP%]{font-size:.62rem;font-weight:700}.materia-group[_ngcontent-%COMP%]{background:#fef2f2;border:1px",
+    ":!1},this.estado=null,this.uploadedFiles=[],this.aEstado=[],this.aDominio=[],this.aCidade=[],this.empresa=[],this.aPrecoPublicacao=[],this.aCategoria=[],this.aEmpresaCategoria=[],this.listaUsuario=[],this.listaNovoUsuario=[],this.cpfCnpjInvalido=!1,this.cpfCnjpAtual=",
+    ":We.vlPrecopublicacao),Q={...We},d.push(Q);this.aPrecoPublicacao=o.records}).catch(o=>{console.log(",
+    ":this.filtro.dsMateria,this.aChip.push({label:",
+    ";.jornal-badge[_ngcontent-%COMP%]{border-radius:var(--border-radius);padding:.25em",
+    "Assunto=[],this.aCategoria=[],this.aChip=[],this.filtro={dataInicio:null,dataFim:null,cdCategoria:null,cdAssunto:null,dsMateria:null},this.breadcrumbService.setItems([{label:",
+    "Ct{constructor(ht){this.authService=ht,this.wsMateriaProcessada$=new",
+    "Date(hi[0],hi[1]-1,hi[2],Di[0],Di[1])},qt=ni=>this.datePipe.transform(ni.dtPublicacao,",
+    "Di=[];if(Di=n.chart.chartMateria.filter(qi=>qi.ano==gt.ano).map(qi=>qi.qtd),0==Q){let",
+    "Jornal",
+    "Jornal:",
+    "Jt=(()=>{return(Ct=Jt||(Jt={})).MATERIA_PROCESSADA=",
+    "M=this.jornal.dtPublicacao,w=M.getDate().toString().padStart(2,",
+    "MATERIA_ATUALIZADA",
+    "MATERIA_PROCESSADA",
+    "Materia",
+    "Materias",
+    "ON.stringify(D))),M&&this.newspaperService.addViewNewspaper(v).subscribe(w=>{},w=>{})}goToEdicao(){if(this.countDownloadJornal(this.jornal),this.jornal.dsArquivo)window.open(t.N.repo+this.jornal.dsArquivo,",
+    "Observacao=this.registro.dsObservacao}showDialog(){this.display=!0}hideDialog(){this.display=!1}expandAll(){this.clienteMateriaGeral.forEach(n=>{this.expandRecursive(n,!0)}),this.clienteMateriaGeral=[...this.clienteMateriaGeral]}collapseAll(){this.clienteMateriaGeral.forEach(n=>{this.expandRecursive(n,!1)}),this.clienteMateriaGeral=[...this.clie",
+    "Q[0],Q[1])};this.registro.dtInicio=n(this.registro.dtInicio),this.registro.dtFim=n(this.registro.dtFim),this.registro.dtPublicacao=n(this.registro.dtPublicacao),this.loadCanal()}onChangeCanal(){this.bannerSelected=!!this.registro.cdCanal&&[68,69].includes(this.registro.cdCanal),this.inputConfig.titulo=255,this.bannerSelected&&(this.inputConfig.titu",
+    "We.records.data)_n.tpJornal=_n.tpJornal?_n.tpJornal:0,_n.dtPublicacao=qt(_n.dtPublicacao),_n.dtAprovacao=qt(_n.dtAprovacao),_n.dsAprovacao=null,_n.dtAprovacao&&(_n.dsAprovacao=",
+    "],Q=0;this.materiaChart={labels:[",
+    "],{queryParams:{jornal:this.jornal.cdJornal},queryParamsHandling:",
+    "],{queryParams:{urlPdf:t.N.repo+this.jornal.dsArquivo,urlPageReturn:",
+    "al-badge.status-0[_ngcontent-%COMP%]{background:#cdeeff;color:#3783c6}.jornal-badge.status-lowstock[_ngcontent-%COMP%]{background:#FEEDAF;color:#8a5340}@media",
+    "app-home-jornal",
+    "app-jornal",
+    "buscar-materia",
+    "cdPrecoPublicacao",
+    "cdPrecopublicacao",
+    "cd_Precopublicacao",
+    "ce=d,this.emissaoFaturamentoService=Q,this.toastService=We,this.datePipe=gt,this.itemsFaturamentoChecked=[],this.clienteMateriaGeral=[],this.clienteMateriaPrePago=[],this.clienteMateriaPosPago=[],this.clienteMateriaPosPagoMensal=[],this.descricaoNotaFiscal=[],this.clientDescription=",
+    "countJornal",
+    "d(lo=>lo.ano==gt.ano&&1==lo.mes);this.currentMonth=Wr?.valor||0,this.lastMonth=Zr?.valor||0,this.titleCurrentMonth=this.materiaChart.labels[(Wr?.mes||1)-1],this.titleLastMonth=this.materiaChart.labels[(Zr?.mes||12)-1]}let",
+    "d.dtPublicacao=We(d.dtPublicacao),d.dtInicio=We(d.dtInicio),d.dtFim=We(d.dtFim),Q?this._requestData(this._restPrefix+",
+    "d=0;d<this.data.length;d++)if(this.data[d].cdPrecopublicacao===n){o=d;break}return",
+    "d={...o};d.data.dsObservacao=null,n.push({...d})}),this.clienteMateriaGeral=[...n]}console.log(),this.generateDescriptionNF()}getMateriasPorEmpresa(n,o){return",
+    "diariooficial@sea.sc.gov.br",
+    "dsMateria",
+    "dsPrecopublicacao",
+    "ds_Precopublicacao",
+    "dtInicio),ni.dtFim=gt(ni.dtFim),ni.dtReferencia=gt(ni.dtReferencia),ni.dsCanal=ni.canal.dsCanal,{...ni,stAtivoDesc:hi,dtPublicacaoDesc:Di}});this.data=_n,this.meta=Q.records.meta,this.loading=!1}).catch(Q=>{this.loading=!1})}openNew(){this.registro={dtInicio:new",
+    "dtPublicacao",
+    "dtPublicacaoDesc",
+    "e.CHM(n),e.oxw().filtro.dsMateria=d}),e.qZA()()(),e.TgZ(15,",
+    "e.CHM(n),e.oxw().registro.cdPrecopublicacao=d}),e.qZA(),e.YNc(138,hd,2,0,",
+    "e.CHM(n),e.oxw().registro.dsPrecopublicacao=d}),e.qZA(),e.YNc(5,cb,2,0,",
+    "e.CHM(n),e.oxw().registro.stBloquearpublicacao=d}),e.qZA(),e.TgZ(117,",
+    "e.CHM(n),e.oxw().registro.stMateriaformatada=d}),e.qZA(),e.TgZ(130,",
+    "e.CHM(n),e.oxw().registro.vlPrecopublicacao=d}),e.qZA()()()}if(2&s){const",
+    "e.data.vlAltura,0),d=n.reduce((Q,We)=>Q+We.data.vlTotal,0);return{totalAltura:o.toFixed(2),totalValor:d.toFixed(2),totalMateria:n.length}}extrairCodigosMateria(n){return",
+    "e.vpe,this.onMateriaAtualizada=new",
+    "e.vpe,this.onProcessaMateria=new",
+    "gt=[...this.clienteMateriaGeral];for(const",
+    "hi=ni.materia,Di={status:",
+    "hi=this.getMateriasPorEmpresa(n,_n);o.push(this.montarDescricaoMateria(_n,hi))}const",
+    "hi=this.getMateriasPorEmpresa(n,_n.data.cdEmpresa);o.push(this.montarDescricaoEmpresa(_n,hi))}const",
+    "his.clientType=3,this.clienteMateriaGeral=[...gt]):this.clientOption({value:this.clientType},!1),this.firstAccess=!1,this.messageErrors=JSON.parse(localStorage.getItem(",
+    "https://brasilapi.com.br/api/cnpj/v1/",
+    "https://sigio2.doe.sea.sc.gov.br/sigio/Materias/",
+    "https://sigio2.doe.sea.sc.gov.br/sigio/Materias/${M.getFullYear()}${f}${w}/Jornal/${this.jornal.cdJornal}.pdf",
+    "https://ui-avatars.com/api/?background=00B2A9&color=fff&name=$displayName&rounded=false",
+    "idPrecopublicacao",
+    "jornal-badge",
+    "jornal/jornal-interativo",
+    "lo={data:{key:Di,label:qi.cd_materia,nomeEmpresa:qi.ds_razaosocial,dsTitulo:Wr,cdMateria:qi.cd_materia,cdEmpresa:qi.cd_empresa,dsNrEmpenho:qi.ds_nrempenho,cdNaturezaoperacao:qi.cd_naturezaoperacao,vlTotalDesc:qi.vl_total.toLocaleString(",
+    "materia",
+    "materia-badge",
+    "materia-badge-status-",
+    "materia-group",
+    "n.chart.chartMateria){let",
+    "n.emissaoFaturamentoService.faturarMaterias([gt]),console.log(",
+    "n.filter(d=>d.data.tipo===io.MATERIA&&d.data.cdEmpresa===o)}calcularPeriodo(n){let",
+    "n.map(o=>o.data.cdMateria).join(",
+    "n=[];this.clienteMateriaGeral.forEach(o=>{let",
+    "n=e.oxw();e.xp6(3),e.Oqu(n.registro.dsPrecopublicacao)}}function",
+    "n=this;return(0,Dr.Z)(function*(){n.submitted=!0,n.registro.dsPrecopublicacao.trim()&&(console.log(",
+    "ni=this.montarTextoObservacao(_n);ni.length>1500&&this.clienteMateriaPrePago.length>0&&this.toastService.setMessageWarn(",
+    "nteMateriaGeral]}expandRecursive(n,o){n.expanded=o,n.children&&n.children.forEach(d=>{this.expandRecursive(d,o)})}clientOption(n,o=!0){o&&this.loadList(),1==n.value&&this.clientPrePago(),2==n.value?this.clientPosPago():3==n.value&",
+    "o.records)We.dsPrecopublicacao=We.dsPrecopublicacao+",
+    "o=1;n.first&&(o=0==n.first?1:n.first/12+1),this.jornalService.getList(o,this.oFiltro.sortOrder?this.oFiltro.sortOrder:null,this.oFiltro.sortEdicao?this.oFiltro.sortEdicao:null,this.oFiltro.dataInicio,this.oFiltro.dataFim,12,this.oFiltro.numeroEdicao).then(We=>{let",
+    "o=[],d=n.filter(_n=>_n.data.tipo===io.EMPRESA),Q=n.filter(_n=>_n.data.tipo===io.MATERIA);for(const",
+    "o=n.categoriaForm.saveCategoria();n.registro.usuario=n.userSelected?n.userSelected:0,n.registro.cdPrecopublicacao?0!=n.registro.usuario&&n.registro.usuario||n.isEdit?n.registro.stNaturezajuridica||n.registro.stClientegovernomunicipal||n.registro.stClientegovernoestadual||n.empresaDataFormBase.stPessoaFisica?0!=o.length?(n.loading=!",
+    "ontent-%COMP%]{padding-right:0}.tb-filtro[_ngcontent-%COMP%]{padding:0}.btnAplicar[_ngcontent-%COMP%]{margin-left:50px}.materia-badge[_ngcontent-%COMP%]{border-radius:var(--border-radius);padding:.25em",
+    "or={label:gt.ano,data:[...Di],fill:0==Q,tension:.4,borderColor:d[Q]};this.materiaChart.datasets.push(or),o.push(gt.ano),Q++}let",
+    "precopublicacao",
+    "qi=[];qi=n.chart.chartMateria.filter(lo=>lo.ano==gt.ano||lo.ano==gt.ano-1),qi.sort((lo,fo)=>lo.ano-fo.ano||lo.mes-fo.mes);let",
+    "qn{constructor(){this.stBloquearpublicacao=!1}}class",
+    "qs.X{constructor(n,o){super(o),this._appService=n,this.getClientePorMateria=()=>this._requestData(this._restPrefix+",
+    "qt=n[gt].data.dtPublicacaoCompare;qt<o&&(o=qt,Q=n[gt].data.dtPublicacao),qt>d&&(d=qt,We=n[gt].data.dtPublicacao)}return{dtInicio:Q,dtFinal:We}}calcularPeriodoPorIndice(n){return{dtFinal:n[0].data.dtPublicacao,dtInicio:n[n.length-1].data.dtPublicacao}}calcularTotais(n){const",
+    "qt=o.reduce((_n,ni)=>_n+ni.totalMateria,0);this.totalSelected=",
+    "r=this.generateUrlParam({dtPublicacao:F});return",
+    "rezaoperacao:n.data.cdNaturezaoperacao,dsNomeEmpresa:o[0].data.nomeEmpresa,tipoContrato:n.data.tipoContrato,...We,codigoMateria:this.extrairCodigosMateria(o),dsNrEmpenho:this.extrairEmpenhos(o),dtInicio:d,dtFinal:Q}}montarDescricaoMateria(n,o){const{dtInicio:d,dtFinal:Q}=this.calcularPeriodo(o),We=this.calcularTotais(o);return{cdEmpresa:n,cdNatu",
+    "rezaoperacao:o[0].data.cdNaturezaoperacao,dsNomeEmpresa:o[0].data.nomeEmpresa,...We,codigoMateria:this.extrairCodigosMateria(o),dsNrEmpenho:this.extrairEmpenhos(o),dtInicio:d,dtFinal:Q}}montarTextoObservacao(n){return",
+    "stBloquearpublicacao",
+    "s{constructor(n,o,d,Q){this.breadcrumbService=n,this.jornalService=o,this.datePipe=d,this.router=Q,this.aJornal=[],this.sortDate=[],this.filtroOpcao=[],this.oFiltro={dataInicio:null,dataFim:null,sortEdicao:null,sortOrder:null,numeroEdicao:null},this.aTextoFiltro=[],this.sortOrder=",
+    "this.appService=Q,this.breadcrumbService=We,this.isEdit=!1,this.deleteDialog=!1,this.deleteManyDialog=!1,this.stBloquearpublicacao=!1,this.filterOptions={soEstadual:0,soMunicipal:0,soJuridico:0,soFisica:0,soAguardandoAnalise:0},this.tituloTabela=",
+    "this.registro.dtPublicacaoDesc;let",
+    "u=this.generateUrlParam({cdJornal:F,dtFechamento:r});return",
+    "v;if(this.countDownloadJornal(this.jornal),this.jornal.dsArquivo)v=t.N.repo+this.jornal.dsArquivo;else{const",
+    "v=this.jornal.dtPublicacao,D=v.getDate()+",
+    "vlPrecopublicacao",
+    "vl_Precopublicacao",
+    "we.xQ,this.wsMateriaAtualizada$=new",
+    "}),vlAltura:qi.vl_altura,tipo:io.MATERIA,dtPublicacao:this.datePipe.transform(o(qi.dt_publicacao),",
+    "})}countDownloadJornal(v){let",
+    "})}this.filtro.dsMateria&&(n=this.filtro.dsMateria.length>22?this.filtro.dsMateria.substring(0,22)+",
+    "}],this.sortEdicaoJornal=[{label:"
+  ],
+  "candidate_api_tests": [
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/264",
+      "status": 500,
+      "content_type": "application/json; charset=utf-8",
+      "length": 744,
+      "preview": "{\"message\":\"Missing method \\\"show\\\" on \\\"JornalController\\\"\",\"stack\":\"Exception: Missing method \\\"show\\\" on \\\"JornalController\\\"\\n    at Ioc.callAsync (/doesc/api/node_modules/@adonisjs/fold/build/src/Ioc/index.js:439:19)\\n    at IocResolver.call (/doesc/api/node_modules/@adonisjs/fold/build/src/Resolver/index.js:92:31)\\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at Object.PreCompiler.runRouteHandler [as fn] (/doesc/api/node_modules/@adonisjs/http-server/build/src/Server/PreCompiler/index.js:47:31)\\n    at LoggerMiddlwareRequest.handle (/doesc/app/Middleware/LoggerMiddlwareRequest.ts:27:5)\\n    at Server.handleRequest (/doesc/api/node_modules/@adonisjs/http-server/build/src/Server/index.js:108:13)\"}"
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/266",
+      "status": 500,
+      "content_type": "application/json; charset=utf-8",
+      "length": 744,
+      "preview": "{\"message\":\"Missing method \\\"show\\\" on \\\"JornalController\\\"\",\"stack\":\"Exception: Missing method \\\"show\\\" on \\\"JornalController\\\"\\n    at Ioc.callAsync (/doesc/api/node_modules/@adonisjs/fold/build/src/Ioc/index.js:439:19)\\n    at IocResolver.call (/doesc/api/node_modules/@adonisjs/fold/build/src/Resolver/index.js:92:31)\\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at Object.PreCompiler.runRouteHandler [as fn] (/doesc/api/node_modules/@adonisjs/http-server/build/src/Server/PreCompiler/index.js:47:31)\\n    at LoggerMiddlwareRequest.handle (/doesc/app/Middleware/LoggerMiddlwareRequest.ts:27:5)\\n    at Server.handleRequest (/doesc/api/node_modules/@adonisjs/http-server/build/src/Server/index.js:108:13)\"}"
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?cdJornal=266",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "length": 654,
+      "preview": "{\"error\":false,\"records\":{\"meta\":{\"total\":1,\"per_page\":300,\"current_page\":1,\"last_page\":1,\"first_page\":1,\"first_page_url\":\"/?page=1\",\"last_page_url\":\"/?page=1\",\"next_page_url\":null,\"previous_page_url\":null},\"data\":[{\"cdJornal\":4631,\"qtdMaterias\":0,\"cdUsuarioaprovacao\":10697,\"dsUsuarioaprovacao\":\"ALEXANDRE BALDANCA\",\"dtPublicacao\":\"2026-08-19T00:00:00.000Z\",\"dtAprovacao\":null,\"dtFechado\":\"2026-08-19T21:32:00.000Z\",\"dsAno\":\"XCII\",\"vlNumero\":\"22822-A\",\"vlNumeropaginas\":null,\"vlDownloads\":null,\"stCancelado\":true,\"stAprovado\":false,\"tpJornal\":\"1\",\"dsArquivo\":null,\"dsSolicitante\":\"RAQUEL - CASA CIVIL\",\"dsMotivosolicitacao\":\"Publicação de decretos.\"}]}}"
+    }
+  ],
+  "boundary_http_tests": [
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=100&dtStart=1900-01-01%2000:00:00&dtEnd=2011-10-02%2023:59:59",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "length": 332,
+      "is_pdf": false,
+      "preview": "{\"error\":false,\"records\":{\"meta\":{\"total\":0,\"per_page\":100,\"current_page\":1,\"last_page\":1,\"first_page\":1,\"first_page_url\":\"/?page=1\",\"last_page_url\":\"/?page=1\",\"next_page_url\":null,\"previous_page_url\":null},\"data\":[]},\"cards\":{\"total\":4174,\"qtdEdicaoOrdinaria\":3615,\"qtdEdicaoExtra\":543,\"qtdEdicaoExtraLoa\":14,\"qtdEdicaoCaderno\":2}}"
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/apis/jornal/?page=1&perPage=100&dtStart=2011-10-03%2000:00:00&dtEnd=2011-10-04%2023:59:59",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "length": 1141,
+      "is_pdf": false,
+      "preview": "{\"error\":false,\"records\":{\"meta\":{\"total\":2,\"per_page\":100,\"current_page\":1,\"last_page\":1,\"first_page\":1,\"first_page_url\":\"/?page=1\",\"last_page_url\":\"/?page=1\",\"next_page_url\":null,\"previous_page_url\":null},\"data\":[{\"cdJornal\":266,\"qtdMaterias\":89,\"cdUsuarioaprovacao\":null,\"dsUsuarioaprovacao\":null,\"dtPublicacao\":\"2011-10-04T00:00:00.000Z\",\"dtAprovacao\":null,\"dtFechado\":\"2011-10-03T20:15:15.337Z\",\"dsAno\":\"LXXVII\",\"vlNumero\":\"19186\",\"vlNumeropaginas\":42,\"vlDownloads\":97,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2011/20111004/Jornal/266.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null},{\"cdJornal\":264,\"qtdMaterias\":0,\"cdUsuarioaprovacao\":null,\"dsUsuarioaprovacao\":null,\"dtPublicacao\":\"2011-10-03T00:00:00.000Z\",\"dtAprovacao\":null,\"dtFechado\":\"2011-09-30T19:57:41.000Z\",\"dsAno\":\"LXXVII\",\"vlNumero\":\"19185\",\"vlNumeropaginas\":38,\"vlDownloads\":334,\"stCancelado\":false,\"stAprovado\":true,\"tpJornal\":\"0\",\"dsArquivo\":\"/2011/20111003/Jornal/264.pdf\",\"dsSolicitante\":null,\"dsMotivosolicitacao\":null}]},\"cards\":{\"total\":4174,\"qtdEdicaoOrdinaria\":3615,\"qtdEdicaoExtra\":543,\"qtdEdicaoExtraLoa\":14,\"qtdEdicaoCaderno\":2}}"
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/repositorio/2011/20111003/Jornal/264.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "length": 1847492,
+      "is_pdf": true,
+      "preview": ""
+    },
+    {
+      "url": "https://portal.doe.sea.sc.gov.br/repositorio/2011/20111004/Jornal/266.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "length": 2439449,
+      "is_pdf": true,
+      "preview": ""
+    }
+  ]
+}
