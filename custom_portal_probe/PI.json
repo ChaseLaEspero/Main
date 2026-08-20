@@ -13,7 +13,7 @@
       "url": "https://www.googletagmanager.com/gtag/js?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
       "status": 200,
       "ct": "application/javascript; charset=UTF-8",
-      "len": 509934,
+      "len": 509811,
       "found": [
         "https://www.youtube.com/iframe_api"
       ]
@@ -22,7 +22,7 @@
       "url": "https://www.googletagmanager.com/gtag/destination?id=G-V9MKX4DQ9G&l=dataLayer&cx=c",
       "status": 200,
       "ct": "application/javascript; charset=UTF-8",
-      "len": 509943,
+      "len": 509820,
       "found": [
         "https://www.youtube.com/iframe_api"
       ]
@@ -56,7 +56,7 @@
       "url": "https://www.googletagmanager.com/gtag/js?id=GTM-MNBRHWNB",
       "status": 200,
       "ct": "application/javascript; charset=UTF-8",
-      "len": 354358,
+      "len": 354235,
       "found": []
     },
     {

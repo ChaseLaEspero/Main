@@ -103,7 +103,7 @@
       "url": "https://www.googletagmanager.com/gtag/js?id=UA-118954292-1",
       "status": 200,
       "ct": "application/javascript; charset=UTF-8",
-      "len": 373434,
+      "len": 373311,
       "found": []
     }
   ],
@@ -124,6 +124,6 @@
   "home_status": 200,
   "home_url": "https://www.imprensaoficial.rr.gov.br/app/_inicial/",
   "home_ct": "text/html; charset=UTF-8",
-  "home_len": 38852,
+  "home_len": 38864,
   "home_extract": []
 }
